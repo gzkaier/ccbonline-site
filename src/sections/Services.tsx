@@ -14,31 +14,45 @@ export default function Services() {
     {
       num: '01',
       title: t('Market Entry Consulting', '市场进入咨询'),
-      desc: t('Assess where to enter, what to prioritize, and how to reduce uncertainty before committing resources.', '在正式投入资源之前，判断加拿大或北美市场是否值得优先进入，明确应聚焦哪些产品与客户方向。'),
+      desc: t('Market opportunity analysis, product/industry prioritization, competitive analysis, and 90-day entry action plan.', '市场机会分析、产品/行业优先级、竞争分析、进入路径设计与90天行动计划。'),
       bullets: [
-        t('Market fit and competitive landscape assessment', '市场适配性与竞争格局评估'),
-        t('Target customer segment identification', '目标客户群体识别'),
-        t('Entry sequencing and priority planning', '进入顺序与优先级规划'),
+        t('Market opportunity and industry analysis', '市场机会与行业分析'),
+        t('Product and customer prioritization', '产品与客户优先级判断'),
+        t('Competitive landscape assessment', '竞争格局评估'),
+        t('90-day entry action plan', '90天进入行动计划'),
       ],
     },
     {
       num: '02',
-      title: t('Compliance & Setup Guidance', '合规与落地路径梳理'),
-      desc: t('Clarify compliance-related pathways, support setup planning, and help clients become coordination-ready.', '梳理合规与设立相关路径，支持前期准备与执行规划，帮助客户理解关键步骤与准备事项。'),
+      title: t('Compliance & Company Setup', '公司与合规路径'),
+      desc: t('Canadian company registration, trademarks, GST/HST, CARM, product certification, import compliance and tax guidance.', '加拿大公司注册路径、商标、GST/HST、CARM、产品认证、进口合规与税务建议。'),
       bullets: [
-        t('Regulatory pathway clarification', '监管路径梳理'),
-        t('Entity setup and operational preparation planning', '实体设立与运营准备规划'),
-        t('Document preparation and process understanding', '文件准备与流程理解支持'),
+        t('Company registration pathway guidance', '公司注册路径梳理'),
+        t('GST/HST, CARM, and tax requirements', 'GST/HST、CARM及税务要求'),
+        t('Product certification and import compliance', '产品认证与进口合规'),
+        t('Trademark and IP protection basics', '商标与知识产权基础保护'),
       ],
     },
     {
       num: '03',
-      title: t('Localized Digital Growth Infrastructure', '本地化数字增长基础设施'),
-      desc: t('Build bilingual websites, localized materials, and lead-generation systems to support trust and inquiry conversion.', '构建企业进入加拿大与北美市场所需的实际数字资产与系统，包括清晰表达、信任建立与线索承接。'),
+      title: t('AI Website & Digital Entry', 'AI网站与数字入口'),
+      desc: t('Bilingual websites, SEO, Google Business, lead forms, AI customer service, and data analytics.', '中英双语网站、SEO、Google地图、表单、AI客服、数据分析，打造专业海外获客入口。'),
       bullets: [
-        t('Bilingual corporate websites for North American markets', '面向北美市场的双语企业官网'),
-        t('Localized business materials and messaging rebuild', '本地化商业资料与信息表达重构'),
-        t('Lead-capture forms, AI inquiry handling, and digital entry points', '线索收集表单、AI 咨询处理与数字入口搭建'),
+        t('Bilingual corporate website development', '双语企业官网开发'),
+        t('SEO and Google Business optimization', 'SEO与Google商业优化'),
+        t('Lead capture forms and AI chatbot', '线索收集表单与AI客服'),
+        t('Data analytics and performance tracking', '数据分析与效果追踪'),
+      ],
+    },
+    {
+      num: '04',
+      title: t('English Materials & Localization', '英文商业资料重构'),
+      desc: t('Company profiles, capability sheets, product pages, sales emails, LinkedIn messaging, and quotation templates.', '公司介绍、Capability Sheet、产品页、销售邮件、LinkedIn话术、报价模板等。'),
+      bullets: [
+        t('Company profile and capability sheet', '公司介绍与Capability Sheet'),
+        t('Product pages and sales narratives', '产品页与销售叙事'),
+        t('LinkedIn messaging and email templates', 'LinkedIn话术与邮件模板'),
+        t('Quotation and proposal frameworks', '报价与提案框架'),
       ],
     },
   ]
@@ -56,21 +70,21 @@ export default function Services() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="section-padding bg-[#F8F9FA]">
+    <section ref={sectionRef} className="section-padding bg-white">
       <div className="container-site">
         <p className="text-label mb-3">{t('Core Services', '核心服务')}</p>
-        <h2 className="font-serif text-[#212121] text-[6vw] md:text-[2vw] leading-[1.3] tracking-tight max-w-[560px] mb-10 md:mb-12">
-          {t('Three integrated areas of support', '三大相互衔接的支持领域')}
+        <h2 className="font-serif text-[#212121] text-[6vw] md:text-[2vw] leading-[1.3] tracking-tight max-w-[600px] mb-10 md:mb-12">
+          {t('What We Can Do for You', '我们能为您做什么')}
         </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
           {services.map((s) => (
             <div key={s.num} className="service-card card-border bg-white flex flex-col">
-              <span className="text-[#C00000] text-[11px] font-bold mb-3">{s.num}</span>
+              <span className="text-[#C00000] text-[11px] font-bold mb-2">{s.num}</span>
               <h3 className="text-[15px] md:text-[16px] font-semibold mb-2 tracking-tight">{s.title}</h3>
-              <p className="text-[12px] md:text-[13px] text-[#767676] leading-[1.7] mb-4">{s.desc}</p>
-              <ul className="space-y-1.5 mb-5 flex-1">
+              <p className="text-[12px] md:text-[13px] text-[#767676] leading-[1.7] mb-3">{s.desc}</p>
+              <ul className="space-y-1 mb-4 flex-1">
                 {s.bullets.map((b, i) => (
-                  <li key={i} className="text-[12px] md:text-[13px] text-[#555] leading-[1.5] flex gap-2">
+                  <li key={i} className="text-[12px] text-[#555] leading-[1.5] flex gap-2">
                     <span className="text-[#C00000] mt-0.5">—</span>{b}
                   </li>
                 ))}

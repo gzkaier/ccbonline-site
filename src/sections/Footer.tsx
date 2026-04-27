@@ -58,6 +58,7 @@ export default function Footer() {
             </h4>
             <div className="space-y-2 text-[13px]">
               <p>info@ccbonline.ca</p>
+              <p>+1 647 568 1128</p>
               <p>ccbonline.ca</p>
               <p className="text-white/25">Toronto, Canada</p>
             </div>

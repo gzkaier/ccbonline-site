@@ -34,8 +34,8 @@ export default function HomeAbout() {
             </h2>
             <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8] mb-5">
               {t(
-                'CCBONLINE INC. works with Chinese businesses exploring or preparing for entry into Canada and North America. We help clients move from uncertainty to structure through market-entry thinking, setup guidance, localized communication, and digital infrastructure.',
-                'CCBONLINE INC. 服务于正在评估或准备进入加拿大及北美市场的中国企业。我们帮助客户把"方向不清、路径分散、表达不足、系统缺失"的状态，转化为更有结构的市场进入与增长准备。'
+                'CCBONLINE INC. (智桥国际在线服务有限公司) works with Chinese businesses exploring or preparing for entry into Canada and North America. We help clients move from uncertainty to structure through market-entry thinking, setup guidance, localized communication, and digital infrastructure.',
+                'CCBONLINE INC.（智桥国际在线服务有限公司）服务于正在评估或准备进入加拿大及北美市场的中国企业。我们帮助客户把"方向不清、路径分散、表达不足、系统缺失"的状态，转化为更有结构的市场进入与增长准备。'
               )}
             </p>
             <Link to="/about" className="inline-flex items-center gap-1.5 text-[12px] md:text-[13px] font-medium text-[#212121] hover:text-[#C00000] transition-colors">

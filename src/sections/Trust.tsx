@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import { useLanguage } from '../context/LanguageContext'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Globe, Languages, TrendingUp, ShieldCheck } from 'lucide-react'
+import { Search, Shield, Globe, TrendingUp } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -12,24 +12,24 @@ export default function Trust() {
 
   const items = [
     {
-      icon: Globe,
-      title: t('China-to-Canada market entry focus', '聚焦中国企业进入加拿大及北美市场'),
-      desc: t('We focus on helping Chinese businesses prepare for and enter the Canadian and North American markets.', '我们专注于帮助中国企业准备并进入加拿大及北美市场，而非泛泛的全球咨询。'),
+      icon: Search,
+      title: t('Market Entry Consulting', '市场进入咨询'),
+      desc: t('Market judgment, entry strategy, and industry opportunity analysis for Canada and North America.', '市场判断、进入策略与行业机会分析，帮助企业识别优先进入方向。'),
     },
     {
-      icon: Languages,
-      title: t('Bilingual Chinese and English communication', '支持中英双语沟通与商务表达'),
-      desc: t('Fluent in both languages, we ensure nothing is lost in translation during critical business discussions.', '流利的中英文能力，确保在关键商务沟通中不会因语言障碍产生信息偏差。'),
+      icon: Shield,
+      title: t('Compliance & Registration Support', '合规与注册支持'),
+      desc: t('Company registration, tax, product certification, and import compliance pathway guidance.', '公司注册、税务、产品认证、进口合规路径梳理，降低后期风险。'),
+    },
+    {
+      icon: Globe,
+      title: t('AI Website & Digital Solutions', 'AI网站与数字化'),
+      desc: t('Bilingual websites, SEO, AI customer service, and data analytics for professional overseas presence.', '中英双语网站、SEO、AI客服、数据分析，打造专业海外获客入口。'),
     },
     {
       icon: TrendingUp,
-      title: t('Strategy + execution + digital growth support', '覆盖策略、执行与数字增长基础建设'),
-      desc: t('We combine market strategy, practical execution, and digital infrastructure into one connected service.', '我们将市场策略、实际执行和数字基础设施整合为一项相互连接的综合服务。'),
-    },
-    {
-      icon: ShieldCheck,
-      title: t('Practical support for local trust-building and lead generation', '面向本地信任建立与线索获取的实际支持'),
-      desc: t('From localized materials to lead-capture systems, we help you build credibility where it matters.', '从本地化资料到线索收集系统，我们帮助您在关键市场中建立可信的商业形象。'),
+      title: t('Localization & Growth Support', '本地化与增长支持'),
+      desc: t('Brand localization, digital marketing, customer development, and operational support.', '品牌本地化、数字营销、客户开发与运营支持，建立本地信任。'),
     },
   ]
 
@@ -48,9 +48,9 @@ export default function Trust() {
   return (
     <section ref={sectionRef} className="section-padding bg-white">
       <div className="container-site">
-        <p className="text-label mb-3">{t('Trust', '信任基础')}</p>
+        <p className="text-label mb-3">{t('What We Do', '核心业务')}</p>
         <h2 className="font-serif text-[#212121] text-[6vw] md:text-[2vw] leading-[1.3] tracking-tight max-w-[560px] mb-10 md:mb-12">
-          {t('Built for businesses entering new markets.', '专为进入新市场的企业而构建。')}
+          {t('Canada / North America Market Entry & AI Digital Solutions', '加拿大 / 北美市场进入与AI数字化解决方案')}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
           {items.map((item, i) => {

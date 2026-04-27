@@ -5,6 +5,7 @@ import Navbar from './sections/Navbar'
 import Hero from './sections/Hero'
 import Trust from './sections/Trust'
 import Challenges from './sections/Challenges'
+import CoreValues from './sections/CoreValues'
 import Why from './sections/Why'
 import Services from './sections/Services'
 import Methodology from './sections/Methodology'
@@ -40,6 +41,7 @@ function Home() {
       <Hero />
       <Trust />
       <Challenges />
+      <CoreValues />
       <Why />
       <Services />
       <Methodology />

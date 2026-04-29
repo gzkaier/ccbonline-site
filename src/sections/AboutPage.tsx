@@ -11,10 +11,7 @@ export default function AboutPage() {
   const pageRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    document.title = t(
-      'About — CCBONLINE INC.',
-      '关于 — CCBONLINE INC.'
-    )
+    document.title = t('About — CCBONLINE INC.', '关于 — CCBONLINE INC.')
     window.scrollTo(0, 0)
     const page = pageRef.current
     if (!page) return
@@ -32,11 +29,11 @@ export default function AboutPage() {
       <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
         <div className="container-site">
           <p className="text-label mb-3">{t('About Us', '关于我们')}</p>
-          <h1 className="font-serif text-[#212121] text-[5vw] md:text-[2.8vw] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[780px] mb-4">
+          <h1 className="font-serif text-[#212121] text-[5vw] md:text-[2.8vw] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[800px] mb-4">
             {t('Helping Chinese companies enter North America with confidence.', '帮助中国企业自信地进入北美市场。')}
           </h1>
-          <p className="text-[12px] md:text-[14px] text-[#767676] max-w-[560px]">
-            {t('Readiness assessment, market comparison, risk screening, and step-by-step entry planning.', '就绪度评估、市场比较、风险筛查和分步入场规划。')}
+          <p className="text-[12px] md:text-[14px] text-[#767676] max-w-[600px]">
+            {t('Readiness assessment, strategy design, compliance coordination, channel development, digital trust building, and local execution support.', '就绪度评估、策略设计、合规协同、渠道开发、数字化信任建设和本地执行支持。')}
           </p>
         </div>
       </section>
@@ -47,20 +44,20 @@ export default function AboutPage() {
             <div className="lg:col-span-4 ap-block">
               <p className="text-label mb-3">{t('What We Do', '我们做什么')}</p>
               <h2 className="font-serif text-[#212121] text-[5vw] md:text-[1.8vw] leading-[1.35] md:leading-[1.3] tracking-tight">
-                {t('Turn market entry questions into clear action plans.', '将入场问题转化为清晰行动计划。')}
+                {t('From "wanting to enter" to "ready to operate locally."', '从"想进入"到"能在本地运营"。')}
               </h2>
             </div>
             <div className="lg:col-span-8 ap-block">
               <p className="text-[14px] md:text-[16px] text-[#444] leading-[1.8] mb-5">
                 {t(
-                  'CCBONLINE INC. works with Chinese companies preparing to enter the U.S. and Canadian markets. We help answer: Is your product ready? Which market fits better? What compliance issues need attention? What should the first 90 days look like?',
-                  'CCBONLINE INC. 与准备进入美国和加拿大市场的中国企业合作。帮助回答：产品准备好了吗？哪个市场更适合？需要注意哪些合规问题？前90天怎么安排？'
+                  'CCBONLINE INC. works with Chinese companies preparing to enter the U.S. and Canadian markets. We help answer the critical questions: Is your product ready? Which market fits better? What compliance and liability issues need attention? Who should you partner with? What should your first 90 days look like?',
+                  'CCBONLINE INC. 与准备进入美国和加拿大市场的中国企业合作。我们帮助回答关键问题：产品准备好了吗？哪个市场更适合？需要注意哪些合规和责任问题？应该和谁合作？前90天应该怎么安排？'
                 )}
               </p>
               <p className="text-[12px] md:text-[14px] text-[#767676] leading-[1.8]">
                 {t(
-                  'We deliver structured assessments, practical recommendations, and execution-ready plans. Our clients leave each engagement knowing exactly what to do next.',
-                  '我们提供结构化评估、实用建议和可执行的计划。每次合作结束，客户都清楚知道下一步做什么。'
+                  'We do not simply provide research or generic reports. We provide structured assessments, practical roadmaps, and hands-on execution support. Our clients leave each engagement knowing exactly what to do next — and who to call when they need help.',
+                  '我们不提供泛泛的研究或通用报告。我们提供结构化评估、实用路线图和实际执行支持。每次合作结束时，客户都清楚地知道下一步该做什么——以及需要帮助时该联系谁。'
                 )}
               </p>
             </div>
@@ -86,10 +83,10 @@ export default function AboutPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
             {[
-              { num: '01', title: t('Assess first', '先评估'), desc: t('Know your readiness before committing significant resources.', '投入大量资源前了解就绪度。') },
-              { num: '02', title: t('Compare first', '先比较'), desc: t('Understand U.S. and Canada differences to pick the right starting point.', '了解美加差异，选择正确起点。') },
-              { num: '03', title: t('Build trust first', '先建信任'), desc: t('Prepare materials that North American customers understand.', '准备北美客户能理解的材料。') },
-              { num: '04', title: t('Validate first', '先验证'), desc: t('Test small before committing to large-scale expansion.', '小规模测试后再扩大。') },
+              { num: '01', title: t('Assess before investing', '先评估再投入'), desc: t('Know your readiness before committing resources.', '投入资源前了解就绪度。') },
+              { num: '02', title: t('Compare before choosing', '先比较再选择'), desc: t('Understand market differences to pick the right starting point.', '了解市场差异，选择正确起点。') },
+              { num: '03', title: t('Build trust before selling', '先建信任再销售'), desc: t('Prepare materials and presence that local customers understand.', '准备本地客户能理解的材料和存在。') },
+              { num: '04', title: t('Validate before scaling', '先验证再扩大'), desc: t('Test with real customers before large-scale expansion.', '用真实客户测试后再扩大。') },
             ].map((v) => (
               <div key={v.num} className="ap-block card-border bg-white">
                 <span className="text-[#C00000] text-[11px] font-bold">{v.num}</span>
@@ -113,14 +110,14 @@ export default function AboutPage() {
               <p className="text-[12px] md:text-[13px] text-[#C00000] font-medium mb-4">{t('Founder & Market Entry Advisor', '创始人 & 市场进入顾问')}</p>
               <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8] mb-4">
                 {t(
-                  'Based in Toronto, KAI has spent years helping Chinese businesses navigate the Canadian and North American markets, with experience in market-entry consulting, customer development, and brand localization.',
-                  '常驻多伦多，KAI 多年帮助中国企业开拓加拿大和北美市场，具备市场准入咨询、客户开发和品牌本地化经验。'
+                  'Based in Toronto, KAI has spent years helping Chinese businesses navigate the Canadian and North American markets, with hands-on experience in market-entry consulting, customer development, brand localization, and execution support.',
+                  '常驻多伦多，KAI 多年帮助中国企业开拓加拿大和北美市场，在市场进入咨询、客户开发、品牌本地化和落地执行方面具备实际经验。'
                 )}
               </p>
               <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8]">
                 {t(
-                  'He works directly with each client, providing the judgment and support needed to turn plans into real customer conversations and partnerships.',
-                  '他直接与每位客户合作，提供将计划转化为实际客户对话和合作关系所需的判断和支持。'
+                  'He works directly with each client, providing the judgment and practical support needed to turn market-entry plans into real customer conversations, partnerships, and operational presence in North America.',
+                  '他直接与每位客户合作，提供将市场进入计划转化为实际客户对话、合作伙伴关系和北美运营存在所需的判断和实际支持。'
                 )}
               </p>
             </div>
@@ -156,8 +153,8 @@ export default function AboutPage() {
             {[
               { title: t('Direct senior involvement', '资深顾问直接参与'), desc: t('KAI works directly with every client. No junior handoffs.', 'KAI 直接参与每个项目，没有初级团队转手。') },
               { title: t('Actionable output', '可执行的交付'), desc: t('Plans with clear next steps, not documents to file away.', '包含明确下一步的计划，不是放进抽屉的文件。') },
-              { title: t('Both markets, one view', '两个市场统一视角'), desc: t('We compare U.S. and Canada so you can choose.', '比较美国和加拿大，帮助您做出选择。') },
-              { title: t('Support through execution', '执行阶段持续支持'), desc: t('Advisory retainer keeps you moving forward.', '陪跑顾问确保您持续推进。') },
+              { title: t('Both markets, one view', '两个市场统一视角'), desc: t('We compare Canada and the US so you can make an informed choice.', '比较加拿大和美国，帮助您做出知情选择。') },
+              { title: t('Support through execution', '执行阶段持续支持'), desc: t('Advisory retainer keeps you moving forward with accountability.', '陪跑顾问确保您有问责地持续推进。') },
             ].map((item, i) => (
               <div key={i} className="ap-block flex gap-3">
                 <span className="text-[#C00000] text-[14px] mt-0.5">✓</span>
@@ -175,9 +172,9 @@ export default function AboutPage() {
         <div className="container-site">
           <div className="max-w-[700px]">
             <h2 className="font-serif text-white text-[5vw] md:text-[2.2vw] leading-[1.35] md:leading-[1.3] tracking-tight mb-6">
-              {t('Want to evaluate your North America readiness?', '想评估北美就绪度？')}
+              {t('Want to evaluate your North America readiness?', '想评估您的北美就绪度？')}
             </h2>
-            <Link to="/contact" className="btn-primary text-[12px] md:text-[14px]">{t('Book a Consultation', '预约咨询')}</Link>
+            <Link to="/contact" className="btn-primary text-[12px] md:text-[14px]">{t('Request an Initial Assessment', '申请初步市场进入评估')}</Link>
           </div>
         </div>
       </section>

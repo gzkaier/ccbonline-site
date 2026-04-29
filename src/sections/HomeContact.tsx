@@ -25,28 +25,44 @@ export default function HomeContact() {
   return (
     <section ref={sectionRef} className="section-padding bg-[#1a1a2e]">
       <div className="container-site">
-        <div className="cta-content max-w-[750px]">
+        <div className="cta-content max-w-[800px]">
           <h2
             className="font-serif text-white text-[5vw] md:text-[2.6vw] leading-[1.35] md:leading-[1.3] tracking-tight mb-6"
             style={{ wordBreak: 'keep-all' }}
           >
             {t(
-              'Start with a consultation to evaluate your North America readiness.',
-              '从一次咨询开始，评估您的北美就绪度。'
+              'Three ways to start the conversation.',
+              '三种方式开始对话。'
             )}
           </h2>
-          <div className="flex flex-wrap gap-3 md:gap-4">
-            <Link to="/contact" className="btn-primary text-[12px] md:text-[14px] px-6 py-2.5 md:px-8 md:py-3.5">
-              {t('Book a Consultation', '预约咨询')}
-            </Link>
-            <Link
-              to="/contact"
-              className="btn-outline text-[12px] md:text-[14px] px-6 py-2.5 md:px-8 md:py-3.5"
-              style={{ borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}
-            >
-              {t('Contact Us', '联系我们')}
-            </Link>
+
+          <div className="space-y-5 md:space-y-6 mb-8">
+            <div className="flex gap-4 md:gap-5 items-start">
+              <span className="text-[#C00000] text-[12px] font-bold min-w-[24px]">01</span>
+              <div>
+                <h3 className="text-white text-[14px] md:text-[16px] font-semibold mb-1">{t('Request an Initial Market Entry Assessment', '申请初步市场进入评估')}</h3>
+                <p className="text-white/50 text-[11px] md:text-[13px] leading-[1.6]">{t('Best for first-time contact. We evaluate your readiness and recommend next steps.', '适合首次联系。我们评估您的就绪度并建议下一步。')}</p>
+              </div>
+            </div>
+            <div className="flex gap-4 md:gap-5 items-start">
+              <span className="text-[#C00000] text-[12px] font-bold min-w-[24px]">02</span>
+              <div>
+                <h3 className="text-white text-[14px] md:text-[16px] font-semibold mb-1">{t('Book a Strategy Call', '预约战略咨询通话')}</h3>
+                <p className="text-white/50 text-[11px] md:text-[13px] leading-[1.6]">{t('For companies with clear needs. A focused discussion on your market entry strategy.', '已有明确需求的企业。聚焦讨论您的市场进入策略。')}</p>
+              </div>
+            </div>
+            <div className="flex gap-4 md:gap-5 items-start">
+              <span className="text-[#C00000] text-[12px] font-bold min-w-[24px]">03</span>
+              <div>
+                <h3 className="text-white text-[14px] md:text-[16px] font-semibold mb-1">{t('Prepare Your North America Entry Plan', '制定您的北美进入计划')}</h3>
+                <p className="text-white/50 text-[11px] md:text-[13px] leading-[1.6]">{t('For high-intent clients ready to commit. A structured diagnostic and roadmap.', '高意向准备投入的客户。结构化诊断与路线图。')}</p>
+              </div>
+            </div>
           </div>
+
+          <Link to="/contact" className="btn-primary text-[12px] md:text-[14px] px-6 py-2.5 md:px-8 md:py-3.5">
+            {t('Get Started', '开始对话')}
+          </Link>
         </div>
       </div>
     </section>

@@ -12,20 +12,20 @@ export default function Challenges() {
 
   const challenges = [
     {
-      title: t('Unsure if your product fits?', '不确定产品是否适合北美？'),
-      desc: t('No clear answer on whether your product meets market requirements, customer expectations, and compliance standards.', '产品是否符合市场需求、客户期望和合规标准，没有明确答案。'),
+      title: t('Unsure if your product fits North America?', '不确定产品是否适合北美？'),
+      desc: t('You have a product but no clear answer on market requirements, customer expectations, or certification needs.', '有产品但不确定是否符合市场需求、客户期望或认证要求。'),
     },
     {
-      title: t('U.S. or Canada first?', '不确定先做美国还是加拿大？'),
-      desc: t('Both markets differ in size, regulation, cost, and customer behavior. You need a clear comparison to decide.', '两个市场在规模、监管、成本和客户行为上差异很大，需要清晰比较。'),
+      title: t('Canada or the US — which first?', '加拿大还是美国，先选哪个？'),
+      desc: t('Both markets differ in regulation, cost, logistics, and customer behavior. You need a clear comparison.', '两个市场在监管、成本、物流和客户行为上差异很大，需要清晰比较。'),
     },
     {
-      title: t('Worried about compliance risks?', '担心合规和责任风险？'),
-      desc: t('Import regulations, certification, tax, and liability are complex. One oversight can be costly.', '进口法规、认证、税务和责任都很复杂，一个疏漏代价高昂。'),
+      title: t('Worried about compliance and liability?', '担心合规和责任风险？'),
+      desc: t('Import rules, certification, tax obligations, and supply-chain liability are complex. One oversight can be costly.', '进口法规、认证、税务和供应链责任都很复杂，一个疏漏代价高昂。'),
     },
     {
-      title: t('No plan for the first 90 days?', '前90天没有清晰计划？'),
-      desc: t('You want to enter but do not know where to start, what to prioritize, or how to measure progress.', '想进入但不知从何开始、优先做什么、如何衡量进展。'),
+      title: t('No clear plan for the first 90 days?', '前90天没有清晰计划？'),
+      desc: t('You want to enter but do not know where to start, what to prioritize, or how to structure your approach.', '想进入但不知从何开始、优先做什么、如何组织推进。'),
     },
   ]
 
@@ -46,7 +46,7 @@ export default function Challenges() {
       <div className="container-site">
         <p className="text-label mb-3">{t('Common Situations', '常见处境')}</p>
         <h2 className="font-serif text-[#212121] text-[5vw] md:text-[2vw] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10 md:mb-12">
-          {t('Are You Facing These Challenges?', '您是否面临这些问题？')}
+          {t('Are You Facing These Challenges?', '您是否面临这些挑战？')}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
           {challenges.map((c, i) => (

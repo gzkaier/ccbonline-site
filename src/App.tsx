@@ -3,11 +3,12 @@ import { Routes, Route, useLocation } from 'react-router'
 import { LanguageProvider, useLanguage } from './context/LanguageContext'
 import Navbar from './sections/Navbar'
 import Hero from './sections/Hero'
-import Trust from './sections/Trust'
 import Challenges from './sections/Challenges'
+import Trust from './sections/Trust'
+import Philosophy from './sections/Philosophy'
+import Services from './sections/Services'
 import CoreValues from './sections/CoreValues'
 import Why from './sections/Why'
-import Services from './sections/Services'
 import Methodology from './sections/Methodology'
 import WhoWeWorkWith from './sections/WhoWeWorkWith'
 import HomeAbout from './sections/HomeAbout'
@@ -32,8 +33,8 @@ function Home() {
   const { t } = useLanguage()
   useEffect(() => {
     document.title = t(
-      'CCBONLINE INC. — Helping Chinese Businesses Enter Canada & North America',
-      'CCBONLINE INC. — 帮助中国企业进入加拿大与北美市场'
+      'CCBONLINE INC. | Canada & North America Market Entry Partner for Chinese Businesses',
+      'CCBONLINE INC. | 中国企业进入加拿大与北美市场的合作伙伴'
     )
   }, [t])
 
@@ -42,9 +43,10 @@ function Home() {
       <Hero />
       <Challenges />
       <Trust />
+      <Philosophy />
+      <Services />
       <CoreValues />
       <Why />
-      <Services />
       <Methodology />
       <WhoWeWorkWith />
       <HomeAbout />

@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import { useLanguage } from '../context/LanguageContext'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Brain, GitCompare, AlertTriangle, ClipboardCheck, Target, Users } from 'lucide-react'
+import { ClipboardCheck, GitCompare, ShieldCheck, Route, Globe, Users } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -12,34 +12,34 @@ export default function Trust() {
 
   const items = [
     {
-      icon: Brain,
-      title: t('Go / No-Go Assessment', '可行性判断'),
-      desc: t('Know whether your product is ready for North America before spending money.', '花钱前先看清楚产品是否准备好进入北美。'),
+      icon: ClipboardCheck,
+      title: t('Market Entry Readiness Diagnostic', '市场进入可行性初判'),
+      desc: t('Know whether your product fits North America before spending money. A clear go/no-go assessment.', '花钱前先看清楚产品是否准备好进入北美。清晰的可行性判断。'),
     },
     {
       icon: GitCompare,
-      title: t('U.S. vs. Canada', '美国还是加拿大'),
-      desc: t('Compare market size, regulation, cost, and customer fit. Get a clear recommendation.', '比较规模、监管、成本和适配度，给出明确建议。'),
+      title: t('Canada vs. US Strategy', '加拿大与美国策略比较'),
+      desc: t('Compare market size, regulation, cost, and customer fit. Get a clear recommendation on entry priority.', '比较规模、监管、成本和适配度，给出明确进入顺序建议。'),
     },
     {
-      icon: AlertTriangle,
-      title: t('Risk & Compliance', '风险与合规'),
-      desc: t('Identify compliance requirements and liability risks before committing resources.', '投入资源前识别合规要求和责任风险。'),
+      icon: ShieldCheck,
+      title: t('Compliance & Import Screening', '合规与进口筛查'),
+      desc: t('Identify certification gaps, customs requirements, and liability risks before committing resources.', '投入资源前识别认证差距、清关要求和责任风险。'),
     },
     {
-      icon: ClipboardCheck,
-      title: t('0–90 Day Plan', '0–90天计划'),
-      desc: t('A practical roadmap with clear milestones—not a report to file away.', '实用路线图，含明确里程碑，不是放进抽屉的报告。'),
+      icon: Route,
+      title: t('Entry Strategy & Roadmap', '进入策略与路线图'),
+      desc: t('A practical 90-day roadmap with milestones, channel plans, and resource allocation.', '实用的90天路线图，含里程碑、渠道计划和资源配置。'),
     },
     {
-      icon: Target,
-      title: t('Practical Launch Steps', '可落地的步骤'),
-      desc: t('Channel design, customer targeting, and trade show strategy turned into concrete actions.', '渠道设计、客户定位、展会策略，全部落地为具体动作。'),
+      icon: Globe,
+      title: t('Digital Trust & Local Presence', '数字化信任与本地存在'),
+      desc: t('Website, business profiles, and trust content that makes North American customers find and believe you.', '让北美客户能找到您、信任您的官网、商业简介和信任内容。'),
     },
     {
       icon: Users,
-      title: t('Execution Support', '落地支持'),
-      desc: t('Weekly check-ins, material refinement, and partner screening to keep you moving.', '每周跟进、材料优化、合作伙伴筛选，确保持续推进。'),
+      title: t('Local Execution Support', '本地执行支持'),
+      desc: t('Weekly check-ins, partner coordination, and phase reviews to keep your entry on track.', '每周跟进、合作伙伴协调和阶段复盘，确保进入计划稳步执行。'),
     },
   ]
 
@@ -58,7 +58,7 @@ export default function Trust() {
   return (
     <section ref={sectionRef} className="section-padding bg-white">
       <div className="container-site">
-        <p className="text-label mb-3">{t('Services', '服务内容')}</p>
+        <p className="text-label mb-3">{t('Capabilities', '核心能力')}</p>
         <h2 className="font-serif text-[#212121] text-[5vw] md:text-[2vw] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10 md:mb-12">
           {t('What You Get', '您能获得什么')}
         </h2>

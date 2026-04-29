@@ -12,7 +12,7 @@ export default function WhoWeWorkWith() {
 
   const audiences = [
     { icon: Factory, text: t('Manufacturing', '制造型企业'), sub: t('Precision parts, electronics, hardware, equipment', '精密零部件、电子电器、五金、设备') },
-    { icon: ShoppingCart, text: t('Cross-border e-commerce', '跨境电商'), sub: t('Amazon.ca, Shopify, or local channel operators', 'Amazon.ca、Shopify或本地渠道运营') },
+    { icon: ShoppingCart, text: t('Cross-border e-commerce', '跨境电商'), sub: t('Amazon.ca, Shopify, or local channel operators', '亚马逊加拿大站、Shopify平台或本地渠道运营') },
     { icon: Award, text: t('Brand exporters', '品牌出海'), sub: t('Consumer goods, health products, outdoor gear', '消费品、健康产品、户外用品') },
     { icon: Building2, text: t('Local growing businesses', '本地成长企业'), sub: t('Needing websites, digital marketing, and customer development', '需要网站、数字营销和客户开发') },
     { icon: Handshake, text: t('Traders & agents', '贸易商/代理商'), sub: t('Looking to establish local presence and customer systems', '希望建立本地业务和获客系统') },

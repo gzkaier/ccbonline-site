@@ -18,6 +18,7 @@ import AboutPage from './sections/AboutPage'
 import ContactPage from './sections/ContactPage'
 import PrivacyPolicy from './sections/PrivacyPolicy'
 import TermsOfUse from './sections/TermsOfUse'
+import NotFoundPage from './sections/NotFoundPage'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -39,8 +40,8 @@ function Home() {
   return (
     <>
       <Hero />
-      <Trust />
       <Challenges />
+      <Trust />
       <CoreValues />
       <Why />
       <Services />
@@ -65,6 +66,7 @@ function AppContent() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/terms" element={<TermsOfUse />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
       <Footer />

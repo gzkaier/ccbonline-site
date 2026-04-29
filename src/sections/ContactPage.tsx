@@ -122,13 +122,24 @@ export default function ContactPage() {
                   <div className="text-center py-10 md:py-14">
                     <div className="w-10 h-10 bg-[#C00000] flex items-center justify-center mx-auto mb-4"><span className="text-white text-[16px]">✓</span></div>
                     <h3 className="text-[18px] font-semibold mb-2">{t('Thank You', '感谢您的提交')}</h3>
-                    <p className="text-[13px] text-[#767676] mb-3">{t('We will review your inquiry and respond within 1–2 business days.', '我们将在 1–2 个工作日内审阅并回复。')}</p>
-                    {mailtoLink && <a href={mailtoLink} className="text-[13px] text-[#C00000] hover:underline">{t('Open email client', '打开邮件客户端')}</a>}
+                    <p className="text-[13px] text-[#767676] mb-4">{t('We will review your inquiry and respond within 1–2 business days.', '我们将在 1–2 个工作日内审阅并回复。')}</p>
+                    <div className="p-4 bg-white border border-[#E5E5E5] max-w-[360px] mx-auto">
+                      <p className="text-[11px] text-[#999] mb-1">{t('You can also email us directly at', '您也可以直接发邮件至')}</p>
+                      <p className="text-[14px] font-medium text-[#212121] mb-2">info@ccbonline.ca</p>
+                      <button
+                        type="button"
+                        onClick={() => { navigator.clipboard?.writeText('info@ccbonline.ca') }}
+                        className="text-[12px] text-[#C00000] hover:underline"
+                      >
+                        {t('Copy email address', '复制邮箱地址')}
+                      </button>
+                    </div>
+                    {mailtoLink && <a href={mailtoLink} className="text-[13px] text-[#C00000] hover:underline block mt-4">{t('Open email client', '打开邮件客户端')}</a>}
                   </div>
                 ) : (
                   <>
                     <div className="mb-6">
-                      <p className="text-[11px] font-medium uppercase tracking-wider text-[#999] mb-3">{t('Contact Info', '联系信息')}</p>
+                      <p className="text-[11px] font-medium uppercase tracking-wider text-[#999] mb-3">{t('Contact Info', '联系信息')} <span className="text-[#C00000]">*</span> {t('required', '必填')}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                         <input type="text" name="name" placeholder={t('Name *', '姓名 *')} value={formData.name} onChange={handleChange} required className={inputClass} />
                         <input type="text" name="company" placeholder={t('Company', '公司')} value={formData.company} onChange={handleChange} className={inputClass} />
@@ -144,7 +155,7 @@ export default function ContactPage() {
 
                     <div className="mb-6">
                       <p className="text-[11px] font-medium uppercase tracking-wider text-[#999] mb-3">{t('Goals & Challenges', '目标与挑战')}</p>
-                      <input type="text" name="goals" placeholder={t('Target market goals', '目标市场目标')} value={formData.goals} onChange={handleChange} className={`${inputClass} mb-3`} />
+                      <input type="text" name="goals" placeholder={t('Target market goals', '市场进入目标')} value={formData.goals} onChange={handleChange} className={`${inputClass} mb-3`} />
                       <input type="text" name="challenges" placeholder={t('Current challenges you are facing', '当前面临的主要挑战')} value={formData.challenges} onChange={handleChange} className={inputClass} />
                     </div>
 

@@ -25,7 +25,7 @@ export default function Hero() {
 
       <div ref={contentRef} className="relative z-10 container-site pb-[5vh] md:pb-[10vh] pt-[16vh] md:pt-[22vh]">
         <p className="hero-label text-white/50 text-[11px] md:text-[13px] tracking-widest uppercase mb-3 md:mb-4">
-          CCBONLINE INC. · {t('智桥国际', 'Zhijiao')}
+          CCBONLINE INC. · {t('智桥国际', 'Zhiqiao')}
         </p>
 
         <h1

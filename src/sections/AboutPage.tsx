@@ -114,7 +114,7 @@ export default function AboutPage() {
               <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8] mb-4">
                 {t(
                   'Based in Toronto, KAI has spent years helping Chinese businesses navigate the Canadian and North American markets, with experience in market-entry consulting, customer development, and brand localization.',
-                  '常驻多伦多，KAI 多年帮助中国企业 navigate 加拿大和北美市场，具备市场准入咨询、客户开发和品牌本地化经验。'
+                  '常驻多伦多，KAI 多年帮助中国企业开拓加拿大和北美市场，具备市场准入咨询、客户开发和品牌本地化经验。'
                 )}
               </p>
               <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8]">

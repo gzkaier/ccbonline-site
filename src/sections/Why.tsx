@@ -12,18 +12,18 @@ export default function Why() {
   const points = [
     {
       num: '01',
-      title: t('Strategy before execution', '策略先行，再谈执行'),
-      desc: t('We begin with structured thinking about whether, where, and how your business should enter the market.', '我们从结构化思考出发：您的企业是否适合进入、从哪里进入、以及如何进入。'),
+      title: t('North America specific', '专注北美'),
+      desc: t('Every assessment and recommendation is tailored to entering the U.S. and Canadian markets.', '每项评估和建议都针对美国和加拿大市场准入。'),
     },
     {
       num: '02',
-      title: t('Localization beyond translation', '本地化不只是翻译'),
-      desc: t('We rebuild your business messaging and materials to fit local expectations, not merely translate what exists.', '我们重构您的商业信息和资料以适配本地期望，而非仅仅翻译现有内容。'),
+      title: t('Actionable judgment', '可执行的判断'),
+      desc: t('Clear conclusions on what to do, in what order, and what risks to watch.', '告诉您该做什么、按什么顺序、注意哪些风险。'),
     },
     {
       num: '03',
-      title: t('Digital infrastructure that supports growth', '支撑增长的数字基础设施'),
-      desc: t('We build bilingual websites, lead-capture forms, and AI inquiry handling that turn interest into conversations.', '我们构建双语官网、线索收集表单和 AI 咨询处理，将兴趣转化为实际对话。'),
+      title: t('A plan, not a report', '计划，不是报告'),
+      desc: t('A concrete 0–90 day action plan with milestones your team can execute.', '具体的0–90天行动计划，含里程碑，团队可直接执行。'),
     },
   ]
 
@@ -44,14 +44,14 @@ export default function Why() {
       <div className="container-site">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
           <div className="lg:col-span-5 why-block">
-            <p className="text-label mb-3">{t('Our Difference', '我们的差异')}</p>
-            <h2 className="font-serif text-[#212121] text-[6vw] md:text-[1.8vw] leading-[1.3] tracking-tight mb-5 md:mb-6">
-              {t('Why Businesses Choose CCBONLINE', '为什么企业会选择 CCBONLINE')}
+            <p className="text-label mb-3">{t('Why Us', '为什么选择我们')}</p>
+            <h2 className="font-serif text-[#212121] text-[5vw] md:text-[1.8vw] leading-[1.35] md:leading-[1.3] tracking-tight mb-5 md:mb-6">
+              {t('Practical guidance for market entry', '实用的市场进入指导')}
             </h2>
-            <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.8]">
+            <p className="text-[13px] md:text-[15px] text-[#555] leading-[1.8]">
               {t(
-                'Entering a new market is not only a business decision. It is a connected sequence of challenges around market judgment, compliance, local communication, customer trust, and lead-generation capability. CCBONLINE helps clients approach these challenges as one business system rather than as disconnected tasks.',
-                '进入一个新市场，并不是单一决策，而是一组彼此关联的问题：市场是否值得进入、合规路径是否清晰、英文沟通是否到位、本地客户是否会信任、数字获客基础是否具备。CCBONLINE 帮助客户把这些问题作为一个相互联动的系统来处理。'
+                'Stop guessing. Start moving. Clear answers, concrete plans, and hands-on support when you need it.',
+                '停止猜测，开始行动。清晰答案、具体计划、需要时的实际支持。'
               )}
             </p>
           </div>
@@ -60,8 +60,8 @@ export default function Why() {
               <div key={p.num} className="why-block flex gap-4 md:gap-5">
                 <span className="text-[#C00000] text-[12px] font-bold mt-0.5 min-w-[24px]">{p.num}</span>
                 <div>
-                  <h3 className="text-[15px] md:text-[16px] font-semibold mb-2">{p.title}</h3>
-                  <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.7]">{p.desc}</p>
+                  <h3 className="text-[14px] md:text-[16px] font-semibold mb-2">{p.title}</h3>
+                  <p className="text-[12px] md:text-[14px] text-[#767676] leading-[1.7]">{p.desc}</p>
                 </div>
               </div>
             ))}

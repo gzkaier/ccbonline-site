@@ -13,46 +13,35 @@ export default function Services() {
   const services = [
     {
       num: '01',
-      title: t('Market Entry Consulting', '市场进入咨询'),
-      desc: t('Market opportunity analysis, product/industry prioritization, competitive analysis, and 90-day entry action plan.', '市场机会分析、产品/行业优先级、竞争分析、进入路径设计与90天行动计划。'),
+      title: t('Entry Assessment', '进入初判'),
+      desc: t('New to North America? Evaluate product fit, entry paths, and key risks in 0–30 days.', '刚接触北美？0–30天评估产品适配性、路径和风险。'),
       bullets: [
-        t('Market opportunity and industry analysis', '市场机会与行业分析'),
-        t('Product and customer prioritization', '产品与客户优先级判断'),
-        t('Competitive landscape assessment', '竞争格局评估'),
-        t('90-day entry action plan', '90天进入行动计划'),
+        t('Product-market fit check', '产品适配检查'),
+        t('U.S. vs. Canada comparison', '美加路径比较'),
+        t('Compliance risk overview', '合规风险概览'),
+        t('Priority actions', '优先行动建议'),
       ],
     },
     {
       num: '02',
-      title: t('Compliance & Company Setup', '公司与合规路径'),
-      desc: t('Canadian company registration, trademarks, GST/HST, CARM, product certification, import compliance and tax guidance.', '加拿大公司注册路径、商标、GST/HST、CARM、产品认证、进口合规与税务建议。'),
+      title: t('Market Entry Diagnostic', '市场进入诊断'),
+      desc: t('Comprehensive diagnostic: capabilities, customers, channels, compliance, and a 0–90 day launch plan.', '全面诊断：能力、客户、渠道、合规，加0–90天启动计划。'),
       bullets: [
-        t('Company registration pathway guidance', '公司注册路径梳理'),
-        t('GST/HST, CARM, and tax requirements', 'GST/HST、CARM及税务要求'),
-        t('Product certification and import compliance', '产品认证与进口合规'),
-        t('Trademark and IP protection basics', '商标与知识产权基础保护'),
+        t('Capability & product-fit analysis', '能力与产品适配分析'),
+        t('Target customer & channel strategy', '目标客户与渠道策略'),
+        t('Compliance & liability screening', '合规与责任筛查'),
+        t('0–90 day launch plan', '0–90天启动计划'),
       ],
     },
     {
       num: '03',
-      title: t('AI Website & Digital Entry', 'AI网站与数字入口'),
-      desc: t('Bilingual websites, SEO, Google Business, lead forms, AI customer service, and data analytics.', '中英双语网站、SEO、Google地图、表单、AI客服、数据分析，打造专业海外获客入口。'),
+      title: t('Advisory Retainer', '陪跑顾问'),
+      desc: t('Turn plans into action. Weekly meetings, material refinement, partner screening, ongoing guidance.', '将计划转化为行动。每周会议、材料优化、合作伙伴筛选。'),
       bullets: [
-        t('Bilingual corporate website development', '双语企业官网开发'),
-        t('SEO and Google Business optimization', 'SEO与Google商业优化'),
-        t('Lead capture forms and AI chatbot', '线索收集表单与AI客服'),
-        t('Data analytics and performance tracking', '数据分析与效果追踪'),
-      ],
-    },
-    {
-      num: '04',
-      title: t('English Materials & Localization', '英文商业资料重构'),
-      desc: t('Company profiles, capability sheets, product pages, sales emails, LinkedIn messaging, and quotation templates.', '公司介绍、Capability Sheet、产品页、销售邮件、LinkedIn话术、报价模板等。'),
-      bullets: [
-        t('Company profile and capability sheet', '公司介绍与Capability Sheet'),
-        t('Product pages and sales narratives', '产品页与销售叙事'),
-        t('LinkedIn messaging and email templates', 'LinkedIn话术与邮件模板'),
-        t('Quotation and proposal frameworks', '报价与提案框架'),
+        t('Weekly progress check-ins', '每周进度检查'),
+        t('Customer materials refinement', '客户材料优化'),
+        t('Partner & distributor screening', '合作伙伴筛选'),
+        t('Trade show support', '展会支持'),
       ],
     },
   ]
@@ -72,25 +61,25 @@ export default function Services() {
   return (
     <section ref={sectionRef} className="section-padding bg-white">
       <div className="container-site">
-        <p className="text-label mb-3">{t('Core Services', '核心服务')}</p>
-        <h2 className="font-serif text-[#212121] text-[6vw] md:text-[2vw] leading-[1.3] tracking-tight max-w-[600px] mb-10 md:mb-12">
-          {t('What We Can Do for You', '我们能为您做什么')}
+        <p className="text-label mb-3">{t('Service Packages', '服务方案')}</p>
+        <h2 className="font-serif text-[#212121] text-[5vw] md:text-[2vw] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10 md:mb-12">
+          {t('Choose the Right Level of Support', '选择适合您的支持')}
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-5">
           {services.map((s) => (
             <div key={s.num} className="service-card card-border bg-white flex flex-col">
               <span className="text-[#C00000] text-[11px] font-bold mb-2">{s.num}</span>
-              <h3 className="text-[15px] md:text-[16px] font-semibold mb-2 tracking-tight">{s.title}</h3>
-              <p className="text-[12px] md:text-[13px] text-[#767676] leading-[1.7] mb-3">{s.desc}</p>
+              <h3 className="text-[14px] md:text-[16px] font-semibold mb-2 tracking-tight">{s.title}</h3>
+              <p className="text-[11px] md:text-[13px] text-[#767676] leading-[1.7] mb-3">{s.desc}</p>
               <ul className="space-y-1 mb-4 flex-1">
                 {s.bullets.map((b, i) => (
-                  <li key={i} className="text-[12px] text-[#555] leading-[1.5] flex gap-2">
+                  <li key={i} className="text-[11px] md:text-[12px] text-[#555] leading-[1.5] flex gap-2">
                     <span className="text-[#C00000] mt-0.5">—</span>{b}
                   </li>
                 ))}
               </ul>
-              <Link to="/services" className="text-[12px] md:text-[13px] font-medium text-[#212121] hover:text-[#C00000] transition-colors inline-flex items-center gap-1.5">
-                {t('Learn More', '查看详情')} <span>→</span>
+              <Link to="/services" className="text-[11px] md:text-[13px] font-medium text-[#212121] hover:text-[#C00000] transition-colors inline-flex items-center gap-1.5">
+                {t('Learn More', '了解详情')} <span>→</span>
               </Link>
             </div>
           ))}

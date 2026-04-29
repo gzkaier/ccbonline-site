@@ -66,11 +66,11 @@ export default function ContactPage() {
         <div className="absolute inset-0 bg-[#F8F9FA]/85" />
         <div className="relative z-10 container-site">
           <p className="text-label mb-3">{t('Contact', '联系')}</p>
-          <h1 className="font-serif text-[#212121] text-[7vw] md:text-[2.8vw] leading-[1.25] tracking-tight max-w-[700px] mb-4">
-            {t('Tell us about your business and your market entry goals.', '告诉我们您的业务情况与市场进入目标。')}
+          <h1 className="font-serif text-[#212121] text-[5vw] md:text-[2.8vw] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[700px] mb-4">
+            {t('Tell us about your business and goals.', '告诉我们您的业务和目标。')}
           </h1>
-          <p className="text-[14px] text-[#767676] max-w-[520px]">
-            {t('We will review your message and follow up with the next appropriate step.', '我们会在查看信息后，与您沟通下一步合适的交流方式。')}
+          <p className="text-[12px] md:text-[14px] text-[#767676] max-w-[520px]">
+            {t('We will review and follow up with next steps.', '我们审阅后会与您沟通下一步。')}
           </p>
         </div>
       </section>
@@ -166,17 +166,17 @@ export default function ContactPage() {
       <section className="section-padding bg-[#F8F9FA]">
         <div className="container-site">
           <p className="text-label mb-3">{t('What happens next', '后续流程')}</p>
-          <h2 className="font-serif text-[#212121] text-[6vw] md:text-[2vw] leading-[1.3] tracking-tight max-w-[500px] mb-10">{t('What to Expect After Submission', '提交后会发生什么')}</h2>
+          <h2 className="font-serif text-[#212121] text-[5vw] md:text-[2vw] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[500px] mb-10">{t('What to Expect', '提交后')}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {[
-              { num: '01', title: t('We review your inquiry', '审阅您的咨询'), desc: t('We read your business context, goals, and challenges to understand where we can help.', '我们阅读您的业务背景、目标和挑战，了解我们可以在哪些方面提供帮助。') },
-              { num: '02', title: t('We follow up by email', '邮件初步回复'), desc: t('We respond within 1–2 business days with initial thoughts on next steps.', '我们在 1–2 个工作日内回复，说明初步看法与后续步骤。') },
-              { num: '03', title: t('We arrange next steps', '安排进一步沟通'), desc: t('If there is a good fit, we schedule an initial consultation to explore working together.', '如果适合，我们会安排初步咨询，探讨合作方式。') },
+              { num: '01', title: t('We review', '我们审阅'), desc: t('We read your context, goals, and challenges.', '阅读您的背景、目标和挑战。') },
+              { num: '02', title: t('We respond', '我们回复'), desc: t('Within 1–2 business days with next steps.', '1–2个工作日内回复下一步。') },
+              { num: '03', title: t('We consult', '我们咨询'), desc: t('If it is a good fit, we schedule a consultation.', '如果适合，安排初步咨询。') },
             ].map((item) => (
               <div key={item.num} className="cp-block card-border bg-white">
                 <span className="text-[#C00000] text-[12px] font-bold">{item.num}</span>
-                <h3 className="text-[15px] font-semibold mt-2 mb-2">{item.title}</h3>
-                <p className="text-[13px] text-[#767676] leading-[1.6]">{item.desc}</p>
+                <h3 className="text-[13px] md:text-[15px] font-semibold mt-2 mb-2">{item.title}</h3>
+                <p className="text-[11px] md:text-[13px] text-[#767676] leading-[1.6]">{item.desc}</p>
               </div>
             ))}
           </div>

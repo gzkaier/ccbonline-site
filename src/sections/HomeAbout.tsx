@@ -29,31 +29,31 @@ export default function HomeAbout() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
           <div className="lg:col-span-5 habout-block">
             <p className="text-label mb-3">{t('About', '关于')}</p>
-            <h2 className="font-serif text-[#212121] text-[6vw] md:text-[1.8vw] leading-[1.3] tracking-tight mb-5 md:mb-6">
-              {t('A consulting and digital growth partner', '咨询与数字增长合作伙伴')}
+            <h2 className="font-serif text-[#212121] text-[5vw] md:text-[1.8vw] leading-[1.35] md:leading-[1.3] tracking-tight mb-5 md:mb-6">
+              {t('Clear answers. Concrete plans.', '清晰答案。具体计划。')}
             </h2>
-            <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8] mb-5">
+            <p className="text-[12px] md:text-[14px] text-[#555] leading-[1.8] mb-5">
               {t(
-                'CCBONLINE INC. (智桥国际在线服务有限公司) works with Chinese businesses exploring or preparing for entry into Canada and North America. We help clients move from uncertainty to structure through market-entry thinking, setup guidance, localized communication, and digital infrastructure.',
-                'CCBONLINE INC.（智桥国际在线服务有限公司）服务于正在评估或准备进入加拿大及北美市场的中国企业。我们帮助客户把"方向不清、路径分散、表达不足、系统缺失"的状态，转化为更有结构的市场进入与增长准备。'
+                'CCBONLINE INC. helps Chinese companies enter the North American market. Readiness assessments, market comparisons, risk screening, and actionable launch plans.',
+                'CCBONLINE INC. 帮助中国企业进入北美市场。就绪度评估、市场比较、风险筛查和可执行的启动计划。'
               )}
             </p>
-            <Link to="/about" className="inline-flex items-center gap-1.5 text-[12px] md:text-[13px] font-medium text-[#212121] hover:text-[#C00000] transition-colors">
-              {t('Read more about us', '了解更多')} <ArrowRight size={13} />
+            <Link to="/about" className="inline-flex items-center gap-1.5 text-[11px] md:text-[13px] font-medium text-[#212121] hover:text-[#C00000] transition-colors">
+              {t('Learn more', '了解更多')} <ArrowRight size={13} />
             </Link>
           </div>
 
           <div className="lg:col-span-7 habout-block">
-            <h3 className="text-[14px] font-semibold mb-4 md:mb-5">{t('What We Help Clients Do', '我们帮助客户完成的核心事项')}</h3>
+            <h3 className="text-[13px] md:text-[14px] font-semibold mb-4 md:mb-5">{t('How We Help', '我们如何帮助')}</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
               {[
-                { title: t('Clarify entry priorities', '明确进入优先级'), desc: t('Understand which markets and segments deserve focus first.', '了解哪些市场和细分方向值得优先关注。') },
-                { title: t('Reduce setup uncertainty', '降低落地不确定性'), desc: t('Navigate compliance and operational preparation with guidance.', '在实际指导下完成合规与运营准备。') },
-                { title: t('Improve local trust', '改善本地信任'), desc: t('Rebuild materials and messaging to meet local expectations.', '重构资料与信息以符合本地期望。') },
-                { title: t('Build digital lead systems', '搭建数字获客系统'), desc: t('Create bilingual websites and inquiry-capture infrastructure.', '创建双语官网和线索收集基础设施。') },
+                { title: t('Is your product ready?', '产品准备好了吗？'), desc: t('Evaluate product-market fit before investing.', '投资前评估产品适配度。') },
+                { title: t('Which market first?', '先选哪个市场？'), desc: t('Compare U.S. and Canada on size, regulation, cost.', '从规模、监管、成本比较美加。') },
+                { title: t('What are the risks?', '有哪些风险？'), desc: t('Map out compliance and liability exposure.', '梳理合规和责任风险。') },
+                { title: t('What to do first?', '先做什么？'), desc: t('Get a 0–90 day plan with clear milestones.', '获得含里程碑的0–90天计划。') },
               ].map((item, i) => (
                 <div key={i} className="p-4 md:p-5 bg-[#F8F9FA]">
-                  <h4 className="text-[13px] md:text-[14px] font-semibold mb-1.5">{item.title}</h4>
+                  <h4 className="text-[12px] md:text-[14px] font-semibold mb-1.5">{item.title}</h4>
                   <p className="text-[11px] md:text-[12px] text-[#767676] leading-[1.6]">{item.desc}</p>
                 </div>
               ))}

@@ -88,8 +88,8 @@ export default function About() {
                   {
                     title: t('Digital Infrastructure', '数字基础设施'),
                     desc: t(
-                      'Websites, AI systems, and lead generation tools built for North American markets.',
-                      '为北美市场构建的网站、AI 系统和获客工具。'
+                      'Websites, digital systems, and lead generation tools built for North American markets.',
+                      '为北美市场构建的网站、数字系统和获客工具。'
                     ),
                   },
                 ].map((item, i) => (

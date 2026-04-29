@@ -111,7 +111,7 @@ export default function AboutPage() {
               <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8] mb-4">
                 {t(
                   'Based in Toronto, KAI has spent years helping Chinese businesses navigate the Canadian and North American markets, with hands-on experience in market-entry consulting, customer development, brand localization, and execution support.',
-                  '常驻多伦多，KAI 多年帮助中国企业开拓加拿大和北美市场，在市场进入咨询、客户开发、品牌本地化和落地执行方面具备实际经验。'
+                  '常驻多伦多，阿凯多年帮助中国企业开拓加拿大和北美市场，在市场进入咨询、客户开发、品牌本地化和落地执行方面具备实际经验。'
                 )}
               </p>
               <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8]">
@@ -151,7 +151,7 @@ export default function AboutPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 max-w-[720px]">
             {[
-              { title: t('Direct senior involvement', '资深顾问直接参与'), desc: t('KAI works directly with every client. No junior handoffs.', 'KAI 直接参与每个项目，没有初级团队转手。') },
+              { title: t('Direct senior involvement', '资深顾问直接参与'), desc: t('KAI works directly with every client. No junior handoffs.', '阿凯直接参与每个项目，没有初级团队转手。') },
               { title: t('Actionable output', '可执行的交付'), desc: t('Plans with clear next steps, not documents to file away.', '包含明确下一步的计划，不是放进抽屉的文件。') },
               { title: t('Both markets, one view', '两个市场统一视角'), desc: t('We compare Canada and the US so you can make an informed choice.', '比较加拿大和美国，帮助您做出知情选择。') },
               { title: t('Support through execution', '执行阶段持续支持'), desc: t('Advisory retainer keeps you moving forward with accountability.', '陪跑顾问确保您有问责地持续推进。') },

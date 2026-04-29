@@ -151,7 +151,7 @@ export default function ServicesPage() {
       forWho: [
         t('Companies with a plan needing execution support', '有计划需要执行支持'),
         t('Teams needing regular accountability', '需要定期跟进和问责'),
-        t('Businesses navigating complex multi-party projects', ' navigating 复杂多方项目'),
+        t('Businesses navigating complex multi-party projects', '应对复杂多方项目的企业'),
         t('Leadership wanting visibility into progress', '管理层需要掌握进展'),
       ],
     },

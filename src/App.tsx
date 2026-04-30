@@ -22,6 +22,12 @@ import EN_TradeShow from './pages/en/insights/trade-show-is-not-just-exhibition'
 import EN_ChannelDevelopment from './pages/en/insights/channel-development-is-not-email-blasting'
 import EN_90DayRoadmap from './pages/en/insights/0-90-day-north-america-market-entry-roadmap'
 
+import EN_MarketEntryDiagnosis from './pages/en/services/market-entry-diagnosis'
+import EN_CustomerChannelValidation from './pages/en/services/customer-channel-validation'
+import EN_ComplianceResponsibilityChain from './pages/en/services/compliance-responsibility-chain'
+import EN_LocalExecutionSupport from './pages/en/services/local-execution-support'
+import EN_AdvisoryRetainer from './pages/en/services/advisory-retainer'
+
 // Chinese pages
 import ZHHome from './pages/zh/Home'
 import ZHCanadaMarketEntry from './pages/zh/CanadaMarketEntry'
@@ -32,6 +38,13 @@ import ZHAbout from './pages/zh/About'
 import ZHContact from './pages/zh/Contact'
 import ZHPrivacy from './pages/zh/Privacy'
 import ZHTerms from './pages/zh/Terms'
+
+// Chinese service detail pages
+import ZH_MarketEntryDiagnosis from './pages/zh/services/market-entry-diagnosis'
+import ZH_CustomerChannelValidation from './pages/zh/services/customer-channel-validation'
+import ZH_ComplianceResponsibilityChain from './pages/zh/services/compliance-responsibility-chain'
+import ZH_LocalExecutionSupport from './pages/zh/services/local-execution-support'
+import ZH_AdvisoryRetainer from './pages/zh/services/advisory-retainer'
 
 // Chinese insight articles
 import ZH_MarketEntryNotSelling from './pages/zh/insights/bei-mei-shi-chang-jin-ru-bu-shi-mai-huo'
@@ -58,6 +71,11 @@ function App() {
         <Route path="/en" element={<ENHome />} />
         <Route path="/en/canada-market-entry" element={<ENCanadaMarketEntry />} />
         <Route path="/en/services" element={<ENServices />} />
+        <Route path="/en/services/market-entry-diagnosis" element={<EN_MarketEntryDiagnosis />} />
+        <Route path="/en/services/customer-channel-validation" element={<EN_CustomerChannelValidation />} />
+        <Route path="/en/services/compliance-responsibility-chain" element={<EN_ComplianceResponsibilityChain />} />
+        <Route path="/en/services/local-execution-support" element={<EN_LocalExecutionSupport />} />
+        <Route path="/en/services/advisory-retainer" element={<EN_AdvisoryRetainer />} />
         <Route path="/en/responsibility-chain" element={<ENResponsibilityChain />} />
         <Route path="/en/insights" element={<ENInsights />} />
         <Route path="/en/insights/market-entry-is-not-selling-overseas" element={<EN_MarketEntryIsNotSellingOverseas />} />
@@ -77,6 +95,11 @@ function App() {
         <Route path="/zh" element={<ZHHome />} />
         <Route path="/zh/canada-market-entry" element={<ZHCanadaMarketEntry />} />
         <Route path="/zh/services" element={<ZHServices />} />
+        <Route path="/zh/services/market-entry-diagnosis" element={<ZH_MarketEntryDiagnosis />} />
+        <Route path="/zh/services/customer-channel-validation" element={<ZH_CustomerChannelValidation />} />
+        <Route path="/zh/services/compliance-responsibility-chain" element={<ZH_ComplianceResponsibilityChain />} />
+        <Route path="/zh/services/local-execution-support" element={<ZH_LocalExecutionSupport />} />
+        <Route path="/zh/services/advisory-retainer" element={<ZH_AdvisoryRetainer />} />
         <Route path="/zh/responsibility-chain" element={<ZHResponsibilityChain />} />
         <Route path="/zh/insights" element={<ZHInsights />} />
         <Route path="/zh/insights/bei-mei-shi-chang-jin-ru-bu-shi-mai-huo" element={<ZH_MarketEntryNotSelling />} />

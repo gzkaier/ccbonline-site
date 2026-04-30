@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function EN_north_america_responsibility_chain() {
+  useSEO({
+    title: 'The Responsibility Chain Behind North America Market Entry | CCBONLINE INC.',
+    description: 'Every North America market entry has a responsibility chain that most overseas companies do not see until something goes wrong. CCBONLINE maps the full chain from importation to warranty so you know who is liable at each step.',
+    canonical: 'https://www.ccbonline.ca/en/insights/north-america-responsibility-chain',
+    ogType: 'article',
+    lang: 'en',
+  })
   useEffect(() => {
     document.title = 'The Responsibility Chain Behind North America Market Entry | CCBONLINE INC.'
     window.scrollTo(0, 0)
@@ -31,7 +40,7 @@ export default function EN_north_america_responsibility_chain() {
               Why This Matters
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              When Chinese companies enter North America, they focus on product quality and customer acquisition. But when a shipment is held at customs, or a product recall is issued, or a distributor disappears, the question becomes: who is responsible? The answer is usually unclear because no one mapped the responsibility chain before launch. The Importer of Record faces customs penalties. The certification holder is liable for safety violations. The distributor may not honor warranty obligations. The manufacturer is often the last to learn about problems and the first to suffer reputational damage. Understanding this chain is not optional—it is essential for risk management.
+              When overseas companies enter North America, they focus on product quality and customer acquisition. But when a shipment is held at customs, or a product recall is issued, or a distributor disappears, the question becomes: who is responsible? The answer is usually unclear because no one mapped the responsibility chain before launch. The Importer of Record faces customs penalties. The certification holder is liable for safety violations. The distributor may not honor warranty obligations. The manufacturer is often the last to learn about problems and the first to suffer reputational damage. Understanding this chain is not optional—it is essential for risk management.
             </p>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
@@ -47,7 +56,7 @@ export default function EN_north_america_responsibility_chain() {
               What Companies Should Examine
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              Chinese companies should map the following responsibilities before entering North America: (1) Importation: Who is the Importer of Record and who bears liability for customs issues? (2) Certification: Whose name appears on CSA/UL/FCC certificates and who is responsible for recertification? (3) Distribution: What does the distributor actually guarantee versus what they disclaim? (4) Warranty: Who handles repairs, returns, and replacements locally? (5) Regulatory compliance: Who monitors changes in regulations and ensures ongoing compliance? (6) After-sales service: Who provides technical support, spare parts, and field service?
+              overseas companies should map the following responsibilities before entering North America: (1) Importation: Who is the Importer of Record and who bears liability for customs issues? (2) Certification: Whose name appears on CSA/UL/FCC certificates and who is responsible for recertification? (3) Distribution: What does the distributor actually guarantee versus what they disclaim? (4) Warranty: Who handles repairs, returns, and replacements locally? (5) Regulatory compliance: Who monitors changes in regulations and ensures ongoing compliance? (6) After-sales service: Who provides technical support, spare parts, and field service?
             </p>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">

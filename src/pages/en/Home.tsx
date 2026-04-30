@@ -2,10 +2,19 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import useSEO from '../../hooks/useSEO'
+
 
 export default function ENHome() {
+  useSEO({
+    title: 'CCBONLINE INC. | Canada & North America Market Entry Advisory',
+    description: 'CCBONLINE INC. helps manufacturers, brands, suppliers, and growth-stage businesses evaluate, plan, and execute practical market entry into Canada and North America.',
+    canonical: 'https://www.ccbonline.ca/en',
+    ogType: 'website',
+    lang: 'en',
+  })
   useEffect(() => {
-    document.title = 'CCBONLINE INC. | Canada & North America Market Entry Partner for Chinese Businesses'
+    document.title = 'CCBONLINE INC. | Canada & North America Market Entry Advisory'
     window.scrollTo(0, 0)
   }, [])
 
@@ -18,7 +27,7 @@ export default function ENHome() {
           <div className="absolute inset-0">
             <img
               src="/images/canada-north-america-market-entry-consulting.jpg"
-              alt="CCBONLINE helps Chinese companies enter Canada and North America through market entry diagnosis and local execution support."
+              alt="CCBONLINE helps businesses enter Canada and North America through market entry diagnosis and local execution support."
               className="w-full h-full object-cover"
               fetchPriority="high"
             />
@@ -28,23 +37,50 @@ export default function ENHome() {
             <p className="text-white/50 text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-4 md:mb-5">
               CCBONLINE INC.
             </p>
-            <h1 className="font-serif text-white text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] leading-[1.2] tracking-tight max-w-[900px] mb-4 md:mb-6" style={{ wordBreak: 'keep-all' }}>
-              <span className="block">Canada & North America</span>
-              <span className="block">Market Entry Partner</span>
-              <span className="block">for Chinese Businesses</span>
+            <h1 className="font-serif text-white text-[28px] sm:text-[36px] md:text-[44px] lg:text-[48px] leading-[1.2] tracking-tight max-w-[900px] mb-4 md:mb-6">
+              Helping Businesses Enter Canada and North America
             </h1>
-            <p className="text-white/65 text-[15px] md:text-[16px] leading-[1.65] max-w-[640px] mb-6 md:mb-8">
-              Market-entry diagnosis, compliance pathway design, channel validation, and local execution support for Chinese businesses entering Canada and North America.
+            <p className="text-white/65 text-[15px] md:text-[17px] leading-[1.65] max-w-[680px] mb-6 md:mb-8">
+              Market entry is not finding buyers — it is building a working path across judgment, compliance, channels, and local execution. We help businesses do that before they spend on the wrong things.
             </p>
-            <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
-              <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">Book a Market Entry Consultation</Link>
-              <Link to="/en/services" className="btn-outline text-[15px] px-6 py-3.5 min-h-[52px]" style={{ borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}>View Services</Link>
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 mb-4">
+              <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">Request an Initial Market Entry Assessment</Link>
+              <Link to="/en/services" className="btn-outline text-[15px] px-6 py-3.5 min-h-[52px]" style={{ borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}>Explore Our Services</Link>
+            </div>
+            <p className="text-white/40 text-[13px] md:text-[14px] max-w-[560px]">
+              Tell us where you are now, what market you are targeting, and what is currently blocking progress.
+            </p>
+          </div>
+        </section>
+
+        {/* Market entry is not just about getting leads */}
+        <section className="section-padding bg-white">
+          <div className="container-site">
+            <p className="text-label mb-3">Judgment</p>
+            <h2 className="font-serif text-[#212121] text-[24px] md:text-[30px] leading-[1.35] tracking-tight max-w-[700px] mb-6 md:mb-8">
+              Market entry is not just about getting leads
+            </h2>
+            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.65] max-w-[720px] mb-8">
+              Entering Canada and North America is not simply about finding buyers, launching a website, or sending more emails. It requires a workable path across market positioning, compliance coordination, import responsibility, channel logic, local execution, and project follow-through.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-5">
+              {[
+                { title: 'Market judgment before expansion', desc: 'Assess whether your product fits and which market should come first.' },
+                { title: 'Responsibility-chain awareness before shipment', desc: 'Know who handles certification, import, liability, and after-sales before shipping.' },
+                { title: 'Local trust before inquiry conversion', desc: 'Buyers evaluate your credibility, documentation, and operational readiness.' },
+                { title: 'Execution rhythm before scaling', desc: 'Without tracking, coordination, and review, market entry stalls.' },
+              ].map((item, i) => (
+                <div key={i} className="p-5 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <h3 className="text-[15px] md:text-[16px] font-semibold mb-2">{item.title}</h3>
+                  <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">{item.desc}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
 
         {/* Definition Block */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">Definition</p>
             <h2 className="font-serif text-[#212121] text-[24px] md:text-[30px] leading-[1.35] tracking-tight max-w-[700px] mb-6 md:mb-8">
@@ -54,13 +90,13 @@ export default function ENHome() {
               North America market entry advisory is not marketing, sales outsourcing, or website development. It is the structured work of assessing whether your product fits, designing the compliance and operational path, validating customer and partner channels, and coordinating local execution resources to turn market intent into real operations.
             </p>
             <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.65] max-w-[720px]">
-              For Chinese companies, entering Canada and the United States requires more than demand. It requires a clear responsibility chain across certification, importation, documentation, channel, warehousing, after-sales, insurance, and local accountability. CCBONLINE INC. coordinates this chain.
+              Entering Canada and the United States requires more than demand. It requires a clear responsibility chain across certification, importation, documentation, channel, warehousing, after-sales, insurance, and local accountability. CCBONLINE INC. coordinates this chain.
             </p>
           </div>
         </section>
 
         {/* Three Core Services */}
-        <section className="section-padding bg-[#F8F9FA]">
+        <section className="section-padding bg-white">
           <div className="container-site">
             <p className="text-label mb-3">Core Capabilities</p>
             <h2 className="font-serif text-[#212121] text-[24px] md:text-[30px] leading-[1.35] tracking-tight mb-8 md:mb-10">
@@ -99,7 +135,7 @@ export default function ENHome() {
         </section>
 
         {/* Framework */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">Framework</p>
             <h2 className="font-serif text-[#212121] text-[24px] md:text-[30px] leading-[1.35] tracking-tight mb-8 md:mb-10">
@@ -113,7 +149,7 @@ export default function ENHome() {
                 { num: '04', title: 'Coordinate', desc: 'Align brokers, certifiers, 3PL, and local reps' },
                 { num: '05', title: 'Execute', desc: '90-day roadmap with weekly tracking and reviews' },
               ].map((f) => (
-                <div key={f.num} className="flex items-start gap-4 p-4 md:p-5 bg-[#F8F9FA] border border-[#E5E5E5]">
+                <div key={f.num} className="flex items-start gap-4 p-4 md:p-5 bg-white border border-[#E5E5E5]">
                   <span className="text-[#C00000] text-[14px] font-bold mt-0.5 min-w-[28px]">{f.num}</span>
                   <div>
                     <h3 className="text-[16px] md:text-[17px] font-semibold mb-1">{f.title}</h3>
@@ -126,7 +162,7 @@ export default function ENHome() {
         </section>
 
         {/* Who We Help */}
-        <section className="section-padding bg-[#F8F9FA]">
+        <section className="section-padding bg-white">
           <div className="container-site">
             <p className="text-label mb-3">Clients</p>
             <h2 className="font-serif text-[#212121] text-[24px] md:text-[30px] leading-[1.35] tracking-tight mb-8 md:mb-10">
@@ -134,14 +170,14 @@ export default function ENHome() {
             </h2>
             <div className="grid grid-cols-1 gap-3 md:gap-4">
               {[
-                'Chinese manufacturers with export-ready products',
+                'Manufacturers with export-ready products',
                 'Consumer brands preparing for North American launch',
                 'Industrial suppliers looking for local partners',
-                'Technology and AI hardware companies with certification needs',
-                'Service companies expanding from China into Canada',
+                'Technology and hardware companies with certification needs',
+                'Service companies expanding into Canada',
                 'Cross-border teams needing local business support',
               ].map((text, i) => (
-                <div key={i} className="flex items-start gap-3 p-4 bg-white border border-[#E5E5E5]">
+                <div key={i} className="flex items-start gap-3 p-4 bg-[#F8F9FA] border border-[#E5E5E5]">
                   <span className="text-[#C00000] text-[14px] mt-0.5 shrink-0">✓</span>
                   <span className="text-[15px] md:text-[16px] text-[#444] leading-[1.55]">{text}</span>
                 </div>
@@ -154,7 +190,7 @@ export default function ENHome() {
         </section>
 
         {/* What We Do Not Replace */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">Boundaries</p>
             <h2 className="font-serif text-[#212121] text-[24px] md:text-[30px] leading-[1.35] tracking-tight max-w-[600px] mb-8 md:mb-10">
@@ -177,7 +213,7 @@ export default function ENHome() {
         </section>
 
         {/* FAQ */}
-        <section className="section-padding bg-[#F8F9FA]">
+        <section className="section-padding bg-white">
           <div className="container-site">
             <p className="text-label mb-3">FAQ</p>
             <h2 className="font-serif text-[#212121] text-[24px] md:text-[30px] leading-[1.35] tracking-tight max-w-[600px] mb-8 md:mb-10">
@@ -185,16 +221,16 @@ export default function ENHome() {
             </h2>
             <div className="max-w-[800px] space-y-3">
               {[
-                { q: 'What does CCBONLINE actually do?', a: 'We help Chinese companies enter Canada and North America. We assess readiness, design compliance pathways, validate channels, coordinate local partners, and support execution.' },
+                { q: 'What does CCBONLINE actually do?', a: 'We help businesses enter Canada and North America. We assess readiness, design compliance pathways, validate channels, coordinate local partners, and support execution.' },
                 { q: 'Do you replace lawyers or accountants?', a: 'No. We coordinate with professional partners where legal, tax, customs, or certification expertise is required.' },
                 { q: 'How long does market entry take?', a: 'Initial diagnosis takes 2–4 weeks. A full 0–90 day roadmap is typically delivered within 30 days. Execution support continues as long as needed.' },
-                { q: 'Do we need a local entity first?', a: 'Not always. Many companies start with partner-based or direct-export models. We help you determine the right structure.' },
-                { q: 'What does it cost?', a: 'We offer three engagement levels. Contact us for a tailored estimate based on your product and scope.' },
+                { q: 'Which market should we enter first — Canada or the U.S.?', a: 'It depends on your product, certification requirements, and target customers. Canada often has lower entry barriers and serves as a stepping stone to the U.S.' },
+                { q: 'Do you guarantee we will find customers?', a: 'No. We help you build the operational and strategic foundation for market entry. Customer acquisition depends on product-market fit, timing, and execution.' },
               ].map((faq, i) => (
-                <details key={i} className="group border border-[#E5E5E5] bg-white">
+                <details key={i} className="border border-[#E5E5E5] bg-[#F8F9FA]">
                   <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
                     <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">{faq.q}</span>
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="shrink-0 text-[#767676]"><path d="M4 6L8 10L12 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
                   </summary>
                   <div className="px-4 pb-4 md:px-5 md:pb-5">
                     <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">{faq.a}</p>
@@ -209,13 +245,13 @@ export default function ENHome() {
         <section className="section-padding bg-[#1a1a2e]">
           <div className="container-site">
             <div className="max-w-[700px]">
-              <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-6">
-                Ready to assess your North America readiness?
+              <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">
+                Ready to evaluate your North America readiness?
               </h2>
-              <div className="flex flex-col sm:flex-row gap-3">
-                <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">Book a Market Entry Consultation</Link>
-                <Link to="/en/canada-market-entry" className="btn-outline text-[15px] px-6 py-3.5 min-h-[52px]" style={{ borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}>Explore Canada Entry</Link>
-              </div>
+              <p className="text-white/60 text-[14px] md:text-[15px] mb-6">
+                Tell us where you are now, what market you are targeting, and what is currently blocking progress. We will review your situation and suggest the most suitable next step.
+              </p>
+              <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">Request an Initial Market Entry Assessment</Link>
             </div>
           </div>
         </section>

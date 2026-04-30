@@ -60,7 +60,7 @@ export default function ContactPage() {
         <div className="absolute inset-0 bg-[#F8F9FA]/85" />
         <div className="relative z-10 container-site">
           <p className="text-label mb-3">{t('Contact', '联系')}</p>
-          <h1 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[32px] md:text-[36px] lg:text-[42px] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[700px] mb-4">
+          <h1 className="font-serif text-[#212121] text-[32px] md:text-[36px] lg:text-[42px] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[700px] mb-4">
             {t('Discuss Your Canada or North America Market Entry Plan', '讨论您的加拿大或北美市场进入计划')}
           </h1>
           <p className="text-[12px] md:text-[14px] text-[#767676] max-w-[520px]">
@@ -78,7 +78,7 @@ export default function ContactPage() {
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
                     <Globe size={15} strokeWidth={1.5} className="text-[#767676] mt-0.5 min-w-[15px]" />
-                    <div><p className="text-[12px] text-[#999]">{t('Website', '官网')}</p><p className="text-[13px]">ccbonline.ca</p></div>
+                    <div><p className="text-[12px] text-[#999]">{t('Website', '官网')}</p><p className="text-[13px]">www.ccbonline.ca</p></div>
                   </div>
                   <div className="flex items-start gap-3">
                     <Mail size={15} strokeWidth={1.5} className="text-[#767676] mt-0.5 min-w-[15px]" />

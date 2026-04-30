@@ -14,7 +14,7 @@ export default function Footer() {
             </Link>
             <p className="text-[13px] leading-[1.7] max-w-[320px]">
               {t(
-                'North America market entry advisory for Chinese companies.',
+                'North America market entry advisory and execution support.',
                 '中国企业北美市场准入咨询。'
               )}
             </p>

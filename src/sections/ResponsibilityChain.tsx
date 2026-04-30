@@ -32,7 +32,7 @@ export default function ResponsibilityChain() {
       <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
         <div className="container-site">
           <p className="text-label mb-3">{t('Responsibility Chain', '责任链')}</p>
-          <h1 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[32px] md:text-[36px] lg:text-[42px] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[900px] mb-4">
+          <h1 className="font-serif text-[#212121] text-[32px] md:text-[36px] lg:text-[42px] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[900px] mb-4">
             {t('North America Responsibility Chain for Imported Products', '北美进口产品责任链')}
           </h1>
           <p className="text-[12px] md:text-[14px] text-[#767676] max-w-[680px]">
@@ -47,7 +47,7 @@ export default function ResponsibilityChain() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
             <div className="lg:col-span-4 rc-block">
               <p className="text-label mb-3">{t('Definition', '定义')}</p>
-              <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight">
+              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight">
                 {t('What Is the Responsibility Chain?', '什么是责任链？')}
               </h2>
             </div>
@@ -60,7 +60,7 @@ export default function ResponsibilityChain() {
               </p>
               <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8]">
                 {t(
-                  'For Chinese companies, the responsibility chain is often invisible until something goes wrong: a customs hold, a product recall, a warranty dispute, or a liability claim. Our role is to make this chain visible, manageable, and properly assigned before you ship.',
+                  'For companies entering from overseas, the responsibility chain is often invisible until something goes wrong: a customs hold, a product recall, a warranty dispute, or a liability claim. Our role is to make this chain visible, manageable, and properly assigned before you ship.',
                   '对中国企业来说，责任链通常在出问题前都是不可见的：海关扣留、产品召回、保修纠纷或责任索赔。我们的作用是在发货前让这条链变得可见、可管理并正确分配。'
                 )}
               </p>
@@ -73,13 +73,13 @@ export default function ResponsibilityChain() {
       <section className="section-padding bg-[#F8F9FA]">
         <div className="container-site">
           <p className="text-label mb-3">{t('Why It Matters', '为什么重要')}</p>
-          <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
+          <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
             {t('Why the Responsibility Chain Cannot Be Ignored', '为什么责任链不可忽视')}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-5">
             {[
               { title: t('One weak link breaks the chain', '一个薄弱环节会打断链条'), desc: t('A single gap in certification, insurance, or after-sales support can halt your entire market entry, damage your reputation, or create legal liability.', '认证、保险或售后支持中的单一差距可能中断您的整个市场进入、损害声誉或产生法律责任。') },
-              { title: t('North American liability is real', '北美责任是真实的'), desc: t('Product liability, consumer protection, and class-action exposure in Canada and the US are significantly different from China\'s regulatory environment.', '加拿大和美国的产品责任、消费者保护和集体诉讼风险与中国监管环境显著不同。') },
+              { title: t('North American liability is real', '北美责任是真实的'), desc: t('Product liability, consumer protection, and class-action exposure in Canada and the US are significantly different from most overseas regulatory environments.', '加拿大和美国的产品责任、消费者保护和集体诉讼风险与大多数海外监管环境显著不同。') },
               { title: t('Customers expect accountability', '客户期望问责制'), desc: t('North American buyers and distributors expect clear answers on who handles warranty, returns, defects, and compliance issues. Vagueness loses deals.', '北美买家和分销商期望明确回答谁处理保修、退货、缺陷和合规问题。含糊不清会丢失交易。') },
             ].map((item, i) => (
               <div key={i} className="rc-block card-border bg-white">
@@ -95,7 +95,7 @@ export default function ResponsibilityChain() {
       <section className="section-padding bg-white">
         <div className="container-site">
           <p className="text-label mb-3">{t('Components', '组成要素')}</p>
-          <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[700px] mb-10">
+          <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[700px] mb-10">
             {t('Key Components of the Responsibility Chain', '责任链的关键组成')}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 max-w-[900px]">
@@ -125,14 +125,14 @@ export default function ResponsibilityChain() {
       <section className="section-padding bg-[#F8F9FA]">
         <div className="container-site">
           <p className="text-label mb-3">{t('Mistakes', '常见错误')}</p>
-          <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
+          <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
             {t('Common Responsibility Chain Mistakes', '责任链常见错误')}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 max-w-[800px]">
             {[
               { title: t('Assuming the distributor handles everything', '假设经销商处理一切'), desc: t('Many distributors sell but do not assume liability, warranty, or compliance responsibility. Read the contract carefully.', '许多经销商销售但不承担责任、保修或合规责任。仔细阅读合同。') },
               { title: t('Shipping before certification is complete', '认证完成前发货'), desc: t('Products held at customs due to incomplete certification can result in storage fees, delays, and cancelled orders.', '因认证不完整被海关扣留的产品可能产生仓储费、延误和取消订单。') },
-              { title: t('No local insurance coverage', '没有本地保险覆盖'), desc: t('Chinese insurance policies often do not cover North American liability exposure. Local product liability insurance is essential.', '中国保险单通常不覆盖北美责任风险。本地产品责任险至关重要。') },
+              { title: t('No local insurance coverage', '没有本地保险覆盖'), desc: t('Overseas insurance policies often do not cover North American liability exposure. Local product liability insurance is essential.', '海外保险单通常不覆盖北美责任风险。本地产品责任险至关重要。') },
               { title: t('Vague warranty terms', '模糊的保修条款'), desc: t('"One-year warranty" without clear process, local repair capability, or spare parts availability creates customer disputes.', '"一年保修"没有明确流程、本地维修能力或备件可用性会产生客户纠纷。') },
             ].map((item, i) => (
               <div key={i} className="rc-block card-border bg-white border-l-2 border-l-[#C00000]">
@@ -148,13 +148,13 @@ export default function ResponsibilityChain() {
       <section className="section-padding bg-white">
         <div className="container-site">
           <p className="text-label mb-3">{t('How We Help', '我们如何帮助')}</p>
-          <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
+          <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
             {t('How CCBONLINE Helps Build Your Responsibility Chain', 'CCBONLINE 如何帮助构建您的责任链')}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 max-w-[800px]">
             {[
               { title: t('Responsibility chain audit', '责任链审计'), desc: t('We map every component of your responsibility chain, identify gaps, and assign clear ownership for each link.', '我们绘制您责任链的每个组成部分，识别差距，并为每个环节分配明确的责任人。') },
-              { title: t('Professional partner coordination', '专业机构协调'), desc: t('We connect you with vetted lawyers, customs brokers, certification bodies, insurers, and logistics providers who understand China-to-Canada operations.', '我们将您与了解中加业务的律师、报关行、认证机构、保险公司和物流提供商联系起来。') },
+              { title: t('Professional partner coordination', '专业机构协调'), desc: t('We connect you with vetted lawyers, customs brokers, certification bodies, insurers, and logistics providers who understand overseas-to-Canada operations.', '我们将您与了解海外至加拿大业务的律师、报关行、认证机构、保险公司和物流提供商联系起来。') },
               { title: t('Documentation review', '文档审查'), desc: t('We review your product documentation, labels, and claims for North American compliance and customer clarity.', '我们审查您的产品文档、标签和声明，确保符合北美合规要求和客户清晰度。') },
               { title: t('Contract guidance', '合同指导'), desc: t('We help you understand distributor agreements, liability clauses, and warranty terms before you sign.', '我们在签署前帮助您理解经销协议、责任条款和保修条款。') },
             ].map((item, i) => (
@@ -174,7 +174,7 @@ export default function ResponsibilityChain() {
       <section className="section-padding bg-[#F8F9FA]">
         <div className="container-site">
           <p className="text-label mb-3">{t('FAQ', '常见问题')}</p>
-          <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
+          <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
             {t('Responsibility Chain FAQ', '责任链常见问题')}
           </h2>
           <div className="max-w-[800px] space-y-4">
@@ -204,7 +204,7 @@ export default function ResponsibilityChain() {
       <section className="section-padding bg-[#1a1a2e]">
         <div className="container-site">
           <div className="max-w-[700px]">
-            <h2 className="font-serif text-white text-[28px] md:text-[32px] lg:text-[36px] md:text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6">
+            <h2 className="font-serif text-white text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6">
               {t('Map your responsibility chain before you ship.', '发货前绘制您的责任链。')}
             </h2>
             <Link to="/contact" className="btn-primary text-[12px] md:text-[14px]">

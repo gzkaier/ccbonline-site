@@ -2,6 +2,8 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import useSEO from '../../hooks/useSEO'
+
 
 interface ServiceCard {
   title: string
@@ -11,28 +13,30 @@ interface ServiceCard {
 
 interface ServicePackage {
   name: string
-  title: string
+  tag: string
   for: string
   deliverables: string[]
+  ctaText: string
+  ctaLink: string
 }
 
 const beforeEntryServices: ServiceCard[] = [
-  { title: '北美市场进入可行性初判', desc: '评估您的产品、能力和时机是否适合进入北美市场。', slug: 'market-entry-diagnosis' },
+  { title: '北美市场进入可行性初判', desc: '评估你的产品、能力和时机是否适合进入北美市场。', slug: 'market-entry-diagnosis' },
   { title: '加拿大 / 美国优先级判断', desc: '根据产品适配度、竞争格局和监管复杂度，判断哪个市场优先。', slug: 'market-entry-diagnosis' },
-  { title: '产品与市场适配初判', desc: '评估您的产品、包装和定位是否符合北美买家预期。', slug: 'market-entry-diagnosis' },
+  { title: '产品与市场适配初判', desc: '评估你的产品、包装和定位是否符合北美买家预期。', slug: 'market-entry-diagnosis' },
   { title: '0–90 天市场进入路径设计', desc: '一份实用的、分阶段的前 90 天市场进入准备行动计划。', slug: 'market-entry-diagnosis' },
 ]
 
 const entryPrepServices: ServiceCard[] = [
-  { title: '北美市场商业资料准备', desc: '审查和改进您的产品资料、网站和文档，使其符合北美买家标准。', slug: 'customer-channel-validation' },
-  { title: '目标客户与渠道路径设计', desc: '识别谁购买、如何购买，以及哪条渠道路径对您的产品最现实。', slug: 'customer-channel-validation' },
+  { title: '北美市场商业资料准备', desc: '审查和改进你的产品资料、网站和文档，使其符合北美买家标准。', slug: 'customer-channel-validation' },
+  { title: '目标客户与渠道路径设计', desc: '识别谁购买、如何购买，以及哪条渠道路径对你最现实。', slug: 'customer-channel-validation' },
   { title: '北美客户开发准备', desc: '在接触北美潜在客户之前，准备好外联策略、资格筛选问题和材料。', slug: 'customer-channel-validation' },
   { title: '合规与责任链初筛', desc: '在进入市场前，识别认证、进口、文件和责任缺口。', slug: 'compliance-responsibility-chain' },
 ]
 
 const localExecutionServices: ServiceCard[] = [
   { title: '进口路径与 IOR 协调', desc: '设计进口路线，明确进口记录责任人角色，协调海关文件交接。', slug: 'local-execution-support' },
-  { title: '仓储与本地履约协调', desc: '根据您的体积和产品类型，匹配合适的仓储和第三方物流合作伙伴。', slug: 'local-execution-support' },
+  { title: '仓储与本地履约协调', desc: '根据你的体积和产品类型，匹配合适的仓储和第三方物流合作伙伴。', slug: 'local-execution-support' },
   { title: '售后与备件承接方案设计', desc: '规划保修处理、退货、备件和本地服务响应能力。', slug: 'local-execution-support' },
   { title: '本地合作资源协调', desc: '与北美运营和服务合作伙伴的持续沟通和协调支持。', slug: 'local-execution-support' },
 ]
@@ -47,21 +51,27 @@ const projectExecutionServices: ServiceCard[] = [
 const servicePackages: ServicePackage[] = [
   {
     name: '北美市场进入诊断包',
-    title: '最稳方案',
-    for: '刚开始考虑加拿大 / 北美市场、不确定是否适合进入、需要先判断方向的企业。',
+    tag: '最稳方案',
+    for: '适合刚开始考虑加拿大或北美市场、还不确定是否值得进入、需要先判断方向的企业。这个服务包的核心价值，不是立刻推进动作，而是先把方向看清楚。',
     deliverables: ['《北美市场进入初步诊断报告》', '《0–90 天进入建议路线图》', '《初步风险清单》'],
+    ctaText: '查看诊断服务',
+    ctaLink: '/zh/services/market-entry-diagnosis',
   },
   {
     name: '北美客户与渠道验证包',
-    title: '最快方案',
-    for: '已有产品、准备开发客户、准备参展或刚参展回来，希望快速验证市场反馈的企业。',
+    tag: '最快方案',
+    for: '适合已有产品、准备开发客户、准备参展或刚参展回来，希望尽快验证北美反馈的企业。这个服务包的目标，是先验证方向，而不是盲目扩量。',
     deliverables: ['《北美目标客户与渠道路径图》', '《客户开发资料准备清单》', '《30 天客户验证计划》'],
+    ctaText: '查看验证服务',
+    ctaLink: '/zh/services/customer-channel-validation',
   },
   {
     name: '北美市场进入执行支持包',
-    title: '势能最高方案',
-    for: '已经决定进入北美，需要本地合规、渠道、进口、仓储、售后、服务商和项目推进协同的企业。',
+    tag: '势能最高方案',
+    for: '适合已经决定进入北美，需要围绕合规、进口、仓储、售后、合作资源和项目推进做系统协同的企业。这个服务包不是单点支持，而是把多个关键环节接起来。',
     deliverables: ['《北美市场进入执行路线图》', '《责任链与本地承接方案》', '《渠道验证与项目推进看板》', '《月度项目复盘报告》'],
+    ctaText: '查看执行支持',
+    ctaLink: '/zh/services/local-execution-support',
   },
 ]
 
@@ -86,6 +96,13 @@ function ServiceCardComponent({ card }: { card: ServiceCard }) {
 }
 
 export default function ZHServices() {
+  useSEO({
+    title: '面向中国企业进入加拿大与北美市场的服务体系 | CCBONLINE INC.',
+    description: '从市场进入诊断、合规路径梳理、客户与渠道验证，到本地承接协调和项目推进支持。',
+    canonical: 'https://www.ccbonline.ca/zh/services',
+    ogType: 'website',
+    lang: 'zh',
+  })
   useEffect(() => {
     document.title = '面向中国企业进入加拿大与北美市场的服务体系 | CCBONLINE INC.'
     window.scrollTo(0, 0)
@@ -99,17 +116,34 @@ export default function ZHServices() {
         <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">服务体系</p>
-            <h1 className="font-serif text-[#212121] text-[32px] md:text-[42px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
+            <h1 className="font-serif text-[#212121] text-[26px] sm:text-[32px] md:text-[40px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
               面向中国企业进入加拿大与北美市场的服务体系
             </h1>
             <p className="text-[16px] md:text-[17px] text-[#767676] max-w-[600px] mb-6">
-              从市场进入诊断、合规路径判断、渠道验证，到本地资源协调和项目推进支持。
+              从市场进入诊断、合规路径梳理、客户与渠道验证，到本地承接协调和项目推进支持。
             </p>
           </div>
         </section>
 
-        {/* Before Entry */}
+        {/* Guidance Box */}
         <section className="section-padding bg-white">
+          <div className="container-site">
+            <div className="max-w-[800px] p-5 md:p-6 bg-[#F8F9FA] border border-[#E5E5E5] mb-8">
+              <h2 className="font-serif text-[#212121] text-[18px] md:text-[22px] leading-[1.35] tracking-tight mb-4">
+                你应该从哪里开始？
+              </h2>
+              <ul className="space-y-3 text-[14px] md:text-[15px] text-[#444] leading-[1.65]">
+                <li className="pl-4 border-l-2 border-[#C00000]">如果你还在判断北美值不值得做，先看 <Link to="/zh/services/market-entry-diagnosis" className="text-[#C00000] hover:underline">北美市场进入诊断</Link></li>
+                <li className="pl-4 border-l-2 border-[#C00000]">如果你已经有产品，准备验证客户和渠道，先看 <Link to="/zh/services/customer-channel-validation" className="text-[#C00000] hover:underline">北美客户与渠道验证</Link></li>
+                <li className="pl-4 border-l-2 border-[#C00000]">如果你已经进入进口、仓储、履约或售后准备阶段，先看 <Link to="/zh/services/local-execution-support" className="text-[#C00000] hover:underline">本地承接支持</Link></li>
+                <li className="pl-4 border-l-2 border-[#C00000]">如果你已经有多个环节同时推进，需要持续协调，先看 <Link to="/zh/services/advisory-retainer" className="text-[#C00000] hover:underline">顾问陪跑</Link></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Before Entry */}
+        <section className="section-padding bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">进入前判断</p>
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-4">
@@ -128,7 +162,7 @@ export default function ZHServices() {
         </section>
 
         {/* Entry Preparation */}
-        <section className="section-padding bg-[#F8F9FA]">
+        <section className="section-padding bg-white">
           <div className="container-site">
             <p className="text-label mb-3">进入准备</p>
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-4">
@@ -150,7 +184,7 @@ export default function ZHServices() {
         </section>
 
         {/* Local Execution */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">本地承接</p>
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-4">
@@ -169,7 +203,7 @@ export default function ZHServices() {
         </section>
 
         {/* Project Execution */}
-        <section className="section-padding bg-[#F8F9FA]">
+        <section className="section-padding bg-white">
           <div className="container-site">
             <p className="text-label mb-3">项目推进</p>
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-4">
@@ -188,7 +222,7 @@ export default function ZHServices() {
         </section>
 
         {/* Service Packages */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">服务包</p>
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-8 md:mb-10">
@@ -196,15 +230,11 @@ export default function ZHServices() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6">
               {servicePackages.map((pkg, i) => (
-                <div key={i} className="bg-[#F8F9FA] border border-[#E5E5E5] p-5 md:p-6 flex flex-col">
-                  <p className="text-[11px] text-[#999] uppercase tracking-wider mb-2">
-                    {pkg.title}
-                  </p>
+                <div key={i} className="bg-white border border-[#E5E5E5] p-5 md:p-6 flex flex-col">
+                  <p className="text-[11px] text-[#999] uppercase tracking-wider mb-2">{pkg.tag}</p>
                   <h3 className="text-[17px] md:text-[18px] font-semibold mb-3 leading-[1.4]">{pkg.name}</h3>
-                  <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.6] mb-3">
-                    <strong className="font-medium">适合：</strong>{pkg.for}
-                  </p>
-                  <div className="mb-4 flex-1">
+                  <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.6] mb-4 flex-1">{pkg.for}</p>
+                  <div className="mb-4">
                     <p className="text-[13px] text-[#999] uppercase tracking-wider mb-2">交付物</p>
                     <ul className="space-y-1.5">
                       {pkg.deliverables.map((d, j) => (
@@ -212,7 +242,7 @@ export default function ZHServices() {
                       ))}
                     </ul>
                   </div>
-                  <Link to="/zh/contact" className="btn-primary text-[14px] px-5 py-3 min-h-[48px] w-full text-center">咨询此服务包</Link>
+                  <Link to={pkg.ctaLink} className="btn-primary text-[14px] px-5 py-3 min-h-[48px] w-full text-center">{pkg.ctaText}</Link>
                 </div>
               ))}
             </div>

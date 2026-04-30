@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import useSEO from '../../hooks/useSEO'
+
 
 export default function ZHAbout() {
+  useSEO({
+    title: '关于 CCBONLINE INC. | 北美市场进入咨询与落地支持',
+    description: 'CCBONLINE INC. 是一家加拿大注册咨询公司，总部位于多伦多，帮助中国制造企业和成长型公司进入加拿大和北美市场。',
+    canonical: 'https://www.ccbonline.ca/zh/about',
+    ogType: 'website',
+    lang: 'zh',
+  })
   useEffect(() => {
     document.title = '关于 CCBONLINE INC. | 北美市场进入咨询与落地支持'
     window.scrollTo(0, 0)
@@ -16,7 +25,7 @@ export default function ZHAbout() {
         <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">关于</p>
-            <h1 className="font-serif text-[#212121] text-[32px] md:text-[42px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
+            <h1 className="font-serif text-[#212121] text-[28px] sm:text-[34px] md:text-[40px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
               关于 CCBONLINE INC.
             </h1>
             <p className="text-[16px] md:text-[17px] text-[#767676] max-w-[600px]">
@@ -44,10 +53,10 @@ export default function ZHAbout() {
                   CCBONLINE INC. 是一家加拿大注册的咨询与落地支持公司，总部位于多伦多。我们帮助中国制造企业、品牌和工业公司进入加拿大和北美，提供结构化的市场进入诊断、合规路径设计、渠道验证、本地合作伙伴协调和实际执行支持。
                 </p>
                 <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.65] mb-5">
-                  我们不是营销机构、网站开发公司或获客平台。我们是市场进入顾问，结合市场判断、合规意识、渠道理解、本地资源和执行纪律，帮助中国企业在北美建立真实的运营存在。
+                  我们不是营销机构、网站开发公司或获客平台。我们是市场进入顾问，结合市场判断、合规意识、渠道理解、本地资源和执行纪律，帮助中国企业在北美建立真实的运营根基。
                 </p>
                 <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65] mb-6">
-                  我们的团队直接与每位客户合作，提供结构化评估、实际协调和持续支持，将市场进入计划转化为实际客户对话、合作伙伴关系和运营存在。
+                  我们的团队直接与每位客户合作，提供结构化评估、实际协调和持续支持，将市场进入计划转化为实际客户对话、合作伙伴关系和落地运营。
                 </p>
                 <div className="grid grid-cols-2 gap-3 text-[14px] md:text-[15px]">
                   <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">

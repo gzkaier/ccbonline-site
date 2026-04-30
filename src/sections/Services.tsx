@@ -107,7 +107,7 @@ export default function Services() {
     <section ref={sectionRef} className="section-padding bg-white">
       <div className="container-site">
         <p className="text-label mb-3">{t('Services', '服务模块')}</p>
-        <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[24px] md:text-[28px] lg:text-[32px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[700px] mb-10 md:mb-12">
+        <h2 className="font-serif text-[#212121] text-[24px] md:text-[28px] lg:text-[32px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[700px] mb-10 md:mb-12">
           {t('Seven Capabilities That Turn Intent into Market Entry', '七大能力，将意图转化为市场进入')}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">

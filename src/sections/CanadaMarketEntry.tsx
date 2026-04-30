@@ -12,7 +12,7 @@ export default function CanadaMarketEntry() {
 
   useEffect(() => {
     document.title = t(
-      'Canada Market Entry Consulting for Chinese Businesses | CCBONLINE INC.',
+      'Canada Market Entry Advisory | CCBONLINE INC.',
       '中国企业加拿大市场进入咨询 | CCBONLINE INC.'
     )
     window.scrollTo(0, 0)
@@ -32,11 +32,11 @@ export default function CanadaMarketEntry() {
       <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
         <div className="container-site">
           <p className="text-label mb-3">{t('Canada Market Entry', '加拿大市场进入')}</p>
-          <h1 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[32px] md:text-[36px] lg:text-[42px] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[850px] mb-4">
-            {t('Canada Market Entry Consulting for Chinese Businesses', '中国企业加拿大市场进入咨询')}
+          <h1 className="font-serif text-[#212121] text-[32px] md:text-[36px] lg:text-[42px] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[850px] mb-4">
+            {t('Canada Market Entry Advisory', '加拿大市场进入咨询')}
           </h1>
           <p className="text-[12px] md:text-[14px] text-[#767676] max-w-[600px]">
-            {t('A practical pathway from exploration to local operations — designed for Chinese manufacturers, brands, and industrial companies.', '从探索到本地运营的实际路径——为中国制造企业、品牌和工业公司设计。')}
+            {t('A practical pathway from exploration to local operations — for manufacturers, brands, and industrial companies.', '从探索到本地运营的实际路径——为制造企业、品牌和工业公司设计。')}
           </p>
         </div>
       </section>
@@ -45,7 +45,7 @@ export default function CanadaMarketEntry() {
       <section className="section-padding bg-white">
         <div className="container-site">
           <p className="text-label mb-3">{t('Why Canada', '为什么选择加拿大')}</p>
-          <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
+          <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
             {t('Canada as a Strategic Entry Point', '加拿大作为战略性进入点')}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 max-w-[800px]">
@@ -68,7 +68,7 @@ export default function CanadaMarketEntry() {
       <section className="section-padding bg-[#F8F9FA]">
         <div className="container-site">
           <p className="text-label mb-3">{t('Suitability', '适合性')}</p>
-          <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
+          <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
             {t('Who Is Suitable for Canada Entry', '谁适合进入加拿大')}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
@@ -93,7 +93,7 @@ export default function CanadaMarketEntry() {
       <section className="section-padding bg-white">
         <div className="container-site">
           <p className="text-label mb-3">{t('Preparation', '准备工作')}</p>
-          <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
+          <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
             {t('What Companies Must Prepare Before Entry', '进入前必须准备什么')}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 max-w-[800px]">
@@ -121,7 +121,7 @@ export default function CanadaMarketEntry() {
       <section className="section-padding bg-[#F8F9FA]">
         <div className="container-site">
           <p className="text-label mb-3">{t('Roadmap', '路线图')}</p>
-          <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
+          <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
             {t('0–90 Day Canada Entry Roadmap', '0–90天加拿大进入路线图')}
           </h2>
           <div className="space-y-4 md:space-y-5 max-w-[800px]">
@@ -153,7 +153,7 @@ export default function CanadaMarketEntry() {
       <section className="section-padding bg-white">
         <div className="container-site">
           <p className="text-label mb-3">{t('Risks', '风险')}</p>
-          <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
+          <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
             {t('Common Risks to Manage', '需要管理的常见风险')}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 max-w-[800px]">
@@ -176,14 +176,14 @@ export default function CanadaMarketEntry() {
       <section className="section-padding bg-[#F8F9FA]">
         <div className="container-site">
           <p className="text-label mb-3">{t('FAQ', '常见问题')}</p>
-          <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
+          <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
             {t('Canada Market Entry FAQ', '加拿大市场进入常见问题')}
           </h2>
           <div className="max-w-[800px] space-y-4">
             {[
-              { q: t('Do I need a Canadian company to sell in Canada?', '我需要在加拿大设立公司才能销售吗？'), a: t('Not necessarily. Many Chinese companies start by selling through Canadian distributors, online marketplaces, or direct B2B sales. A local entity becomes important when you need to import directly, hire local staff, or build brand-owned operations.', '不一定。许多中国企业通过加拿大经销商、在线市场或直接B2B销售开始。当您需要直接进口、雇佣本地员工或建立品牌自有运营时，本地实体才变得重要。') },
+              { q: t('Do I need a Canadian company to sell in Canada?', '我需要在加拿大设立公司才能销售吗？'), a: t('Not necessarily. Many businesses start by selling through Canadian distributors, online marketplaces, or direct B2B sales. A local entity becomes important when you need to import directly, hire local staff, or build brand-owned operations.', '不一定。许多企业通过加拿大经销商、在线市场或直接B2B销售开始。当您需要直接进口、雇佣本地员工或建立品牌自有运营时，本地实体才变得重要。') },
               { q: t('How long does certification take?', '认证需要多长时间？'), a: t('It depends on the product. Simple electrical products may take 4–8 weeks for CSA. Health Canada registrations for food, cosmetics, or medical devices can take 3–12 months. We help you identify requirements early and coordinate with certification bodies.', '取决于产品。简单电气产品CSA认证可能需要4–8周。加拿大卫生部对食品、化妆品或医疗设备的注册可能需要3–12个月。我们帮助您早期识别要求并协调认证机构。') },
-              { q: t('Should I enter Canada or the US first?', '我应该先进入加拿大还是美国？'), a: t('For most Chinese companies, Canada is a lower-risk first step. The market is smaller but more manageable, regulations are more uniform, and success in Canada builds credibility for US conversations. We assess your product, resources, and goals to make a specific recommendation.', '对大多数中国企业来说，加拿大是风险较低的第一步。市场较小但更可控，法规更统一，加拿大的成功为美国对话建立可信度。我们评估您的产品、资源和目标给出具体建议。') },
+              { q: t('Should I enter Canada or the US first?', '我应该先进入加拿大还是美国？'), a: t('For most businesses, Canada is a lower-risk first step. The market is smaller but more manageable, regulations are more uniform, and success in Canada builds credibility for US conversations. We assess your product, resources, and goals to make a specific recommendation.', '对大多数中国企业来说，加拿大是风险较低的第一步。市场较小但更可控，法规更统一，加拿大的成功为美国对话建立可信度。我们评估您的产品、资源和目标给出具体建议。') },
               { q: t('What does your Canada entry service cost?', '您的加拿大进入服务费用是多少？'), a: t('We offer three engagement levels: a diagnostic assessment (0–30 days), a full entry roadmap with execution plan (0–90 days), and ongoing advisory support. Pricing depends on product complexity, scope, and whether compliance coordination is included. Contact us for a tailored estimate.', '我们提供三层合作：诊断评估（0–30天）、完整进入路线图与执行计划（0–90天）、以及持续顾问支持。价格取决于产品复杂度、范围和是否包含合规协调。联系我们获取定制报价。') },
             ].map((faq, i) => (
               <details key={i} className="cme-block group border border-[#E5E5E5] bg-white">
@@ -206,7 +206,7 @@ export default function CanadaMarketEntry() {
       <section className="section-padding bg-[#1a1a2e]">
         <div className="container-site">
           <div className="max-w-[700px]">
-            <h2 className="font-serif text-white text-[28px] md:text-[32px] lg:text-[36px] md:text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6">
+            <h2 className="font-serif text-white text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6">
               {t('Start your Canada market entry assessment.', '开始您的加拿大市场进入评估。')}
             </h2>
             <Link to="/contact" className="btn-primary text-[12px] md:text-[14px]">

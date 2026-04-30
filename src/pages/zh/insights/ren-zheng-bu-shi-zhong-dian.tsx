@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function ZH_RenZhengBuShiZhongDian() {
+  useSEO({
+    title: '认证不是终点 | CCBONLINE INC.',
+    description: 'CSA、UL、FCC认证是必要条件但不是充分条件。拿到认证之后，产品责任、标签合规和售后体系才是真正的难关。',
+    canonical: 'https://www.ccbonline.ca/zh/insights/ren-zheng-bu-shi-zhong-dian',
+    ogType: 'article',
+    lang: 'zh',
+  })
   useEffect(() => {
     document.title = '认证不是终点 | CCBONLINE INC.'
     window.scrollTo(0, 0)

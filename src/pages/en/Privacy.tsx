@@ -1,8 +1,17 @@
 import { useEffect } from 'react'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import useSEO from '../../hooks/useSEO'
+
 
 export default function ENPrivacy() {
+  useSEO({
+    title: 'Privacy Policy | CCBONLINE INC.',
+    description: 'CCBONLINE INC. privacy policy for businesses seeking Canada and North America market entry consulting services.',
+    canonical: 'https://www.ccbonline.ca/en/privacy',
+    ogType: 'website',
+    lang: 'en',
+  })
   useEffect(() => {
     document.title = 'Privacy Policy | CCBONLINE INC.'
     window.scrollTo(0, 0)

@@ -13,8 +13,8 @@ export default function TermsOfUse() {
     {
       h: t('1. Acceptance of Terms', '1. 条款接受'),
       p: t(
-        'By accessing and using ccbonline.ca ("the Website"), you agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use the Website.',
-        '访问和使用 ccbonline.ca（"本网站"）即表示您同意受本使用条款约束。如果您不同意这些条款，请不要使用本网站。'
+        'By accessing and using www.ccbonline.ca ("the Website"), you agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use the Website.',
+        '访问和使用 www.ccbonline.ca（"本网站"）即表示您同意受本使用条款约束。如果您不同意这些条款，请不要使用本网站。'
       ),
     },
     {
@@ -69,7 +69,7 @@ export default function TermsOfUse() {
     <div className="pt-[100px] pb-[60px] md:pt-[140px] md:pb-[80px] bg-white">
       <div className="container-site max-w-[800px]">
         <p className="text-label mb-3">{t('Legal', '法律')}</p>
-        <h1 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-10">
+        <h1 className="font-serif text-[#212121] text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-10">
           {t('Terms of Use', '使用条款')}
         </h1>
         <div className="space-y-8 text-[14px] text-[#555] leading-[1.8]">

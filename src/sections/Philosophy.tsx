@@ -29,8 +29,7 @@ export default function Philosophy() {
             {t('Our Approach', '核心方法论')}
           </p>
           <h2
-            className="font-serif text-white text-[28px] md:text-[32px] lg:text-[36px] md:text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6"
-            style={{ wordBreak: 'keep-all' }}
+            className="font-serif text-white text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6"
           >
             {t(
               'Market entry is not just selling. It is building a responsible local operating path.',
@@ -39,7 +38,7 @@ export default function Philosophy() {
           </h2>
           <p className="text-[12px] md:text-[15px] text-white/60 leading-[1.8] mb-8">
             {t(
-              'Entering North America is not simply about finding buyers or launching a website. For Chinese companies, successful entry requires a practical path across market positioning, compliance coordination, import responsibility, channel development, local service capability, digital trust, and execution discipline.',
+              'Entering North America is not simply about finding buyers or launching a website. Successful entry requires a practical path across market positioning, compliance coordination, import responsibility, channel development, local service capability, digital trust, and execution discipline.',
               '进入北美不是简单找买家或上线一个英文网站。对中国企业来说，真正的进入需要同时解决市场定位、合规协同、进口责任、渠道开发、本地服务、数字化信任和项目执行问题。'
             )}
           </p>

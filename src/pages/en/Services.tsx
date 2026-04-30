@@ -2,6 +2,8 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import useSEO from '../../hooks/useSEO'
+
 
 interface ServiceCard {
   title: string
@@ -11,9 +13,11 @@ interface ServiceCard {
 
 interface ServicePackage {
   name: string
-  title: string
+  tag: string
   for: string
   deliverables: string[]
+  ctaText: string
+  ctaLink: string
 }
 
 const beforeEntryServices: ServiceCard[] = [
@@ -47,21 +51,27 @@ const projectExecutionServices: ServiceCard[] = [
 const servicePackages: ServicePackage[] = [
   {
     name: 'Market Entry Diagnosis Package',
-    title: '最稳方案：北美市场进入诊断包',
-    for: '刚开始考虑加拿大 / 北美市场、不确定是否适合进入、需要先判断方向的企业。',
+    tag: 'Most Stable',
+    for: 'Best for companies that are still deciding whether Canada or North America should become a near-term priority. This package helps management teams make an informed go / no-go judgment before heavier investment.',
     deliverables: ['Market Entry Diagnosis Report', '0–90 Day Entry Roadmap', 'Initial Risk Checklist'],
+    ctaText: 'View Diagnosis Service',
+    ctaLink: '/en/services/market-entry-diagnosis',
   },
   {
     name: 'Customer & Channel Validation Package',
-    title: '最快方案：北美客户与渠道验证包',
-    for: '已有产品、准备开发客户、准备参展或刚参展回来，希望快速验证市场反馈的企业。',
+    tag: 'Fastest',
+    for: 'Best for companies that already have products and want to validate buyers, channels, and outreach direction quickly — especially before or after trade shows, distributor conversations, or early customer development.',
     deliverables: ['Target Customer & Channel Map', 'Outreach Material Checklist', '30-Day Customer Validation Plan'],
+    ctaText: 'View Validation Service',
+    ctaLink: '/en/services/customer-channel-validation',
   },
   {
-    name: 'North America Entry Execution Support',
-    title: '势能最高方案：北美市场进入执行支持包',
-    for: '已经决定进入北美，需要本地合规、渠道、进口、仓储、售后、服务商和项目推进协同的企业。',
-    deliverables: ['Market Entry Execution Roadmap', 'Responsibility Chain & Local Execution Plan', 'Channel Validation & Project Management Dashboard', 'Monthly Review Report'],
+    name: 'North America Entry Execution Support Package',
+    tag: 'Highest Potential',
+    for: 'Best for companies that have already decided to enter North America and now need coordinated support across compliance, importation, warehousing, after-sales, partner communication, and project management.',
+    deliverables: ['Market Entry Execution Roadmap', 'Responsibility Chain & Local Execution Plan', 'Channel Validation & Project Dashboard', 'Monthly Review Report'],
+    ctaText: 'View Execution Support',
+    ctaLink: '/en/services/local-execution-support',
   },
 ]
 
@@ -86,8 +96,15 @@ function ServiceCardComponent({ card }: { card: ServiceCard }) {
 }
 
 export default function ENServices() {
+  useSEO({
+    title: 'Services for Businesses Entering Canada & North America | CCBONLINE INC.',
+    description: 'From market-entry diagnosis and compliance pathway review to channel validation, local execution coordination, and project support.',
+    canonical: 'https://www.ccbonline.ca/en/services',
+    ogType: 'website',
+    lang: 'en',
+  })
   useEffect(() => {
-    document.title = 'Services for Chinese Companies Entering Canada & North America | CCBONLINE INC.'
+    document.title = 'Services for Businesses Entering Canada & North America | CCBONLINE INC.'
     window.scrollTo(0, 0)
   }, [])
 
@@ -99,17 +116,34 @@ export default function ENServices() {
         <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">Services</p>
-            <h1 className="font-serif text-[#212121] text-[32px] md:text-[42px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
-              Services for Chinese Companies Entering Canada & North America
+            <h1 className="font-serif text-[#212121] text-[26px] sm:text-[32px] md:text-[42px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
+              Services for Businesses Entering Canada & North America
             </h1>
             <p className="text-[15px] md:text-[16px] text-[#767676] max-w-[600px] mb-6">
-              From market-entry diagnosis to compliance pathway, channel validation, local partner coordination, and execution support.
+              From market-entry diagnosis and compliance pathway review to channel validation, local execution coordination, and project support.
             </p>
           </div>
         </section>
 
-        {/* Before Entry */}
+        {/* Guidance Box */}
         <section className="section-padding bg-white">
+          <div className="container-site">
+            <div className="max-w-[800px] p-5 md:p-6 bg-[#F8F9FA] border border-[#E5E5E5] mb-8">
+              <h2 className="font-serif text-[#212121] text-[18px] md:text-[22px] leading-[1.35] tracking-tight mb-4">
+                Where should you start?
+              </h2>
+              <ul className="space-y-3 text-[14px] md:text-[15px] text-[#444] leading-[1.65]">
+                <li className="pl-4 border-l-2 border-[#C00000]">If you are still deciding whether North America is the right next market, start with <Link to="/en/services/market-entry-diagnosis" className="text-[#C00000] hover:underline">Market Entry Diagnosis</Link>.</li>
+                <li className="pl-4 border-l-2 border-[#C00000]">If you already have products and want to validate real buyers and channels, start with <Link to="/en/services/customer-channel-validation" className="text-[#C00000] hover:underline">Customer & Channel Validation</Link>.</li>
+                <li className="pl-4 border-l-2 border-[#C00000]">If you are already moving into importation, warehousing, fulfillment, or after-sales planning, start with <Link to="/en/services/local-execution-support" className="text-[#C00000] hover:underline">Local Execution Support</Link>.</li>
+                <li className="pl-4 border-l-2 border-[#C00000]">If you already have multiple moving parts and need ongoing coordination, start with <Link to="/en/services/advisory-retainer" className="text-[#C00000] hover:underline">Advisory Retainer</Link>.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Before Entry */}
+        <section className="section-padding bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">Before Entry</p>
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-4">
@@ -128,7 +162,7 @@ export default function ENServices() {
         </section>
 
         {/* Entry Preparation */}
-        <section className="section-padding bg-[#F8F9FA]">
+        <section className="section-padding bg-white">
           <div className="container-site">
             <p className="text-label mb-3">Entry Preparation</p>
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-4">
@@ -150,7 +184,7 @@ export default function ENServices() {
         </section>
 
         {/* Local Execution */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">Local Execution</p>
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-4">
@@ -169,7 +203,7 @@ export default function ENServices() {
         </section>
 
         {/* Project Execution */}
-        <section className="section-padding bg-[#F8F9FA]">
+        <section className="section-padding bg-white">
           <div className="container-site">
             <p className="text-label mb-3">Project Execution</p>
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-4">
@@ -188,7 +222,7 @@ export default function ENServices() {
         </section>
 
         {/* Service Packages */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">Packages</p>
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-8 md:mb-10">
@@ -196,15 +230,11 @@ export default function ENServices() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6">
               {servicePackages.map((pkg, i) => (
-                <div key={i} className="bg-[#F8F9FA] border border-[#E5E5E5] p-5 md:p-6 flex flex-col">
-                  <p className="text-[11px] text-[#999] uppercase tracking-wider mb-2">
-                    {i === 0 ? 'Most Stable' : i === 1 ? 'Fastest' : 'Highest Potential'}
-                  </p>
+                <div key={i} className="bg-white border border-[#E5E5E5] p-5 md:p-6 flex flex-col">
+                  <p className="text-[11px] text-[#999] uppercase tracking-wider mb-2">{pkg.tag}</p>
                   <h3 className="text-[17px] md:text-[18px] font-semibold mb-3 leading-[1.4]">{pkg.name}</h3>
-                  <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.6] mb-3">
-                    <strong className="font-medium">For:</strong> {pkg.for}
-                  </p>
-                  <div className="mb-4 flex-1">
+                  <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.6] mb-4 flex-1">{pkg.for}</p>
+                  <div className="mb-4">
                     <p className="text-[13px] text-[#999] uppercase tracking-wider mb-2">Deliverables</p>
                     <ul className="space-y-1.5">
                       {pkg.deliverables.map((d, j) => (
@@ -212,7 +242,7 @@ export default function ENServices() {
                       ))}
                     </ul>
                   </div>
-                  <Link to="/en/contact" className="btn-primary text-[14px] px-5 py-3 min-h-[48px] w-full text-center">Inquire About This Package</Link>
+                  <Link to={pkg.ctaLink} className="btn-primary text-[14px] px-5 py-3 min-h-[48px] w-full text-center">{pkg.ctaText}</Link>
                 </div>
               ))}
             </div>

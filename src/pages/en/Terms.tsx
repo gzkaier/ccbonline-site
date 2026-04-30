@@ -1,8 +1,17 @@
 import { useEffect } from 'react'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import useSEO from '../../hooks/useSEO'
+
 
 export default function ENTerms() {
+  useSEO({
+    title: 'Terms of Use | CCBONLINE INC.',
+    description: 'Terms of use for CCBONLINE INC. market entry consulting services for businesses entering Canada and North America.',
+    canonical: 'https://www.ccbonline.ca/en/terms',
+    ogType: 'website',
+    lang: 'en',
+  })
   useEffect(() => {
     document.title = 'Terms of Use | CCBONLINE INC.'
     window.scrollTo(0, 0)

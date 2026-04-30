@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function ZH_QuDaoKaiFaBuShiQunFaYouJian() {
+  useSEO({
+    title: '渠道开发不是群发邮件 | CCBONLINE INC.',
+    description: '在北美找经销商和合作伙伴需要结构化关系建设，不是群发邮件。CCBONLINE解析渠道开发的真实路径与常见误区。',
+    canonical: 'https://www.ccbonline.ca/zh/insights/qu-dao-kai-fa-bu-shi-qun-fa-you-jian',
+    ogType: 'article',
+    lang: 'zh',
+  })
   useEffect(() => {
     document.title = '渠道开发不是群发邮件 | CCBONLINE INC.'
     window.scrollTo(0, 0)

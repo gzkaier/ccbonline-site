@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function ZH_ZhanHuiBuShiQuBaiTan() {
+  useSEO({
+    title: '参展不是去摆摊 | CCBONLINE INC.',
+    description: '北美展会不只是展位和名片，而是市场验证、渠道接触和竞争情报收集的战略工具。CCBONLINE教您如何最大化展会投入产出。',
+    canonical: 'https://www.ccbonline.ca/zh/insights/zhan-hui-bu-shi-qu-bai-tan',
+    ogType: 'article',
+    lang: 'zh',
+  })
   useEffect(() => {
     document.title = '参展不是去摆摊 | CCBONLINE INC.'
     window.scrollTo(0, 0)

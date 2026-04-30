@@ -71,7 +71,7 @@ export default function Contact() {
             <p className="text-[#767676] text-[13px] font-medium tracking-widest uppercase mb-4">
               {t('Contact', '联系我们')}
             </p>
-            <h2 className="font-display italic text-black text-[28px] md:text-[34px] lg:text-[40px] md:text-[32px] md:text-[36px] lg:text-[42px] leading-[1.15] tracking-tight mb-8">
+            <h2 className="font-display italic text-black text-[32px] md:text-[36px] lg:text-[42px] leading-[1.15] tracking-tight mb-8">
               {t('Let\'s Discuss Your Market Entry', '让我们讨论您的市场进入')}
             </h2>
 

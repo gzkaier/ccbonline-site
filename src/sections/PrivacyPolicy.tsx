@@ -13,8 +13,8 @@ export default function PrivacyPolicy() {
     {
       h: t('1. Introduction', '1. 引言'),
       p: t(
-        'CCBONLINE INC. ("we", "us", or "our") respects your privacy. This Privacy Policy explains how we collect, use, and protect your personal information when you visit ccbonline.ca or contact us through our website.',
-        'CCBONLINE INC.（"我们"）尊重您的隐私。本隐私政策说明我们在您访问 ccbonline.ca 或通过网站联系我们时如何收集、使用和保护您的个人信息。'
+        'CCBONLINE INC. ("we", "us", or "our") respects your privacy. This Privacy Policy explains how we collect, use, and protect your personal information when you visit www.ccbonline.ca or contact us through our website.',
+        'CCBONLINE INC.（"我们"）尊重您的隐私。本隐私政策说明我们在您访问 www.ccbonline.ca 或通过网站联系我们时如何收集、使用和保护您的个人信息。'
       ),
     },
     {
@@ -55,7 +55,7 @@ export default function PrivacyPolicy() {
     <div className="pt-[100px] pb-[60px] md:pt-[140px] md:pb-[80px] bg-white">
       <div className="container-site max-w-[800px]">
         <p className="text-label mb-3">{t('Legal', '法律')}</p>
-        <h1 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-10">
+        <h1 className="font-serif text-[#212121] text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-10">
           {t('Privacy Policy', '隐私政策')}
         </h1>
         <div className="space-y-8 text-[14px] text-[#555] leading-[1.8]">

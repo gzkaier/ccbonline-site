@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import useSEO from '../../hooks/useSEO'
+
 
 export default function ENAbout() {
+  useSEO({
+    title: 'About CCBONLINE INC. | North America Market Entry Advisory',
+    description: 'CCBONLINE INC. is a Canada-registered consulting firm based in Toronto, helping manufacturers, brands, and growth-stage businesses enter Canada and North America.',
+    canonical: 'https://www.ccbonline.ca/en/about',
+    ogType: 'website',
+    lang: 'en',
+  })
   useEffect(() => {
     document.title = 'About CCBONLINE INC. | North America Market Entry Advisory'
     window.scrollTo(0, 0)
@@ -16,11 +25,11 @@ export default function ENAbout() {
         <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">About</p>
-            <h1 className="font-serif text-[#212121] text-[32px] md:text-[42px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
+            <h1 className="font-serif text-[#212121] text-[28px] sm:text-[34px] md:text-[42px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
               About CCBONLINE INC.
             </h1>
             <p className="text-[15px] md:text-[16px] text-[#767676] max-w-[600px]">
-              Canada-registered consulting and execution support company helping Chinese businesses enter Canada and North America.
+              Canada-based market entry advisory and execution support company helping businesses enter Canada and North America.
             </p>
           </div>
         </section>
@@ -31,7 +40,7 @@ export default function ENAbout() {
               <div className="md:col-span-4">
                 <img
                   src="/images/about-ccbonline-team-consultation.jpg"
-                  alt="CCBONLINE INC. team consultation in Toronto office, helping Chinese companies plan North America market entry."
+                  alt="CCBONLINE INC. team consultation in Toronto office, helping businesses plan North America market entry."
                   className="w-full h-auto object-cover"
                   loading="lazy"
                 />
@@ -41,13 +50,13 @@ export default function ENAbout() {
                   Market Entry Advisory & Execution Support
                 </h2>
                 <p className="text-[16px] md:text-[17px] text-[#444] leading-[1.65] mb-4">
-                  CCBONLINE INC. is a Canada-registered consulting and execution support company based in Toronto. We help Chinese manufacturers, brands, and industrial companies enter Canada and North America through structured market-entry diagnosis, compliance pathway design, channel validation, local partner coordination, and hands-on execution support.
+                  CCBONLINE INC. is a Canada-registered consulting and execution support company based in Toronto. We support manufacturers, brands, industrial suppliers, and growth-stage companies entering Canada and North America through structured market-entry diagnosis, compliance pathway design, channel validation, local partner coordination, and hands-on execution support.
                 </p>
                 <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.65] mb-5">
-                  We are not a marketing agency, a web development shop, or a lead-generation platform. We are market-entry advisors who combine market judgment, compliance awareness, channel understanding, local resources, and execution discipline to help Chinese companies build a real operating presence in North America.
+                  We are not a marketing agency, a web development shop, or a lead-generation platform. We are market-entry advisors who combine market judgment, compliance awareness, channel understanding, local resources, and execution discipline to help Chinese companies build real operations on the ground in North America.
                 </p>
                 <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65] mb-6">
-                  Our team works directly with each client, providing the structured assessment, practical coordination, and ongoing support needed to turn market-entry plans into real customer conversations, partnerships, and operational presence.
+                  Our work focuses on helping companies move from overseas interest to local execution by aligning market demand, compliance requirements, import responsibility, channel strategy, local operations, documentation, after-sales support, and project execution.
                 </p>
                 <div className="grid grid-cols-2 gap-3 text-[13px] md:text-[14px]">
                   <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">

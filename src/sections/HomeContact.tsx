@@ -27,8 +27,7 @@ export default function HomeContact() {
       <div className="container-site">
         <div className="cta-content max-w-[800px]">
           <h2
-            className="font-serif text-white text-[28px] md:text-[32px] lg:text-[36px] md:text-[30px] md:text-[34px] lg:text-[40px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6"
-            style={{ wordBreak: 'keep-all' }}
+            className="font-serif text-white text-[26px] md:text-[34px] lg:text-[40px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6"
           >
             {t(
               'Three ways to start the conversation.',

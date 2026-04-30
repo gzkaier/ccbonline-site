@@ -15,7 +15,7 @@ export default function WhoWeWorkWith() {
     { icon: ShoppingBag, text: t('Consumer brands preparing for North American launch', '消费品牌，准备进入北美市场') },
     { icon: Wrench, text: t('Industrial suppliers looking for local partners', '工业供应商，寻找本地合作伙伴') },
     { icon: Cpu, text: t('Technology and AI hardware companies requiring structured entry planning', '科技与智能硬件企业，需要结构化进入规划') },
-    { icon: Globe, text: t('Service companies expanding from China into Canada', '服务型企业，从中国扩展至加拿大') },
+    { icon: Globe, text: t('Service companies expanding into Canada', '服务型企业，扩展至加拿大') },
     { icon: Users, text: t('Cross-border teams needing local business support', '跨境团队，需要北美本地商务支持') },
   ]
 
@@ -37,11 +37,11 @@ export default function WhoWeWorkWith() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-14">
           <div className="lg:col-span-4">
             <p className="text-label mb-3">{t('Clients', '客户')}</p>
-            <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight mb-4">
+            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight mb-4">
               {t('Who We Work With', '我们服务的企业')}
             </h2>
             <p className="text-[12px] md:text-[14px] text-[#767676] leading-[1.7]">
-              {t('We work with Chinese companies that are exploring or preparing for Canada and North America market entry.', '我们服务正在探索或准备进入加拿大与北美市场的中国企业。')}
+              {t('We work with businesses exploring or preparing for Canada and North America market entry.', '我们服务正在探索或准备进入加拿大与北美市场的企业。')}
             </p>
           </div>
           <div className="lg:col-span-8">

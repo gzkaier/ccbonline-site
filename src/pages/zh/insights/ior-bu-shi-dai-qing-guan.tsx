@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function ZH_IORBuShiDaiQingGuan() {
+  useSEO({
+    title: '进口记录责任人不是代清关的人 | CCBONLINE INC.',
+    description: '加拿大的进口记录责任人远不只是清关文件上的一个名字，而是承担法律责任的实体。CCBONLINE为您解析IOR的真实含义与风险边界。',
+    canonical: 'https://www.ccbonline.ca/zh/insights/ior-bu-shi-dai-qing-guan',
+    ogType: 'article',
+    lang: 'zh',
+  })
   useEffect(() => {
     document.title = '进口记录责任人不是代清关的人 | CCBONLINE INC.'
     window.scrollTo(0, 0)

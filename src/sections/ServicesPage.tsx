@@ -45,7 +45,7 @@ export default function ServicesPage() {
       num: '02',
       title: t('Compliance Pathway Mapping', '合规路径绘制'),
       what: t('A detailed map of the certification, customs, tax, and regulatory requirements your product must meet to enter Canada or the US legally and safely.', '您的产品必须满足的认证、清关、税务和监管要求的详细地图，以合法安全地进入加拿大或美国。'),
-      why: t('Compliance gaps are the single most common reason Chinese products get held at customs, rejected by distributors, or recalled from market. Knowing the pathway before you ship saves time, money, and reputation.', '合规差距是中国产品被海关扣留、被经销商拒绝或从市场召回的最常见原因。发货前了解路径可节省时间、资金和声誉。'),
+      why: t('Compliance gaps are the single most common reason products from overseas get held at customs, rejected by distributors, or recalled from market. Knowing the pathway before you ship saves time, money, and reputation.', '合规差距是中国产品被海关扣留、被经销商拒绝或从市场召回的最常见原因。发货前了解路径可节省时间、资金和声誉。'),
       deliver: [
         t('Product-specific certification requirement list (CSA, UL, FCC, IC, Health Canada)', '产品特定认证要求清单（CSA、UL、FCC、IC、加拿大卫生部）'),
         t('Import pathway design (direct, broker, distributor, subsidiary)', '进口路径设计（直接、代理、经销商、子公司）'),
@@ -100,7 +100,7 @@ export default function ServicesPage() {
       <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
         <div className="container-site">
           <p className="text-label mb-3">{t('Services', '服务')}</p>
-          <h1 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[32px] md:text-[36px] lg:text-[42px] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[800px] mb-4">
+          <h1 className="font-serif text-[#212121] text-[32px] md:text-[36px] lg:text-[42px] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[800px] mb-4">
             {t('From Diagnosis to Execution', '从诊断到执行')}
           </h1>
           <p className="text-[12px] md:text-[14px] text-[#767676] max-w-[560px]">
@@ -115,7 +115,7 @@ export default function ServicesPage() {
             <div key={s.num} className="sp-block">
               <div className="flex items-baseline gap-3 mb-5">
                 <span className="text-[#C00000] text-[12px] font-bold">{s.num}</span>
-                <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight">{s.title}</h2>
+                <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight">{s.title}</h2>
               </div>
 
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 mb-6">
@@ -151,7 +151,7 @@ export default function ServicesPage() {
       <section className="section-padding bg-[#1a1a2e]">
         <div className="container-site">
           <div className="max-w-[700px]">
-            <h2 className="font-serif text-white text-[28px] md:text-[32px] lg:text-[36px] md:text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6">
+            <h2 className="font-serif text-white text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6">
               {t('Not sure which service fits your stage?', '不确定哪个服务适合您的阶段？')}
             </h2>
             <Link to="/contact" className="btn-primary text-[12px] md:text-[14px]">

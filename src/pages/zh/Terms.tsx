@@ -1,8 +1,17 @@
 import { useEffect } from 'react'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import useSEO from '../../hooks/useSEO'
+
 
 export default function ZHTerms() {
+  useSEO({
+    title: '使用条款 | CCBONLINE INC.',
+    description: 'CCBONLINE INC. 市场进入咨询服务的使用条款，面向进入加拿大和北美市场的中国企业。',
+    canonical: 'https://www.ccbonline.ca/zh/terms',
+    ogType: 'website',
+    lang: 'zh',
+  })
   useEffect(() => {
     document.title = '使用条款 | CCBONLINE INC.'
     window.scrollTo(0, 0)

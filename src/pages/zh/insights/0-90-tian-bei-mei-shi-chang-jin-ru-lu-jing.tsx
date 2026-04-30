@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function ZH_90TianBeiMeiShiChangJinRuLuJing() {
+  useSEO({
+    title: '北美市场进入的 0-90 天路径 | CCBONLINE INC.',
+    description: '中国企业进入加拿大和北美市场的0-90天实战路线图：从可行性诊断、合规梳理到渠道验证和本地执行，每一步都清晰可执行。',
+    canonical: 'https://www.ccbonline.ca/zh/insights/0-90-tian-bei-mei-shi-chang-jin-ru-lu-jing',
+    ogType: 'article',
+    lang: 'zh',
+  })
   useEffect(() => {
     document.title = '北美市场进入的 0–90 天路径 | CCBONLINE INC.'
     window.scrollTo(0, 0)

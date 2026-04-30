@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function ZH_BeiMeiShiChangJinRuZeRenLian() {
+  useSEO({
+    title: '北美市场进入的核心，是责任链 | CCBONLINE INC.',
+    description: '北美市场进入不是找到产品和客户就够了，背后有一条隐藏的责任链。CCBONLINE解析从进口、认证到经销、保修的完整责任归属。',
+    canonical: 'https://www.ccbonline.ca/zh/insights/bei-mei-shi-chang-jin-ru-ze-ren-lian',
+    ogType: 'article',
+    lang: 'zh',
+  })
   useEffect(() => {
     document.title = '北美市场进入的核心，是责任链 | CCBONLINE INC.'
     window.scrollTo(0, 0)

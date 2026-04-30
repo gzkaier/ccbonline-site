@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function EN_importer_of_record_is_not_just_customs_clearance() {
+  useSEO({
+    title: 'Importer of Record Is Not Just Customs Clearance | CCBONLINE INC.',
+    description: 'The Importer of Record in Canada and North America carries legal liability far beyond customs clearance. CCBONLINE explains what IOR really means, why it matters for overseas companies, and how to choose the right entity.',
+    canonical: 'https://www.ccbonline.ca/en/insights/importer-of-record-is-not-just-customs-clearance',
+    ogType: 'article',
+    lang: 'en',
+  })
   useEffect(() => {
     document.title = 'Importer of Record Is Not Just Customs Clearance | CCBONLINE INC.'
     window.scrollTo(0, 0)
@@ -31,7 +40,7 @@ export default function EN_importer_of_record_is_not_just_customs_clearance() {
               Why This Matters
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              Many Chinese companies ask their freight forwarder or a friendly contact in Canada to 'handle customs' without understanding that this person or entity becomes the Importer of Record (IOR) on government records. The IOR is legally responsible for the accuracy of customs declarations, the payment of duties and taxes, and increasingly, for product safety compliance. If the Canada Border Services Agency (CBSA) or U.S. Customs discovers a discrepancy, it is the IOR who receives penalties, audits, and potential legal action. If a product causes harm and the manufacturer is overseas, regulators and plaintiffs' lawyers will look for the local responsible party—and that is the IOR.
+              Many overseas companies ask their freight forwarder or a friendly contact in Canada to 'handle customs' without understanding that this person or entity becomes the Importer of Record (IOR) on government records. The IOR is legally responsible for the accuracy of customs declarations, the payment of duties and taxes, and increasingly, for product safety compliance. If the Canada Border Services Agency (CBSA) or U.S. Customs discovers a discrepancy, it is the IOR who receives penalties, audits, and potential legal action. If a product causes harm and the manufacturer is overseas, regulators and plaintiffs' lawyers will look for the local responsible party—and that is the IOR.
             </p>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
@@ -47,7 +56,7 @@ export default function EN_importer_of_record_is_not_just_customs_clearance() {
               What Companies Should Examine
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              Before designating an IOR, Chinese companies should examine: (1) Does the IOR understand what products they are importing and the associated regulatory requirements? (2) Is the IOR a legitimate business entity with the capacity to respond to government inquiries? (3) What happens if the IOR goes out of business or refuses to continue in the role? (4) Who maintains import records and for how long? (5) What is the IOR's exposure if product safety issues arise? (6) Has the IOR obtained proper business numbers (BN/RST in Canada, EIN in the U.S.) for importation?
+              Before designating an IOR, overseas companies should examine: (1) Does the IOR understand what products they are importing and the associated regulatory requirements? (2) Is the IOR a legitimate business entity with the capacity to respond to government inquiries? (3) What happens if the IOR goes out of business or refuses to continue in the role? (4) Who maintains import records and for how long? (5) What is the IOR's exposure if product safety issues arise? (6) Has the IOR obtained proper business numbers (BN/RST in Canada, EIN in the U.S.) for importation?
             </p>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">

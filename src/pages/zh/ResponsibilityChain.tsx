@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import useSEO from '../../hooks/useSEO'
+
 
 export default function ZHResponsibilityChain() {
+  useSEO({
+    title: '北美进口产品责任链 | CCBONLINE INC.',
+    description: '理解北美市场进入背后的责任链：谁负责进口、认证、经销、保修和售后支持。',
+    canonical: 'https://www.ccbonline.ca/zh/responsibility-chain',
+    ogType: 'website',
+    lang: 'zh',
+  })
   useEffect(() => {
     document.title = '北美进口产品责任链 | CCBONLINE INC.'
     window.scrollTo(0, 0)

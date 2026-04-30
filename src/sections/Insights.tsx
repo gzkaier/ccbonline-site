@@ -12,7 +12,7 @@ export default function Insights() {
 
   useEffect(() => {
     document.title = t(
-      'Insights — Canada & North America Market Entry for Chinese Businesses | CCBONLINE INC.',
+      'Insights — Canada & North America Market Entry | CCBONLINE INC.',
       '洞察 — 中国企业加拿大与北美市场进入 | CCBONLINE INC.'
     )
     window.scrollTo(0, 0)
@@ -30,20 +30,20 @@ export default function Insights() {
   const articles = [
     {
       category: t('Canada Entry', '加拿大进入'),
-      title: t('Why Canada Is Often the Right First Step for Chinese Manufacturers', '为什么加拿大常是中国制造商的正确第一步'),
+      title: t('Why Canada Is Often the Right First Step for Manufacturers', '为什么加拿大常是制造商的正确第一步'),
       excerpt: t('Lower risk, uniform regulation, and strong trade infrastructure make Canada a practical testing ground before US expansion.', '较低的风险、统一的法规和强大的贸易基础设施使加拿大成为美国扩张前的实用试验场。'),
       date: '2026.04',
     },
     {
       category: t('Compliance', '合规'),
-      title: t('CSA, UL, and FCC: What Chinese Exporters Must Know', 'CSA、UL和FCC：中国出口商必须知道的'),
+      title: t('CSA, UL, and FCC: What Exporters Must Know', 'CSA、UL和FCC：出口商必须知道的'),
       excerpt: t('Certification requirements vary dramatically by product type. Here is a practical guide to navigating the North American certification landscape.', '认证要求因产品类型差异很大。这是一份帮你理清北美认证要求的实用指南。'),
       date: '2026.03',
     },
     {
       category: t('Responsibility Chain', '责任链'),
       title: t('The Invisible Risks of North American Market Entry', '北美市场进入的隐形风险'),
-      excerpt: t('Product liability, warranty disputes, and insurance gaps often catch Chinese companies by surprise. How to build protection before you ship.', '产品责任、保修纠纷和保险缺口常让中国企业措手不及。如何在发货前建立保护。'),
+      excerpt: t('Product liability, warranty disputes, and insurance gaps often catch overseas companies by surprise. How to build protection before you ship.', '产品责任、保修纠纷和保险缺口常让海外企业措手不及。如何在发货前建立保护。'),
       date: '2026.03',
     },
     {
@@ -55,7 +55,7 @@ export default function Insights() {
     {
       category: t('Strategy', '策略'),
       title: t('0–90 Day Roadmap: From First Conversation to First Order in Canada', '0–90天路线图：从第一次对话到加拿大第一笔订单'),
-      excerpt: t('A week-by-week breakdown of what Chinese companies should do in their first 90 days of Canada market entry.', '中国企业进入加拿大市场前90天每周应该做什么的逐周分解。'),
+      excerpt: t('A week-by-week breakdown of what companies should do in their first 90 days of Canada market entry.', '企业进入加拿大市场前90天每周应该做什么的逐周分解。'),
       date: '2026.02',
     },
     {
@@ -71,8 +71,8 @@ export default function Insights() {
       <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
         <div className="container-site">
           <p className="text-label mb-3">{t('Insights', '洞察')}</p>
-          <h1 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[32px] md:text-[36px] lg:text-[42px] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[800px] mb-4">
-            {t('Market Entry Insights for Chinese Businesses', '中国企业市场进入洞察')}
+          <h1 className="font-serif text-[#212121] text-[32px] md:text-[36px] lg:text-[42px] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[800px] mb-4">
+            {t('Market Entry Insights', '市场进入洞察')}
           </h1>
           <p className="text-[12px] md:text-[14px] text-[#767676] max-w-[600px]">
             {t('Practical guidance on Canada and North America market entry, compliance, channel development, and execution.', '关于加拿大和北美市场进入、合规、渠道开发和执行的实用指导。')}
@@ -103,7 +103,7 @@ export default function Insights() {
 
       <section className="section-padding bg-[#F8F9FA]">
         <div className="container-site text-center">
-          <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[24px] md:text-[28px] lg:text-[32px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mx-auto mb-6">
+          <h2 className="font-serif text-[#212121] text-[24px] md:text-[28px] lg:text-[32px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mx-auto mb-6">
             {t('Want personalized market entry guidance?', '想要个性化的市场进入指导？')}
           </h2>
           <Link to="/contact" className="btn-primary text-[12px] md:text-[14px]">

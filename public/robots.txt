@@ -1,8 +1,20 @@
-User-Agent: *
+User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /api/
+Disallow: /internal/
+Disallow: /temp/
 
-Sitemap: https://ccbonline.ca/sitemap.xml
+# Crawl rate
+Crawl-delay: 1
 
-Host: https://ccbonline.ca
+# Host
+Host: https://www.ccbonline.ca
+
+# Sitemap location
+Sitemap: https://www.ccbonline.ca/sitemap.xml
+
+# Note: This is a single-page application (SPA) built with React.
+# The sitemap.xml provides a complete list of all pages for crawlers.
+# All content is rendered client-side. Pre-rendering or SSR is recommended
+# for optimal SEO performance with this SPA.

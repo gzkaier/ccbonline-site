@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import useSEO from '../../hooks/useSEO'
+
 
 export default function ENResponsibilityChain() {
+  useSEO({
+    title: 'North America Market Entry Responsibility Chain | CCBONLINE INC.',
+    description: 'Understand the responsibility chain behind North America market entry: who is responsible for importation, certification, distribution, warranty, and after-sales support.',
+    canonical: 'https://www.ccbonline.ca/en/responsibility-chain',
+    ogType: 'website',
+    lang: 'en',
+  })
   useEffect(() => {
     document.title = 'North America Responsibility Chain for Imported Products | CCBONLINE INC.'
     window.scrollTo(0, 0)
@@ -35,7 +44,7 @@ export default function ENResponsibilityChain() {
               The responsibility chain is the complete set of obligations, risks, and accountabilities that a company assumes when bringing a product into North America. It starts before the product leaves China and continues until the product is safely in the customer's hands — and beyond.
             </p>
             <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.65] max-w-[720px]">
-              For Chinese companies, the responsibility chain is often invisible until something goes wrong: a customs hold, a product recall, a warranty dispute, or a liability claim. Our role is to make this chain visible, manageable, and properly assigned before you ship.
+              For companies entering from overseas, the responsibility chain is often invisible until something goes wrong: a customs hold, a product recall, a warranty dispute, or a liability claim. Our role is to make this chain visible, manageable, and properly assigned before you ship.
             </p>
           </div>
         </section>

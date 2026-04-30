@@ -2,10 +2,19 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import useSEO from '../../hooks/useSEO'
+
 
 export default function ENCanadaMarketEntry() {
+  useSEO({
+    title: 'Canada Market Entry Advisory | CCBONLINE INC.',
+    description: 'CCBONLINE INC. helps businesses enter the Canadian market through structured market-entry diagnosis, compliance pathway design, and local partner coordination.',
+    canonical: 'https://www.ccbonline.ca/en/canada-market-entry',
+    ogType: 'website',
+    lang: 'en',
+  })
   useEffect(() => {
-    document.title = 'Canada Market Entry for Chinese Businesses | CCBONLINE INC.'
+    document.title = 'Canada Market Entry Advisory | CCBONLINE INC.'
     window.scrollTo(0, 0)
   }, [])
 
@@ -17,10 +26,10 @@ export default function ENCanadaMarketEntry() {
           <div className="container-site">
             <p className="text-label mb-3">Canada Market Entry</p>
             <h1 className="font-serif text-[#212121] text-[32px] md:text-[42px] leading-[1.3] tracking-tight max-w-[850px] mb-4">
-              Canada Market Entry for Chinese Businesses
+              Canada Market Entry Advisory
             </h1>
             <p className="text-[15px] md:text-[16px] text-[#767676] max-w-[600px] leading-[1.65]">
-              A practical pathway from exploration to local operations — designed for Chinese manufacturers, brands, and industrial companies.
+              A practical pathway from exploration to local operations — for manufacturers, brands, and industrial companies.
             </p>
           </div>
         </section>

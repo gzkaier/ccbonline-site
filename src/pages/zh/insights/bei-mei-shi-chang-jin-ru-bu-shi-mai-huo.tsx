@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function ZH_BeiMeiShiChangJinRuBuShiMaiHuo() {
+  useSEO({
+    title: '北美市场进入，不是把货卖出去 | CCBONLINE INC.',
+    description: '真正的北美市场进入不是找到客户把货卖出去，而是搭建从合规、进口、渠道、仓储到本地责任主体的完整进入路径。',
+    canonical: 'https://www.ccbonline.ca/zh/insights/bei-mei-shi-chang-jin-ru-bu-shi-mai-huo',
+    ogType: 'article',
+    lang: 'zh',
+  })
   useEffect(() => {
     document.title = '北美市场进入，不是把货卖出去 | CCBONLINE INC.'
     window.scrollTo(0, 0)

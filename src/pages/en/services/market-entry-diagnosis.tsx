@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function EN_market_entry_diagnosis() {
+  useSEO({
+    title: 'Market Entry Diagnosis for Canada & North America | CCBONLINE INC.',
+    description: 'CCBONLINE helps businesses assess whether they are ready to enter Canada or North America, which market should come first, and what risks must be addressed.',
+    canonical: 'https://www.ccbonline.ca/en/services/market-entry-diagnosis',
+    ogType: 'article',
+    lang: 'en',
+  })
   useEffect(() => {
     document.title = 'Market Entry Diagnosis for Canada & North America | CCBONLINE INC.'
     window.scrollTo(0, 0)
@@ -30,17 +39,24 @@ export default function EN_market_entry_diagnosis() {
             <div className="mb-10">
               <img
                 src="/images/services-market-entry-diagnosis.jpg"
-                alt="Market Entry Diagnosis for Canada & North America — CCBONLINE helping Chinese companies with North America market entry."
+                alt="Market Entry Diagnosis for Canada & North America — CCBONLINE helping businesses with North America market entry."
                 className="w-full h-auto max-h-[400px] object-cover"
                 loading="lazy"
               />
             </div>
 
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
+                        <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
+              What This Service Is
+            </h2>
+            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
+              Market Entry Diagnosis is a structured readiness assessment CCBONLINE provides before you commit significant budget to North America. We do not make the go / no-go decision for you. We review your product, materials, and assumptions against North American buyer expectations, compliance thresholds, and competitive reality — so you understand whether you are ready, what is missing, and which market to enter first before spending on certification, travel, or distributor negotiations.
+            </p>
+
+<h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
               Who This Service Is For
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Chinese manufacturers considering their first North American market entry</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Manufacturers considering their first North American market entry</li>
             <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Companies unsure whether Canada or the U.S. should be the first priority</li>
             <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Leadership teams needing a structured readiness assessment before allocating budget</li>
             <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Businesses that have tried entering North America before but encountered compliance or channel setbacks</li>
@@ -57,9 +73,13 @@ export default function EN_market_entry_diagnosis() {
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
               What We Review or Support
             </h2>
-            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              CCBONLINE reviews your product-market fit for North America, assesses whether Canada or the U.S. is the better first entry point, screens for major compliance and certification requirements, identifies your target customer profile and realistic channel options, and produces a practical 0-90 day action roadmap with an initial risk checklist.
-            </p>
+            <ul className="space-y-3 mb-10">
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Product-Market Fit Screening</strong> — whether your product features, pricing, and certifications match what North American buyers expect</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Canada vs. U.S. Priority Assessment</strong> — which market should come first based on your product category, competition, compliance barriers, and channel availability</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Compliance and Certification Gap Identification</strong> — mandatory certifications, import licenses, labeling requirements, and responsibility-chain prerequisites</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Target Customer Profile and Channel Direction</strong> — who is most likely to buy, through which channels, and how long the decision cycle typically takes</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Current Material and Capability Review</strong> — whether your English materials, product documentation, and samples are ready for professional presentation</li>
+            </ul>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
               Key Deliverables
@@ -87,7 +107,7 @@ export default function EN_market_entry_diagnosis() {
               Recommended Next Step
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
-              Book a preliminary consultation to discuss your product, current North America exposure, and key questions. We will outline whether a full Market Entry Diagnosis is the right next step.
+              Book a preliminary consultation to discuss your product, current North America exposure, and key questions. We will outline whether a full Market Entry Diagnosis is the right next step. Most companies that skip this step waste 3-6 months chasing the wrong market or preparing the wrong materials. A diagnosis costs far less than one failed distributor relationship or one shipment held at customs.
             </p>
             <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px] inline-block mb-10">Book a Consultation</Link>
           </div>
@@ -140,7 +160,7 @@ export default function EN_market_entry_diagnosis() {
             </div>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
-              Related Resources
+              Related Pages
             </h2>
             <ul className="space-y-2 mb-8">
           <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">All Services</Link></li>

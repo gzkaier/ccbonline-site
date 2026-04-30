@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function EN_compliance_responsibility_chain() {
+  useSEO({
+    title: 'Compliance & Responsibility Chain Screening | CCBONLINE INC.',
+    description: 'CCBONLINE helps businesses identify the major compliance, certification, import, and responsibility gaps before entering Canada and North America.',
+    canonical: 'https://www.ccbonline.ca/en/services/compliance-responsibility-chain',
+    ogType: 'article',
+    lang: 'en',
+  })
   useEffect(() => {
     document.title = 'Compliance & Responsibility Chain Screening | CCBONLINE INC.'
     window.scrollTo(0, 0)
@@ -30,13 +39,20 @@ export default function EN_compliance_responsibility_chain() {
             <div className="mb-10">
               <img
                 src="/images/services-compliance-responsibility-chain.jpg"
-                alt="Compliance & Responsibility Chain Screening — CCBONLINE helping Chinese companies with North America market entry."
+                alt="Compliance & Responsibility Chain Screening — CCBONLINE helping businesses with North America market entry."
                 className="w-full h-auto max-h-[400px] object-cover"
                 loading="lazy"
               />
             </div>
 
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
+                        <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
+              What This Service Is
+            </h2>
+            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
+              Compliance & Responsibility Chain Screening is a pre-shipment gap analysis that maps the certification, import, liability, and documentation requirements specific to your product category before you sign, ship, or commit. North America has strict and specific rules for product safety, labeling, import responsibility, and after-sales liability. Many companies discover these requirements only after a shipment is held at customs or a customer raises a product complaint. This service prevents those surprises by identifying what you need before the first order.
+            </p>
+
+<h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
               Who This Service Is For
             </h2>
             <ul className="space-y-3 mb-10">
@@ -57,9 +73,14 @@ export default function EN_compliance_responsibility_chain() {
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
               What We Review or Support
             </h2>
-            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              CCBONLINE screens for certification requirements relevant to your product and target market, reviews who should serve as Importer of Record and what liabilities that involves, checks documentation consistency across product claims, labels, and specifications, evaluates after-sales responsibility allocation, and identifies which professional partners — certification labs, customs brokers, insurers, legal advisors — you will need to engage.
-            </p>
+            <ul className="space-y-3 mb-10">
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Certification Requirement Screening</strong> — identification of CSA, UL, FCC, FDA, Health Canada, or other requirements specific to your product and target market</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Import Responsibility Review</strong> — assessment of who should serve as Importer of Record and what liabilities, documentation, and ongoing obligations that entails</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Documentation Gap List</strong> — specific documents that are missing, inconsistent, or inadequate for North American import and sale</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Product Claim Risk Review</strong> — evaluation of marketing claims against local advertising and product liability standards</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">After-Sales Responsibility Review</strong> — assessment of who will handle warranty, returns, repairs, and spare parts in North America</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Professional Partner Coordination Suggestions</strong> — recommendations on which certified professionals to engage for each identified gap</li>
+            </ul>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
               Key Deliverables
@@ -87,7 +108,7 @@ export default function EN_compliance_responsibility_chain() {
               Recommended Next Step
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
-              Contact us with your product category, target market, and current certification status. We will determine whether a Compliance & Responsibility Chain Screening is the right next step.
+              Contact us with your product category, target market, and current certification status. We will determine whether a Compliance & Responsibility Chain Screening is the right next step. One customs hold, one labeling rejection, or one liability dispute can cost more than the entire screening service. We help you see the gaps before they become expensive problems.
             </p>
             <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px] inline-block mb-10">Book a Consultation</Link>
           </div>
@@ -140,7 +161,7 @@ export default function EN_compliance_responsibility_chain() {
             </div>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
-              Related Resources
+              Related Pages
             </h2>
             <ul className="space-y-2 mb-8">
           <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">All Services</Link></li>

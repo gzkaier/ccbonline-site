@@ -48,7 +48,7 @@ export default function CoreValues() {
     <section ref={sectionRef} className="section-padding bg-[#F8F9FA]">
       <div className="container-site">
         <p className="text-label mb-3">{t('Principles', '核心原则')}</p>
-        <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[24px] md:text-[28px] lg:text-[32px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[560px] mb-10 md:mb-12">
+        <h2 className="font-serif text-[#212121] text-[24px] md:text-[28px] lg:text-[32px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[560px] mb-10 md:mb-12">
           {t('Reduce risk at every step.', '每一步都降低风险。')}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">

@@ -2,6 +2,8 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import useSEO from '../../hooks/useSEO'
+
 
 interface InsightCard {
   title: string
@@ -161,6 +163,13 @@ function InsightSection({ title, label, cards }: { title: string; label: string;
 }
 
 export default function ZHInsights() {
+  useSEO({
+    title: '北美市场进入洞察 | CCBONLINE INC.',
+    description: '关于市场进入、合规、渠道开发和执行的专业观点，帮助中国企业进入加拿大和北美市场。',
+    canonical: 'https://www.ccbonline.ca/zh/insights',
+    ogType: 'website',
+    lang: 'zh',
+  })
   useEffect(() => {
     document.title = '北美市场进入洞察 | CCBONLINE INC.'
     window.scrollTo(0, 0)
@@ -174,7 +183,7 @@ export default function ZHInsights() {
         <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">洞察</p>
-            <h1 className="font-serif text-[#212121] text-[32px] md:text-[42px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
+            <h1 className="font-serif text-[#212121] text-[28px] sm:text-[34px] md:text-[40px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
               北美市场进入洞察
             </h1>
             <p className="text-[16px] md:text-[17px] text-[#767676] max-w-[600px]">

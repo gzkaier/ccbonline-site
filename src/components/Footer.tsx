@@ -63,6 +63,7 @@ export default function Footer({ lang }: FooterProps) {
               {lang === 'en' ? 'Contact' : '联系'}
             </h4>
             <div className="space-y-2 text-[13px]">
+              <p>www.ccbonline.ca</p>
               <p>info@ccbonline.ca</p>
               <p>+1 647 568 1128</p>
               <p>Toronto, Ontario, Canada</p>

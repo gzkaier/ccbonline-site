@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import useSEO from '../../hooks/useSEO'
+
 
 export default function ZHCanadaMarketEntry() {
+  useSEO({
+    title: '中国企业加拿大市场进入咨询 | CCBONLINE INC.',
+    description: 'CCBONLINE INC. 帮助中国企业通过结构化的市场进入诊断、合规路径设计和本地合作伙伴协调进入加拿大市场。',
+    canonical: 'https://www.ccbonline.ca/zh/canada-market-entry',
+    ogType: 'website',
+    lang: 'zh',
+  })
   useEffect(() => {
     document.title = '中国企业加拿大市场进入咨询 | CCBONLINE INC.'
     window.scrollTo(0, 0)

@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function EN_market_entry_is_not_selling_overseas() {
+  useSEO({
+    title: 'Market Entry Is Not the Same as Selling Overseas | CCBONLINE INC.',
+    description: 'Selling overseas is a transaction. Market entry is a system. CCBONLINE explains what overseas companies must understand before entering Canada and North America.',
+    canonical: 'https://www.ccbonline.ca/en/insights/market-entry-is-not-selling-overseas',
+    ogType: 'article',
+    lang: 'en',
+  })
   useEffect(() => {
     document.title = 'Market Entry Is Not the Same as Selling Overseas | CCBONLINE INC.'
     window.scrollTo(0, 0)
@@ -31,7 +40,7 @@ export default function EN_market_entry_is_not_selling_overseas() {
               Why This Matters
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              Many Chinese companies believe that once they find a buyer in North America, they have 'entered' the market. This misunderstanding leads to shipment delays, compliance penalties, distributor disputes, and eventual withdrawal. North America is not a single market—it is a regulated economic zone with distinct legal frameworks in Canada and the United States. Each province and state has its own rules for product registration, tax collection, warranty obligations, and after-sales service.
+              Many overseas companies believe that once they find a buyer in North America, they have 'entered' the market. This misunderstanding leads to shipment delays, compliance penalties, distributor disputes, and eventual withdrawal. North America is not a single market—it is a regulated economic zone with distinct legal frameworks in Canada and the United States. Each province and state has its own rules for product registration, tax collection, warranty obligations, and after-sales service.
             </p>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
@@ -47,7 +56,7 @@ export default function EN_market_entry_is_not_selling_overseas() {
               What Companies Should Examine
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              Before committing to a market entry strategy, Chinese companies should examine: (1) Whether their product requires certification (CSA, UL, FCC, FDA, Health Canada) and how long certification takes. (2) Who will serve as Importer of Record and what that party's legal responsibilities include. (3) Whether their product packaging and labeling meet local requirements in the target province or state. (4) What warranty and return obligations apply and how they will be fulfilled locally. (5) Whether their pricing structure accounts for distributor margins, logistics costs, import duties, and local taxes.
+              Before committing to a market entry strategy, overseas companies should examine: (1) Whether their product requires certification (CSA, UL, FCC, FDA, Health Canada) and how long certification takes. (2) Who will serve as Importer of Record and what that party's legal responsibilities include. (3) Whether their product packaging and labeling meet local requirements in the target province or state. (4) What warranty and return obligations apply and how they will be fulfilled locally. (5) Whether their pricing structure accounts for distributor margins, logistics costs, import duties, and local taxes.
             </p>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">

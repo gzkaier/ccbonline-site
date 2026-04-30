@@ -1,8 +1,17 @@
 import { useEffect } from 'react'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import useSEO from '../../hooks/useSEO'
+
 
 export default function ZHPrivacy() {
+  useSEO({
+    title: '隐私政策 | CCBONLINE INC.',
+    description: 'CCBONLINE INC. 隐私政策，面向寻求加拿大和北美市场进入咨询服务的中国企业。',
+    canonical: 'https://www.ccbonline.ca/zh/privacy',
+    ogType: 'website',
+    lang: 'zh',
+  })
   useEffect(() => {
     document.title = '隐私政策 | CCBONLINE INC.'
     window.scrollTo(0, 0)

@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function EN_local_execution_support() {
+  useSEO({
+    title: 'Local Execution Support in Canada & North America | CCBONLINE INC.',
+    description: 'CCBONLINE helps businesses coordinate the local execution side of North America market entry — importation, warehousing, fulfillment, returns, and after-sales support.',
+    canonical: 'https://www.ccbonline.ca/en/services/local-execution-support',
+    ogType: 'article',
+    lang: 'en',
+  })
   useEffect(() => {
     document.title = 'Local Execution Support in Canada & North America | CCBONLINE INC.'
     window.scrollTo(0, 0)
@@ -30,19 +39,26 @@ export default function EN_local_execution_support() {
             <div className="mb-10">
               <img
                 src="/images/services-local-execution-support.jpg"
-                alt="Local Execution Support in Canada & North America — CCBONLINE helping Chinese companies with North America market entry."
+                alt="Local Execution Support in Canada & North America — CCBONLINE helping businesses with North America market entry."
                 className="w-full h-auto max-h-[400px] object-cover"
                 loading="lazy"
               />
             </div>
 
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
+                        <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
+              What This Service Is
+            </h2>
+            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
+              Local Execution Support is operational coordination for companies that have validated customer interest and channel readiness and now need to get products into Canada or the U.S. reliably. We do not own warehouses, operate trucks, or clear customs. We coordinate with licensed local partners to design your import pathway, clarify who receives the goods, manage inventory handoffs, plan returns and spare parts availability, and maintain communication between your headquarters and North American operational partners.
+            </p>
+
+<h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
               Who This Service Is For
             </h2>
             <ul className="space-y-3 mb-10">
             <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Companies that have validated customer interest and need to set up local operational infrastructure</li>
             <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Businesses that have a first order but do not know how to get products into Canada or the U.S. compliantly</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Teams that need to coordinate between Chinese headquarters and North American logistics or service partners</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Teams that need to coordinate between overseas headquarters and North American logistics or service partners</li>
             <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Companies preparing for a pilot launch and needing a small-scale local execution plan</li>
 
             </ul>
@@ -57,9 +73,14 @@ export default function EN_local_execution_support() {
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
               What We Review or Support
             </h2>
-            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              CCBONLINE coordinates your import pathway design, clarifies the Importer of Record role and alternatives, matches warehousing and third-party logistics options to your volume and product type, designs return and replacement process workflows, plans spare parts readiness and after-sales response capability, and supports ongoing communication with local operational partners.
-            </p>
+            <ul className="space-y-3 mb-10">
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Import Pathway Coordination</strong> — design of the import route, customs strategy, and documentation handoff between your team, freight forwarder, and customs broker</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Importer of Record Role Clarification</strong> — clear definition of who serves as IOR and their legal and operational responsibilities</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Warehousing and 3PL Matching</strong> — matching with local warehousing and logistics partners suited to your product type and volume</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Return and Replacement Workflow Design</strong> — process for handling returns, defects, and exchanges in North America</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Spare Parts Readiness Planning</strong> — plan for maintaining spare parts availability and local service response capability</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Local Partner Communication Support</strong> — ongoing coordination between your team and North American operational partners</li>
+            </ul>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
               Key Deliverables
@@ -87,7 +108,7 @@ export default function EN_local_execution_support() {
               Recommended Next Step
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
-              Schedule a local execution assessment to review your product volume, target delivery timeline, and current logistics arrangements. We will identify what operational infrastructure needs to be in place before your first North American shipment.
+              Schedule a local execution assessment to review your product volume, target delivery timeline, and current logistics arrangements. We will identify what operational infrastructure needs to be in place before your first North American shipment. Many first shipments fail not because of product quality, but because no one on the ground knows who is supposed to receive the goods, where they go next, or who handles a return. We close that gap.
             </p>
             <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px] inline-block mb-10">Book a Consultation</Link>
           </div>
@@ -140,7 +161,7 @@ export default function EN_local_execution_support() {
             </div>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
-              Related Resources
+              Related Pages
             </h2>
             <ul className="space-y-2 mb-8">
           <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">All Services</Link></li>

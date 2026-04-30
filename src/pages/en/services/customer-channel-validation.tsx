@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function EN_customer_channel_validation() {
+  useSEO({
+    title: 'Customer & Channel Validation for North America Market Entry | CCBONLINE INC.',
+    description: 'CCBONLINE helps businesses identify real North American buyers, validate channel paths, prepare outreach materials, and test market interest without wasting time on low-quality leads.',
+    canonical: 'https://www.ccbonline.ca/en/services/customer-channel-validation',
+    ogType: 'article',
+    lang: 'en',
+  })
   useEffect(() => {
     document.title = 'Customer & Channel Validation for North America Market Entry | CCBONLINE INC.'
     window.scrollTo(0, 0)
@@ -30,13 +39,20 @@ export default function EN_customer_channel_validation() {
             <div className="mb-10">
               <img
                 src="/images/services-customer-channel-validation.jpg"
-                alt="Customer & Channel Validation for North America Market Entry — CCBONLINE helping Chinese companies with North America market entry."
+                alt="Customer & Channel Validation for North America Market Entry — CCBONLINE helping businesses with North America market entry."
                 className="w-full h-auto max-h-[400px] object-cover"
                 loading="lazy"
               />
             </div>
 
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
+                        <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
+              What This Service Is
+            </h2>
+            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
+              Customer & Channel Validation is a pre-commitment testing service for companies that have already decided North America is a target market and now need to verify whether real buyers exist, which channel path is viable, and whether their materials and outreach approach will generate meaningful responses. We do not sell on your behalf. We design a structured validation plan, review your materials against local buyer expectations, and help you test interest before you hire sales staff or sign distribution agreements.
+            </p>
+
+<h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
               Who This Service Is For
             </h2>
             <ul className="space-y-3 mb-10">
@@ -57,9 +73,13 @@ export default function EN_customer_channel_validation() {
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
               What We Review or Support
             </h2>
-            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              CCBONLINE reviews your target customer segments in North America, maps realistic channel paths — distributor, direct, hybrid, or platform-based — evaluates your current outreach materials against North American buyer expectations, designs customer qualification questions to filter serious prospects from casual inquiries, and builds a 30-day validation plan to test interest before full commitment.
-            </p>
+            <ul className="space-y-3 mb-10">
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Target Customer Segment Mapping</strong> — detailed profiles of who buys, why they buy, and what they value in your product category</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Channel Path Comparison</strong> — analysis of distributor, direct, hybrid, and platform-based paths with realistic pros and cons for your product</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Distributor / Buyer / End-User Path Analysis</strong> — recommendation on the most viable first channel and what it takes to open it</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Outreach Readiness Review</strong> — assessment of whether your materials, website, and samples meet North American standards and buyer expectations</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">30-Day Customer Validation Plan</strong> — step-by-step plan to test market interest with measurable milestones before full commitment</li>
+            </ul>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
               Key Deliverables
@@ -87,7 +107,7 @@ export default function EN_customer_channel_validation() {
               Recommended Next Step
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
-              Schedule a channel validation session to review your current customer assumptions, existing materials, and planned outreach approach. We will identify the biggest gaps and propose a validation plan.
+              Schedule a channel validation session to review your current customer assumptions, existing materials, and planned outreach approach. We will identify the biggest gaps and propose a validation plan. Most companies fail in North America not because their product is poor, but because they cannot identify the right buyer or channel. Validation prevents you from building a sales system around assumptions that turn out to be wrong.
             </p>
             <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px] inline-block mb-10">Book a Consultation</Link>
           </div>
@@ -140,7 +160,7 @@ export default function EN_customer_channel_validation() {
             </div>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
-              Related Resources
+              Related Pages
             </h2>
             <ul className="space-y-2 mb-8">
           <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">All Services</Link></li>

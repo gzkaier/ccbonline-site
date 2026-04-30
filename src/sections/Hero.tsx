@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src="/images/canada-north-america-market-entry-consulting.jpg"
-          alt="CCBONLINE helps Chinese companies enter Canada and North America through market entry diagnosis and local execution support."
+          alt="CCBONLINE helps businesses enter Canada and North America through market entry diagnosis and local execution support."
           className="w-full h-full object-cover"
           fetchPriority="high"
         />
@@ -37,7 +37,6 @@ export default function Hero() {
 
         <h1
           className="font-serif text-white mb-4 md:mb-6"
-          style={{ wordBreak: 'keep-all' }}
         >
           <span className="hero-line block text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] leading-[1.2] tracking-tight">
             Canada & North America
@@ -46,13 +45,13 @@ export default function Hero() {
             Market Entry Partner
           </span>
           <span className="hero-line block text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] leading-[1.2] tracking-tight">
-            for Chinese Businesses
+            
           </span>
         </h1>
 
         <p className="hero-sub text-white/65 text-[15px] md:text-[16px] leading-[1.65] md:leading-[1.7] max-w-[640px] mb-6 md:mb-8">
           {t(
-            'Market-entry diagnosis, compliance pathway design, channel validation, and local execution support for Chinese businesses entering Canada and North America.',
+            'Market-entry diagnosis, compliance pathway design, channel validation, and local execution support for businesses entering Canada and North America.',
             '为中国企业进入加拿大和北美提供市场进入诊断、合规路径设计、渠道验证和本地执行支持。'
           )}
         </p>

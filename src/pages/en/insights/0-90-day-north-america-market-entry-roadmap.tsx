@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function EN_0_90_day_north_america_market_entry_roadmap() {
+  useSEO({
+    title: 'A 0-90 Day Roadmap for North America Market Entry | CCBONLINE INC.',
+    description: 'A practical 0-90 day roadmap for overseas companies entering Canada and North America. CCBONLINE breaks down what to do in the first month, second month, and third month of your market entry journey.',
+    canonical: 'https://www.ccbonline.ca/en/insights/0-90-day-north-america-market-entry-roadmap',
+    ogType: 'article',
+    lang: 'en',
+  })
   useEffect(() => {
     document.title = 'A 0–90 Day Roadmap for North America Market Entry | CCBONLINE INC.'
     window.scrollTo(0, 0)
@@ -47,7 +56,7 @@ export default function EN_0_90_day_north_america_market_entry_roadmap() {
               What Companies Should Examine
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              During the first 90 days, Chinese companies should focus on: (1) Days 0–30: Complete market readiness diagnosis including product fit, certification gaps, competitive positioning, and operational requirements. (2) Days 15–45: Develop compliance pathway with certification timeline, IOR structure, and labeling requirements. (3) Days 30–60: Begin channel validation through targeted outreach, trade show attendance, or partner introductions. (4) Days 45–75: Establish local support capabilities: warranty process, service contacts, inventory or fulfillment arrangements. (5) Days 60–90: Conduct first structured customer conversations with validated positioning and support infrastructure in place.
+              During the first 90 days, overseas companies should focus on: (1) Days 0–30: Complete market readiness diagnosis including product fit, certification gaps, competitive positioning, and operational requirements. (2) Days 15–45: Develop compliance pathway with certification timeline, IOR structure, and labeling requirements. (3) Days 30–60: Begin channel validation through targeted outreach, trade show attendance, or partner introductions. (4) Days 45–75: Establish local support capabilities: warranty process, service contacts, inventory or fulfillment arrangements. (5) Days 60–90: Conduct first structured customer conversations with validated positioning and support infrastructure in place.
             </p>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">

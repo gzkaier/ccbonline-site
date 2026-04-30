@@ -45,7 +45,7 @@ export default function Why() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
           <div className="lg:col-span-5 why-block">
             <p className="text-label mb-3">{t('Why Us', '为什么选择我们')}</p>
-            <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight mb-5 md:mb-6">
+            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight mb-5 md:mb-6">
               {t('Practical guidance for market entry', '实用的市场进入指导')}
             </h2>
             <p className="text-[13px] md:text-[15px] text-[#555] leading-[1.8]">

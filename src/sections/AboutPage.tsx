@@ -32,11 +32,11 @@ export default function AboutPage() {
       <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
         <div className="container-site">
           <p className="text-label mb-3">{t('About', '关于')}</p>
-          <h1 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[32px] md:text-[36px] lg:text-[42px] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[800px] mb-4">
+          <h1 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] leading-[1.35] tracking-tight max-w-[800px] mb-4">
             {t('About CCBONLINE | North America Market Entry Advisory', '关于CCBONLINE | 北美市场进入咨询')}
           </h1>
           <p className="text-[12px] md:text-[14px] text-[#767676] max-w-[600px]">
-            {t('Canada-based advisory and execution support company helping Chinese companies enter Canada and North America.', '总部位于加拿大的咨询与落地支持公司，帮助中国企业进入加拿大和北美。')}
+            {t('Canada-based market entry advisory and execution support company helping businesses enter Canada and North America.', '总部位于加拿大的市场进入咨询与落地支持公司，帮助企业进入加拿大和北美。')}
           </p>
         </div>
       </section>
@@ -46,20 +46,20 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
             <div className="lg:col-span-4 ab-block">
               <p className="text-label mb-3">{t('What We Do', '我们做什么')}</p>
-              <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight">
+              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight">
                 {t('Market judgment, compliance awareness, channel understanding, local resources, and execution support.', '市场判断、合规意识、渠道理解、本地资源和执行支持。')}
               </h2>
             </div>
             <div className="lg:col-span-8 ab-block">
               <p className="text-[14px] md:text-[16px] text-[#444] leading-[1.8] mb-5">
                 {t(
-                  'CCBONLINE INC. is a Canada-registered consulting and execution support company. We help Chinese manufacturers, brands, and industrial companies enter Canada and North America through structured market-entry diagnosis, compliance pathway design, channel validation, local partner coordination, and hands-on execution support.',
+                  'CCBONLINE INC. is a Canada-registered consulting and execution support company. We support manufacturers, brands, industrial suppliers, and growth-stage companies entering Canada and North America through structured market-entry diagnosis, compliance pathway design, channel validation, local partner coordination, and hands-on execution support.',
                   'CCBONLINE INC. 是一家加拿大注册的咨询与落地支持公司。我们通过结构化的市场进入诊断、合规路径设计、渠道验证、本地合作伙伴协调和实际执行支持，帮助中国制造企业、品牌和工业公司进入加拿大和北美。'
                 )}
               </p>
               <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8] mb-5">
                 {t(
-                  'We are not a marketing agency, a web development shop, or a lead-generation platform. We are market-entry advisors who combine market judgment, compliance awareness, channel understanding, local resources, and execution discipline to help Chinese companies build a real operating presence in North America.',
+                  'We are not a marketing agency, a web development shop, or a lead-generation platform. We are market-entry advisors who combine market judgment, compliance awareness, channel understanding, local resources, and execution discipline to help Chinese companies build real operations on the ground in North America.',
                   '我们不是营销机构、网站开发公司或获客平台。我们是市场进入顾问，结合市场判断、合规意识、渠道理解、本地资源和执行纪律，帮助中国企业在北美建立真实的运营根基。'
                 )}
               </p>
@@ -77,7 +77,7 @@ export default function AboutPage() {
       <section className="w-full">
         <div className="container-site">
           <div className="relative w-full aspect-[21/9] md:aspect-[3/1] overflow-hidden bg-[#F8F9FA]">
-            <img src="/images/about-cover.jpg" alt="Bridging markets" className="w-full h-full object-cover opacity-90" />
+            <img src="/images/about-cover.jpg" alt="CCBONLINE INC. connects businesses with Canada and North America markets through market entry consulting." className="w-full h-full object-cover opacity-90" />
             <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent" />
           </div>
           <p className="text-[11px] text-[#999] mt-2 italic">Bridging Markets, Building Connections</p>
@@ -87,7 +87,7 @@ export default function AboutPage() {
       <section className="section-padding bg-[#F8F9FA]">
         <div className="container-site">
           <p className="text-label mb-3">{t('Team', '团队')}</p>
-          <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[500px] mb-10">
+          <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[500px] mb-10">
             {t('Who We Are', '我们是谁')}
           </h2>
           <div className="max-w-[680px]">
@@ -96,7 +96,7 @@ export default function AboutPage() {
               <p className="text-[12px] md:text-[13px] text-[#C00000] font-medium mb-4">{t('Market Entry Advisory Team', '市场进入顾问团队')}</p>
               <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8] mb-4">
                 {t(
-                  'CCBONLINE INC. is a Canada-based market entry advisory team with years of experience helping Chinese businesses navigate the Canadian and North American markets. Our work spans market-entry consulting, customer development, brand localization, compliance coordination, and execution support.',
+                  'CCBONLINE INC. is a Canada-based market entry advisory team with years of experience helping businesses navigate the Canadian and North American markets. Our work spans market-entry consulting, customer development, brand localization, compliance coordination, and execution support.',
                   'CCBONLINE INC. 是一支总部位于加拿大的市场进入顾问团队，多年来帮助中国企业开拓加拿大和北美市场。我们的工作涵盖市场进入咨询、客户开发、品牌本地化、合规协调和落地执行支持。'
                 )}
               </p>
@@ -132,7 +132,7 @@ export default function AboutPage() {
       <section className="section-padding bg-white">
         <div className="container-site">
           <p className="text-label mb-3">{t('What We Do Not Do', '我们不做什么')}</p>
-          <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
+          <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10">
             {t('Clear Boundaries, Clear Value', '清晰的边界，清晰的价值')}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 max-w-[800px]">
@@ -154,7 +154,7 @@ export default function AboutPage() {
       <section className="section-padding bg-[#1a1a2e]">
         <div className="container-site">
           <div className="max-w-[700px]">
-            <h2 className="font-serif text-white text-[28px] md:text-[32px] lg:text-[36px] md:text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6">
+            <h2 className="font-serif text-white text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6">
               {t('Ready to evaluate your North America readiness?', '准备好评估您的北美市场准备程度了吗？')}
             </h2>
             <Link to="/contact" className="btn-primary text-[12px] md:text-[14px]">

@@ -77,7 +77,7 @@ export default function HomeModules() {
 
   // Module 9: FAQ
   const faqs = [
-    { q: t('What does CCBONLINE actually do?', 'CCBONLINE 到底是做什么的？'), a: t('We help Chinese companies enter Canada and North America. We assess readiness, design compliance pathways, validate channels, coordinate local partners, and support execution.', '我们帮助中国企业进入加拿大和北美。我们评估准备程度、设计合规路径、验证渠道、协调本地合作伙伴并支持执行。') },
+    { q: t('What does CCBONLINE actually do?', 'CCBONLINE 到底是做什么的？'), a: t('We help businesses enter Canada and North America. We assess readiness, design compliance pathways, validate channels, coordinate local partners, and support execution.', '我们帮助企业进入加拿大和北美。我们评估准备程度、设计合规路径、验证渠道、协调本地合作伙伴并支持执行。') },
     { q: t('Do you guarantee sales?', '你们保证销售吗？'), a: t('No. We build the conditions for market entry. Actual sales depend on your product, pricing, and execution. We make the path clear, but you must walk it.', '不。我们建立市场进入的条件。实际销售取决于您的产品、定价和执行。我们让路径清晰，但您必须走下去。') },
     { q: t('How long does market entry take?', '市场进入需要多长时间？'), a: t('Initial diagnosis takes 2–4 weeks. A full 0–90 day roadmap is typically delivered within 30 days. Execution support continues as long as needed.', '初步诊断2–4周。完整的0–90天路线图通常在30天内交付。执行支持按需持续。') },
     { q: t('Do we need a local entity?', '我们需要本地实体吗？'), a: t('Not always. Many companies start with partner-based or direct-export models. We help you determine the right structure for your stage and product.', '不一定。许多企业从合作伙伴模式或直接出口开始。我们帮助您根据阶段和产品确定合适的结构。') },
@@ -93,7 +93,7 @@ export default function HomeModules() {
           <div className="hm-block mb-8 md:mb-10">
             <p className="text-[15px] md:text-[17px] text-[#444] leading-[1.65] md:leading-[1.7] max-w-[720px]">
               {t(
-                'We help Chinese businesses move from "wanting to enter North America" to "being practically ready to operate locally" — through structured diagnosis, compliance pathway design, channel validation, and hands-on execution support.',
+                'We help businesses move from "wanting to enter North America" to "being practically ready to operate locally" — through structured diagnosis, compliance pathway design, channel validation, and hands-on execution support.',
                 '我们帮助企业从"想进入北美"走到"具备实际本地运营条件"——通过结构化诊断、合规路径设计、渠道验证和实际执行支持。'
               )}
             </p>
@@ -218,7 +218,7 @@ export default function HomeModules() {
               <div className="hm-block mb-4">
                 <img
                   src="/images/about-ccbonline-team-consultation.jpg"
-                  alt="CCBONLINE INC. Toronto office team meeting, helping Chinese companies plan North America market entry."
+                  alt="CCBONLINE INC. Toronto office team meeting, helping businesses plan North America market entry."
                   className="w-full h-auto max-h-[400px] object-cover"
                   loading="lazy"
                 />
@@ -231,7 +231,7 @@ export default function HomeModules() {
               </h2>
               <p className="hm-block text-[15px] md:text-[16px] text-[#444] leading-[1.65] mb-4">
                 {t(
-                  'CCBONLINE INC. is a Canada-registered consulting firm based in Toronto, helping Chinese manufacturers and growth-stage companies enter Canada and North America.',
+                  'CCBONLINE INC. is a Canada-registered consulting firm based in Toronto, helping manufacturers, brands, and growth-stage businesses enter Canada and North America.',
                   'CCBONLINE INC. 是一家加拿大注册咨询公司，总部位于多伦多，帮助中国制造企业和成长型公司进入加拿大和北美。'
                 )}
               </p>

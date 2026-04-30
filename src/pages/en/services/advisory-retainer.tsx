@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function EN_advisory_retainer() {
+  useSEO({
+    title: 'North America Market Entry Advisory Retainer | CCBONLINE INC.',
+    description: 'Ongoing monthly advisory support for businesses entering Canada and North America — judgment, coordination, document review, partner communication, and project rhythm.',
+    canonical: 'https://www.ccbonline.ca/en/services/advisory-retainer',
+    ogType: 'article',
+    lang: 'en',
+  })
   useEffect(() => {
     document.title = 'North America Market Entry Advisory Retainer | CCBONLINE INC.'
     window.scrollTo(0, 0)
@@ -30,13 +39,20 @@ export default function EN_advisory_retainer() {
             <div className="mb-10">
               <img
                 src="/images/services-advisory-retainer.jpg"
-                alt="North America Market Entry Advisory Retainer — CCBONLINE helping Chinese companies with North America market entry."
+                alt="North America Market Entry Advisory Retainer — CCBONLINE helping businesses with North America market entry."
                 className="w-full h-auto max-h-[400px] object-cover"
                 loading="lazy"
               />
             </div>
 
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
+                        <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
+              What This Service Is
+            </h2>
+            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
+              The North America Market Entry Advisory Retainer is ongoing monthly support for companies actively moving through the entry process. Market entry is not a single event — it spans months with shifting priorities, emerging compliance changes, stalled channel negotiations, and internal resource constraints. The retainer gives you consistent access to strategic judgment, coordination support, and risk monitoring so your project keeps moving even when internal bandwidth is limited or market conditions change.
+            </p>
+
+<h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
               Who This Service Is For
             </h2>
             <ul className="space-y-3 mb-10">
@@ -57,9 +73,14 @@ export default function EN_advisory_retainer() {
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
               What We Review or Support
             </h2>
-            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              CCBONLINE provides monthly advisory support with scheduled review calls, reviews your materials, partner communications, and project documents as they evolve, coordinates between your internal team and external North American partners, advises on customer follow-up strategy and partner negotiation positioning, identifies emerging risks and recommends next-step priorities, and delivers a monthly progress summary with actionable recommendations.
-            </p>
+            <ul className="space-y-3 mb-10">
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Monthly Advisory Calls</strong> — scheduled review of progress, blockers, and upcoming priorities with structured recommendations</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Document and Material Review</strong> — feedback on proposals, partner agreements, customer presentations, and marketing materials as they evolve</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Partner Coordination Guidance</strong> — advice on communicating with and evaluating North American partners, distributors, and service providers</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Customer Follow-Up Strategy</strong> — how to maintain momentum with prospects and partners between your visits</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Risk and Priority Recommendations</strong> — prioritized list of what to do next, what to watch out for, and what has changed in the market</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Monthly Progress Summary</strong> — written report on what was accomplished, what changed, and what is planned for the coming month</li>
+            </ul>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
               Key Deliverables
@@ -88,7 +109,7 @@ export default function EN_advisory_retainer() {
               Recommended Next Step
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
-              Book an introductory call to discuss your current North America entry status, internal team structure, and where an advisory retainer would add the most value.
+              Book an introductory call to discuss your current North America entry status, internal team structure, and where an advisory retainer would add the most value. Most market-entry projects stall not because of one missing contact, but because there is no one tracking the moving parts. A retainer provides the continuity that turns a plan into sustained progress.
             </p>
             <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px] inline-block mb-10">Book a Consultation</Link>
           </div>
@@ -116,7 +137,7 @@ export default function EN_advisory_retainer() {
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
               </summary>
               <div className="px-4 pb-4 md:px-5 md:pb-5">
-                <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">No. Most of our retainer clients operate from China with periodic visits to North America. We coordinate virtually and on-site as needed.</p>
+                <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">No. Most of our retainer clients operate from overseas with periodic visits to North America. We coordinate virtually and on-site as needed.</p>
               </div>
             </details>
             <details className="border border-[#E5E5E5] bg-white">
@@ -141,7 +162,7 @@ export default function EN_advisory_retainer() {
             </div>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
-              Related Resources
+              Related Pages
             </h2>
             <ul className="space-y-2 mb-8">
           <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">All Services</Link></li>

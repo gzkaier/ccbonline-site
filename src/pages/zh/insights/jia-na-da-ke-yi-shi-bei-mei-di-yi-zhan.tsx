@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function ZH_JiaNaDaKeYiShiBeiMeiDiYiZhan() {
+  useSEO({
+    title: '加拿大可以成为北美市场进入的第一站 | CCBONLINE INC.',
+    description: '加拿大市场门槛相对较低、法规透明、与中国贸易关系稳定，是中国企业进入北美的理想第一站。CCBONLINE解析加拿大优先策略。',
+    canonical: 'https://www.ccbonline.ca/zh/insights/jia-na-da-ke-yi-shi-bei-mei-di-yi-zhan',
+    ogType: 'article',
+    lang: 'zh',
+  })
   useEffect(() => {
     document.title = '加拿大可以成为北美市场进入的第一站 | CCBONLINE INC.'
     window.scrollTo(0, 0)

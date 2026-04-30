@@ -2,6 +2,8 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import useSEO from '../../hooks/useSEO'
+
 
 interface InsightCard {
   title: string
@@ -161,6 +163,13 @@ function InsightSection({ title, label, cards }: { title: string; label: string;
 }
 
 export default function ENInsights() {
+  useSEO({
+    title: 'Insights on Canada & North America Market Entry | CCBONLINE INC.',
+    description: 'Practical viewpoints on market entry, compliance, channel development, and execution for businesses entering Canada and North America.',
+    canonical: 'https://www.ccbonline.ca/en/insights',
+    ogType: 'website',
+    lang: 'en',
+  })
   useEffect(() => {
     document.title = 'Insights on Canada & North America Market Entry | CCBONLINE INC.'
     window.scrollTo(0, 0)
@@ -174,7 +183,7 @@ export default function ENInsights() {
         <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">Insights</p>
-            <h1 className="font-serif text-[#212121] text-[32px] md:text-[42px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
+            <h1 className="font-serif text-[#212121] text-[28px] sm:text-[34px] md:text-[42px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
               Insights on Canada & North America Market Entry
             </h1>
             <p className="text-[15px] md:text-[16px] text-[#767676] max-w-[600px]">

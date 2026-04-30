@@ -2,8 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
+import useSEO from '../../../hooks/useSEO'
+
 
 export default function EN_trade_show_is_not_just_exhibition() {
+  useSEO({
+    title: 'A Trade Show Is Not Just an Exhibition | CCBONLINE INC.',
+    description: 'North American trade shows are strategic market validation tools, not just exhibition spaces. CCBONLINE explains how overseas companies should use trade shows to test demand, meet partners, and gather competitive intelligence.',
+    canonical: 'https://www.ccbonline.ca/en/insights/trade-show-is-not-just-exhibition',
+    ogType: 'article',
+    lang: 'en',
+  })
   useEffect(() => {
     document.title = 'A Trade Show Is Not Just an Exhibition | CCBONLINE INC.'
     window.scrollTo(0, 0)
@@ -31,7 +40,7 @@ export default function EN_trade_show_is_not_just_exhibition() {
               Why This Matters
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              Chinese companies often approach North American trade shows as they would domestic exhibitions: rent a booth, display products, collect business cards, and wait for orders. This approach consistently underperforms. North American trade shows are expensive—booth rental, shipping, travel, and promotional materials can easily cost $30,000–$100,000 for a single show. Without clear objectives and systematic preparation, most of this investment is wasted. The companies that succeed use trade shows as concentrated market research and relationship-building opportunities. They know which buyers will attend, schedule meetings in advance, prepare specific questions for competitive intelligence, and have a 90-day follow-up plan before they arrive.
+              overseas companies often approach North American trade shows as they would domestic exhibitions: rent a booth, display products, collect business cards, and wait for orders. This approach consistently underperforms. North American trade shows are expensive—booth rental, shipping, travel, and promotional materials can easily cost $30,000–$100,000 for a single show. Without clear objectives and systematic preparation, most of this investment is wasted. The companies that succeed use trade shows as concentrated market research and relationship-building opportunities. They know which buyers will attend, schedule meetings in advance, prepare specific questions for competitive intelligence, and have a 90-day follow-up plan before they arrive.
             </p>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
@@ -47,7 +56,7 @@ export default function EN_trade_show_is_not_just_exhibition() {
               What Companies Should Examine
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              Before committing to a trade show, Chinese companies should examine: (1) Which specific buyers, distributors, or partners attended last year and are expected this year? (2) What are your three primary objectives: lead generation, distributor recruitment, competitive intelligence, or market validation? (3) Have you prepared product demonstrations that address North American customer concerns, not just technical specifications? (4) Do you have a follow-up system that assigns every lead to a responsible person with a timeline? (5) Are your materials (brochures, website, samples) prepared for English-speaking audiences? (6) Have you researched competitor presence and positioning at the same show?
+              Before committing to a trade show, overseas companies should examine: (1) Which specific buyers, distributors, or partners attended last year and are expected this year? (2) What are your three primary objectives: lead generation, distributor recruitment, competitive intelligence, or market validation? (3) Have you prepared product demonstrations that address North American customer concerns, not just technical specifications? (4) Do you have a follow-up system that assigns every lead to a responsible person with a timeline? (5) Are your materials (brochures, website, samples) prepared for English-speaking audiences? (6) Have you researched competitor presence and positioning at the same show?
             </p>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
@@ -109,7 +118,7 @@ export default function EN_trade_show_is_not_just_exhibition() {
             </details>
             <details className="border border-[#E5E5E5] bg-white">
               <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">What is the most common mistake Chinese companies make at trade shows?</span>
+                <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">What is the most common mistake overseas companies make at trade shows?</span>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
               </summary>
               <div className="px-4 pb-4 md:px-5 md:pb-5">

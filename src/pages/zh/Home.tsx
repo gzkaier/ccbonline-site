@@ -2,10 +2,19 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import useSEO from '../../hooks/useSEO'
+
 
 export default function ZHHome() {
+  useSEO({
+    title: 'CCBONLINE INC. | 帮助中国企业进入加拿大与北美市场',
+    description: 'CCBONLINE INC. 帮助中国制造企业、品牌企业和成长型出海企业，评估、规划并推进加拿大及北美市场进入。',
+    canonical: 'https://www.ccbonline.ca/zh',
+    ogType: 'website',
+    lang: 'zh',
+  })
   useEffect(() => {
-    document.title = 'CCBONLINE INC. | 中国企业进入加拿大与北美市场的本地化进入顾问'
+    document.title = 'CCBONLINE INC. | 帮助中国企业进入加拿大与北美市场'
     window.scrollTo(0, 0)
   }, [])
 
@@ -26,39 +35,68 @@ export default function ZHHome() {
           <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a1a] via-[#0a0a1a]/80 to-[#0a0a1a]/40" />
           <div className="relative z-10 container-site w-full pb-[7vh] md:pb-[10vh] pt-[18vh] md:pt-[22vh]">
             <p className="text-white/50 text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-4 md:mb-5">
-              CCBONLINE INC. · 智桥国际
+              CCBONLINE INC.
             </p>
-            <h1 className="font-serif text-white text-[34px] sm:text-[38px] md:text-[44px] leading-[1.25] tracking-tight max-w-[800px] mb-4 md:mb-6" style={{ wordBreak: 'keep-all' }}>
-              <span className="block">中国企业进入加拿大与北美</span>
-              <span className="block">本地化进入顾问</span>
+            <h1 className="font-serif text-white text-[28px] sm:text-[34px] md:text-[40px] lg:text-[44px] leading-[1.25] tracking-tight max-w-[900px] mb-4 md:mb-6">
+              帮助中国企业进入加拿大与北美
             </h1>
-            <p className="text-white/65 text-[16px] md:text-[17px] leading-[1.65] max-w-[640px] mb-6 md:mb-8">
-              先判断路径，再设计合规、渠道、本地承接和落地推进方案。
+            <p className="text-white/65 text-[15px] md:text-[17px] leading-[1.65] max-w-[680px] mb-6 md:mb-8">
+              市场进入不是找几个客户那么简单。在花钱参展、投广告、签代理之前，先判断你的产品是否适配、该先进哪个市场、合规和责任链缺什么。我们帮你把这个判断做对。
             </p>
-            <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
-              <Link to="/zh/contact" className="btn-primary text-[16px] px-6 py-3.5 min-h-[52px]">预约初步沟通</Link>
-              <Link to="/zh/services" className="btn-outline text-[16px] px-6 py-3.5 min-h-[52px]" style={{ borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}>查看服务路径</Link>
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 mb-4">
+              <Link to="/zh/contact" className="btn-primary text-[16px] px-6 py-3.5 min-h-[52px]">申请初步市场进入评估</Link>
+              <Link to="/zh/services" className="btn-outline text-[16px] px-6 py-3.5 min-h-[52px]" style={{ borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}>查看服务体系</Link>
+            </div>
+            <p className="text-white/40 text-[13px] md:text-[14px] max-w-[560px]">
+              告诉我们你现在处于哪个阶段、想进入哪个市场、当前卡在哪里。
+            </p>
+          </div>
+        </section>
+
+        {/* 北美市场进入不只是找客户 */}
+        <section className="section-padding bg-white">
+          <div className="container-site">
+            <p className="text-label mb-3">判断</p>
+            <h2 className="font-serif text-[#212121] text-[22px] md:text-[28px] leading-[1.35] tracking-tight max-w-[700px] mb-6 md:mb-8">
+              北美市场进入，不只是找客户
+            </h2>
+            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.65] max-w-[720px] mb-8">
+              对中国企业来说，进入加拿大和北美，不是上线一个网站、发几封邮件、找几个客户那么简单。真正的进入，需要同时把市场定位、合规协同、进口责任、渠道逻辑、本地承接和项目推进这些问题接起来。
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-5">
+              {[
+                { title: '先判断市场，再决定投入', desc: '评估你的产品是否适配，以及哪个市场应该优先进入。' },
+                { title: '先看责任链，再安排发货', desc: '在发货前搞清楚谁负责认证、进口、责任和售后。' },
+                { title: '先建立信任，再谈线索转化', desc: '买家评估你的可信度、文件完备性和运营准备程度。' },
+                { title: '先有推进节奏，再谈持续放大', desc: '没有跟进、协调和复盘，市场进入会停滞。' },
+              ].map((item, i) => (
+                <div key={i} className="p-5 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <h3 className="text-[15px] md:text-[16px] font-semibold mb-2">{item.title}</h3>
+                  <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">{item.desc}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
 
-        {/* 一句话判断 */}
-        <section className="section-padding bg-white">
+        {/* 定义区块 */}
+        <section className="section-padding bg-[#F8F9FA]">
           <div className="container-site">
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[28px] leading-[1.35] tracking-tight max-w-[700px] mb-4 md:mb-6">
-              我们做什么
+            <p className="text-label mb-3">定义</p>
+            <h2 className="font-serif text-[#212121] text-[22px] md:text-[28px] leading-[1.35] tracking-tight max-w-[700px] mb-6 md:mb-8">
+              什么是北美市场进入咨询
             </h2>
-            <p className="text-[16px] md:text-[17px] text-[#444] leading-[1.65] max-w-[720px] mb-4">
-              CCBONLINE 不是营销机构，不是建站公司，也不是物流公司。我们是市场进入顾问——帮企业在进入加拿大和北美之前，把路径判断清楚：产品是否适配、合规怎么过、渠道怎么建、本地谁承接、出了问题谁负责。
+            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.65] max-w-[720px] mb-4">
+              北美市场进入咨询不是营销、不是销售外包、也不是网站开发。它是一套结构化的工作——评估你的产品是否适配，设计合规和运营路径，验证客户和合作伙伴渠道，并协调本地执行资源，把市场意图转化为真实运营。
             </p>
             <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.65] max-w-[720px]">
-              我们做的不是信息汇总，而是判断。不是方案堆砌，而是可落地的执行路径。
+              对中国企业而言，进入加拿大和美国需要的不仅仅是需求。它需要一条清晰的责任链，贯穿认证、进口、文件、渠道、仓储、售后、保险和本地责任主体。CCBONLINE INC. 就是协调这条链的专业顾问。
             </p>
           </div>
         </section>
 
         {/* 三大核心能力 */}
-        <section className="section-padding bg-[#F8F9FA]">
+        <section className="section-padding bg-white">
           <div className="container-site">
             <p className="text-label mb-3">核心能力</p>
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[28px] leading-[1.35] tracking-tight mb-8 md:mb-10">
@@ -97,7 +135,7 @@ export default function ZHHome() {
         </section>
 
         {/* 进入框架 */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">方法论</p>
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[28px] leading-[1.35] tracking-tight mb-8 md:mb-10">
@@ -111,7 +149,7 @@ export default function ZHHome() {
                 { num: '04', title: '协调', desc: '对接报关、认证、物流和本地代表' },
                 { num: '05', title: '执行', desc: '90天路线图，每周追踪和复盘' },
               ].map((f) => (
-                <div key={f.num} className="flex items-start gap-4 p-4 md:p-5 bg-[#F8F9FA] border border-[#E5E5E5]">
+                <div key={f.num} className="flex items-start gap-4 p-4 md:p-5 bg-white border border-[#E5E5E5]">
                   <span className="text-[#C00000] text-[14px] font-bold mt-0.5 min-w-[28px]">{f.num}</span>
                   <div>
                     <h3 className="text-[16px] md:text-[17px] font-semibold mb-1">{f.title}</h3>
@@ -124,7 +162,7 @@ export default function ZHHome() {
         </section>
 
         {/* 适合哪些企业 */}
-        <section className="section-padding bg-[#F8F9FA]">
+        <section className="section-padding bg-white">
           <div className="container-site">
             <p className="text-label mb-3">客户</p>
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[28px] leading-[1.35] tracking-tight mb-8 md:mb-10">
@@ -139,7 +177,7 @@ export default function ZHHome() {
                 '需要本地物流节点和仓储支持',
                 '希望获得结构化执行路径，而非通用报告',
               ].map((text, i) => (
-                <div key={i} className="flex items-start gap-3 p-4 bg-white border border-[#E5E5E5]">
+                <div key={i} className="flex items-start gap-3 p-4 bg-[#F8F9FA] border border-[#E5E5E5]">
                   <span className="text-[#C00000] text-[14px] mt-0.5 shrink-0">✓</span>
                   <span className="text-[15px] md:text-[16px] text-[#444] leading-[1.55]">{text}</span>
                 </div>
@@ -152,7 +190,7 @@ export default function ZHHome() {
         </section>
 
         {/* 常见误区 */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">误区</p>
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[28px] leading-[1.35] tracking-tight max-w-[600px] mb-8 md:mb-10">
@@ -174,69 +212,17 @@ export default function ZHHome() {
           </div>
         </section>
 
-        {/* 不替代什么 */}
-        <section className="section-padding bg-[#F8F9FA]">
-          <div className="container-site">
-            <p className="text-label mb-3">边界</p>
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[28px] leading-[1.35] tracking-tight max-w-[600px] mb-8 md:mb-10">
-              我们不替代谁
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 max-w-[800px]">
-              {[
-                { title: '不替代律师和会计师', desc: '我们协调专业机构，但不提供法律或税务建议。需要持证专业人士处理的事项，我们会引荐合适的合作伙伴。' },
-                { title: '不替代经销商和物流商', desc: '我们帮助识别和评估合作伙伴，但不直接卖货或运货。本地运营最终还是由您和合作伙伴共同完成。' },
-                { title: '不替代企业内部决策', desc: '我们提供判断和建议，但市场进入的最终决策、投入和风险由企业自己承担。' },
-                { title: '不替代认证机构', desc: 'CSA、UL等认证必须由官方认证机构完成。我们帮助梳理要求和准备材料，但不发放证书。' },
-              ].map((item, i) => (
-                <div key={i} className="card-border bg-white">
-                  <h3 className="text-[15px] md:text-[16px] font-semibold mb-2">{item.title}</h3>
-                  <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">{item.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* 常见问题 */}
-        <section className="section-padding bg-white">
-          <div className="container-site">
-            <p className="text-label mb-3">常见问题</p>
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[28px] leading-[1.35] tracking-tight max-w-[600px] mb-8 md:mb-10">
-              企业常问的问题
-            </h2>
-            <div className="max-w-[800px] space-y-3">
-              {[
-                { q: 'CCBONLINE 到底是做什么的？', a: '我们帮助中国企业进入加拿大和北美。不是营销机构，不是建站公司，不是物流公司。我们做的是市场进入诊断、合规路径设计、渠道验证和本地执行支持。' },
-                { q: '你们能保证销售吗？', a: '不能。我们建立市场进入的条件，实际销售取决于产品、定价和执行。我们让路径清晰，但企业必须自己走下去。' },
-                { q: '进入北美需要多长时间？', a: '初步诊断2–4周。完整路线图通常30天内交付。执行支持按需持续。' },
-                { q: '需要先设立加拿大公司吗？', a: '不一定。很多企业在初期通过经销商或直接出口模式进入。我们根据产品和阶段建议合适的方式。' },
-                { q: '服务费用是多少？', a: '我们提供三层服务：诊断评估、完整路线图、持续顾问支持。根据产品复杂度和范围定制报价。联系我们了解详情。' },
-              ].map((faq, i) => (
-                <details key={i} className="group border border-[#E5E5E5] bg-white">
-                  <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                    <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">{faq.q}</span>
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="shrink-0 text-[#767676]"><path d="M4 6L8 10L12 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                  </summary>
-                  <div className="px-4 pb-4 md:px-5 md:pb-5">
-                    <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">{faq.a}</p>
-                  </div>
-                </details>
-              ))}
-            </div>
-          </div>
-        </section>
-
         {/* CTA */}
         <section className="section-padding bg-[#1a1a2e]">
           <div className="container-site">
             <div className="max-w-[700px]">
-              <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-6">
-                准备好评估您的北美就绪度了吗？
+              <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">
+                准备好评估你的北美市场进入条件了吗？
               </h2>
-              <div className="flex flex-col sm:flex-row gap-3">
-                <Link to="/zh/contact" className="btn-primary text-[16px] px-6 py-3.5 min-h-[52px]">预约初步沟通</Link>
-                <Link to="/zh/canada-market-entry" className="btn-outline text-[16px] px-6 py-3.5 min-h-[52px]" style={{ borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}>了解加拿大进入</Link>
-              </div>
+              <p className="text-white/60 text-[14px] md:text-[15px] mb-6">
+                告诉我们你现在处于哪个阶段、想进入哪个市场、当前卡在哪里。我们会先看清你的阶段和问题，再建议更合适的下一步。
+              </p>
+              <Link to="/zh/contact" className="btn-primary text-[16px] px-6 py-3.5 min-h-[52px]">申请初步市场进入评估</Link>
             </div>
           </div>
         </section>

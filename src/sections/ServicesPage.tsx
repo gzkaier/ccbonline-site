@@ -12,15 +12,15 @@ export default function ServicesPage() {
 
   useEffect(() => {
     document.title = t(
-      'Services — CCBONLINE INC.',
-      '服务 — CCBONLINE INC.'
+      'Services — Market Entry Diagnosis, Compliance & Execution | CCBONLINE INC.',
+      '服务 — 市场进入诊断、合规与执行 | CCBONLINE INC.'
     )
     window.scrollTo(0, 0)
     const page = pageRef.current
     if (!page) return
     const ctx = gsap.context(() => {
-      gsap.from(page.querySelectorAll('.sp-section'), {
-        y: 25, opacity: 0, duration: 0.6, stagger: 0.1, ease: 'power2.out',
+      gsap.from(page.querySelectorAll('.sp-block'), {
+        y: 25, opacity: 0, duration: 0.6, stagger: 0.08, ease: 'power2.out',
         scrollTrigger: { trigger: page, start: 'top 80%', once: true },
       })
     }, page)
@@ -30,129 +30,67 @@ export default function ServicesPage() {
   const services = [
     {
       num: '01',
-      title: t('Market Entry Readiness Diagnostic', '北美市场进入可行性初判'),
-      summary: t(
-        'Before committing resources, know whether your product is ready. We assess market fit, certification gaps, entity requirements, and channel foundations — then recommend whether to prioritize Canada, the US, or a validation-first approach.',
-        '在投入资源之前，先了解您的产品是否准备好。我们评估市场适配度、认证差距、主体要求和渠道基础——然后建议优先做加拿大、美国，还是先做客户验证。'
-      ),
-      delivers: [
-        t('Product-market fit for Canada/North America', '产品加拿大/北美适配分析'),
-        t('Certification & standards gap analysis', '认证与标准差距分析'),
-        t('Entity & operational readiness check', '主体与运营准备度检查'),
-        t('Canada vs. US entry priority', '加拿大与美国进入优先度'),
-        t('First 30–90 day action plan', '前30–90天行动计划'),
-      ],
-      forWho: [
-        t('First-time North America explorers', '首次探索北美市场'),
-        t('Companies unsure about market fit', '不确定产品是否适配'),
-        t('Leadership needing a go/no-go assessment', '管理层需要可行性判断'),
-        t('Teams preparing for trade shows', '准备参加展会的企业'),
+      title: t('Market Entry Diagnosis', '市场进入诊断'),
+      what: t('A structured assessment of whether your product, operations, and team are ready for North America — and what is missing.', '对您的产品、运营和团队是否准备好进入北美的结构化评估——以及缺少什么。'),
+      why: t('Most companies waste months (and money) pursuing markets they are not ready for. A diagnosis prevents this by giving you a clear go/no-go recommendation with specific gaps to address.', '大多数企业在没准备好的市场上浪费数月（和资金）。诊断通过给出明确的可行/不可行建议和具体差距来防止这一点。'),
+      deliver: [
+        t('Product-market fit assessment for Canada/North America', '产品加拿大/北美适配评估'),
+        t('Competitive landscape scan', '竞争格局扫描'),
+        t('Certification & compliance gap identification', '认证与合规差距识别'),
+        t('Readiness scorecard with priority actions', '就绪度评分卡与优先行动'),
+        t('Canada vs. US priority recommendation', '加拿大与美国优先度建议'),
       ],
     },
     {
       num: '02',
-      title: t('Market Entry Strategy & Roadmap', '北美市场进入路径设计'),
-      summary: t(
-        'Turn readiness into a concrete plan. We design your target customer profile, entry phasing, channel priorities, budget framework, and internal team roles — all organized into a 90-day execution roadmap.',
-        '将就绪度转化为具体计划。我们设计目标客户画像、进入阶段、渠道优先级、预算框架和内部团队分工——全部整理为90天执行路线图。'
-      ),
-      delivers: [
-        t('Target customer & market positioning', '目标客户与市场定位'),
-        t('Entry phasing & milestone design', '进入阶段与里程碑设计'),
-        t('Channel strategy & partner approach', '渠道策略与合作方案'),
-        t('Budget & resource plan', '预算与资源计划'),
-        t('Internal team role definition', '内部团队分工定义'),
-        t('90-day execution roadmap', '90天执行路线图'),
-      ],
-      forWho: [
-        t('Companies committed to North America entry', '已决定进入北美的企业'),
-        t('Teams needing structured planning', '需要结构化计划的团队'),
-        t('Businesses seeking investor or HQ approval', '需要投资人或总部批准'),
-        t('Leadership needing internal alignment', '需要在内部达成一致的团队'),
+      title: t('Compliance Pathway Mapping', '合规路径绘制'),
+      what: t('A detailed map of the certification, customs, tax, and regulatory requirements your product must meet to enter Canada or the US legally and safely.', '您的产品必须满足的认证、清关、税务和监管要求的详细地图，以合法安全地进入加拿大或美国。'),
+      why: t('Compliance gaps are the single most common reason Chinese products get held at customs, rejected by distributors, or recalled from market. Knowing the pathway before you ship saves time, money, and reputation.', '合规差距是中国产品被海关扣留、被经销商拒绝或从市场召回的最常见原因。发货前了解路径可节省时间、资金和声誉。'),
+      deliver: [
+        t('Product-specific certification requirement list (CSA, UL, FCC, IC, Health Canada)', '产品特定认证要求清单（CSA、UL、FCC、IC、加拿大卫生部）'),
+        t('Import pathway design (direct, broker, distributor, subsidiary)', '进口路径设计（直接、代理、经销商、子公司）'),
+        t('Customs documentation checklist', '清关文件检查清单'),
+        t('Tax & duty obligations summary', '税务与关税义务摘要'),
+        t('Professional partner introductions (brokers, certifiers, lawyers)', '专业合作伙伴介绍（代理、认证机构、律师）'),
       ],
     },
     {
       num: '03',
-      title: t('Compliance & Import Coordination', '合规、进口与责任链协同'),
-      summary: t(
-        'We coordinate with relevant professional partners where legal, tax, customs, certification, or regulatory expertise is required. We do not replace lawyers or accountants — we make sure the right questions are asked and the right partners are involved.',
-        '对涉及法律、税务、清关、认证和监管判断的事项，我们协同相应专业机构共同推进。我们不替代律师或会计师——我们确保问对问题、找对伙伴。'
-      ),
-      delivers: [
-        t('Import & customs requirements screening', '进口与清关要求筛查'),
-        t('Product certification & standards mapping', '产品认证与标准梳理'),
-        t('Tax & regulatory obligations review', '税务与监管义务审查'),
-        t('Liability & responsibility chain analysis', '责任链分析'),
-        t('Professional partner coordination', '专业机构协同'),
-      ],
-      forWho: [
-        t('Companies importing products to Canada/US', '向加拿大/美国进口产品的企业'),
-        t('Businesses facing certification gaps', '存在认证差距的企业'),
-        t('Teams needing regulatory clarity', '需要厘清监管要求的团队'),
-        t('Companies with complex supply chains', '供应链复杂的企业'),
+      title: t('Channel Validation', '渠道验证'),
+      what: t('Systematic identification, evaluation, and initial contact with potential distributors, partners, and customers who fit your product and stage.', '系统识别、评估和初步接触适合您产品和阶段的潜在经销商、合作伙伴和客户。'),
+      why: t('The right channel partner can make your market entry. The wrong one can waste a year. We help you find, evaluate, and approach partners who have the capability, motivation, and customer base to move your product.', '合适的渠道合作伙伴可以成就您的市场进入。错误的合作伙伴可能浪费一年。我们帮助您找到、评估和接触有能力和动力推动您产品的合作伙伴。'),
+      deliver: [
+        t('Channel strategy (direct, distributor, hybrid, online)', '渠道策略（直接、经销商、混合、在线）'),
+        t('Partner identification & shortlist', '合作伙伴识别与候选清单'),
+        t('Partner evaluation framework', '合作伙伴评估框架'),
+        t('Initial outreach strategy & scripts', '初步 outreach 策略与脚本'),
+        t('Trade show or visit planning', '展会或拜访计划'),
       ],
     },
     {
       num: '04',
-      title: t('Channel & Partner Development', '渠道与本地合作伙伴开发'),
-      summary: t(
-        'Finding the right local partners is often the difference between entry and traction. We help identify, evaluate, and approach distributors, industry customers, 3PL providers, and service partners that fit your product and stage.',
-        '找到合适的本地合作伙伴往往决定了能否真正落地。我们帮助识别、评估和接触适合您产品阶段的经销商、行业客户、物流提供商和服务伙伴。'
-      ),
-      delivers: [
-        t('Distributor & partner identification', '经销商与合作伙伴识别'),
-        t('Partner evaluation & due diligence', '合作伙伴评估与尽职调查'),
-        t('Industry customer development', '行业客户开发'),
-        t('3PL, warehousing & after-sales setup', '物流、仓储与售后搭建'),
-        t('Trade show follow-up & BD support', '展会跟进与商务支持'),
-      ],
-      forWho: [
-        t('Manufacturers seeking distributors', '寻找分销商的制造企业'),
-        t('Brands needing local partners', '需要本地合作伙伴的品牌'),
-        t('Companies with trade show follow-up needs', '有展会跟进需求的企业'),
-        t('Teams needing local BD representation', '需要本地商务代表的团队'),
+      title: t('Local Execution Support', '本地执行支持'),
+      what: t('Hands-on project management and coordination to keep your market entry moving forward — weekly tracking, partner management, material refinement, and phase reviews.', '实际项目管理和协调，确保市场进入持续推进——每周追踪、合作伙伴管理、材料优化和阶段复盘。'),
+      why: t('Plans without execution discipline fail. We provide the structure, accountability, and local presence needed to turn strategy into customer conversations, partner agreements, and actual sales.', '没有执行纪律的计划会失败。我们提供将策略转化为客户对话、合作伙伴协议和实际销售所需的结构、问责和本地存在。'),
+      deliver: [
+        t('Weekly progress meetings & action tracking', '每周进度会议与行动追踪'),
+        t('Partner & supplier coordination', '合作伙伴与供应商协调'),
+        t('Customer materials & pitch refinement', '客户材料与推介优化'),
+        t('Milestone & phase review reports', '里程碑与阶段复盘报告'),
+        t('Course correction & plan adjustment', '方向调整与计划优化'),
       ],
     },
     {
       num: '05',
-      title: t('Digital Trust & Local Presence', '数字化信任与本地前台建设'),
-      summary: t(
-        'North American customers research before they buy. We build the digital infrastructure — website, business profiles, inquiry systems, trust content — that makes you findable, credible, and contactable in local market context.',
-        '北美客户在购买前会做调研。我们建设数字化基础设施——官网、商业简介、询盘系统、信任内容——让本地市场的客户能找到您、信任您、联系到您。'
-      ),
-      delivers: [
-        t('North America-focused website', '面向北美的官网'),
-        t('English business profile & messaging', '英文商业简介与表达'),
-        t('LinkedIn & professional presence', 'LinkedIn与专业形象'),
-        t('Customer inquiry & conversion setup', '客户询盘与转化设置'),
-        t('Case studies & trust content', '案例与信任内容'),
-      ],
-      forWho: [
-        t('Companies with no North America digital presence', '没有在北美数字存在的企业'),
-        t('Businesses needing English content', '需要英文内容的企业'),
-        t('Teams wanting to build local credibility', '希望建立本地可信度的团队'),
-        t('Companies preparing for customer outreach', '准备开展客户接触的企业'),
-      ],
-    },
-    {
-      num: '06',
-      title: t('Execution Support & Project Management', '本地执行与项目推进陪跑'),
-      summary: t(
-        'Plans fail without execution discipline. We provide weekly progress check-ins, task tracking, supplier coordination, material refinement, and phase reviews — keeping your market entry project moving forward with accountability.',
-        '没有执行纪律，计划就会落空。我们提供每周进度跟进、任务追踪、供应商协调、材料优化和阶段复盘——确保您的市场进入项目有问责地持续推进。'
-      ),
-      delivers: [
-        t('Weekly progress meetings & action tracking', '每周进度会议与行动追踪'),
-        t('Supplier & partner coordination', '供应商与合作伙伴协调'),
-        t('Customer materials refinement', '客户材料优化'),
-        t('Milestone & phase review', '里程碑与阶段复盘'),
-        t('Course correction & plan adjustment', '方向调整与计划优化'),
-      ],
-      forWho: [
-        t('Companies with a plan needing execution support', '有计划需要执行支持'),
-        t('Teams needing regular accountability', '需要定期跟进和问责'),
-        t('Businesses navigating complex multi-party projects', '应对复杂多方项目的企业'),
-        t('Leadership wanting visibility into progress', '管理层需要掌握进展'),
+      title: t('0–90 Day Entry Roadmap', '0–90天进入路线图'),
+      what: t('A concrete, week-by-week execution plan that takes you from assessment to first customer conversations or partner agreements within 90 days.', '从评估到首次客户对话或合作伙伴协议的具体逐周执行计划，在90天内完成。'),
+      why: t('Without a structured timeline, market entry becomes an endless series of "next steps" that never quite happen. A 90-day roadmap creates urgency, accountability, and measurable progress.', '没有结构化时间表，市场进入变成一系列永远不会真正发生的"下一步"。90天路线图创造紧迫感、问责和可衡量的进展。'),
+      deliver: [
+        t('Week-by-week action plan with owners and deadlines', '逐周行动计划，含责任人和截止日期'),
+        t('Milestone definitions and success criteria', '里程碑定义和成功标准'),
+        t('Resource & budget allocation', '资源与预算分配'),
+        t('Risk register and contingency plans', '风险登记和应急预案'),
+        t('Go/no-go decision points', '继续/停止决策点'),
       ],
     },
   ]
@@ -162,11 +100,11 @@ export default function ServicesPage() {
       <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
         <div className="container-site">
           <p className="text-label mb-3">{t('Services', '服务')}</p>
-          <h1 className="font-serif text-[#212121] text-[5vw] md:text-[2.8vw] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[800px] mb-4">
-            {t('Six capabilities. One goal: practical market entry.', '六大能力。一个目标：让市场进入真正落地。')}
+          <h1 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[32px] md:text-[36px] lg:text-[42px] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[800px] mb-4">
+            {t('From Diagnosis to Execution', '从诊断到执行')}
           </h1>
           <p className="text-[12px] md:text-[14px] text-[#767676] max-w-[560px]">
-            {t('From initial assessment to ongoing execution support.', '从初步评估到持续执行支持。')}
+            {t('Five integrated capabilities that turn market entry intent into practical operations.', '五项整合能力，将市场进入意图转化为实际运营。')}
           </p>
         </div>
       </section>
@@ -174,29 +112,35 @@ export default function ServicesPage() {
       <section className="section-padding bg-white">
         <div className="container-site space-y-14 md:space-y-18">
           {services.map((s) => (
-            <div key={s.num} className="sp-section">
+            <div key={s.num} className="sp-block">
               <div className="flex items-baseline gap-3 mb-5">
                 <span className="text-[#C00000] text-[12px] font-bold">{s.num}</span>
-                <h2 className="font-serif text-[#212121] text-[5vw] md:text-[1.8vw] leading-[1.35] md:leading-[1.3] tracking-tight">{s.title}</h2>
+                <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight">{s.title}</h2>
               </div>
-              <p className="text-[13px] md:text-[15px] text-[#555] leading-[1.8] max-w-[680px] mb-6">{s.summary}</p>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 mb-5">
-                <div className="p-4 md:p-5 bg-[#F8F9FA]">
-                  <h4 className="text-[11px] font-semibold uppercase tracking-wider text-[#999] mb-3">{t('What you receive', '交付内容')}</h4>
-                  <ul className="space-y-2">
-                    {s.delivers.map((item, i) => (
-                      <li key={i} className="text-[11px] md:text-[13px] text-[#555] leading-[1.5] flex gap-2"><span className="text-[#C00000]">·</span>{item}</li>
-                    ))}
-                  </ul>
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 mb-6">
+                <div className="lg:col-span-4">
+                  <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#C00000]">
+                    <p className="text-[11px] font-semibold uppercase tracking-wider text-[#767676] mb-2">{t('What it means', '含义')}</p>
+                    <p className="text-[12px] md:text-[14px] text-[#555] leading-[1.7]">{s.what}</p>
+                  </div>
                 </div>
-                <div className="p-4 md:p-5 bg-[#F8F9FA]">
-                  <h4 className="text-[11px] font-semibold uppercase tracking-wider text-[#999] mb-3">{t('Best for', '适合谁')}</h4>
-                  <ul className="space-y-2">
-                    {s.forWho.map((item, i) => (
-                      <li key={i} className="text-[11px] md:text-[13px] text-[#555] leading-[1.5] flex gap-2"><span className="text-[#C00000]">·</span>{item}</li>
-                    ))}
-                  </ul>
+                <div className="lg:col-span-8">
+                  <div className="p-4 bg-[#F8F9FA]">
+                    <p className="text-[11px] font-semibold uppercase tracking-wider text-[#999] mb-2">{t('Why it matters', '重要性')}</p>
+                    <p className="text-[12px] md:text-[14px] text-[#555] leading-[1.7]">{s.why}</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-4 md:p-5 bg-[#F8F9FA]">
+                <h4 className="text-[11px] font-semibold uppercase tracking-wider text-[#999] mb-3">{t('What we deliver', '交付内容')}</h4>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  {s.deliver.map((item, i) => (
+                    <div key={i} className="text-[11px] md:text-[13px] text-[#555] leading-[1.5] flex gap-2">
+                      <span className="text-[#C00000]">·</span>{item}
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
@@ -204,10 +148,16 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section className="section-padding bg-[#F8F9FA]">
-        <div className="container-site text-center">
-          <h2 className="font-serif text-[#212121] text-[5vw] md:text-[2vw] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mx-auto mb-6">{t('Ready to evaluate your market entry readiness?', '准备好评估您的市场进入就绪度了吗？')}</h2>
-          <Link to="/contact" className="btn-primary text-[12px] md:text-[14px]">{t('Request an Initial Assessment', '申请初步市场进入评估')}</Link>
+      <section className="section-padding bg-[#1a1a2e]">
+        <div className="container-site">
+          <div className="max-w-[700px]">
+            <h2 className="font-serif text-white text-[28px] md:text-[32px] lg:text-[36px] md:text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6">
+              {t('Not sure which service fits your stage?', '不确定哪个服务适合您的阶段？')}
+            </h2>
+            <Link to="/contact" className="btn-primary text-[12px] md:text-[14px]">
+              {t('Discuss Your Market Entry Plan', '讨论您的市场进入计划')}
+            </Link>
+          </div>
         </div>
       </section>
     </div>

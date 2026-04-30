@@ -14,7 +14,7 @@ export default function NotFoundPage() {
     <div className="min-h-[100dvh] flex items-center justify-center bg-[#F8F9FA]">
       <div className="text-center px-6">
         <p className="text-[#C00000] text-[48px] md:text-[72px] font-serif mb-4">404</p>
-        <h1 className="font-serif text-[#212121] text-[5vw] md:text-[1.8vw] leading-[1.35] tracking-tight mb-4">
+        <h1 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] tracking-tight mb-4">
           {t('Page not found', '页面未找到')}
         </h1>
         <p className="text-[13px] md:text-[14px] text-[#767676] mb-8 max-w-[400px] mx-auto">

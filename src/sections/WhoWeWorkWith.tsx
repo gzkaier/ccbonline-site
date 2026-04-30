@@ -37,7 +37,7 @@ export default function WhoWeWorkWith() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-14">
           <div className="lg:col-span-4">
             <p className="text-label mb-3">{t('Clients', '客户')}</p>
-            <h2 className="font-serif text-[#212121] text-[5vw] md:text-[1.8vw] leading-[1.35] md:leading-[1.3] tracking-tight mb-4">
+            <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight mb-4">
               {t('Who We Work With', '我们服务的企业')}
             </h2>
             <p className="text-[12px] md:text-[14px] text-[#767676] leading-[1.7]">

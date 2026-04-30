@@ -29,7 +29,7 @@ export default function HomeAbout() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
           <div className="lg:col-span-5 habout-block">
             <p className="text-label mb-3">{t('About', '关于')}</p>
-            <h2 className="font-serif text-[#212121] text-[5vw] md:text-[1.8vw] leading-[1.35] md:leading-[1.3] tracking-tight mb-5 md:mb-6">
+            <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight mb-5 md:mb-6">
               {t('Clear answers. Concrete plans.', '清晰答案。具体计划。')}
             </h2>
             <p className="text-[12px] md:text-[14px] text-[#555] leading-[1.8] mb-5">

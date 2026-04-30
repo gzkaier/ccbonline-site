@@ -51,12 +51,24 @@ export default function Services() {
       bullets: [
         t('Distributor & partner identification', '经销商与合作伙伴识别'),
         t('Industry customer development', '行业客户开发'),
-        t('3PL, warehousing & after-sales setup', '物流、仓储与售后搭建'),
         t('Trade show follow-up & BD support', '展会跟进与本地商务支持'),
+        t('Local service partner setup', '本地服务伙伴搭建'),
       ],
     },
     {
       num: '05',
+      title: t('Canada Local Logistics & Hub Support', '加拿大本地物流与中转节点支持'),
+      desc: t('A lightweight local logistics foothold for market validation — receiving, short-term storage, local delivery, trade show material transfer, and small-batch distribution.', '轻量本地物流落点，支持市场验证阶段：货物接收、短期存放、本地派送、展会物料转运和小批量分拨。'),
+      bullets: [
+        t('Goods receiving at Canadian hub', '加拿大本地货物接收'),
+        t('Short-term storage & inventory hold', '短期存放与库存暂存'),
+        t('Local delivery & sample dispatch', '本地派送与样品发送'),
+        t('Trade show material transfer', '展会物料转运'),
+        t('Small-batch distribution arrangement', '小批量分拨安排'),
+      ],
+    },
+    {
+      num: '06',
       title: t('Digital Trust & Local Presence', '数字化信任与本地前台建设'),
       desc: t('Build the digital infrastructure that makes North American customers trust and find you.', '建设让北美客户信任并找到您的数字化基础设施。'),
       bullets: [
@@ -67,7 +79,7 @@ export default function Services() {
       ],
     },
     {
-      num: '06',
+      num: '07',
       title: t('Execution Support & Project Management', '本地执行与项目推进陪跑'),
       desc: t('Stay on track with weekly check-ins, task tracking, and hands-on execution support.', '通过每周跟进、任务追踪和实际执行支持，确保项目持续推进。'),
       bullets: [
@@ -95,8 +107,8 @@ export default function Services() {
     <section ref={sectionRef} className="section-padding bg-white">
       <div className="container-site">
         <p className="text-label mb-3">{t('Services', '服务模块')}</p>
-        <h2 className="font-serif text-[#212121] text-[5vw] md:text-[2vw] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[700px] mb-10 md:mb-12">
-          {t('Six Capabilities That Turn Intent into Market Entry', '六大能力，将意图转化为市场进入')}
+        <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[24px] md:text-[28px] lg:text-[32px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[700px] mb-10 md:mb-12">
+          {t('Seven Capabilities That Turn Intent into Market Entry', '七大能力，将意图转化为市场进入')}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
           {services.map((s) => (

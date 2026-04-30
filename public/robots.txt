@@ -1,0 +1,8 @@
+User-Agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+Sitemap: https://ccbonline.ca/sitemap.xml
+
+Host: https://ccbonline.ca

@@ -26,8 +26,10 @@ export default function Footer() {
             </h4>
             <div className="space-y-2">
               {[
-                { en: 'Home', zh: '首页', href: '/' },
+                { en: 'Canada Market Entry', zh: '加拿大市场进入', href: '/canada-market-entry' },
                 { en: 'Services', zh: '服务', href: '/services' },
+                { en: 'Responsibility Chain', zh: '责任链', href: '/responsibility-chain' },
+                { en: 'Insights', zh: '洞察', href: '/insights' },
                 { en: 'About', zh: '关于', href: '/about' },
                 { en: 'Contact', zh: '联系', href: '/contact' },
               ].map((link) => (

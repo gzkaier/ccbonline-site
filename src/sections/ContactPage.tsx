@@ -11,7 +11,10 @@ export default function ContactPage() {
   const pageRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    document.title = t('Contact CCBONLINE INC.', '联系 CCBONLINE INC.')
+    document.title = t(
+      'Market Entry Consultation | CCBONLINE INC.',
+      '市场进入咨询 | CCBONLINE INC.'
+    )
     window.scrollTo(0, 0)
     const page = pageRef.current
     if (!page) return
@@ -25,7 +28,8 @@ export default function ContactPage() {
   }, [])
 
   const [formData, setFormData] = useState({
-    company: '', category: '', market: '', stage: '', challenge: '', contact: '',
+    company: '', name: '', email: '', phone: '', location: '',
+    category: '', targetMarket: '', stage: '', question: '',
   })
   const [submitted, setSubmitted] = useState(false)
   const [mailtoLink, setMailtoLink] = useState('')
@@ -38,7 +42,7 @@ export default function ContactPage() {
     e.preventDefault()
     const subject = encodeURIComponent(`Market Entry Assessment - ${formData.company || 'Inquiry'}`)
     const body = encodeURIComponent(
-      `Company: ${formData.company || 'N/A'}\nProduct/Service Category: ${formData.category || 'N/A'}\nTarget Market: ${formData.market || 'N/A'}\nCurrent Stage: ${formData.stage || 'N/A'}\nMain Challenge: ${formData.challenge || 'N/A'}\nContact Info: ${formData.contact || 'N/A'}`
+      `Company: ${formData.company || 'N/A'}\nName: ${formData.name || 'N/A'}\nEmail: ${formData.email || 'N/A'}\nPhone/WeChat: ${formData.phone || 'N/A'}\nCompany Location: ${formData.location || 'N/A'}\nProduct Category: ${formData.category || 'N/A'}\nTarget Market: ${formData.targetMarket || 'N/A'}\nCurrent Stage: ${formData.stage || 'N/A'}\nMain Question: ${formData.question || 'N/A'}`
     )
     const link = `mailto:info@ccbonline.ca?subject=${subject}&body=${body}`
     setMailtoLink(link)
@@ -56,11 +60,11 @@ export default function ContactPage() {
         <div className="absolute inset-0 bg-[#F8F9FA]/85" />
         <div className="relative z-10 container-site">
           <p className="text-label mb-3">{t('Contact', '联系')}</p>
-          <h1 className="font-serif text-[#212121] text-[5vw] md:text-[2.8vw] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[700px] mb-4">
-            {t('Start your market entry assessment.', '开始您的市场进入评估。')}
+          <h1 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[32px] md:text-[36px] lg:text-[42px] leading-[1.35] md:leading-[1.25] tracking-tight max-w-[700px] mb-4">
+            {t('Discuss Your Canada or North America Market Entry Plan', '讨论您的加拿大或北美市场进入计划')}
           </h1>
           <p className="text-[12px] md:text-[14px] text-[#767676] max-w-[520px]">
-            {t('Six questions. A clear next step.', '六个问题。一个明确的下一步。')}
+            {t('Share your situation and we will respond with a clear next step.', '分享您的情况，我们会回复明确的下一步。')}
           </p>
         </div>
       </section>
@@ -115,24 +119,38 @@ export default function ContactPage() {
                 ) : (
                   <>
                     <div className="mb-6">
-                      <p className="text-[11px] font-medium uppercase tracking-wider text-[#999] mb-3">{t('Assessment Form', '评估表单')} <span className="text-[#C00000]">*</span> {t('required', '必填')}</p>
+                      <p className="text-[11px] font-medium uppercase tracking-wider text-[#999] mb-3">{t('Market Entry Consultation Form', '市场进入咨询表单')} <span className="text-[#C00000]">*</span> {t('required', '必填')}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                        <input type="text" name="company" placeholder={t('Company name *', '公司名称 *')} value={formData.company} onChange={handleChange} required className={inputClass} />
-                        <input type="text" name="category" placeholder={t('Product / service category *', '产品/服务类别 *')} value={formData.category} onChange={handleChange} required className={inputClass} />
+                        <input type="text" name="company" placeholder={t('Company Name *', '公司名称 *')} value={formData.company} onChange={handleChange} required className={inputClass} />
+                        <input type="text" name="name" placeholder={t('Your Name *', '您的姓名 *')} value={formData.name} onChange={handleChange} required className={inputClass} />
                       </div>
                     </div>
 
                     <div className="mb-6">
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                        <select name="market" value={formData.market} onChange={handleChange} required className={selectClass}>
-                          <option value="">{t('Target market *', '目标市场 *')}</option>
+                        <input type="email" name="email" placeholder={t('Email *', '邮箱 *')} value={formData.email} onChange={handleChange} required className={inputClass} />
+                        <input type="text" name="phone" placeholder={t('Phone / WeChat', '电话 / 微信')} value={formData.phone} onChange={handleChange} className={inputClass} />
+                      </div>
+                    </div>
+
+                    <div className="mb-6">
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <input type="text" name="location" placeholder={t('Company Location', '公司所在地')} value={formData.location} onChange={handleChange} className={inputClass} />
+                        <input type="text" name="category" placeholder={t('Product Category', '产品类别')} value={formData.category} onChange={handleChange} className={inputClass} />
+                      </div>
+                    </div>
+
+                    <div className="mb-6">
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <select name="targetMarket" value={formData.targetMarket} onChange={handleChange} className={selectClass}>
+                          <option value="">{t('Target Market', '目标市场')}</option>
                           <option value="Canada">{t('Canada', '加拿大')}</option>
                           <option value="United States">{t('United States', '美国')}</option>
                           <option value="North America">{t('North America', '北美')}</option>
                           <option value="Not sure">{t('Not sure yet', '尚未确定')}</option>
                         </select>
-                        <select name="stage" value={formData.stage} onChange={handleChange} required className={selectClass}>
-                          <option value="">{t('Current stage *', '当前阶段 *')}</option>
+                        <select name="stage" value={formData.stage} onChange={handleChange} className={selectClass}>
+                          <option value="">{t('Current Stage', '当前阶段')}</option>
                           <option value="Exploring">{t('Exploring', '探索中')}</option>
                           <option value="Preparing">{t('Preparing', '准备中')}</option>
                           <option value="Already selling">{t('Already selling', '已有销售')}</option>
@@ -142,19 +160,19 @@ export default function ContactPage() {
                     </div>
 
                     <div className="mb-6">
-                      <select name="challenge" value={formData.challenge} onChange={handleChange} required className={`${selectClass} mb-3`}>
-                        <option value="">{t('Main challenge *', '主要挑战 *')}</option>
-                        <option value="Market">{t('Market', '市场判断')}</option>
-                        <option value="Compliance">{t('Compliance', '合规问题')}</option>
-                        <option value="Channel">{t('Channel', '渠道开发')}</option>
-                        <option value="Import">{t('Import', '进口/物流')}</option>
-                        <option value="Localization">{t('Localization', '本地化')}</option>
-                        <option value="Execution">{t('Execution', '执行推进')}</option>
-                      </select>
-                      <input type="text" name="contact" placeholder={t('Your contact info (email or phone) *', '联系方式（邮箱或电话）*')} value={formData.contact} onChange={handleChange} required className={inputClass} />
+                      <textarea
+                        name="question"
+                        placeholder={t('Your main question or challenge (optional)', '您的主要问题或挑战（可选）')}
+                        value={formData.question}
+                        onChange={handleChange}
+                        rows={4}
+                        className={`${inputClass} resize-none`}
+                      />
                     </div>
 
-                    <button type="submit" className="btn-primary w-full sm:w-auto text-[13px] md:text-[14px]">{t('Submit Assessment', '提交评估')}</button>
+                    <button type="submit" className="btn-primary w-full sm:w-auto text-[13px] md:text-[14px]">
+                      {t('Discuss Your Market Entry Plan', '讨论您的市场进入计划')}
+                    </button>
                     <p className="text-[11px] text-[#AAA] mt-4">{t('By submitting, you agree to be contacted by email. We do not share your information.', '提交即表示同意通过邮件联系。我们不会与第三方分享您的信息。')}</p>
                   </>
                 )}

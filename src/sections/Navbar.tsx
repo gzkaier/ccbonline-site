@@ -1,10 +1,14 @@
-import { useEffect, useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useLanguage } from '../context/LanguageContext'
 import { Link, useLocation } from 'react-router'
 import { Menu, X } from 'lucide-react'
 
 const navLinks = [
+  { en: 'Home', zh: '首页', href: '/' },
+  { en: 'Canada Market Entry', zh: '加拿大市场进入', href: '/canada-market-entry' },
   { en: 'Services', zh: '服务', href: '/services' },
+  { en: 'Responsibility Chain', zh: '责任链', href: '/responsibility-chain' },
+  { en: 'Insights', zh: '洞察', href: '/insights' },
   { en: 'About', zh: '关于', href: '/about' },
   { en: 'Contact', zh: '联系', href: '/contact' },
 ]
@@ -16,19 +20,27 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 60)
-    }
+    const handleScroll = () => setScrolled(window.scrollY > 60)
     window.addEventListener('scroll', handleScroll, { passive: true })
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
   useEffect(() => {
     setMenuOpen(false)
-    window.scrollTo(0, 0)
+    if (typeof document !== 'undefined') {
+      document.body.style.overflow = ''
+    }
   }, [location.pathname])
 
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen)
+    if (typeof document !== 'undefined') {
+      document.body.style.overflow = menuOpen ? '' : 'hidden'
+    }
+  }
+
   const isHome = location.pathname === '/'
+  const isActive = (href: string) => location.pathname === href
 
   return (
     <>
@@ -40,32 +52,33 @@ export default function Navbar() {
           borderBottom: scrolled || !isHome ? '1px solid hsl(var(--border))' : 'none',
         }}
       >
-        <div className="container-site h-[64px] flex items-center justify-between">
+        <div className="container-site h-[56px] md:h-[64px] flex items-center justify-between">
           <Link
             to="/"
-            className="text-[15px] font-semibold tracking-wide uppercase"
-            style={{ color: scrolled || !isHome ? '#212121' : '#fff' }}
+            className="text-[15px] font-semibold tracking-wide uppercase z-50"
+            style={{ color: (scrolled || !isHome) && !menuOpen ? '#212121' : '#fff' }}
+            onClick={() => { setMenuOpen(false); document.body.style.overflow = '' }}
           >
             CCBONLINE INC.
           </Link>
 
-          <div className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
+          <div className="hidden lg:flex items-center gap-6">
+            {navLinks.slice(1).map((link) => (
               <Link
                 key={link.en}
                 to={link.href}
-                className="text-[14px] font-medium transition-opacity duration-300 hover:opacity-60"
-                style={{ color: scrolled || !isHome ? '#212121' : '#fff' }}
+                className={`text-[13px] font-medium transition-all duration-200 ${isActive(link.href) ? 'text-[#C00000]' : 'hover:text-[#C00000]'}`}
+                style={{ color: scrolled || !isHome ? (isActive(link.href) ? '#C00000' : '#212121') : '#fff' }}
               >
                 {t(link.en, link.zh)}
               </Link>
             ))}
             <button
               onClick={toggleLang}
-              className="text-[13px] font-medium px-3 py-1 border transition-all duration-300 hover:opacity-70"
+              className="text-[12px] font-medium px-3 py-1.5 border transition-all duration-200 hover:border-[#C00000] hover:text-[#C00000]"
               style={{
                 color: scrolled || !isHome ? '#212121' : '#fff',
-                borderColor: scrolled || !isHome ? 'rgba(0,0,0,0.2)' : 'rgba(255,255,255,0.3)',
+                borderColor: scrolled || !isHome ? 'rgba(0,0,0,0.15)' : 'rgba(255,255,255,0.3)',
               }}
             >
               {lang === 'en' ? 'EN' : '中文'}
@@ -73,45 +86,46 @@ export default function Navbar() {
           </div>
 
           <button
-            className="md:hidden"
-            onClick={() => setMenuOpen(!menuOpen)}
-            style={{ color: scrolled || !isHome ? '#212121' : '#fff' }}
+            className="lg:hidden p-2 -mr-2 z-50"
+            onClick={toggleMenu}
+            style={{ color: (scrolled || !isHome) && !menuOpen ? '#212121' : '#fff' }}
+            aria-label={menuOpen ? 'Close menu' : 'Open menu'}
           >
-            {menuOpen ? <X size={22} /> : <Menu size={22} />}
+            {menuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
       </nav>
 
+      {/* Mobile Menu Overlay */}
       {menuOpen && (
-        <div className="fixed inset-0 z-[60] bg-white flex flex-col items-center justify-center gap-8">
-          <button
-            className="absolute top-5 right-5 text-[#212121]"
-            onClick={() => setMenuOpen(false)}
-          >
-            <X size={24} />
-          </button>
-          <Link to="/" onClick={() => setMenuOpen(false)} className="text-[#212121] text-2xl font-semibold">
-            {t('Home', '首页')}
-          </Link>
-          {navLinks.map((link) => (
-            <Link
-              key={link.en}
-              to={link.href}
-              onClick={() => setMenuOpen(false)}
-              className="text-[#212121] text-2xl font-semibold hover:opacity-60 transition-opacity"
-            >
-              {t(link.en, link.zh)}
-            </Link>
-          ))}
-          <button
-            onClick={() => {
-              toggleLang()
-              setMenuOpen(false)
-            }}
-            className="text-[#212121] text-lg font-medium mt-4 px-6 py-2 border border-[#212121]/20"
-          >
-            {lang === 'en' ? 'Switch to 中文' : 'Switch to English'}
-          </button>
+        <div className="fixed inset-0 z-40 bg-white flex flex-col">
+          <div className="flex-1 flex flex-col items-center justify-center gap-6 px-6">
+            {navLinks.map((link) => (
+              <Link
+                key={link.en}
+                to={link.href}
+                onClick={() => { setMenuOpen(false); document.body.style.overflow = '' }}
+                className={`text-[20px] font-semibold transition-colors ${isActive(link.href) ? 'text-[#C00000]' : 'text-[#212121] hover:text-[#C00000]'}`}
+              >
+                {t(link.en, link.zh)}
+              </Link>
+            ))}
+            <div className="w-full max-w-[280px] pt-4 border-t border-[#E5E5E5] flex flex-col gap-3">
+              <Link
+                to="/contact"
+                onClick={() => { setMenuOpen(false); document.body.style.overflow = '' }}
+                className="btn-primary text-[15px] py-3.5 text-center"
+              >
+                {t('Book a Consultation', '预约咨询')}
+              </Link>
+              <button
+                onClick={() => { toggleLang(); }}
+                className="text-[14px] font-medium py-3 text-center border border-[#E5E5E5] text-[#212121]"
+              >
+                {lang === 'en' ? 'Switch to 中文' : 'Switch to English'}
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </>

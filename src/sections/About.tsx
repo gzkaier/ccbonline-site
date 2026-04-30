@@ -43,7 +43,7 @@ export default function About() {
             <p className="text-[#767676] text-[13px] font-medium tracking-widest uppercase mb-4">
               {t('About Us', '关于我们')}
             </p>
-            <h2 className="font-display italic text-black text-[7vw] md:text-[2.8vw] leading-[1.15] tracking-tight">
+            <h2 className="font-display italic text-black text-[28px] md:text-[34px] lg:text-[40px] md:text-[32px] md:text-[36px] lg:text-[42px] leading-[1.15] tracking-tight">
               {t('Your Bridge to North America', '您通往北美的桥梁')}
             </h2>
           </div>

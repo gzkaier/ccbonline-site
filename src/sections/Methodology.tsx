@@ -32,7 +32,7 @@ export default function Methodology() {
     <section ref={sectionRef} className="section-padding bg-white">
       <div className="container-site">
         <p className="text-label mb-3">{t('Process', '合作流程')}</p>
-        <h2 className="font-serif text-[#212121] text-[5vw] md:text-[2vw] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10 md:mb-12">
+        <h2 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] md:text-[24px] md:text-[28px] lg:text-[32px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mb-10 md:mb-12">
           {t('From Assessment to Execution', '从评估到执行')}
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">

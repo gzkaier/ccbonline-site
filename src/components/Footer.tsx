@@ -27,7 +27,7 @@ export default function Footer({ lang }: FooterProps) {
   const cta = lang === 'en' ? 'Book a Consultation' : '预约咨询'
   const ctaHref = lang === 'en' ? '/en/contact' : '/zh/contact'
   const tagline = lang === 'en'
-    ? 'Canada & North America Market Entry Partner for Chinese Businesses'
+    ? 'Canada & North America Market Entry Advisory and Execution Support'
     : '中国企业进入加拿大与北美市场的本地化进入顾问'
   const privacy = lang === 'en' ? 'Privacy Policy' : '隐私政策'
   const terms = lang === 'en' ? 'Terms of Use' : '使用条款'

@@ -41,7 +41,7 @@ export default function ENResponsibilityChain() {
               What Is the Responsibility Chain?
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.65] max-w-[720px] mb-4">
-              The responsibility chain is the complete set of obligations, risks, and accountabilities that a company assumes when bringing a product into North America. It starts before the product leaves China and continues until the product is safely in the customer's hands — and beyond.
+              The responsibility chain is the complete set of obligations, risks, and accountabilities that a company assumes when bringing a product into North America. It starts before the product leaves the factory and continues until the product is safely in the customer's hands — and beyond.
             </p>
             <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.65] max-w-[720px]">
               For companies entering from overseas, the responsibility chain is often invisible until something goes wrong: a customs hold, a product recall, a warranty dispute, or a liability claim. Our role is to make this chain visible, manageable, and properly assigned before you ship.

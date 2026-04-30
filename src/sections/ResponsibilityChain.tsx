@@ -54,7 +54,7 @@ export default function ResponsibilityChain() {
             <div className="lg:col-span-8 rc-block">
               <p className="text-[14px] md:text-[16px] text-[#444] leading-[1.8] mb-5">
                 {t(
-                  'The responsibility chain is the complete set of obligations, risks, and accountabilities that a company assumes when bringing a product into North America. It starts before the product leaves China and continues until the product is safely in the customer\'s hands — and beyond.',
+                  'The responsibility chain is the complete set of obligations, risks, and accountabilities that a company assumes when bringing a product into North America. It starts before the product leaves the factory and continues until the product is safely in the customer\'s hands — and beyond.',
                   '责任链是企业将产品带入北美时承担的完整义务、风险和责任体系。它在产品离开中国之前就开始，持续到产品安全到达客户手中——以及之后。'
                 )}
               </p>

@@ -46,8 +46,8 @@ export default function ENCanadaMarketEntry() {
                 <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">Canada's smaller market means lower upfront investment and faster feedback loops for product-market fit validation.</p>
               </div>
               <div className="card-border bg-white">
-                <h3 className="text-[15px] md:text-[16px] font-semibold mb-2">Established China-Canada trade infrastructure</h3>
-                <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">Well-developed customs processes, import documentation standards, and freight corridors between China and major Canadian ports.</p>
+                <h3 className="text-[15px] md:text-[16px] font-semibold mb-2">Established international trade infrastructure</h3>
+                <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">Well-developed customs processes, import documentation standards, and freight corridors between major international ports and Canada.</p>
               </div>
               <div className="card-border bg-white">
                 <h3 className="text-[15px] md:text-[16px] font-semibold mb-2">Uniform federal regulation</h3>

@@ -63,7 +63,7 @@ export default function ServicesPage() {
         t('Channel strategy (direct, distributor, hybrid, online)', '渠道策略（直接、经销商、混合、在线）'),
         t('Partner identification & shortlist', '合作伙伴识别与候选清单'),
         t('Partner evaluation framework', '合作伙伴评估框架'),
-        t('Initial outreach strategy & scripts', '初步 outreach 策略与脚本'),
+        t('Initial outreach strategy & scripts', '初步外联拓展策略与话术脚本'),
         t('Trade show or visit planning', '展会或拜访计划'),
       ],
     },
@@ -71,7 +71,7 @@ export default function ServicesPage() {
       num: '04',
       title: t('Local Execution Support', '本地执行支持'),
       what: t('Hands-on project management and coordination to keep your market entry moving forward — weekly tracking, partner management, material refinement, and phase reviews.', '实际项目管理和协调，确保市场进入持续推进——每周追踪、合作伙伴管理、材料优化和阶段复盘。'),
-      why: t('Plans without execution discipline fail. We provide the structure, accountability, and local presence needed to turn strategy into customer conversations, partner agreements, and actual sales.', '没有执行纪律的计划会失败。我们提供将策略转化为客户对话、合作伙伴协议和实际销售所需的结构、问责和本地存在。'),
+      why: t('Plans without execution discipline fail. We provide the structure, accountability, and local presence needed to turn strategy into customer conversations, partner agreements, and actual sales.', '没有执行纪律的计划会失败。我们提供将策略转化为客户对话、合作伙伴协议和实际销售所需的结构、问责机制和本地布局。'),
       deliver: [
         t('Weekly progress meetings & action tracking', '每周进度会议与行动追踪'),
         t('Partner & supplier coordination', '合作伙伴与供应商协调'),

@@ -73,7 +73,7 @@ const complianceCards: InsightCard[] = [
 const channelCards: InsightCard[] = [
   {
     title: '渠道开发不是群发邮件',
-    summary: '在北美找经销商需要结构化的关系建设和互惠价值展示——不是买名单发邮件，也不是忽略经销商真实决策逻辑的交易式 outreach。',
+    summary: '在北美找经销商需要结构化的关系建设和互惠价值展示——不是买名单发邮件，也不是忽略经销商真实决策逻辑的交易式推销。',
     category: '渠道与本地承接',
     slug: 'qu-dao-kai-fa-bu-shi-qun-fa-you-jian',
   },

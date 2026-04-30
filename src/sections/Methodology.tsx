@@ -10,10 +10,10 @@ export default function Methodology() {
   const sectionRef = useRef<HTMLElement>(null)
 
   const steps = [
-    { num: '01', title: t('Assess', '评估'), desc: t('Evaluate readiness: product fit, compliance gaps, channel foundations, and priority market.', '评估就绪度：产品适配、合规差距、渠道基础和优先市场。') },
+    { num: '01', title: t('Assess', '评估'), desc: t('Evaluate readiness: product fit, compliance gaps, channel foundations, and priority market.', '评估准备程度：产品适配、合规缺口、渠道基础和优先市场。') },
     { num: '02', title: t('Plan', '规划'), desc: t('Design entry strategy: customer profile, phasing, channel approach, budget, and team roles.', '设计进入策略：客户画像、阶段划分、渠道方案、预算和团队分工。') },
-    { num: '03', title: t('Prepare', '准备'), desc: t('Build foundations: compliance coordination, digital presence, materials, and partner identification.', '建设基础：合规协同、数字存在、材料和合作伙伴识别。') },
-    { num: '04', title: t('Execute', '执行'), desc: t('Launch with discipline: weekly tracking, partner engagement, customer outreach, and milestone reviews.', '有纪律地启动：每周追踪、合作伙伴 engagement、客户接触和里程碑复盘。') },
+    { num: '03', title: t('Prepare', '准备'), desc: t('Build foundations: compliance coordination, digital presence, materials, and partner identification.', '建设基础：合规协同、数字化布局、物料准备和合作伙伴筛选。') },
+    { num: '04', title: t('Execute', '执行'), desc: t('Launch with discipline: weekly tracking, partner engagement, customer outreach, and milestone reviews.', '有纪律地启动：每周追踪、合作伙伴对接互动、客户外联拓展和关键节点复盘。') },
   ]
 
   useEffect(() => {

@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
 
-export default function ZH_zhan_hui_bu_shi_qu_bai_tan() {
+export default function ZH_ZhanHuiBuShiQuBaiTan() {
   useEffect(() => {
     document.title = '参展不是去摆摊 | CCBONLINE INC.'
     window.scrollTo(0, 0)
@@ -39,7 +39,7 @@ export default function ZH_zhan_hui_bu_shi_qu_bai_tan() {
             </h2>
             <div className="p-5 md:p-6 bg-[#FFF8F8] border border-[#F0D0D0] mb-10">
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
-                最大的误区是好产品自然能吸引买家。实际上，北美的买家来展会有明确议程，时间有限，走过几十个展位。没有主动接触和清晰的价值传递，再好的产品也会被忽略。另一个误区是展会结束就完事了。事实上，展会 80% 的价值来自展后几周到几个月的跟进。
+                最大的误区是"好产品自然能吸引买家"。实际上，北美的买家来展会有明确议程，时间有限，走过几十个展位。没有主动接触和清晰的价值传递，再好的产品也会被忽略。另一个误区是展会结束就完事了。事实上，展会 80% 的价值来自展后几周到几个月的跟进。
               </p>
             </div>
 
@@ -63,12 +63,11 @@ export default function ZH_zhan_hui_bu_shi_qu_bai_tan() {
               下一步动作
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">筛选出 3-5 个与你产品类别最相关的北美展会</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">为每场展会设定具体、可衡量的目标再决定是否参加</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">制定展前外联计划，提前约目标观众见面</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">建立展后 90 天跟进系统，明确责任人</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">联系 CCBONLINE 获取展会策略和执行支持</li>
-
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">筛选出 3-5 个与你产品类别最相关的北美展会</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">为每场展会设定具体、可衡量的目标再决定是否参加</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">制定展前外联计划，提前约目标观众见面</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">建立展后 90 天跟进系统，明确责任人</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">联系 CCBONLINE 获取展会策略和执行支持</li>
             </ul>
           </div>
         </section>
@@ -80,55 +79,53 @@ export default function ZH_zhan_hui_bu_shi_qu_bai_tan() {
               经常被问到的问题
             </h2>
             <div className="space-y-3 mb-10">
-            <details className="border border-[#E5E5E5] bg-white">
-              <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">参加北美展会一般要多少钱？</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
-              </summary>
-              <div className="px-4 pb-4 md:px-5 md:pb-5">
-                <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">差异很大，但在主要行业展上，一个基础的 10x10 英尺展位通常 1.5-5 万美元，包括展位、运输、差旅和物料。更大或位置更好的展位会贵很多。</p>
-              </div>
-            </details>
-            <details className="border border-[#E5E5E5] bg-white">
-              <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">第一场展会应该选哪个？</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
-              </summary>
-              <div className="px-4 pb-4 md:px-5 md:pb-5">
-                <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">取决于产品和目标客户。我们根据观众构成、竞争对手 presence 和历史 ROI 数据帮客户筛选合适的展会。</p>
-              </div>
-            </details>
-            <details className="border border-[#E5E5E5] bg-white">
-              <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">参加展会前应该准备多久？</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
-              </summary>
-              <div className="px-4 pb-4 md:px-5 md:pb-5">
-                <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">理想情况下 3-6 个月：定目标、识别目标观众、约见面、调整物料、准备演示、规划跟进。</p>
-              </div>
-            </details>
-            <details className="border border-[#E5E5E5] bg-white">
-              <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">中国企业在北美展会上最常见的错误是什么？</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
-              </summary>
-              <div className="px-4 pb-4 md:px-5 md:pb-5">
-                <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">被动等客——坐在桌后等访客。成功的参展商主动接触路过的人、问资格问题、做详细记录用于跟进。</p>
-              </div>
-            </details>
-
+              <details className="border border-[#E5E5E5] bg-white">
+                <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
+                  <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">参加北美展会一般要多少钱？</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
+                </summary>
+                <div className="px-4 pb-4 md:px-5 md:pb-5">
+                  <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">差异很大，但在主要行业展上，一个基础的 10x10 英尺展位通常 1.5-5 万美元，包括展位、运输、差旅和物料。更大或位置更好的展位会贵很多。</p>
+                </div>
+              </details>
+              <details className="border border-[#E5E5E5] bg-white">
+                <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
+                  <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">第一场展会应该选哪个？</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
+                </summary>
+                <div className="px-4 pb-4 md:px-5 md:pb-5">
+                  <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">取决于产品和目标客户。我们根据观众构成、竞争对手参展情况和历史投入回报数据帮客户筛选合适的展会。</p>
+                </div>
+              </details>
+              <details className="border border-[#E5E5E5] bg-white">
+                <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
+                  <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">参加展会前应该准备多久？</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
+                </summary>
+                <div className="px-4 pb-4 md:px-5 md:pb-5">
+                  <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">理想情况下 3-6 个月：定目标、识别目标观众、约见面、调整物料、准备演示、规划跟进。</p>
+                </div>
+              </details>
+              <details className="border border-[#E5E5E5] bg-white">
+                <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
+                  <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">中国企业在北美展会上最常见的错误是什么？</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
+                </summary>
+                <div className="px-4 pb-4 md:px-5 md:pb-5">
+                  <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">被动等客——坐在桌后等访客。成功的参展商主动接触路过的人、问资格问题、做详细记录用于跟进。</p>
+                </div>
+              </details>
             </div>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
               相关阅读
             </h2>
             <ul className="space-y-2 mb-8">
-          <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">市场进入服务</Link></li>
-          <li><Link to="/zh/insights/qu-dao-kai-fa-bu-shi-qun-fa-you-jian" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">渠道开发不是群发邮件</Link></li>
-          <li><Link to="/zh/insights/jia-na-da-ke-yi-shi-bei-mei-di-yi-zhan" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">加拿大可以成为北美市场进入的第一站</Link></li>
-          <li><Link to="/zh/insights/0-90-tian-bei-mei-shi-chang-jin-ru-lu-jing" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">北美市场进入的 0–90 天路径</Link></li>
-          <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">联系 CCBONLINE</Link></li>
-
+              <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">市场进入服务</Link></li>
+              <li><Link to="/zh/insights/qu-dao-kai-fa-bu-shi-qun-fa-you-jian" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">渠道开发不是群发邮件</Link></li>
+              <li><Link to="/zh/insights/jia-na-da-ke-yi-shi-bei-mei-di-yi-zhan" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">加拿大可以成为北美市场进入的第一站</Link></li>
+              <li><Link to="/zh/insights/0-90-tian-bei-mei-shi-chang-jin-ru-lu-jing" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">北美市场进入的 0–90 天路径</Link></li>
+              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">联系 CCBONLINE</Link></li>
             </ul>
           </div>
         </section>
@@ -137,7 +134,7 @@ export default function ZH_zhan_hui_bu_shi_qu_bai_tan() {
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-6">
-                想了解更多关于渠道与本地承接的内容？
+                想了解更多关于展会策略的内容？
               </h2>
               <Link to="/zh/contact" className="btn-primary text-[16px] px-6 py-3.5 min-h-[52px]">预约初步沟通</Link>
             </div>

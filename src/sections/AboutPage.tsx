@@ -60,7 +60,7 @@ export default function AboutPage() {
               <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8] mb-5">
                 {t(
                   'We are not a marketing agency, a web development shop, or a lead-generation platform. We are market-entry advisors who combine market judgment, compliance awareness, channel understanding, local resources, and execution discipline to help Chinese companies build a real operating presence in North America.',
-                  '我们不是营销机构、网站开发公司或获客平台。我们是市场进入顾问，结合市场判断、合规意识、渠道理解、本地资源和执行纪律，帮助中国企业在北美建立真实的运营存在。'
+                  '我们不是营销机构、网站开发公司或获客平台。我们是市场进入顾问，结合市场判断、合规意识、渠道理解、本地资源和执行纪律，帮助中国企业在北美建立真实的运营根基。'
                 )}
               </p>
               <p className="text-[12px] md:text-[14px] text-[#767676] leading-[1.8]">
@@ -97,13 +97,13 @@ export default function AboutPage() {
               <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8] mb-4">
                 {t(
                   'CCBONLINE INC. is a Canada-based market entry advisory team with years of experience helping Chinese businesses navigate the Canadian and North American markets. Our work spans market-entry consulting, customer development, brand localization, compliance coordination, and execution support.',
-                  'CCBONLINE INC. 是一支总部位于加拿大的市场进入顾问团队，多年来帮助中国企业 navigate 加拿大和北美市场。我们的工作涵盖市场进入咨询、客户开发、品牌本地化、合规协调和落地执行支持。'
+                  'CCBONLINE INC. 是一支总部位于加拿大的市场进入顾问团队，多年来帮助中国企业开拓加拿大和北美市场。我们的工作涵盖市场进入咨询、客户开发、品牌本地化、合规协调和落地执行支持。'
                 )}
               </p>
               <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8]">
                 {t(
                   'We work directly with each client, providing the judgment and practical support needed to turn market-entry plans into real customer conversations, partnerships, and operational presence in North America.',
-                  '我们直接与每位客户合作，提供将市场进入计划转化为实际客户对话、合作伙伴关系和北美运营存在所需的判断和实际支持。'
+                  '我们直接与每位客户合作，提供将市场进入计划转化为实际客户对话、合作伙伴关系和北美运营根基所需的判断和实际支持。'
                 )}
               </p>
             </div>
@@ -139,7 +139,7 @@ export default function AboutPage() {
             {[
               { title: t('We do not replace lawyers or accountants', '我们不替代律师或会计师'), desc: t('We coordinate with them. We are not licensed to provide legal or tax advice.', '我们与他们协调。我们没有提供法律或税务建议的资质。') },
               { title: t('We do not guarantee sales or revenue', '我们不保证销售或收入'), desc: t('We build the conditions for market entry. Actual sales depend on product, timing, and execution.', '我们建立市场进入的条件。实际销售取决于产品、时机和执行。') },
-              { title: t('We are not a digital marketing agency', '我们不是数字营销机构'), desc: t('Digital presence is part of market entry infrastructure, not our primary service. We build what is needed for credibility, not campaigns.', '数字化存在是市场进入基础设施的一部分，不是我们的主要服务。我们建立可信度所需的内容，不是营销活动。') },
+              { title: t('We are not a digital marketing agency', '我们不是数字营销机构'), desc: t('Digital presence is part of market entry infrastructure, not our primary service. We build what is needed for credibility, not campaigns.', '数字化布局是市场进入基础设施的一部分，不是我们的主要服务。我们建立可信度所需的内容，不是营销活动。') },
               { title: t('We do not handle customs clearance directly', '我们不直接处理清关'), desc: t('We work with licensed customs brokers. We design the pathway and introduce the right partners.', '我们与持牌报关行合作。我们设计路径并介绍合适的合作伙伴。') },
             ].map((item, i) => (
               <div key={i} className="ab-block card-border bg-white">
@@ -155,7 +155,7 @@ export default function AboutPage() {
         <div className="container-site">
           <div className="max-w-[700px]">
             <h2 className="font-serif text-white text-[28px] md:text-[32px] lg:text-[36px] md:text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6">
-              {t('Ready to evaluate your North America readiness?', '准备好评估您的北美就绪度了吗？')}
+              {t('Ready to evaluate your North America readiness?', '准备好评估您的北美市场准备程度了吗？')}
             </h2>
             <Link to="/contact" className="btn-primary text-[12px] md:text-[14px]">
               {t('Discuss Your Market Entry Plan', '讨论您的市场进入计划')}

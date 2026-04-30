@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
 
-export default function ZH_ren_zheng_bu_shi_zhong_dian() {
+export default function ZH_RenZhengBuShiZhongDian() {
   useEffect(() => {
     document.title = '认证不是终点 | CCBONLINE INC.'
     window.scrollTo(0, 0)
@@ -39,7 +39,7 @@ export default function ZH_ren_zheng_bu_shi_zhong_dian() {
             </h2>
             <div className="p-5 md:p-6 bg-[#FFF8F8] border border-[#F0D0D0] mb-10">
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
-                最常见的误区是拿到认证就能卖了。实际上，认证只是众多条件之一。经销商可能因为包装、保修条款或定价而拒绝产品。零售商可能需要额外的测试或文件。终端客户可能需要你提供本地服务能力。另一个误区是一份认证走遍北美。CSA 在很多产品类别上被美国接受，但不是全部。有些渠道即便接受了 CSA，仍然要求 UL 标识。
+                最常见的误区是"拿到认证就能卖了"。实际上，认证只是众多条件之一。经销商可能因为包装、保修条款或定价而拒绝产品。零售商可能需要额外的测试或文件。终端客户可能需要你提供本地服务能力。另一个误区是一份认证走遍北美。CSA 在很多产品类别上被美国接受，但不是全部。有些渠道即便接受了 CSA，仍然要求 UL 标识。
               </p>
             </div>
 
@@ -63,12 +63,11 @@ export default function ZH_ren_zheng_bu_shi_zhong_dian() {
               下一步动作
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">审计现有认证的覆盖范围，找出缺口</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">梳理目标渠道和客户对认证的具体要求</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">建立产品变更后的重新认证管理流程</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">把认证里程碑和渠道开发时间线对齐</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">联系 CCBONLINE 做认证对齐的市场进入规划</li>
-
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">审计现有认证的覆盖范围，找出缺口</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">梳理目标渠道和客户对认证的具体要求</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">建立产品变更后的重新认证管理流程</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">把认证里程碑和渠道开发时间线对齐</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">联系 CCBONLINE 做认证对齐的市场进入规划</li>
             </ul>
           </div>
         </section>
@@ -80,55 +79,53 @@ export default function ZH_ren_zheng_bu_shi_zhong_dian() {
               经常被问到的问题
             </h2>
             <div className="space-y-3 mb-10">
-            <details className="border border-[#E5E5E5] bg-white">
-              <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">CSA 认证在美国能用吗？</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
-              </summary>
-              <div className="px-4 pb-4 md:px-5 md:pb-5">
-                <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">很多产品类别下，CSA 认证在美国被 OSHA NRTL 项目接受。但有些零售商和经销商明确要求 UL 标识。务必提前跟目标渠道确认。</p>
-              </div>
-            </details>
-            <details className="border border-[#E5E5E5] bg-white">
-              <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">CSA 或 UL 认证需要多长时间？</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
-              </summary>
-              <div className="px-4 pb-4 md:px-5 md:pb-5">
-                <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">根据产品复杂度和测试要求，通常 3-9 个月。如果需要工厂检查，时间可能更长。加急项目可能可以付费提速。</p>
-              </div>
-            </details>
-            <details className="border border-[#E5E5E5] bg-white">
-              <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">产品设计变更后，认证还有效吗？</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
-              </summary>
-              <div className="px-4 pb-4 md:px-5 md:pb-5">
-                <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">必须通知认证机构，可能需要更新认证。在旧证书下销售变更后的产品，可能导致法律责任和市场召回。</p>
-              </div>
-            </details>
-            <details className="border border-[#E5E5E5] bg-white">
-              <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">有了认证就能进加拿大零售渠道吗？</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
-              </summary>
-              <div className="px-4 pb-4 md:px-5 md:pb-5">
-                <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">认证是必要的，但通常不够。零售商还要求供应商资质审查、保险、包装审核，有些还要求上架费或营销投入。</p>
-              </div>
-            </details>
-
+              <details className="border border-[#E5E5E5] bg-white">
+                <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
+                  <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">CSA 认证在美国能用吗？</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
+                </summary>
+                <div className="px-4 pb-4 md:px-5 md:pb-5">
+                  <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">很多产品类别下，CSA 认证在美国被职业安全健康管理局的国家认可测试实验室项目接受。但有些零售商和经销商明确要求 UL 标识。务必提前跟目标渠道确认。</p>
+                </div>
+              </details>
+              <details className="border border-[#E5E5E5] bg-white">
+                <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
+                  <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">CSA 或 UL 认证需要多长时间？</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
+                </summary>
+                <div className="px-4 pb-4 md:px-5 md:pb-5">
+                  <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">根据产品复杂度和测试要求，通常 3-9 个月。如果需要工厂检查，时间可能更长。加急项目可能可以付费提速。</p>
+                </div>
+              </details>
+              <details className="border border-[#E5E5E5] bg-white">
+                <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
+                  <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">产品设计变更后，认证还有效吗？</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
+                </summary>
+                <div className="px-4 pb-4 md:px-5 md:pb-5">
+                  <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">必须通知认证机构，可能需要更新认证。在旧证书下销售变更后的产品，可能导致法律责任和市场召回。</p>
+                </div>
+              </details>
+              <details className="border border-[#E5E5E5] bg-white">
+                <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
+                  <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">有了认证就能进加拿大零售渠道吗？</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
+                </summary>
+                <div className="px-4 pb-4 md:px-5 md:pb-5">
+                  <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">认证是必要的，但通常不够。零售商还要求供应商资质审查、保险、包装审核，有些还要求上架费或营销投入。</p>
+                </div>
+              </details>
             </div>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
               相关阅读
             </h2>
             <ul className="space-y-2 mb-8">
-          <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">市场进入服务</Link></li>
-          <li><Link to="/zh/responsibility-chain" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">责任链</Link></li>
-          <li><Link to="/zh/insights/ior-bu-shi-dai-qing-guan" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">IOR 不是代清关的人</Link></li>
-          <li><Link to="/zh/insights/jia-na-da-ke-yi-shi-bei-mei-di-yi-zhan" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">加拿大可以成为北美市场进入的第一站</Link></li>
-          <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">联系 CCBONLINE</Link></li>
-
+              <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">市场进入服务</Link></li>
+              <li><Link to="/zh/responsibility-chain" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">责任链</Link></li>
+              <li><Link to="/zh/insights/ior-bu-shi-dai-qing-guan" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">进口记录责任人不是代清关的人</Link></li>
+              <li><Link to="/zh/insights/jia-na-da-ke-yi-shi-bei-mei-di-yi-zhan" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">加拿大可以成为北美市场进入的第一站</Link></li>
+              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">联系 CCBONLINE</Link></li>
             </ul>
           </div>
         </section>
@@ -137,7 +134,7 @@ export default function ZH_ren_zheng_bu_shi_zhong_dian() {
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-6">
-                想了解更多关于合规与进口的内容？
+                想了解更多关于合规与认证的内容？
               </h2>
               <Link to="/zh/contact" className="btn-primary text-[16px] px-6 py-3.5 min-h-[52px]">预约初步沟通</Link>
             </div>

@@ -61,7 +61,7 @@ export default function HomeModules() {
   // Module 6: Suitable Clients
   const clients = [
     { icon: Factory, text: t('Manufacturers with export-ready products', '拥有出口就绪产品的制造商') },
-    { icon: ShoppingBag, text: t('Consumer brands seeking North American presence', '寻求北美存在的消费品牌') },
+    { icon: ShoppingBag, text: t('Consumer brands seeking North American presence', '寻求在北美建立市场存在感的消费品牌') },
     { icon: Wrench, text: t('Industrial suppliers needing local partners', '需要本地合作伙伴的工业供应商') },
     { icon: Cpu, text: t('Hardware companies with certification needs', '有认证需求的硬件公司') },
     { icon: Globe, text: t('Service companies expanding to Canada', '扩展至加拿大的服务公司') },
@@ -71,13 +71,13 @@ export default function HomeModules() {
   // Module 7: Use Cases
   const useCases = [
     { title: t('Manufacturer → Canadian distributor network', '制造商 → 加拿大经销商网络'), desc: t('A Shenzhen electronics factory used our diagnosis and compliance mapping to sign two Canadian distributors within 90 days.', '一家深圳电子工厂使用我们的诊断和合规映射，在90天内签约了两家加拿大经销商。') },
-    { title: t('Industrial supplier → direct B2B sales', '工业供应商 → 直接B2B销售'), desc: t('A Jiangsu machinery supplier entered Canada through trade-show validation and direct customer outreach, bypassing distributor margins.', '一家江苏机械供应商通过展会验证和直接客户拓展进入加拿大，绕过经销商利润。') },
-    { title: t('Brand → pilot warehouse + online', '品牌 → 试点仓库 + 在线'), desc: t('A Hangzhou consumer brand launched a small-batch Canada test using our logistics hub and local digital presence strategy.', '一家杭州消费品牌使用我们的物流节点和本地数字存在策略，启动了小批量加拿大测试。') },
+    { title: t('Industrial supplier → direct B2B sales', '工业供应商 → 直接企业间销售'), desc: t('A Jiangsu machinery supplier entered Canada through trade-show validation and direct customer outreach, bypassing distributor margins.', '一家江苏机械供应商通过展会验证和直接客户外联拓展进入加拿大，绕过经销商利润分成。') },
+    { title: t('Brand → pilot warehouse + online', '品牌 → 试点仓库 + 线上'), desc: t('A Hangzhou consumer brand launched a small-batch Canada test using our logistics hub and local digital presence strategy.', '一家杭州消费品牌借助我们的物流枢纽和本地数字化布局策略，启动了小批量加拿大市场测试。') },
   ]
 
   // Module 9: FAQ
   const faqs = [
-    { q: t('What does CCBONLINE actually do?', 'CCBONLINE 到底是做什么的？'), a: t('We help Chinese companies enter Canada and North America. We assess readiness, design compliance pathways, validate channels, coordinate local partners, and support execution.', '我们帮助中国企业进入加拿大和北美。我们评估就绪度、设计合规路径、验证渠道、协调本地合作伙伴并支持执行。') },
+    { q: t('What does CCBONLINE actually do?', 'CCBONLINE 到底是做什么的？'), a: t('We help Chinese companies enter Canada and North America. We assess readiness, design compliance pathways, validate channels, coordinate local partners, and support execution.', '我们帮助中国企业进入加拿大和北美。我们评估准备程度、设计合规路径、验证渠道、协调本地合作伙伴并支持执行。') },
     { q: t('Do you guarantee sales?', '你们保证销售吗？'), a: t('No. We build the conditions for market entry. Actual sales depend on your product, pricing, and execution. We make the path clear, but you must walk it.', '不。我们建立市场进入的条件。实际销售取决于您的产品、定价和执行。我们让路径清晰，但您必须走下去。') },
     { q: t('How long does market entry take?', '市场进入需要多长时间？'), a: t('Initial diagnosis takes 2–4 weeks. A full 0–90 day roadmap is typically delivered within 30 days. Execution support continues as long as needed.', '初步诊断2–4周。完整的0–90天路线图通常在30天内交付。执行支持按需持续。') },
     { q: t('Do we need a local entity?', '我们需要本地实体吗？'), a: t('Not always. Many companies start with partner-based or direct-export models. We help you determine the right structure for your stage and product.', '不一定。许多企业从合作伙伴模式或直接出口开始。我们帮助您根据阶段和产品确定合适的结构。') },
@@ -238,7 +238,7 @@ export default function HomeModules() {
               <p className="hm-block text-[14px] md:text-[15px] text-[#767676] leading-[1.65] mb-5">
                 {t(
                   'Our team combines market judgment, compliance awareness, channel understanding, local resources, and execution discipline to help clients build real operating presence in North America.',
-                  '我们的团队结合市场判断、合规意识、渠道理解、本地资源和执行纪律，帮助客户在北美建立真实的运营存在。'
+                  '我们的团队结合市场判断、合规意识、渠道理解、本地资源和执行纪律，帮助客户在北美建立真实的运营根基。'
                 )}
               </p>
               <div className="hm-block grid grid-cols-2 gap-3 text-[13px] md:text-[14px]">
@@ -292,7 +292,7 @@ export default function HomeModules() {
         <div className="container-site">
           <div className="max-w-[700px]">
             <h2 className="hm-block font-serif text-white text-[24px] md:text-[30px] leading-[1.35] tracking-tight mb-6">
-              {t('Ready to assess your North America readiness?', '准备好评估您的北美就绪度了吗？')}
+              {t('Ready to assess your North America readiness?', '准备好评估您的北美市场准备程度了吗？')}
             </h2>
             <div className="hm-block flex flex-col sm:flex-row gap-3">
               <Link to="/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">

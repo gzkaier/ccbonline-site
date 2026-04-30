@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
 
-export default function ZH_bei_mei_shi_chang_jin_ru_ze_ren_lian() {
+export default function ZH_BeiMeiShiChangJinRuZeRenLian() {
   useEffect(() => {
     document.title = '北美市场进入的核心，是责任链 | CCBONLINE INC.'
     window.scrollTo(0, 0)
@@ -31,7 +31,7 @@ export default function ZH_bei_mei_shi_chang_jin_ru_ze_ren_lian() {
               为什么这件事重要
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              中国企业进入北美时，关注点通常在产品质量和客户获取上。但一旦出现货被海关扣留、产品被要求召回、经销商失联的情况，核心问题就变成了：谁来负责？答案往往不清楚——因为进入市场之前，没有人梳理过责任链。进口记录责任人（IOR）要承担海关处罚；认证持有方要对产品安全问题负责；经销商通常拒绝承担合规和召回责任；制造商往往是最后一个知道问题的人，却是声誉受损最大的一方。把责任链理清楚，不是为了打官司，而是为了让每个环节都有人管、出事有人应。
+              中国企业进入北美时，关注点通常在产品质量和客户获取上。但一旦出现货被海关扣留、产品被要求召回、经销商失联的情况，核心问题就变成了：谁来负责？答案往往不清楚——因为进入市场之前，没有人梳理过责任链。进口记录责任人要承担海关处罚；认证持有方要对产品安全问题负责；经销商通常拒绝承担合规和召回责任；制造商往往是最后一个知道问题的人，却是声誉受损最大的一方。把责任链理清楚，不是为了打官司，而是为了让每个环节都有人管、出事有人应。
             </p>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
@@ -47,7 +47,7 @@ export default function ZH_bei_mei_shi_chang_jin_ru_ze_ren_lian() {
               企业应该先看什么
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              企业在进入北美之前，应该梳理以下责任：（1）进口：谁是 IOR，海关出了问题谁承担？（2）认证：CSA/UL/FCC 证书上是谁的名字，谁负责重新认证？（3）经销：经销商实际承诺了什么、免责声明了什么？（4）保修：本地谁负责维修、退换货？（5）合规：谁持续关注法规变化，确保持续合规？（6）售后：谁提供技术支持、备件、现场服务？
+              企业在进入北美之前，应该梳理以下责任：（1）进口：谁是进口记录责任人，海关出了问题谁承担？（2）认证：CSA/UL/FCC 证书上是谁的名字，谁负责重新认证？（3）经销：经销商实际承诺了什么、免责声明了什么？（4）保修：本地谁负责维修、退换货？（5）合规：谁持续关注法规变化，确保持续合规？（6）售后：谁提供技术支持、备件、现场服务？
             </p>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
@@ -63,12 +63,11 @@ export default function ZH_bei_mei_shi_chang_jin_ru_ze_ren_lian() {
               下一步动作
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">为你的产品类别绘制完整的责任链</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">检查经销合同中的责任缺口</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">确定 IOR 和认证持有方</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">在第一笔销售之前建立本地保修和服务方案</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">联系 CCBONLINE 做责任链审计</li>
-
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">为你的产品类别绘制完整的责任链</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">检查经销合同中的责任缺口</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">确定进口记录责任人和认证持有方</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">在第一笔销售之前建立本地保修和服务方案</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">联系 CCBONLINE 做责任链审计</li>
             </ul>
           </div>
         </section>
@@ -80,55 +79,53 @@ export default function ZH_bei_mei_shi_chang_jin_ru_ze_ren_lian() {
               经常被问到的问题
             </h2>
             <div className="space-y-3 mb-10">
-            <details className="border border-[#E5E5E5] bg-white">
-              <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">什么是市场进入中的责任链？</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
-              </summary>
-              <div className="px-4 pb-4 md:px-5 md:pb-5">
-                <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">责任链是市场进入中必须履行的一系列义务，包括进口、认证、经销、保修、售后、合规等。每个环节都对应法律义务和经营风险，必须有明确的责任人。</p>
-              </div>
-            </details>
-            <details className="border border-[#E5E5E5] bg-white">
-              <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">经销商不是什么都管了吗？</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
-              </summary>
-              <div className="px-4 pb-4 md:px-5 md:pb-5">
-                <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">大多数经销商只管销售和物流，不接受合规、召回或监管违规的责任。务必仔细阅读合同中的免责声明。</p>
-              </div>
-            </details>
-            <details className="border border-[#E5E5E5] bg-white">
-              <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">如果没有指定 IOR 会怎样？</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
-              </summary>
-              <div className="px-4 pb-4 md:px-5 md:pb-5">
-                <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">货物会被海关扣留，可能产生仓储费、罚款甚至退运。每一票进口都必须有指定的进口记录责任人。</p>
-              </div>
-            </details>
-            <details className="border border-[#E5E5E5] bg-white">
-              <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">CCBONLINE 能帮忙梳理责任链吗？</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
-              </summary>
-              <div className="px-4 pb-4 md:px-5 md:pb-5">
-                <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">可以。我们会做结构化的责任链审计，识别每个义务节点，分配给具体责任方，并建立带备用联系人的责任矩阵。</p>
-              </div>
-            </details>
-
+              <details className="border border-[#E5E5E5] bg-white">
+                <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
+                  <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">什么是市场进入中的责任链？</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
+                </summary>
+                <div className="px-4 pb-4 md:px-5 md:pb-5">
+                  <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">责任链是市场进入中必须履行的一系列义务，包括进口、认证、经销、保修、售后、合规等。每个环节都对应法律义务和经营风险，必须有明确的责任人。</p>
+                </div>
+              </details>
+              <details className="border border-[#E5E5E5] bg-white">
+                <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
+                  <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">经销商不是什么都管了吗？</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
+                </summary>
+                <div className="px-4 pb-4 md:px-5 md:pb-5">
+                  <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">大多数经销商只管销售和物流，不接受合规、召回或监管违规的责任。务必仔细阅读合同中的免责声明。</p>
+                </div>
+              </details>
+              <details className="border border-[#E5E5E5] bg-white">
+                <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
+                  <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">如果没有指定进口记录责任人会怎样？</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
+                </summary>
+                <div className="px-4 pb-4 md:px-5 md:pb-5">
+                  <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">货物会被海关扣留，可能产生仓储费、罚款甚至退运。每一票进口都必须有指定的进口记录责任人。</p>
+                </div>
+              </details>
+              <details className="border border-[#E5E5E5] bg-white">
+                <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
+                  <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">CCBONLINE 能帮忙梳理责任链吗？</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
+                </summary>
+                <div className="px-4 pb-4 md:px-5 md:pb-5">
+                  <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">可以。我们会做结构化的责任链审计，识别每个义务节点，分配给具体责任方，并建立带备用联系人的责任矩阵。</p>
+                </div>
+              </details>
             </div>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
               相关阅读
             </h2>
             <ul className="space-y-2 mb-8">
-          <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">市场进入服务</Link></li>
-          <li><Link to="/zh/responsibility-chain" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">责任链</Link></li>
-          <li><Link to="/zh/insights/bei-mei-shi-chang-jin-ru-bu-shi-mai-huo" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">北美市场进入，不是把货卖出去</Link></li>
-          <li><Link to="/zh/insights/ior-bu-shi-dai-qing-guan" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">IOR 不是代清关的人</Link></li>
-          <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">联系 CCBONLINE</Link></li>
-
+              <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">市场进入服务</Link></li>
+              <li><Link to="/zh/responsibility-chain" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">责任链</Link></li>
+              <li><Link to="/zh/insights/bei-mei-shi-chang-jin-ru-bu-shi-mai-huo" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">北美市场进入，不是把货卖出去</Link></li>
+              <li><Link to="/zh/insights/ior-bu-shi-dai-qing-guan" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">进口记录责任人不是代清关的人</Link></li>
+              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">联系 CCBONLINE</Link></li>
             </ul>
           </div>
         </section>

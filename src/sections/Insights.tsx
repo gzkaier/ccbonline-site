@@ -37,7 +37,7 @@ export default function Insights() {
     {
       category: t('Compliance', '合规'),
       title: t('CSA, UL, and FCC: What Chinese Exporters Must Know', 'CSA、UL和FCC：中国出口商必须知道的'),
-      excerpt: t('Certification requirements vary dramatically by product type. Here is a practical guide to navigating the North American certification landscape.', '认证要求因产品类型差异很大。这是一份 navigate 北美认证环境的实用指南。'),
+      excerpt: t('Certification requirements vary dramatically by product type. Here is a practical guide to navigating the North American certification landscape.', '认证要求因产品类型差异很大。这是一份帮你理清北美认证要求的实用指南。'),
       date: '2026.03',
     },
     {
@@ -61,7 +61,7 @@ export default function Insights() {
     {
       category: t('Digital', '数字化'),
       title: t('Building Digital Trust for North American B2B Buyers', '为北美B2B买家建立数字化信任'),
-      excerpt: t('North American buyers research extensively before contacting suppliers. What your digital presence must communicate.', '北美买家在联系供应商前会做大量调研。您的数字存在必须传达什么。'),
+      excerpt: t('North American buyers research extensively before contacting suppliers. What your digital presence must communicate.', '北美买家在联系供应商前会做大量调研。您的数字化布局必须传达什么。'),
       date: '2026.01',
     },
   ]

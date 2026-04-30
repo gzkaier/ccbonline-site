@@ -74,7 +74,7 @@ export default function CanadaMarketEntry() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
             {[
               t('Manufacturers with export-ready products', '拥有出口就绪产品的制造商'),
-              t('Consumer brands seeking North American presence', '寻求北美存在的消费品牌'),
+              t('Consumer brands seeking North American presence', '寻求在北美建立市场存在感的消费品牌'),
               t('Industrial suppliers with B2B customer potential', '有B2B客户潜力的工业供应商'),
               t('Technology hardware companies with certification needs', '有认证需求的科技硬件公司'),
               t('Service companies with cross-border delivery capability', '有跨境交付能力的服务公司'),

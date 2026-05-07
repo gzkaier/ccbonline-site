@@ -134,7 +134,7 @@ export default function ENContact() {
                     <div><p className="text-[12px] text-[#999]">Website</p><p>www.ccbonline.ca</p></div>
                     <div><p className="text-[12px] text-[#999]">Email</p><p>info@ccbonline.ca</p></div>
                     <div><p className="text-[12px] text-[#999]">Phone</p><p>+1 647 568 1128</p></div>
-                    <div><p className="text-[12px] text-[#999]">Location</p><p>Toronto, Ontario, Canada</p></div>
+                    <div><p className="text-[12px] text-[#999]">Location</p><p>84 Kenhar Dr, North York, ON M9L 1N2</p></div>
                   </div>
                 </div>
 

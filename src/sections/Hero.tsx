@@ -32,7 +32,7 @@ export default function Hero() {
 
       <div ref={contentRef} className="relative z-10 container-site w-full pb-[7vh] md:pb-[10vh] pt-[18vh] md:pt-[22vh]">
         <p className="hero-label text-white/50 text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-4 md:mb-5">
-          CCBONLINE INC. · {t('智桥国际', 'Zhiqiao')}
+          CCBONLINE INC. · {t('中加商业在线', 'CCBONLINE')}
         </p>
 
         <h1

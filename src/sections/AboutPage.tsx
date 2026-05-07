@@ -118,7 +118,7 @@ export default function AboutPage() {
               </div>
               <div className="p-4 bg-white border border-[#E5E5E5]">
                 <p className="text-[11px] text-[#999] uppercase tracking-wider mb-1">{t('Location', '所在地')}</p>
-                <p className="font-medium">Toronto, Ontario, Canada</p>
+                <p className="font-medium">84 Kenhar Dr, North York, ON M9L 1N2</p>
               </div>
               <div className="p-4 bg-white border border-[#E5E5E5]">
                 <p className="text-[11px] text-[#999] uppercase tracking-wider mb-1">{t('Focus', '专注领域')}</p>

@@ -134,7 +134,7 @@ export default function ZHContact() {
                     <div><p className="text-[12px] text-[#999]">官网</p><p>www.ccbonline.ca</p></div>
                     <div><p className="text-[12px] text-[#999]">邮箱</p><p>info@ccbonline.ca</p></div>
                     <div><p className="text-[12px] text-[#999]">电话</p><p>+1 647 568 1128</p></div>
-                    <div><p className="text-[12px] text-[#999]">所在地</p><p>加拿大多伦多</p></div>
+                    <div><p className="text-[12px] text-[#999]">所在地</p><p>加拿大 84 Kenhar Dr, North York, ON M9L 1N2</p></div>
                   </div>
                 </div>
 

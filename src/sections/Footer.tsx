@@ -62,7 +62,7 @@ export default function Footer() {
               <p>info@ccbonline.ca</p>
               <p>+1 647 568 1128</p>
               <p>ccbonline.ca</p>
-              <p className="text-white/25">Toronto, Canada</p>
+              <p className="text-white/25">84 Kenhar Dr, North York, ON M9L 1N2</p>
             </div>
           </div>
         </div>

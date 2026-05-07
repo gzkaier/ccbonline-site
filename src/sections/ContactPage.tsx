@@ -90,7 +90,7 @@ export default function ContactPage() {
                   </div>
                   <div className="flex items-start gap-3">
                     <MapPin size={15} strokeWidth={1.5} className="text-[#767676] mt-0.5 min-w-[15px]" />
-                    <div><p className="text-[12px] text-[#999]">{t('Location', '所在地')}</p><p className="text-[13px]">Toronto, Ontario, Canada</p></div>
+                    <div><p className="text-[12px] text-[#999]">{t('Location', '所在地')}</p><p className="text-[13px]">84 Kenhar Dr, North York, ON M9L 1N2</p></div>
                   </div>
                 </div>
               </div>

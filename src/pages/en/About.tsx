@@ -69,7 +69,7 @@ export default function ENAbout() {
                   </div>
                   <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
                     <p className="text-[11px] text-[#999] uppercase mb-1">Location</p>
-                    <p className="font-medium">Toronto, Canada</p>
+                    <p className="font-medium">84 Kenhar Dr, North York, ON M9L 1N2</p>
                   </div>
                   <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
                     <p className="text-[11px] text-[#999] uppercase mb-1">Focus</p>

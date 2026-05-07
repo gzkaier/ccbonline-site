@@ -66,7 +66,7 @@ export default function Footer({ lang }: FooterProps) {
               <p>www.ccbonline.ca</p>
               <p>info@ccbonline.ca</p>
               <p>+1 647 568 1128</p>
-              <p>Toronto, Ontario, Canada</p>
+              <p>84 Kenhar Dr, North York, ON M9L 1N2</p>
             </div>
           </div>
         </div>

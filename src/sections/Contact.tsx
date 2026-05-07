@@ -94,7 +94,7 @@ export default function Contact() {
               <div className="flex items-start gap-3">
                 <MapPin size={16} strokeWidth={1.5} className="text-[#767676] mt-0.5" />
                 <span className="text-[14px]">
-                  Toronto, Ontario, Canada
+                  84 Kenhar Dr, North York, ON M9L 1N2
                 </span>
               </div>
             </div>

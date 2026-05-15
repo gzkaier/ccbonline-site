@@ -77,7 +77,7 @@ export default function ENCanadaMarketEntry() {
                 { num: '06', title: 'Trade show or customer visit plan', desc: 'Having a concrete plan for meeting customers face-to-face accelerates trust-building significantly.' },
               ].map((item) => (
                 <div key={item.num} className="flex gap-3">
-                  <span className="text-[#C00000] text-[12px] font-bold mt-0.5 min-w-[24px]">{item.num}</span>
+                  <span className="text-[#00A884] text-[12px] font-bold mt-0.5 min-w-[24px]">{item.num}</span>
                   <div>
                     <h4 className="text-[14px] md:text-[15px] font-semibold mb-1">{item.title}</h4>
                     <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">{item.desc}</p>
@@ -103,13 +103,13 @@ export default function ENCanadaMarketEntry() {
               ].map((r, i) => (
                 <div key={i} className="p-5 md:p-6 bg-white border border-[#E5E5E5]">
                   <div className="flex flex-col sm:flex-row sm:items-baseline gap-2 sm:gap-4 mb-3">
-                    <span className="text-[#C00000] text-[12px] font-bold">{r.phase}</span>
+                    <span className="text-[#00A884] text-[12px] font-bold">{r.phase}</span>
                     <h3 className="text-[15px] md:text-[17px] font-semibold">{r.title}</h3>
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     {r.items.map((item, j) => (
                       <div key={j} className="text-[13px] md:text-[14px] text-[#555] flex gap-2">
-                        <span className="text-[#C00000]">·</span>{item}
+                        <span className="text-[#00A884]">·</span>{item}
                       </div>
                     ))}
                   </div>

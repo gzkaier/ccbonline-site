@@ -81,7 +81,7 @@ export default function CanadaMarketEntry() {
               t('Companies already exporting to Asia or Europe, expanding to North America', '已向亚洲或欧洲出口、扩展至北美的企业'),
             ].map((text, i) => (
               <div key={i} className="cme-block flex items-start gap-2 p-4 bg-white border border-[#E5E5E5]">
-                <span className="text-[#C00000] text-[14px] mt-0.5">✓</span>
+                <span className="text-[#00A884] text-[14px] mt-0.5">✓</span>
                 <span className="text-[12px] md:text-[14px] text-[#444] leading-[1.6]">{text}</span>
               </div>
             ))}
@@ -106,7 +106,7 @@ export default function CanadaMarketEntry() {
               { num: '06', title: t('Trade show or customer visit plan', '展会或客户拜访计划'), desc: t('Having a concrete plan for meeting customers face-to-face accelerates trust-building significantly.', '有具体的面对面会见客户计划能显著加速信任建设。') },
             ].map((item) => (
               <div key={item.num} className="cme-block flex gap-3">
-                <span className="text-[#C00000] text-[12px] font-bold mt-0.5 min-w-[24px]">{item.num}</span>
+                <span className="text-[#00A884] text-[12px] font-bold mt-0.5 min-w-[24px]">{item.num}</span>
                 <div>
                   <h4 className="text-[13px] md:text-[14px] font-semibold mb-1">{item.title}</h4>
                   <p className="text-[11px] md:text-[13px] text-[#767676] leading-[1.6]">{item.desc}</p>
@@ -133,13 +133,13 @@ export default function CanadaMarketEntry() {
             ].map((r, i) => (
               <div key={i} className="cme-block p-5 md:p-6 bg-white border border-[#E5E5E5]">
                 <div className="flex flex-col sm:flex-row sm:items-baseline gap-2 sm:gap-4 mb-3">
-                  <span className="text-[#C00000] text-[12px] font-bold">{r.phase}</span>
+                  <span className="text-[#00A884] text-[12px] font-bold">{r.phase}</span>
                   <h3 className="text-[14px] md:text-[16px] font-semibold">{r.title}</h3>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   {r.items.map((item, j) => (
                     <div key={j} className="text-[11px] md:text-[13px] text-[#555] flex gap-2">
-                      <span className="text-[#C00000]">·</span>{item}
+                      <span className="text-[#00A884]">·</span>{item}
                     </div>
                   ))}
                 </div>

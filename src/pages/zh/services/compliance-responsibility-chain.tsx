@@ -62,10 +62,10 @@ export default function ZH_compliance_responsibility_chain() {
                 适合哪些企业
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">已经有客户意向或渠道合作意向，但<strong className="font-medium">不确定合规要求</strong>的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">产品涉及电子、机械、儿童用品、食品接触材料等<strong className="font-medium">监管敏感类别</strong>的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">曾因为<strong className="font-medium">认证缺失、标签错误或清关问题</strong>导致货物延误或退运的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">希望在<strong className="font-medium">发货前就建立清晰责任链</strong>（谁负责售后、谁承担产品责任、谁处理退货）的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">已经有客户意向或渠道合作意向，但<strong className="font-medium">不确定合规要求</strong>的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">产品涉及电子、机械、儿童用品、食品接触材料等<strong className="font-medium">监管敏感类别</strong>的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">曾因为<strong className="font-medium">认证缺失、标签错误或清关问题</strong>导致货物延误或退运的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">希望在<strong className="font-medium">发货前就建立清晰责任链</strong>（谁负责售后、谁承担产品责任、谁处理退货）的企业</li>
               </ul>
             </div>
 
@@ -88,11 +88,11 @@ export default function ZH_compliance_responsibility_chain() {
                 我们会梳理什么 / 支持什么
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">强制性认证与标准识别</strong> — 根据产品类别，识别加拿大和美国分别需要的认证（如 CSA、UL、FCC、Health Canada 等）及获取路径</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">产品标签与包装合规审查</strong> — 检查标签内容、语言要求、警告标识、成分披露等是否符合目标市场规定</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">进口清关文件清单</strong> — 明确发货前需要准备的文件、常见的清关延误原因、以及如何与报关行配合</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">税务结构初步建议</strong> — GST/HST、关税分类、以及是否需要本地税务登记的初步判断（非税务法律意见）</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">售后责任链设计</strong> — 明确产品责任归属、售后维修/退换货流程、以及在北美本地由谁出面处理客户投诉</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">强制性认证与标准识别</strong> — 根据产品类别，识别加拿大和美国分别需要的认证（如 CSA、UL、FCC、Health Canada 等）及获取路径</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">产品标签与包装合规审查</strong> — 检查标签内容、语言要求、警告标识、成分披露等是否符合目标市场规定</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">进口清关文件清单</strong> — 明确发货前需要准备的文件、常见的清关延误原因、以及如何与报关行配合</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">税务结构初步建议</strong> — GST/HST、关税分类、以及是否需要本地税务登记的初步判断（非税务法律意见）</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">售后责任链设计</strong> — 明确产品责任归属、售后维修/退换货流程、以及在北美本地由谁出面处理客户投诉</li>
               </ul>
             </div>
 
@@ -147,9 +147,9 @@ export default function ZH_compliance_responsibility_chain() {
                 合规清单完成后，您会知道哪些认证必须在发货前拿到、哪些可以并行推进、以及责任链如何设计。接下来的典型路径：
               </p>
               <ul className="space-y-2 mb-4">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果清单显示<strong className="font-medium">需要 2-3 个月完成认证</strong> → 在认证推进的同时，可以并行进入 <Link to="/zh/services/customer-channel-validation" className="text-[#C00000] hover:underline">客户与渠道验证</Link></li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果合规准备度和客户验证都已经完成 → 进入 <Link to="/zh/services/local-execution-support" className="text-[#C00000] hover:underline">本地执行支持</Link> 开始实质性销售</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果合规缺口较大、需要长期跟踪 → 建议选择 <Link to="/zh/services/advisory-retainer" className="text-[#C00000] hover:underline">顾问式长期陪跑</Link>，在认证和渠道推进过程中持续获得指导</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果清单显示<strong className="font-medium">需要 2-3 个月完成认证</strong> → 在认证推进的同时，可以并行进入 <Link to="/zh/services/customer-channel-validation" className="text-[#00A884] hover:underline">客户与渠道验证</Link></li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果合规准备度和客户验证都已经完成 → 进入 <Link to="/zh/services/local-execution-support" className="text-[#00A884] hover:underline">本地执行支持</Link> 开始实质性销售</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果合规缺口较大、需要长期跟踪 → 建议选择 <Link to="/zh/services/advisory-retainer" className="text-[#00A884] hover:underline">顾问式长期陪跑</Link>，在认证和渠道推进过程中持续获得指导</li>
               </ul>
             </div>
 

@@ -58,7 +58,7 @@ export default function Why() {
           <div className="lg:col-span-7 space-y-6 md:space-y-8">
             {points.map((p) => (
               <div key={p.num} className="why-block flex gap-4 md:gap-5">
-                <span className="text-[#C00000] text-[12px] font-bold mt-0.5 min-w-[24px]">{p.num}</span>
+                <span className="text-[#00A884] text-[12px] font-bold mt-0.5 min-w-[24px]">{p.num}</span>
                 <div>
                   <h3 className="text-[14px] md:text-[16px] font-semibold mb-2">{p.title}</h3>
                   <p className="text-[12px] md:text-[14px] text-[#767676] leading-[1.7]">{p.desc}</p>

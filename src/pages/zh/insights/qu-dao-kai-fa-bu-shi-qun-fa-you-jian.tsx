@@ -72,11 +72,11 @@ export default function ZH_QuDaoKaiFaBuShiQunFaYouJian() {
               下一步动作
             </h2>
             <ul className="space-y-3 mb-10">
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">绘制目标产品类别在北美的分销版图</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">定义理想经销商画像：规模、覆盖范围、能力</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">准备渠道级物料：价格、利润、支持、保修</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">制定精准外联计划，个性化信息</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">联系 CCBONLINE 获取渠道开发策略和合作伙伴介绍</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">绘制目标产品类别在北美的分销版图</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">定义理想经销商画像：规模、覆盖范围、能力</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">准备渠道级物料：价格、利润、支持、保修</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">制定精准外联计划，个性化信息</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">联系 CCBONLINE 获取渠道开发策略和合作伙伴介绍</li>
             </ul>
           </div>
         </section>
@@ -130,11 +130,11 @@ export default function ZH_QuDaoKaiFaBuShiQunFaYouJian() {
               相关阅读
             </h2>
             <ul className="space-y-2 mb-8">
-              <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">市场进入服务</Link></li>
-              <li><Link to="/zh/insights/zhan-hui-bu-shi-qu-bai-tan" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">参展不是去摆摊</Link></li>
-              <li><Link to="/zh/insights/jia-na-da-ke-yi-shi-bei-mei-di-yi-zhan" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">加拿大可以成为北美市场进入的第一站</Link></li>
-              <li><Link to="/zh/insights/bei-mei-shi-chang-jin-ru-ze-ren-lian" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">北美市场进入的核心，是责任链</Link></li>
-              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">联系 CCBONLINE</Link></li>
+              <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">市场进入服务</Link></li>
+              <li><Link to="/zh/insights/zhan-hui-bu-shi-qu-bai-tan" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">参展不是去摆摊</Link></li>
+              <li><Link to="/zh/insights/jia-na-da-ke-yi-shi-bei-mei-di-yi-zhan" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">加拿大可以成为北美市场进入的第一站</Link></li>
+              <li><Link to="/zh/insights/bei-mei-shi-chang-jin-ru-ze-ren-lian" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">北美市场进入的核心，是责任链</Link></li>
+              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">联系 CCBONLINE</Link></li>
             </ul>
           </div>
         </section>

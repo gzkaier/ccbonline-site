@@ -56,10 +56,10 @@ export default function EN_compliance_responsibility_chain() {
               Who This Service Is For
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Companies that know they need certification but are unsure which ones and in what sequence</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Businesses unclear about who should serve as Importer of Record and what that entails</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Teams that have received conflicting advice from freight forwarders, agents, or online sources</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Companies that want to understand the full responsibility chain before committing to a distributor or partner</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies that know they need certification but are unsure which ones and in what sequence</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Businesses unclear about who should serve as Importer of Record and what that entails</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Teams that have received conflicting advice from freight forwarders, agents, or online sources</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies that want to understand the full responsibility chain before committing to a distributor or partner</li>
 
             </ul>
 
@@ -74,12 +74,12 @@ export default function EN_compliance_responsibility_chain() {
               What We Review or Support
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Certification Requirement Screening</strong> — identification of CSA, UL, FCC, FDA, Health Canada, or other requirements specific to your product and target market</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Import Responsibility Review</strong> — assessment of who should serve as Importer of Record and what liabilities, documentation, and ongoing obligations that entails</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Documentation Gap List</strong> — specific documents that are missing, inconsistent, or inadequate for North American import and sale</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Product Claim Risk Review</strong> — evaluation of marketing claims against local advertising and product liability standards</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">After-Sales Responsibility Review</strong> — assessment of who will handle warranty, returns, repairs, and spare parts in North America</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Professional Partner Coordination Suggestions</strong> — recommendations on which certified professionals to engage for each identified gap</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Certification Requirement Screening</strong> — identification of CSA, UL, FCC, FDA, Health Canada, or other requirements specific to your product and target market</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Import Responsibility Review</strong> — assessment of who should serve as Importer of Record and what liabilities, documentation, and ongoing obligations that entails</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Documentation Gap List</strong> — specific documents that are missing, inconsistent, or inadequate for North American import and sale</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Product Claim Risk Review</strong> — evaluation of marketing claims against local advertising and product liability standards</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">After-Sales Responsibility Review</strong> — assessment of who will handle warranty, returns, repairs, and spare parts in North America</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Professional Partner Coordination Suggestions</strong> — recommendations on which certified professionals to engage for each identified gap</li>
             </ul>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
@@ -164,11 +164,11 @@ export default function EN_compliance_responsibility_chain() {
               Related Pages
             </h2>
             <ul className="space-y-2 mb-8">
-          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">All Services</Link></li>
-          <li><Link to="/en/responsibility-chain" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">The Responsibility Chain</Link></li>
-          <li><Link to="/en/insights/north-america-responsibility-chain" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">The Responsibility Chain Behind North America Market Entry</Link></li>
-          <li><Link to="/en/insights/importer-of-record-is-not-just-customs-clearance" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">Importer of Record Is Not Just Customs Clearance</Link></li>
-          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">Contact CCBONLINE</Link></li>
+          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">All Services</Link></li>
+          <li><Link to="/en/responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">The Responsibility Chain</Link></li>
+          <li><Link to="/en/insights/north-america-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">The Responsibility Chain Behind North America Market Entry</Link></li>
+          <li><Link to="/en/insights/importer-of-record-is-not-just-customs-clearance" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Importer of Record Is Not Just Customs Clearance</Link></li>
+          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
 
             </ul>
           </div>

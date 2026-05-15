@@ -72,11 +72,11 @@ export default function ZH_ZhanHuiBuShiQuBaiTan() {
               下一步动作
             </h2>
             <ul className="space-y-3 mb-10">
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">筛选出 3-5 个与你产品类别最相关的北美展会</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">为每场展会设定具体、可衡量的目标再决定是否参加</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">制定展前外联计划，提前约目标观众见面</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">建立展后 90 天跟进系统，明确责任人</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">联系 CCBONLINE 获取展会策略和执行支持</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">筛选出 3-5 个与你产品类别最相关的北美展会</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">为每场展会设定具体、可衡量的目标再决定是否参加</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">制定展前外联计划，提前约目标观众见面</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">建立展后 90 天跟进系统，明确责任人</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">联系 CCBONLINE 获取展会策略和执行支持</li>
             </ul>
           </div>
         </section>
@@ -130,11 +130,11 @@ export default function ZH_ZhanHuiBuShiQuBaiTan() {
               相关阅读
             </h2>
             <ul className="space-y-2 mb-8">
-              <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">市场进入服务</Link></li>
-              <li><Link to="/zh/insights/qu-dao-kai-fa-bu-shi-qun-fa-you-jian" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">渠道开发不是群发邮件</Link></li>
-              <li><Link to="/zh/insights/jia-na-da-ke-yi-shi-bei-mei-di-yi-zhan" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">加拿大可以成为北美市场进入的第一站</Link></li>
-              <li><Link to="/zh/insights/0-90-tian-bei-mei-shi-chang-jin-ru-lu-jing" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">北美市场进入的 0–90 天路径</Link></li>
-              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">联系 CCBONLINE</Link></li>
+              <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">市场进入服务</Link></li>
+              <li><Link to="/zh/insights/qu-dao-kai-fa-bu-shi-qun-fa-you-jian" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">渠道开发不是群发邮件</Link></li>
+              <li><Link to="/zh/insights/jia-na-da-ke-yi-shi-bei-mei-di-yi-zhan" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">加拿大可以成为北美市场进入的第一站</Link></li>
+              <li><Link to="/zh/insights/0-90-tian-bei-mei-shi-chang-jin-ru-lu-jing" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">北美市场进入的 0–90 天路径</Link></li>
+              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">联系 CCBONLINE</Link></li>
             </ul>
           </div>
         </section>

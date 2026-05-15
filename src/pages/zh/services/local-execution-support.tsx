@@ -65,10 +65,10 @@ export default function ZH_local_execution_support() {
                 适合哪些企业
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">已经完成<strong className="font-medium">市场判断和客户验证</strong>，准备开始实质性销售的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">在北美<strong className="font-medium">没有本地员工或办公室</strong>，但需要有人协调样品、会议和物流的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">与经销商或渠道方签订了意向，但<strong className="font-medium">需要本地支持来推进落地</strong>的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">希望<strong className="font-medium">先以最小成本测试本地运营</strong>，再决定是否设立正式办公室的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">已经完成<strong className="font-medium">市场判断和客户验证</strong>，准备开始实质性销售的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">在北美<strong className="font-medium">没有本地员工或办公室</strong>，但需要有人协调样品、会议和物流的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">与经销商或渠道方签订了意向，但<strong className="font-medium">需要本地支持来推进落地</strong>的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">希望<strong className="font-medium">先以最小成本测试本地运营</strong>，再决定是否设立正式办公室的企业</li>
               </ul>
             </div>
 
@@ -94,11 +94,11 @@ export default function ZH_local_execution_support() {
                 我们会做什么 / 支持什么
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">经销商/渠道对接协调</strong> — 协助安排会议、传递资料、跟进合作条款进展、处理沟通中的信息缺口</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">样品管理与跟进</strong> — 协助样品在本地接收、转交、客户反馈收集和后续沟通</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">客户沟通支持</strong> — 在关键节点代您出面或协助沟通，确保客户感到被重视、响应及时</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">订单与物流协调</strong> — 协助跟进订单执行、物流状态、交付异常处理</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">本地事务信息节点</strong> — 作为您在北美本地的信息枢纽，收集市场动态、客户反馈和渠道动态，定期同步给您</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">经销商/渠道对接协调</strong> — 协助安排会议、传递资料、跟进合作条款进展、处理沟通中的信息缺口</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">样品管理与跟进</strong> — 协助样品在本地接收、转交、客户反馈收集和后续沟通</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">客户沟通支持</strong> — 在关键节点代您出面或协助沟通，确保客户感到被重视、响应及时</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">订单与物流协调</strong> — 协助跟进订单执行、物流状态、交付异常处理</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">本地事务信息节点</strong> — 作为您在北美本地的信息枢纽，收集市场动态、客户反馈和渠道动态，定期同步给您</li>
               </ul>
             </div>
 
@@ -158,7 +158,7 @@ export default function ZH_local_execution_support() {
                 <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 产品是否需要针对北美市场做<strong className="font-medium">本地化改进</strong></li>
               </ul>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
-                如果验证结果积极，您可以考虑招聘本地代表或设立小型办公室；如果还需要时间观察，可以继续通过 <Link to="/zh/services/advisory-retainer" className="text-[#C00000] hover:underline">顾问式长期陪跑</Link> 获得持续支持。
+                如果验证结果积极，您可以考虑招聘本地代表或设立小型办公室；如果还需要时间观察，可以继续通过 <Link to="/zh/services/advisory-retainer" className="text-[#00A884] hover:underline">顾问式长期陪跑</Link> 获得持续支持。
               </p>
             </div>
 

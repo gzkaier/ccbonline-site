@@ -38,7 +38,7 @@ export default function Methodology() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
           {steps.map((s) => (
             <div key={s.num} className="method-step card-border bg-white">
-              <span className="text-[#C00000] text-[11px] font-bold">{s.num}</span>
+              <span className="text-[#00A884] text-[11px] font-bold">{s.num}</span>
               <h3 className="text-[14px] md:text-[15px] font-semibold mt-2 mb-1.5">{s.title}</h3>
               <p className="text-[11px] md:text-[13px] text-[#767676] leading-[1.7]">{s.desc}</p>
             </div>

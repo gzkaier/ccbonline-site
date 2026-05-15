@@ -105,7 +105,7 @@ export default function Contact() {
             <form onSubmit={handleSubmit} className="bg-white p-8 md:p-12">
               {submitted ? (
                 <div className="text-center py-16">
-                  <div className="w-12 h-12 bg-[#C00000] rounded-full flex items-center justify-center mx-auto mb-6">
+                  <div className="w-12 h-12 bg-[#00A884] rounded-full flex items-center justify-center mx-auto mb-6">
                     <ArrowRight size={20} className="text-white" />
                   </div>
                   <h3 className="text-[20px] font-semibold mb-2">
@@ -206,7 +206,7 @@ export default function Contact() {
 
                   <button
                     type="submit"
-                    className="w-full sm:w-auto inline-flex items-center justify-center px-10 py-3.5 bg-[#C00000] text-white text-[14px] font-medium tracking-wide transition-all duration-400 hover:bg-[#A00000]"
+                    className="w-full sm:w-auto inline-flex items-center justify-center px-10 py-3.5 bg-[#00A884] text-white text-[14px] font-medium tracking-wide transition-all duration-400 hover:bg-[#A00000]"
                     style={{ transitionTimingFunction: 'cubic-bezier(0.16, 1, 0.3, 1)' }}
                   >
                     {t('Submit Inquiry', '提交咨询')}

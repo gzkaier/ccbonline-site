@@ -173,7 +173,7 @@ export default function ZHContact() {
                 <form onSubmit={handleSubmit} className="bg-[#F8F9FA] p-5 md:p-8">
                   {submitted ? (
                     <div className="text-center py-10">
-                      <div className="w-10 h-10 bg-[#C00000] flex items-center justify-center mx-auto mb-4"><span className="text-white text-[16px]">✓</span></div>
+                      <div className="w-10 h-10 bg-[#00A884] flex items-center justify-center mx-auto mb-4"><span className="text-white text-[16px]">✓</span></div>
                       <h3 className="text-[18px] font-semibold mb-2">评估申请已提交</h3>
                       <p className="text-[13px] text-[#767676] mb-4">我们已收到您的评估请求，将在 1-2 个工作日内回复。</p>
                       <div className="p-4 bg-[#F8F9FA] border border-[#E5E5E5] mb-4 max-w-[400px] mx-auto">
@@ -181,12 +181,12 @@ export default function ZHContact() {
                         <p className="text-[14px] font-medium text-[#212121]">info@ccbonline.ca</p>
                         <p className="text-[13px] text-[#666]">+1 647 568 1128</p>
                       </div>
-                      <p className="text-[12px] text-[#999]">等待期间，您可以阅读我们的<Link to="/zh/insights" className="text-[#C00000] hover:underline">市场进入洞察</Link>或查看<Link to="/zh/services" className="text-[#C00000] hover:underline">服务项目</Link>。</p>
+                      <p className="text-[12px] text-[#999]">等待期间，您可以阅读我们的<Link to="/zh/insights" className="text-[#00A884] hover:underline">市场进入洞察</Link>或查看<Link to="/zh/services" className="text-[#00A884] hover:underline">服务项目</Link>。</p>
                     </div>
                   ) : (
                     <>
                       <div className="mb-6">
-                        <p className="text-[11px] font-medium uppercase tracking-wider text-[#999] mb-3">市场进入评估表 <span className="text-[#C00000]">*</span> 必填项</p>
+                        <p className="text-[11px] font-medium uppercase tracking-wider text-[#999] mb-3">市场进入评估表 <span className="text-[#00A884]">*</span> 必填项</p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                           <input type="text" name="company" placeholder="公司名称 *" required className={inputClass} value={formData.company} onChange={handleChange} />
                           <input type="text" name="name" placeholder="您的姓名 *" required className={inputClass} value={formData.name} onChange={handleChange} />

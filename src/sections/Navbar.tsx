@@ -67,15 +67,15 @@ export default function Navbar() {
               <Link
                 key={link.en}
                 to={link.href}
-                className={`text-[13px] font-medium transition-all duration-200 ${isActive(link.href) ? 'text-[#C00000]' : 'hover:text-[#C00000]'}`}
-                style={{ color: scrolled || !isHome ? (isActive(link.href) ? '#C00000' : '#212121') : '#fff' }}
+                className={`text-[13px] font-medium transition-all duration-200 ${isActive(link.href) ? 'text-[#00A884]' : 'hover:text-[#00A884]'}`}
+                style={{ color: scrolled || !isHome ? (isActive(link.href) ? '#00A884' : '#212121') : '#fff' }}
               >
                 {t(link.en, link.zh)}
               </Link>
             ))}
             <button
               onClick={toggleLang}
-              className="text-[12px] font-medium px-3 py-1.5 border transition-all duration-200 hover:border-[#C00000] hover:text-[#C00000]"
+              className="text-[12px] font-medium px-3 py-1.5 border transition-all duration-200 hover:border-[#00A884] hover:text-[#00A884]"
               style={{
                 color: scrolled || !isHome ? '#212121' : '#fff',
                 borderColor: scrolled || !isHome ? 'rgba(0,0,0,0.15)' : 'rgba(255,255,255,0.3)',
@@ -105,7 +105,7 @@ export default function Navbar() {
                 key={link.en}
                 to={link.href}
                 onClick={() => { setMenuOpen(false); document.body.style.overflow = '' }}
-                className={`text-[20px] font-semibold transition-colors ${isActive(link.href) ? 'text-[#C00000]' : 'text-[#212121] hover:text-[#C00000]'}`}
+                className={`text-[20px] font-semibold transition-colors ${isActive(link.href) ? 'text-[#00A884]' : 'text-[#212121] hover:text-[#00A884]'}`}
               >
                 {t(link.en, link.zh)}
               </Link>

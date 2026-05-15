@@ -72,11 +72,11 @@ export default function EN_certification_is_not_the_end_of_market_entry() {
               Practical Next Steps
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Audit your current certifications for coverage gaps</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Map which channels and customers require which certifications</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Develop a recertification and change management process</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Integrate certification milestones with your channel development timeline</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Contact CCBONLINE for certification-aligned market entry planning</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Audit your current certifications for coverage gaps</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Map which channels and customers require which certifications</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Develop a recertification and change management process</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Integrate certification milestones with your channel development timeline</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Contact CCBONLINE for certification-aligned market entry planning</li>
 
             </ul>
           </div>
@@ -132,11 +132,11 @@ export default function EN_certification_is_not_the_end_of_market_entry() {
               Related Resources
             </h2>
             <ul className="space-y-2 mb-8">
-          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">Market Entry Services</Link></li>
-          <li><Link to="/en/responsibility-chain" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">The Responsibility Chain</Link></li>
-          <li><Link to="/en/insights/importer-of-record-is-not-just-customs-clearance" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">Importer of Record Is Not Just Customs Clearance</Link></li>
-          <li><Link to="/en/insights/canada-as-first-station-for-north-america-entry" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">Canada as a First Station for North America Market Entry</Link></li>
-          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">Contact CCBONLINE</Link></li>
+          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Market Entry Services</Link></li>
+          <li><Link to="/en/responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">The Responsibility Chain</Link></li>
+          <li><Link to="/en/insights/importer-of-record-is-not-just-customs-clearance" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Importer of Record Is Not Just Customs Clearance</Link></li>
+          <li><Link to="/en/insights/canada-as-first-station-for-north-america-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Canada as a First Station for North America Market Entry</Link></li>
+          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
 
             </ul>
           </div>

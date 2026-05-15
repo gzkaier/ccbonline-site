@@ -77,8 +77,8 @@ const servicePackages: ServicePackage[] = [
 
 function ServiceCardComponent({ card }: { card: ServiceCard }) {
   return (
-    <div className="group bg-white border border-[#E5E5E5] hover:border-[#C00000] transition-colors p-5 md:p-6 flex flex-col">
-      <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 leading-[1.5] group-hover:text-[#C00000] transition-colors">
+    <div className="group bg-white border border-[#E5E5E5] hover:border-[#00A884] transition-colors p-5 md:p-6 flex flex-col">
+      <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 leading-[1.5] group-hover:text-[#00A884] transition-colors">
         {card.title}
       </h3>
       <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.6] mb-4 flex-1">
@@ -86,7 +86,7 @@ function ServiceCardComponent({ card }: { card: ServiceCard }) {
       </p>
       <Link
         to={`/zh/services/${card.slug}`}
-        className="text-[14px] font-medium text-[#C00000] hover:underline inline-flex items-center gap-1"
+        className="text-[14px] font-medium text-[#00A884] hover:underline inline-flex items-center gap-1"
       >
         了解详情
         <span className="text-[16px]">&rarr;</span>
@@ -133,10 +133,10 @@ export default function ZHServices() {
                 你应该从哪里开始？
               </h2>
               <ul className="space-y-3 text-[14px] md:text-[15px] text-[#444] leading-[1.65]">
-                <li className="pl-4 border-l-2 border-[#C00000]">如果你还在判断北美值不值得做，先看 <Link to="/zh/services/market-entry-diagnosis" className="text-[#C00000] hover:underline">北美市场进入诊断</Link></li>
-                <li className="pl-4 border-l-2 border-[#C00000]">如果你已经有产品，准备验证客户和渠道，先看 <Link to="/zh/services/customer-channel-validation" className="text-[#C00000] hover:underline">北美客户与渠道验证</Link></li>
-                <li className="pl-4 border-l-2 border-[#C00000]">如果你已经进入进口、仓储、履约或售后准备阶段，先看 <Link to="/zh/services/local-execution-support" className="text-[#C00000] hover:underline">本地承接支持</Link></li>
-                <li className="pl-4 border-l-2 border-[#C00000]">如果你已经有多个环节同时推进，需要持续协调，先看 <Link to="/zh/services/advisory-retainer" className="text-[#C00000] hover:underline">顾问陪跑</Link></li>
+                <li className="pl-4 border-l-2 border-[#00A884]">如果你还在判断北美值不值得做，先看 <Link to="/zh/services/market-entry-diagnosis" className="text-[#00A884] hover:underline">北美市场进入诊断</Link></li>
+                <li className="pl-4 border-l-2 border-[#00A884]">如果你已经有产品，准备验证客户和渠道，先看 <Link to="/zh/services/customer-channel-validation" className="text-[#00A884] hover:underline">北美客户与渠道验证</Link></li>
+                <li className="pl-4 border-l-2 border-[#00A884]">如果你已经进入进口、仓储、履约或售后准备阶段，先看 <Link to="/zh/services/local-execution-support" className="text-[#00A884] hover:underline">本地承接支持</Link></li>
+                <li className="pl-4 border-l-2 border-[#00A884]">如果你已经有多个环节同时推进，需要持续协调，先看 <Link to="/zh/services/advisory-retainer" className="text-[#00A884] hover:underline">顾问陪跑</Link></li>
               </ul>
             </div>
           </div>
@@ -238,7 +238,7 @@ export default function ZHServices() {
                     <p className="text-[13px] text-[#999] uppercase tracking-wider mb-2">交付物</p>
                     <ul className="space-y-1.5">
                       {pkg.deliverables.map((d, j) => (
-                        <li key={j} className="text-[13px] md:text-[14px] text-[#555] leading-[1.5] pl-3 border-l-2 border-[#C00000]">{d}</li>
+                        <li key={j} className="text-[13px] md:text-[14px] text-[#555] leading-[1.5] pl-3 border-l-2 border-[#00A884]">{d}</li>
                       ))}
                     </ul>
                   </div>

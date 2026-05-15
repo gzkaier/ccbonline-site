@@ -53,7 +53,7 @@ export default function ENAbout() {
                   CCBONLINE INC. is a Canada-registered consulting and execution support company based in Toronto. We support manufacturers, brands, industrial suppliers, and growth-stage companies entering Canada and North America through structured market-entry diagnosis, compliance pathway design, channel validation, local partner coordination, and hands-on execution support.
                 </p>
                 <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.65] mb-5">
-                  We are not a marketing agency, a web development shop, or a lead-generation platform. We are market-entry advisors who combine market judgment, compliance awareness, channel understanding, local resources, and execution discipline to help Chinese companies build real operations on the ground in North America.
+                  We are not a marketing agency, a web development shop, or a lead-generation platform. We are market-entry advisors who combine market judgment, compliance awareness, channel understanding, local resources, and execution discipline to help businesses build real operations on the ground in North America.
                 </p>
                 <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65] mb-6">
                   Our work focuses on helping companies move from overseas interest to local execution by aligning market demand, compliance requirements, import responsibility, channel strategy, local operations, documentation, after-sales support, and project execution.
@@ -81,7 +81,7 @@ export default function ENAbout() {
           </div>
         </section>
 
-        <section className="section-padding bg-[#1a1a2e]">
+        <section className="section-padding bg-[#07111F]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-6">

@@ -62,10 +62,10 @@ export default function ZH_customer_channel_validation() {
                 适合哪些企业
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">已经完成初步市场判断，但需要<strong className="font-medium">在投入前验证假设</strong>的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">有产品样品或初步资料，但<strong className="font-medium">不确定北美客户真实反应</strong>的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">计划参加展会或拜访渠道，但<strong className="font-medium">希望带着明确验证目标去</strong>的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">曾经通过展会拿到名片但<strong className="font-medium">后续转化极低</strong>、希望找到原因的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">已经完成初步市场判断，但需要<strong className="font-medium">在投入前验证假设</strong>的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">有产品样品或初步资料，但<strong className="font-medium">不确定北美客户真实反应</strong>的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">计划参加展会或拜访渠道，但<strong className="font-medium">希望带着明确验证目标去</strong>的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">曾经通过展会拿到名片但<strong className="font-medium">后续转化极低</strong>、希望找到原因的企业</li>
               </ul>
             </div>
 
@@ -91,11 +91,11 @@ export default function ZH_customer_channel_validation() {
                 我们会做什么 / 支持什么
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">目标客户定向访谈</strong> — 找到与您产品匹配的真实采购决策者或使用者，进行采购流程、决策标准、价格敏感度的结构化访谈</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">渠道接触与反馈收集</strong> — 接触潜在的分销商、代理商或集成商，了解他们的合作条件、对产品的真实评价、以及代理意愿</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">样品测试与场景验证</strong> — 如有条件，安排样品进入真实使用环境，收集功能性反馈和适配性评价</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">竞品对比与定位校准</strong> — 在真实对话中了解客户目前用什么替代品、您的产品相对优劣势在哪里</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">采购流程与决策链梳理</strong> — 了解从接触到下单需要经过哪些环节、多长时间、谁有最终决定权</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">目标客户定向访谈</strong> — 找到与您产品匹配的真实采购决策者或使用者，进行采购流程、决策标准、价格敏感度的结构化访谈</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">渠道接触与反馈收集</strong> — 接触潜在的分销商、代理商或集成商，了解他们的合作条件、对产品的真实评价、以及代理意愿</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">样品测试与场景验证</strong> — 如有条件，安排样品进入真实使用环境，收集功能性反馈和适配性评价</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">竞品对比与定位校准</strong> — 在真实对话中了解客户目前用什么替代品、您的产品相对优劣势在哪里</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">采购流程与决策链梳理</strong> — 了解从接触到下单需要经过哪些环节、多长时间、谁有最终决定权</li>
               </ul>
             </div>
 
@@ -150,8 +150,8 @@ export default function ZH_customer_channel_validation() {
                 验证完成后，您会知道客户是否真实存在、渠道是否愿意合作、以及产品是否需要调整。接下来的路径通常是：
               </p>
               <ul className="space-y-2 mb-4">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果验证显示<strong className="font-medium">合规和责任链是主要瓶颈</strong> → 进入 <Link to="/zh/services/compliance-responsibility-chain" className="text-[#C00000] hover:underline">合规与责任链搭建</Link></li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果验证通过、需要<strong className="font-medium">开始实质性本地运营</strong> → 进入 <Link to="/zh/services/local-execution-support" className="text-[#C00000] hover:underline">本地执行支持</Link></li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果验证显示<strong className="font-medium">合规和责任链是主要瓶颈</strong> → 进入 <Link to="/zh/services/compliance-responsibility-chain" className="text-[#00A884] hover:underline">合规与责任链搭建</Link></li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果验证通过、需要<strong className="font-medium">开始实质性本地运营</strong> → 进入 <Link to="/zh/services/local-execution-support" className="text-[#00A884] hover:underline">本地执行支持</Link></li>
                 <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果验证显示产品需要调整但市场方向正确 → 返回产品优化，之后再进入渠道签约阶段</li>
                 <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果验证结果不理想 → 您可以在损失可控的阶段重新评估市场优先级，而不是在投入大量资源后被迫退出</li>
               </ul>

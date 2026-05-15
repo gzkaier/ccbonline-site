@@ -56,10 +56,10 @@ export default function EN_advisory_retainer() {
               Who This Service Is For
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Companies actively entering North America and needing regular strategic judgment and coordination</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Businesses with multiple moving parts — certification, channel development, logistics, compliance — requiring a central coordinating advisor</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Leadership teams that need an external North America perspective to validate internal decisions</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Companies that have started the entry process but feel it is stalling without structured follow-up</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies actively entering North America and needing regular strategic judgment and coordination</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Businesses with multiple moving parts — certification, channel development, logistics, compliance — requiring a central coordinating advisor</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Leadership teams that need an external North America perspective to validate internal decisions</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies that have started the entry process but feel it is stalling without structured follow-up</li>
 
             </ul>
 
@@ -74,12 +74,12 @@ export default function EN_advisory_retainer() {
               What We Review or Support
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Monthly Advisory Calls</strong> — scheduled review of progress, blockers, and upcoming priorities with structured recommendations</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Document and Material Review</strong> — feedback on proposals, partner agreements, customer presentations, and marketing materials as they evolve</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Partner Coordination Guidance</strong> — advice on communicating with and evaluating North American partners, distributors, and service providers</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Customer Follow-Up Strategy</strong> — how to maintain momentum with prospects and partners between your visits</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Risk and Priority Recommendations</strong> — prioritized list of what to do next, what to watch out for, and what has changed in the market</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Monthly Progress Summary</strong> — written report on what was accomplished, what changed, and what is planned for the coming month</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Monthly Advisory Calls</strong> — scheduled review of progress, blockers, and upcoming priorities with structured recommendations</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Document and Material Review</strong> — feedback on proposals, partner agreements, customer presentations, and marketing materials as they evolve</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Partner Coordination Guidance</strong> — advice on communicating with and evaluating North American partners, distributors, and service providers</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Customer Follow-Up Strategy</strong> — how to maintain momentum with prospects and partners between your visits</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Risk and Priority Recommendations</strong> — prioritized list of what to do next, what to watch out for, and what has changed in the market</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Monthly Progress Summary</strong> — written report on what was accomplished, what changed, and what is planned for the coming month</li>
             </ul>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
@@ -165,11 +165,11 @@ export default function EN_advisory_retainer() {
               Related Pages
             </h2>
             <ul className="space-y-2 mb-8">
-          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">All Services</Link></li>
-          <li><Link to="/en/responsibility-chain" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">The Responsibility Chain</Link></li>
-          <li><Link to="/en/insights/0-90-day-north-america-market-entry-roadmap" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">A 0-90 Day Roadmap for North America Market Entry</Link></li>
-          <li><Link to="/en/insights/north-america-responsibility-chain" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">The Responsibility Chain Behind North America Market Entry</Link></li>
-          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">Contact CCBONLINE</Link></li>
+          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">All Services</Link></li>
+          <li><Link to="/en/responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">The Responsibility Chain</Link></li>
+          <li><Link to="/en/insights/0-90-day-north-america-market-entry-roadmap" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">A 0-90 Day Roadmap for North America Market Entry</Link></li>
+          <li><Link to="/en/insights/north-america-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">The Responsibility Chain Behind North America Market Entry</Link></li>
+          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
 
             </ul>
           </div>

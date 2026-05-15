@@ -67,7 +67,7 @@ export default function ENResponsibilityChain() {
                 { num: '08', title: 'Local Accountability', desc: 'When something goes wrong, who is the local point of contact?' },
               ].map((item) => (
                 <div key={item.num} className="flex gap-3">
-                  <span className="text-[#C00000] text-[12px] font-bold mt-0.5 min-w-[24px]">{item.num}</span>
+                  <span className="text-[#00A884] text-[12px] font-bold mt-0.5 min-w-[24px]">{item.num}</span>
                   <div>
                     <h4 className="text-[14px] md:text-[15px] font-semibold mb-1">{item.title}</h4>
                     <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">{item.desc}</p>

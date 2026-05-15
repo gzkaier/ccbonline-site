@@ -67,7 +67,7 @@ export default function ZHResponsibilityChain() {
                 { num: '08', title: '本地问责', desc: '出问题时，谁是本地联系人？监管机构、客户或律师可以联系谁？' },
               ].map((item) => (
                 <div key={item.num} className="flex gap-3">
-                  <span className="text-[#C00000] text-[12px] font-bold mt-0.5 min-w-[24px]">{item.num}</span>
+                  <span className="text-[#00A884] text-[12px] font-bold mt-0.5 min-w-[24px]">{item.num}</span>
                   <div>
                     <h4 className="text-[14px] md:text-[15px] font-semibold mb-1">{item.title}</h4>
                     <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.6]">{item.desc}</p>

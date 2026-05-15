@@ -72,11 +72,11 @@ export default function ZH_JiaNaDaKeYiShiBeiMeiDiYiZhan() {
               下一步动作
             </h2>
             <ul className="space-y-3 mb-10">
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">评估哪些加拿大省份与你的产品最匹配</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">了解魁北克及全国分销的双语标签要求</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">对比你的产品类别在加拿大和美国的认证差异</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">筛选加拿大展会做市场验证</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">联系 CCBONLINE 做加拿大首发评估</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">评估哪些加拿大省份与你的产品最匹配</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">了解魁北克及全国分销的双语标签要求</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">对比你的产品类别在加拿大和美国的认证差异</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">筛选加拿大展会做市场验证</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">联系 CCBONLINE 做加拿大首发评估</li>
             </ul>
           </div>
         </section>
@@ -130,11 +130,11 @@ export default function ZH_JiaNaDaKeYiShiBeiMeiDiYiZhan() {
               相关阅读
             </h2>
             <ul className="space-y-2 mb-8">
-              <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">市场进入服务</Link></li>
-              <li><Link to="/zh/canada-market-entry" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">加拿大市场进入</Link></li>
-              <li><Link to="/zh/insights/ren-zheng-bu-shi-zhong-dian" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">认证不是终点</Link></li>
-              <li><Link to="/zh/insights/0-90-tian-bei-mei-shi-chang-jin-ru-lu-jing" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">北美市场进入的 0–90 天路径</Link></li>
-              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">联系 CCBONLINE</Link></li>
+              <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">市场进入服务</Link></li>
+              <li><Link to="/zh/canada-market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">加拿大市场进入</Link></li>
+              <li><Link to="/zh/insights/ren-zheng-bu-shi-zhong-dian" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">认证不是终点</Link></li>
+              <li><Link to="/zh/insights/0-90-tian-bei-mei-shi-chang-jin-ru-lu-jing" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">北美市场进入的 0–90 天路径</Link></li>
+              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">联系 CCBONLINE</Link></li>
             </ul>
           </div>
         </section>

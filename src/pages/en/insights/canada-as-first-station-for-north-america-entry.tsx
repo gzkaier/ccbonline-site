@@ -72,11 +72,11 @@ export default function EN_canada_as_first_station_for_north_america_entry() {
               Practical Next Steps
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Assess which Canadian provinces offer the best match for your product</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Evaluate bilingual labeling requirements for Quebec and national distribution</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Compare Canadian vs. U.S. certification requirements for your category</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Identify Canadian trade shows for market validation</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Contact CCBONLINE for a Canada-first market entry assessment</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Assess which Canadian provinces offer the best match for your product</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Evaluate bilingual labeling requirements for Quebec and national distribution</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Compare Canadian vs. U.S. certification requirements for your category</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Identify Canadian trade shows for market validation</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Contact CCBONLINE for a Canada-first market entry assessment</li>
 
             </ul>
           </div>
@@ -132,11 +132,11 @@ export default function EN_canada_as_first_station_for_north_america_entry() {
               Related Resources
             </h2>
             <ul className="space-y-2 mb-8">
-          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">Market Entry Services</Link></li>
-          <li><Link to="/en/canada-market-entry" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">Canada Market Entry</Link></li>
-          <li><Link to="/en/insights/certification-is-not-the-end-of-market-entry" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">Certification Is Not the End of Market Entry</Link></li>
-          <li><Link to="/en/insights/0-90-day-north-america-market-entry-roadmap" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">A 0–90 Day Roadmap for North America Market Entry</Link></li>
-          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">Contact CCBONLINE</Link></li>
+          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Market Entry Services</Link></li>
+          <li><Link to="/en/canada-market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Canada Market Entry</Link></li>
+          <li><Link to="/en/insights/certification-is-not-the-end-of-market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Certification Is Not the End of Market Entry</Link></li>
+          <li><Link to="/en/insights/0-90-day-north-america-market-entry-roadmap" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">A 0–90 Day Roadmap for North America Market Entry</Link></li>
+          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
 
             </ul>
           </div>

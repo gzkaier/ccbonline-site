@@ -173,7 +173,7 @@ export default function ENContact() {
                 <form onSubmit={handleSubmit} className="bg-[#F8F9FA] p-5 md:p-8">
                   {submitted ? (
                     <div className="text-center py-10">
-                      <div className="w-10 h-10 bg-[#C00000] flex items-center justify-center mx-auto mb-4"><span className="text-white text-[16px]">✓</span></div>
+                      <div className="w-10 h-10 bg-[#00A884] flex items-center justify-center mx-auto mb-4"><span className="text-white text-[16px]">✓</span></div>
                       <h3 className="text-[18px] font-semibold mb-2">Assessment Submitted</h3>
                       <p className="text-[13px] text-[#767676] mb-4">We have received your assessment request and will respond within 1–2 business days.</p>
                       <div className="p-4 bg-[#F8F9FA] border border-[#E5E5E5] mb-4 max-w-[400px] mx-auto">
@@ -181,12 +181,12 @@ export default function ENContact() {
                         <p className="text-[14px] font-medium text-[#212121]">info@ccbonline.ca</p>
                         <p className="text-[13px] text-[#666]">+1 647 568 1128</p>
                       </div>
-                      <p className="text-[12px] text-[#999]">While you wait, you can read our <Link to="/en/insights" className="text-[#C00000] hover:underline">market entry insights</Link> or review <Link to="/en/services" className="text-[#C00000] hover:underline">our services</Link>.</p>
+                      <p className="text-[12px] text-[#999]">While you wait, you can read our <Link to="/en/insights" className="text-[#00A884] hover:underline">market entry insights</Link> or review <Link to="/en/services" className="text-[#00A884] hover:underline">our services</Link>.</p>
                     </div>
                   ) : (
                     <>
                       <div className="mb-6">
-                        <p className="text-[11px] font-medium uppercase tracking-wider text-[#999] mb-3">Market Entry Assessment Form <span className="text-[#C00000]">*</span> required</p>
+                        <p className="text-[11px] font-medium uppercase tracking-wider text-[#999] mb-3">Market Entry Assessment Form <span className="text-[#00A884]">*</span> required</p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                           <input type="text" name="company" placeholder="Company Name *" required className={inputClass} value={formData.company} onChange={handleChange} />
                           <input type="text" name="name" placeholder="Your Name *" required className={inputClass} value={formData.name} onChange={handleChange} />

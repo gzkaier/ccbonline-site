@@ -62,10 +62,10 @@ export default function ZH_market_entry_diagnosis() {
                 适合哪些企业
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">考虑首次进入北美市场的中国制造企业或品牌方</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">不确定加拿大和美国哪个应该优先进入的管理层</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">需要在分配预算前进行结构化准备度评估的决策者</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">曾经尝试进入北美但遇到合规或渠道挫折、希望重新评估的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">考虑首次进入北美市场的中国制造企业或品牌方</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">不确定加拿大和美国哪个应该优先进入的管理层</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">需要在分配预算前进行结构化准备度评估的决策者</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">曾经尝试进入北美但遇到合规或渠道挫折、希望重新评估的企业</li>
               </ul>
             </div>
 
@@ -88,11 +88,11 @@ export default function ZH_market_entry_diagnosis() {
                 我们会审查什么 / 支持什么
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">产品与市场适配度</strong> — 您的产品功能、定价、认证状态是否与北美主流买家需求匹配</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">加拿大 / 美国优先级判断</strong> — 基于您的产品类别、竞争格局、合规门槛和渠道特性，建议先进入哪个市场</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">合规与认证缺口筛查</strong> — 识别主要强制性认证、进口许可、标签要求和责任链前置条件</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">目标客户画像与渠道方向</strong> — 谁最可能购买、通过什么渠道采购、决策流程大概多长</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">现有资料与能力评估</strong> — 您的英文资料、产品文档、样品准备是否达到可展示标准</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">产品与市场适配度</strong> — 您的产品功能、定价、认证状态是否与北美主流买家需求匹配</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">加拿大 / 美国优先级判断</strong> — 基于您的产品类别、竞争格局、合规门槛和渠道特性，建议先进入哪个市场</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">合规与认证缺口筛查</strong> — 识别主要强制性认证、进口许可、标签要求和责任链前置条件</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">目标客户画像与渠道方向</strong> — 谁最可能购买、通过什么渠道采购、决策流程大概多长</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">现有资料与能力评估</strong> — 您的英文资料、产品文档、样品准备是否达到可展示标准</li>
               </ul>
             </div>
 
@@ -147,9 +147,9 @@ export default function ZH_market_entry_diagnosis() {
                 可行性诊断的输出会告诉您"应该做什么"。接下来通常需要验证"能不能做到"。多数客户在完成诊断后会选择以下路径之一：
               </p>
               <ul className="space-y-2 mb-4">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果诊断显示需要<strong className="font-medium">先验证客户和渠道</strong> → 进入 <Link to="/zh/services/customer-channel-validation" className="text-[#C00000] hover:underline">客户与渠道验证</Link></li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果诊断显示<strong className="font-medium">合规和责任链是最大缺口</strong> → 进入 <Link to="/zh/services/compliance-responsibility-chain" className="text-[#C00000] hover:underline">合规与责任链搭建</Link></li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果客户和渠道已初步验证、合规已梳理 → 直接进入 <Link to="/zh/services/local-execution-support" className="text-[#C00000] hover:underline">本地执行支持</Link> 或 <Link to="/zh/services/advisory-retainer" className="text-[#C00000] hover:underline">顾问式长期陪跑</Link></li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果诊断显示需要<strong className="font-medium">先验证客户和渠道</strong> → 进入 <Link to="/zh/services/customer-channel-validation" className="text-[#00A884] hover:underline">客户与渠道验证</Link></li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果诊断显示<strong className="font-medium">合规和责任链是最大缺口</strong> → 进入 <Link to="/zh/services/compliance-responsibility-chain" className="text-[#00A884] hover:underline">合规与责任链搭建</Link></li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果客户和渠道已初步验证、合规已梳理 → 直接进入 <Link to="/zh/services/local-execution-support" className="text-[#00A884] hover:underline">本地执行支持</Link> 或 <Link to="/zh/services/advisory-retainer" className="text-[#00A884] hover:underline">顾问式长期陪跑</Link></li>
               </ul>
               <p className="text-[14px] text-[#666] leading-[1.6] italic">
                 您不需要预先决定下一步。诊断报告中会附带明确的阶段建议，您可以根据自身节奏选择推进方式。

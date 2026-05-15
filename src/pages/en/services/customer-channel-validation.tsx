@@ -56,10 +56,10 @@ export default function EN_customer_channel_validation() {
               Who This Service Is For
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Companies with a product ready for North America but unclear about who the real buyers are</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Businesses preparing for a North American trade show and needing pre-show buyer targeting</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Teams that have tried email outreach but received no meaningful responses</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Companies that need to validate whether distributor, direct, or hybrid channels make sense</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies with a product ready for North America but unclear about who the real buyers are</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Businesses preparing for a North American trade show and needing pre-show buyer targeting</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Teams that have tried email outreach but received no meaningful responses</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies that need to validate whether distributor, direct, or hybrid channels make sense</li>
 
             </ul>
 
@@ -74,11 +74,11 @@ export default function EN_customer_channel_validation() {
               What We Review or Support
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Target Customer Segment Mapping</strong> — detailed profiles of who buys, why they buy, and what they value in your product category</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Channel Path Comparison</strong> — analysis of distributor, direct, hybrid, and platform-based paths with realistic pros and cons for your product</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Distributor / Buyer / End-User Path Analysis</strong> — recommendation on the most viable first channel and what it takes to open it</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Outreach Readiness Review</strong> — assessment of whether your materials, website, and samples meet North American standards and buyer expectations</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">30-Day Customer Validation Plan</strong> — step-by-step plan to test market interest with measurable milestones before full commitment</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Target Customer Segment Mapping</strong> — detailed profiles of who buys, why they buy, and what they value in your product category</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Channel Path Comparison</strong> — analysis of distributor, direct, hybrid, and platform-based paths with realistic pros and cons for your product</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Distributor / Buyer / End-User Path Analysis</strong> — recommendation on the most viable first channel and what it takes to open it</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Outreach Readiness Review</strong> — assessment of whether your materials, website, and samples meet North American standards and buyer expectations</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">30-Day Customer Validation Plan</strong> — step-by-step plan to test market interest with measurable milestones before full commitment</li>
             </ul>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
@@ -163,11 +163,11 @@ export default function EN_customer_channel_validation() {
               Related Pages
             </h2>
             <ul className="space-y-2 mb-8">
-          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">All Services</Link></li>
-          <li><Link to="/en/responsibility-chain" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">The Responsibility Chain</Link></li>
-          <li><Link to="/en/insights/channel-development-is-not-email-blasting" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">Channel Development Is Not Email Blasting</Link></li>
-          <li><Link to="/en/insights/trade-show-is-not-just-exhibition" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">A Trade Show Is Not Just an Exhibition</Link></li>
-          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">Contact CCBONLINE</Link></li>
+          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">All Services</Link></li>
+          <li><Link to="/en/responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">The Responsibility Chain</Link></li>
+          <li><Link to="/en/insights/channel-development-is-not-email-blasting" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Channel Development Is Not Email Blasting</Link></li>
+          <li><Link to="/en/insights/trade-show-is-not-just-exhibition" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">A Trade Show Is Not Just an Exhibition</Link></li>
+          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
 
             </ul>
           </div>

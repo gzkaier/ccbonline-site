@@ -110,7 +110,7 @@ export default function ResponsibilityChain() {
               { num: '08', title: t('Local Accountability', '本地问责'), desc: t('When something goes wrong, who is the local point of contact? Who can regulators, customers, or lawyers reach?', '出问题时，谁是本地联系人？监管机构、客户或律师可以联系谁？') },
             ].map((item) => (
               <div key={item.num} className="rc-block flex gap-3">
-                <span className="text-[#C00000] text-[12px] font-bold mt-0.5 min-w-[24px]">{item.num}</span>
+                <span className="text-[#00A884] text-[12px] font-bold mt-0.5 min-w-[24px]">{item.num}</span>
                 <div>
                   <h4 className="text-[13px] md:text-[15px] font-semibold mb-1">{item.title}</h4>
                   <p className="text-[11px] md:text-[13px] text-[#767676] leading-[1.6]">{item.desc}</p>
@@ -135,7 +135,7 @@ export default function ResponsibilityChain() {
               { title: t('No local insurance coverage', '没有本地保险覆盖'), desc: t('Overseas insurance policies often do not cover North American liability exposure. Local product liability insurance is essential.', '海外保险单通常不覆盖北美责任风险。本地产品责任险至关重要。') },
               { title: t('Vague warranty terms', '模糊的保修条款'), desc: t('"One-year warranty" without clear process, local repair capability, or spare parts availability creates customer disputes.', '"一年保修"没有明确流程、本地维修能力或备件可用性会产生客户纠纷。') },
             ].map((item, i) => (
-              <div key={i} className="rc-block card-border bg-white border-l-2 border-l-[#C00000]">
+              <div key={i} className="rc-block card-border bg-white border-l-2 border-l-[#00A884]">
                 <h3 className="text-[14px] md:text-[15px] font-semibold mb-2">{item.title}</h3>
                 <p className="text-[11px] md:text-[13px] text-[#767676] leading-[1.7]">{item.desc}</p>
               </div>
@@ -159,7 +159,7 @@ export default function ResponsibilityChain() {
               { title: t('Contract guidance', '合同指导'), desc: t('We help you understand distributor agreements, liability clauses, and warranty terms before you sign.', '我们在签署前帮助您理解经销协议、责任条款和保修条款。') },
             ].map((item, i) => (
               <div key={i} className="rc-block flex gap-3">
-                <span className="text-[#C00000] text-[14px] mt-0.5">✓</span>
+                <span className="text-[#00A884] text-[14px] mt-0.5">✓</span>
                 <div>
                   <h4 className="text-[13px] md:text-[14px] font-semibold mb-1">{item.title}</h4>
                   <p className="text-[11px] md:text-[13px] text-[#767676] leading-[1.6]">{item.desc}</p>

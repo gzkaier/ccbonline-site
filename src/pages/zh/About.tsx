@@ -81,7 +81,7 @@ export default function ZHAbout() {
           </div>
         </section>
 
-        <section className="section-padding bg-[#1a1a2e]">
+        <section className="section-padding bg-[#07111F]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-6">

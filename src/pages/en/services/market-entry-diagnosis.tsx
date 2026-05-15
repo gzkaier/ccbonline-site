@@ -56,10 +56,10 @@ export default function EN_market_entry_diagnosis() {
               Who This Service Is For
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Manufacturers considering their first North American market entry</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Companies unsure whether Canada or the U.S. should be the first priority</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Leadership teams needing a structured readiness assessment before allocating budget</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">Businesses that have tried entering North America before but encountered compliance or channel setbacks</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Manufacturers considering their first North American market entry</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies unsure whether Canada or the U.S. should be the first priority</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Leadership teams needing a structured readiness assessment before allocating budget</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Businesses that have tried entering North America before but encountered compliance or channel setbacks</li>
 
             </ul>
 
@@ -74,11 +74,11 @@ export default function EN_market_entry_diagnosis() {
               What We Review or Support
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Product-Market Fit Screening</strong> — whether your product features, pricing, and certifications match what North American buyers expect</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Canada vs. U.S. Priority Assessment</strong> — which market should come first based on your product category, competition, compliance barriers, and channel availability</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Compliance and Certification Gap Identification</strong> — mandatory certifications, import licenses, labeling requirements, and responsibility-chain prerequisites</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Target Customer Profile and Channel Direction</strong> — who is most likely to buy, through which channels, and how long the decision cycle typically takes</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium">Current Material and Capability Review</strong> — whether your English materials, product documentation, and samples are ready for professional presentation</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Product-Market Fit Screening</strong> — whether your product features, pricing, and certifications match what North American buyers expect</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Canada vs. U.S. Priority Assessment</strong> — which market should come first based on your product category, competition, compliance barriers, and channel availability</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Compliance and Certification Gap Identification</strong> — mandatory certifications, import licenses, labeling requirements, and responsibility-chain prerequisites</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Target Customer Profile and Channel Direction</strong> — who is most likely to buy, through which channels, and how long the decision cycle typically takes</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Current Material and Capability Review</strong> — whether your English materials, product documentation, and samples are ready for professional presentation</li>
             </ul>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
@@ -163,11 +163,11 @@ export default function EN_market_entry_diagnosis() {
               Related Pages
             </h2>
             <ul className="space-y-2 mb-8">
-          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">All Services</Link></li>
-          <li><Link to="/en/canada-market-entry" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">Canada Market Entry</Link></li>
-          <li><Link to="/en/insights/market-entry-is-not-selling-overseas" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">Market Entry Is Not the Same as Selling Overseas</Link></li>
-          <li><Link to="/en/insights/0-90-day-north-america-market-entry-roadmap" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">A 0-90 Day Roadmap for North America Market Entry</Link></li>
-          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#C00000] hover:underline">Contact CCBONLINE</Link></li>
+          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">All Services</Link></li>
+          <li><Link to="/en/canada-market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Canada Market Entry</Link></li>
+          <li><Link to="/en/insights/market-entry-is-not-selling-overseas" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Market Entry Is Not the Same as Selling Overseas</Link></li>
+          <li><Link to="/en/insights/0-90-day-north-america-market-entry-roadmap" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">A 0-90 Day Roadmap for North America Market Entry</Link></li>
+          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
 
             </ul>
           </div>

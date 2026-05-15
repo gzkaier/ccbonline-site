@@ -4,7 +4,6 @@ import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import useSEO from '../../hooks/useSEO'
 
-
 export default function ENHome() {
   useSEO({
     title: 'CCBONLINE INC. | Canada & North America Market Entry Advisory',
@@ -32,24 +31,83 @@ export default function ENHome() {
               fetchPriority="high"
             />
           </div>
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a1a] via-[#0a0a1a]/80 to-[#0a0a1a]/40" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#07111F] via-[#07111F]/85 to-[#07111F]/50" />
           <div className="relative z-10 container-site w-full pb-[7vh] md:pb-[10vh] pt-[18vh] md:pt-[22vh]">
-            <p className="text-white/50 text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-4 md:mb-5">
+            <p className="text-[#00A884] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-4 md:mb-5 font-medium">
               CCBONLINE INC.
             </p>
-            <h1 className="font-serif text-white text-[28px] sm:text-[36px] md:text-[44px] lg:text-[48px] leading-[1.2] tracking-tight max-w-[900px] mb-4 md:mb-6">
-              Helping Businesses Enter Canada and North America
+            <h1 className="font-serif text-white text-[26px] sm:text-[34px] md:text-[42px] lg:text-[48px] leading-[1.2] tracking-tight max-w-[900px] mb-4 md:mb-6">
+              Not Just a Service Provider—Your Local Growth Partner in Canada
             </h1>
             <p className="text-white/65 text-[15px] md:text-[17px] leading-[1.65] max-w-[680px] mb-6 md:mb-8">
-              Market entry is not finding buyers — it is building a working path across judgment, compliance, channels, and local execution. We help businesses do that before they spend on the wrong things.
+              We specialize in helping businesses truly enter the Canadian market, not just complete transactions. CCBONLINE INC. is a registered company in Canada, headquartered in Toronto, focusing on business entry services in the North American market.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 mb-4">
-              <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">Request an Initial Market Entry Assessment</Link>
+              <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">Book a Free Consultation</Link>
               <Link to="/en/services" className="btn-outline text-[15px] px-6 py-3.5 min-h-[52px]" style={{ borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}>Explore Our Services</Link>
             </div>
             <p className="text-white/40 text-[13px] md:text-[14px] max-w-[560px]">
               Tell us where you are now, what market you are targeting, and what is currently blocking progress.
             </p>
+          </div>
+        </section>
+
+        {/* Who We Serve */}
+        <section className="section-padding bg-white">
+          <div className="container-site">
+            <p className="text-label mb-3">Who We Serve</p>
+            <h2 className="font-serif text-[#212121] text-[24px] md:text-[30px] leading-[1.35] tracking-tight max-w-[700px] mb-6 md:mb-8">
+              Businesses We Support
+            </h2>
+            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.65] max-w-[720px] mb-8">
+              We do not serve everyone. We focus on businesses with real export-ready products, genuine market intent, and the resources to follow through. If you are looking for a low-cost shortcut, we are not the right fit.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
+              {[
+                { icon: '🔧', title: 'Manufacturers & Industrial Suppliers', desc: 'Companies with proven production capacity seeking to enter the Canadian and North American markets through direct distribution or B2B channels.' },
+                { icon: '🏭', title: 'Hardware & Equipment Companies', desc: 'Industrial equipment, machinery, tools, and component manufacturers who need compliance certification and local channel development.' },
+                { icon: '🏷️', title: 'Consumer Product Brands', desc: 'Brands with differentiated products looking to establish market presence, find retail partners, or build direct-to-consumer channels.' },
+                { icon: '🌏', title: 'Service-Based Exporters', desc: 'Professional service firms, tech companies, and consultancies expanding from international markets into Canada and North America.' },
+                { icon: '📦', title: 'Exporters & Trading Companies', desc: 'Established trading companies and exporters who want to move beyond transactional sales and build sustainable local operations.' },
+                { icon: '🚀', title: 'Growth-Stage Businesses', desc: 'Companies with proven domestic success looking for structured market entry support rather than trial-and-error approaches.' },
+              ].map((item, i) => (
+                <div key={i} className="p-5 bg-[#F8F9FA] border border-[#E5E5E5] hover:border-[#00A884] transition-colors">
+                  <div className="text-[24px] mb-3">{item.icon}</div>
+                  <h3 className="text-[15px] md:text-[16px] font-semibold mb-2">{item.title}</h3>
+                  <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Core Services - 4 pillars */}
+        <section className="section-padding bg-[#07111F]">
+          <div className="container-site">
+            <p className="text-[#00A884] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">Services</p>
+            <h2 className="font-serif text-white text-[24px] md:text-[30px] leading-[1.35] tracking-tight max-w-[700px] mb-6 md:mb-8">
+              Four Core Service Modules
+            </h2>
+            <p className="text-white/60 text-[15px] md:text-[16px] leading-[1.65] max-w-[720px] mb-10">
+              We focus on four core capabilities because they are what matters most when entering a new market. Each module is designed to move you from uncertainty to action.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              {[
+                { num: '01', title: 'Market Entry Diagnosis', desc: 'Before you invest, we assess your readiness. Product-market fit analysis, competitive landscape review, and a clear go/no-go recommendation with specific next steps.' },
+                { num: '02', title: 'Local Execution & Partner Coordination', desc: 'We do not just advise—we coordinate. Local partner matching, relationship management, weekly progress tracking, and hands-on support to turn plans into actual orders.' },
+                { num: '03', title: 'Compliance & Responsibility Chain', desc: 'Certification requirements, import documentation, customs compliance, tax registration, product liability, insurance, and warranty obligations—all mapped before you ship.' },
+                { num: '04', title: 'Commercial Content & Media Communication', desc: 'Your product story, localized. Brand positioning, marketing content adaptation, media outreach, and communication strategies that resonate with North American buyers.' },
+              ].map((item, i) => (
+                <div key={i} className="p-6 border border-white/10 hover:border-[#00A884]/50 transition-colors">
+                  <p className="text-[#C9A44C] text-[13px] font-medium mb-3">{item.num}</p>
+                  <h3 className="text-white text-[17px] md:text-[18px] font-semibold mb-3">{item.title}</h3>
+                  <p className="text-white/60 text-[14px] leading-[1.65]">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+            <div className="mt-10 text-center">
+              <Link to="/en/services" className="btn-primary text-[15px] px-8 py-3.5 min-h-[52px] inline-block">View All Services</Link>
+            </div>
           </div>
         </section>
 
@@ -95,164 +153,43 @@ export default function ENHome() {
           </div>
         </section>
 
-        {/* Three Core Services */}
+        {/* Trust */}
         <section className="section-padding bg-white">
           <div className="container-site">
-            <p className="text-label mb-3">Core Capabilities</p>
-            <h2 className="font-serif text-[#212121] text-[24px] md:text-[30px] leading-[1.35] tracking-tight mb-8 md:mb-10">
-              Three Core Capabilities
+            <p className="text-label mb-3">Trust</p>
+            <h2 className="font-serif text-[#212121] text-[24px] md:text-[30px] leading-[1.35] tracking-tight max-w-[700px] mb-8 md:mb-12">
+              Why Businesses Work With CCBONLINE INC.
             </h2>
-            <div className="grid grid-cols-1 gap-4 md:gap-5">
-              <div className="card-border bg-white flex items-start gap-4">
-                <div className="w-10 h-10 bg-[#F8F9FA] flex items-center justify-center shrink-0">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#767676" strokeWidth="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                </div>
-                <div>
-                  <h3 className="text-[16px] md:text-[17px] font-semibold mb-1.5">Market Entry Diagnosis</h3>
-                  <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.6]">Assess whether your product is ready for Canada and North America, and what gaps must be closed first.</p>
-                </div>
-              </div>
-              <div className="card-border bg-white flex items-start gap-4">
-                <div className="w-10 h-10 bg-[#F8F9FA] flex items-center justify-center shrink-0">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#767676" strokeWidth="1.5"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/></svg>
-                </div>
-                <div>
-                  <h3 className="text-[16px] md:text-[17px] font-semibold mb-1.5">Compliance Pathway Design</h3>
-                  <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.6]">Map certification, customs, tax, and regulatory requirements so you know exactly what is needed before shipping.</p>
-                </div>
-              </div>
-              <div className="card-border bg-white flex items-start gap-4">
-                <div className="w-10 h-10 bg-[#F8F9FA] flex items-center justify-center shrink-0">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#767676" strokeWidth="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
-                </div>
-                <div>
-                  <h3 className="text-[16px] md:text-[17px] font-semibold mb-1.5">Local Execution Support</h3>
-                  <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.6]">Weekly tracking, partner coordination, and phase reviews that turn plans into actual customer conversations and orders.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Framework */}
-        <section className="section-padding bg-[#F8F9FA]">
-          <div className="container-site">
-            <p className="text-label mb-3">Framework</p>
-            <h2 className="font-serif text-[#212121] text-[24px] md:text-[30px] leading-[1.35] tracking-tight mb-8 md:mb-10">
-              Our Entry Framework
-            </h2>
-            <div className="grid grid-cols-1 gap-3 md:gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
               {[
-                { num: '01', title: 'Diagnose', desc: 'Product fit, certification gaps, competitor scan' },
-                { num: '02', title: 'Design', desc: 'Compliance pathway, channel strategy, partner map' },
-                { num: '03', title: 'Validate', desc: 'Customer conversations, partner meetings, pilot orders' },
-                { num: '04', title: 'Coordinate', desc: 'Align brokers, certifiers, 3PL, and local reps' },
-                { num: '05', title: 'Execute', desc: '90-day roadmap with weekly tracking and reviews' },
-              ].map((f) => (
-                <div key={f.num} className="flex items-start gap-4 p-4 md:p-5 bg-white border border-[#E5E5E5]">
-                  <span className="text-[#C00000] text-[14px] font-bold mt-0.5 min-w-[28px]">{f.num}</span>
-                  <div>
-                    <h3 className="text-[16px] md:text-[17px] font-semibold mb-1">{f.title}</h3>
-                    <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.6]">{f.desc}</p>
-                  </div>
+                { num: '01', title: 'Realistic Assessment', desc: 'We tell you what actually needs to happen, not what you want to hear.' },
+                { num: '02', title: 'Pathway Design', desc: 'Clear, step-by-step plans from initial assessment through local execution.' },
+                { num: '03', title: 'Responsibility Clarity', desc: 'No ambiguity about who handles what, when, and at what cost.' },
+                { num: '04', title: 'Practical Execution', desc: 'Weekly tracking, partner coordination, and hands-on problem-solving.' },
+                { num: '05', title: 'Compliance Before Shipment', desc: 'Certification, documentation, and regulatory requirements mapped upfront.' },
+                { num: '06', title: 'Content That Converts', desc: 'Commercial content and communication strategies that resonate locally.' },
+              ].map((t, i) => (
+                <div key={i} className="p-5 border border-[#E5E5E5] hover:border-[#00A884] transition-colors">
+                  <p className="text-[#C9A44C] text-[13px] font-medium mb-2">{t.num}</p>
+                  <h3 className="text-[16px] font-semibold mb-2">{t.title}</h3>
+                  <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">{t.desc}</p>
                 </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Who We Help */}
-        <section className="section-padding bg-white">
-          <div className="container-site">
-            <p className="text-label mb-3">Clients</p>
-            <h2 className="font-serif text-[#212121] text-[24px] md:text-[30px] leading-[1.35] tracking-tight mb-8 md:mb-10">
-              Who We Help
-            </h2>
-            <div className="grid grid-cols-1 gap-3 md:gap-4">
-              {[
-                'Manufacturers with export-ready products',
-                'Consumer brands preparing for North American launch',
-                'Industrial suppliers looking for local partners',
-                'Technology and hardware companies with certification needs',
-                'Service companies expanding into Canada',
-                'Cross-border teams needing local business support',
-              ].map((text, i) => (
-                <div key={i} className="flex items-start gap-3 p-4 bg-[#F8F9FA] border border-[#E5E5E5]">
-                  <span className="text-[#C00000] text-[14px] mt-0.5 shrink-0">✓</span>
-                  <span className="text-[15px] md:text-[16px] text-[#444] leading-[1.55]">{text}</span>
-                </div>
-              ))}
-            </div>
-            <p className="text-[13px] md:text-[14px] text-[#999] mt-4">
-              We do not replace lawyers, accountants, or logistics providers. We coordinate across them to build a practical market entry path.
-            </p>
-          </div>
-        </section>
-
-        {/* What We Do Not Replace */}
-        <section className="section-padding bg-[#F8F9FA]">
-          <div className="container-site">
-            <p className="text-label mb-3">Boundaries</p>
-            <h2 className="font-serif text-[#212121] text-[24px] md:text-[30px] leading-[1.35] tracking-tight max-w-[600px] mb-8 md:mb-10">
-              What We Do Not Replace
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 max-w-[800px]">
-              {[
-                { title: 'We do not replace lawyers or accountants', desc: 'We coordinate with them. We are not licensed to provide legal or tax advice.' },
-                { title: 'We do not guarantee sales or revenue', desc: 'We build the conditions for market entry. Actual sales depend on product, timing, and execution.' },
-                { title: 'We are not a digital marketing agency', desc: 'Digital presence is part of market entry infrastructure, not our primary service.' },
-                { title: 'We do not handle customs clearance directly', desc: 'We work with licensed customs brokers. We design the pathway and introduce the right partners.' },
-              ].map((item, i) => (
-                <div key={i} className="card-border bg-white">
-                  <h3 className="text-[15px] md:text-[16px] font-semibold mb-2">{item.title}</h3>
-                  <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">{item.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* FAQ */}
-        <section className="section-padding bg-white">
-          <div className="container-site">
-            <p className="text-label mb-3">FAQ</p>
-            <h2 className="font-serif text-[#212121] text-[24px] md:text-[30px] leading-[1.35] tracking-tight max-w-[600px] mb-8 md:mb-10">
-              Frequently Asked Questions
-            </h2>
-            <div className="max-w-[800px] space-y-3">
-              {[
-                { q: 'What does CCBONLINE actually do?', a: 'We help businesses enter Canada and North America. We assess readiness, design compliance pathways, validate channels, coordinate local partners, and support execution.' },
-                { q: 'Do you replace lawyers or accountants?', a: 'No. We coordinate with professional partners where legal, tax, customs, or certification expertise is required.' },
-                { q: 'How long does market entry take?', a: 'Initial diagnosis takes 2–4 weeks. A full 0–90 day roadmap is typically delivered within 30 days. Execution support continues as long as needed.' },
-                { q: 'Which market should we enter first — Canada or the U.S.?', a: 'It depends on your product, certification requirements, and target customers. Canada often has lower entry barriers and serves as a stepping stone to the U.S.' },
-                { q: 'Do you guarantee we will find customers?', a: 'No. We help you build the operational and strategic foundation for market entry. Customer acquisition depends on product-market fit, timing, and execution.' },
-              ].map((faq, i) => (
-                <details key={i} className="border border-[#E5E5E5] bg-[#F8F9FA]">
-                  <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                    <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">{faq.q}</span>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
-                  </summary>
-                  <div className="px-4 pb-4 md:px-5 md:pb-5">
-                    <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">{faq.a}</p>
-                  </div>
-                </details>
               ))}
             </div>
           </div>
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#1a1a2e]">
-          <div className="container-site">
-            <div className="max-w-[700px]">
-              <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">
-                Ready to evaluate your North America readiness?
-              </h2>
-              <p className="text-white/60 text-[14px] md:text-[15px] mb-6">
-                Tell us where you are now, what market you are targeting, and what is currently blocking progress. We will review your situation and suggest the most suitable next step.
-              </p>
-              <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">Request an Initial Market Entry Assessment</Link>
-            </div>
+        <section className="section-padding bg-[#07111F]">
+          <div className="container-site text-center">
+            <p className="text-[#00A884] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">Start Here</p>
+            <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">
+              Ready to Explore Canada & North America?
+            </h2>
+            <p className="text-white/60 text-[15px] md:text-[16px] leading-[1.65] max-w-[600px] mx-auto mb-8">
+              Tell us where you are, what product you are working with, and what is blocking your progress. We will recommend the right first step.
+            </p>
+            <Link to="/en/contact" className="btn-primary text-[15px] px-8 py-3.5 min-h-[52px] inline-block">Book a Free Consultation</Link>
           </div>
         </section>
       </main>

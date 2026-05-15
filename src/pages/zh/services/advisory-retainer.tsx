@@ -65,10 +65,10 @@ export default function ZH_advisory_retainer() {
                 适合哪些企业
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">已经<strong className="font-medium">启动北美市场进入</strong>，但需要在过程中持续获得战略判断和操作建议的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">管理层有北美战略意图，但<strong className="font-medium">内部没有专人全职负责</strong>市场进入执行的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">在北美<strong className="font-medium">已经有初步渠道或客户</strong>，但遇到执行瓶颈或方向不确定的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]">希望在北美市场建立<strong className="font-medium">长期可持续的运营体系</strong>，而非一次性项目的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">已经<strong className="font-medium">启动北美市场进入</strong>，但需要在过程中持续获得战略判断和操作建议的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">管理层有北美战略意图，但<strong className="font-medium">内部没有专人全职负责</strong>市场进入执行的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">在北美<strong className="font-medium">已经有初步渠道或客户</strong>，但遇到执行瓶颈或方向不确定的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">希望在北美市场建立<strong className="font-medium">长期可持续的运营体系</strong>，而非一次性项目的企业</li>
               </ul>
             </div>
 
@@ -94,11 +94,11 @@ export default function ZH_advisory_retainer() {
                 我们会做什么 / 支持什么
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">月度战略回顾与执行评估</strong> — 定期检视进展、识别偏差、调整优先级</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">关键决策前的判断支持</strong> — 在签约、投资、策略转向等重大决策前提供结构化的分析和建议</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">合规与风险动态监控</strong> — 跟踪与您产品相关的法规变化、市场风险和新出现的竞争动态</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">渠道与客户关系维护建议</strong> — 在渠道谈判、客户投诉或合作僵局时提供处理策略</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C00000]"><strong className="font-medium text-[#212121]">资源协调与外部对接</strong> — 在需要引入认证机构、法律或税务顾问时，协助您理解需求和评估服务商</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">月度战略回顾与执行评估</strong> — 定期检视进展、识别偏差、调整优先级</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">关键决策前的判断支持</strong> — 在签约、投资、策略转向等重大决策前提供结构化的分析和建议</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">合规与风险动态监控</strong> — 跟踪与您产品相关的法规变化、市场风险和新出现的竞争动态</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">渠道与客户关系维护建议</strong> — 在渠道谈判、客户投诉或合作僵局时提供处理策略</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">资源协调与外部对接</strong> — 在需要引入认证机构、法律或税务顾问时，协助您理解需求和评估服务商</li>
               </ul>
             </div>
 
@@ -149,8 +149,8 @@ export default function ZH_advisory_retainer() {
                 大多数选择陪跑服务的企业已经经历了前期诊断或验证阶段。如果您是首次接触 CCBONLINE，我们建议按以下路径启动：
               </p>
               <ul className="space-y-2 mb-4">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果还没有做过系统评估 → 先通过 <Link to="/zh/services/market-entry-diagnosis" className="text-[#C00000] hover:underline">市场进入可行性诊断</Link> 建立基础认知</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果已经有客户或渠道但需要推进 → 可以先用 <Link to="/zh/services/local-execution-support" className="text-[#C00000] hover:underline">本地执行支持</Link> 处理落地事务</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果还没有做过系统评估 → 先通过 <Link to="/zh/services/market-entry-diagnosis" className="text-[#00A884] hover:underline">市场进入可行性诊断</Link> 建立基础认知</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果已经有客户或渠道但需要推进 → 可以先用 <Link to="/zh/services/local-execution-support" className="text-[#00A884] hover:underline">本地执行支持</Link> 处理落地事务</li>
                 <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果已经在进程中但需要长期判断支持 → 直接启动顾问式陪跑，我们会根据您的当前状态调整服务重点</li>
               </ul>
               <p className="text-[14px] text-[#666] leading-[1.6] italic">

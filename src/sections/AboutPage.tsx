@@ -93,7 +93,7 @@ export default function AboutPage() {
           <div className="max-w-[680px]">
             <div className="ab-block mb-6">
               <h3 className="text-[16px] md:text-[20px] font-semibold mb-4">{t('CCBONLINE INC.', 'CCBONLINE INC.')}</h3>
-              <p className="text-[12px] md:text-[13px] text-[#C00000] font-medium mb-4">{t('Market Entry Advisory Team', '市场进入顾问团队')}</p>
+              <p className="text-[12px] md:text-[13px] text-[#00A884] font-medium mb-4">{t('Market Entry Advisory Team', '市场进入顾问团队')}</p>
               <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8] mb-4">
                 {t(
                   'CCBONLINE INC. is a Canada-based market entry advisory team with years of experience helping businesses navigate the Canadian and North American markets. Our work spans market-entry consulting, customer development, brand localization, compliance coordination, and execution support.',
@@ -151,7 +151,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="section-padding bg-[#1a1a2e]">
+      <section className="section-padding bg-[#07111F]">
         <div className="container-site">
           <div className="max-w-[700px]">
             <h2 className="font-serif text-white text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6">

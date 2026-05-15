@@ -77,8 +77,8 @@ const servicePackages: ServicePackage[] = [
 
 function ServiceCardComponent({ card }: { card: ServiceCard }) {
   return (
-    <div className="group bg-white border border-[#E5E5E5] hover:border-[#C00000] transition-colors p-5 md:p-6 flex flex-col">
-      <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 leading-[1.5] group-hover:text-[#C00000] transition-colors">
+    <div className="group bg-white border border-[#E5E5E5] hover:border-[#00A884] transition-colors p-5 md:p-6 flex flex-col">
+      <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 leading-[1.5] group-hover:text-[#00A884] transition-colors">
         {card.title}
       </h3>
       <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.6] mb-4 flex-1">
@@ -86,7 +86,7 @@ function ServiceCardComponent({ card }: { card: ServiceCard }) {
       </p>
       <Link
         to={`/en/services/${card.slug}`}
-        className="text-[14px] font-medium text-[#C00000] hover:underline inline-flex items-center gap-1"
+        className="text-[14px] font-medium text-[#00A884] hover:underline inline-flex items-center gap-1"
       >
         Learn more
         <span className="text-[16px]">&rarr;</span>
@@ -133,10 +133,10 @@ export default function ENServices() {
                 Where should you start?
               </h2>
               <ul className="space-y-3 text-[14px] md:text-[15px] text-[#444] leading-[1.65]">
-                <li className="pl-4 border-l-2 border-[#C00000]">If you are still deciding whether North America is the right next market, start with <Link to="/en/services/market-entry-diagnosis" className="text-[#C00000] hover:underline">Market Entry Diagnosis</Link>.</li>
-                <li className="pl-4 border-l-2 border-[#C00000]">If you already have products and want to validate real buyers and channels, start with <Link to="/en/services/customer-channel-validation" className="text-[#C00000] hover:underline">Customer & Channel Validation</Link>.</li>
-                <li className="pl-4 border-l-2 border-[#C00000]">If you are already moving into importation, warehousing, fulfillment, or after-sales planning, start with <Link to="/en/services/local-execution-support" className="text-[#C00000] hover:underline">Local Execution Support</Link>.</li>
-                <li className="pl-4 border-l-2 border-[#C00000]">If you already have multiple moving parts and need ongoing coordination, start with <Link to="/en/services/advisory-retainer" className="text-[#C00000] hover:underline">Advisory Retainer</Link>.</li>
+                <li className="pl-4 border-l-2 border-[#00A884]">If you are still deciding whether North America is the right next market, start with <Link to="/en/services/market-entry-diagnosis" className="text-[#00A884] hover:underline">Market Entry Diagnosis</Link>.</li>
+                <li className="pl-4 border-l-2 border-[#00A884]">If you already have products and want to validate real buyers and channels, start with <Link to="/en/services/customer-channel-validation" className="text-[#00A884] hover:underline">Customer & Channel Validation</Link>.</li>
+                <li className="pl-4 border-l-2 border-[#00A884]">If you are already moving into importation, warehousing, fulfillment, or after-sales planning, start with <Link to="/en/services/local-execution-support" className="text-[#00A884] hover:underline">Local Execution Support</Link>.</li>
+                <li className="pl-4 border-l-2 border-[#00A884]">If you already have multiple moving parts and need ongoing coordination, start with <Link to="/en/services/advisory-retainer" className="text-[#00A884] hover:underline">Advisory Retainer</Link>.</li>
               </ul>
             </div>
           </div>
@@ -238,7 +238,7 @@ export default function ENServices() {
                     <p className="text-[13px] text-[#999] uppercase tracking-wider mb-2">Deliverables</p>
                     <ul className="space-y-1.5">
                       {pkg.deliverables.map((d, j) => (
-                        <li key={j} className="text-[13px] md:text-[14px] text-[#555] leading-[1.5] pl-3 border-l-2 border-[#C00000]">{d}</li>
+                        <li key={j} className="text-[13px] md:text-[14px] text-[#555] leading-[1.5] pl-3 border-l-2 border-[#00A884]">{d}</li>
                       ))}
                     </ul>
                   </div>

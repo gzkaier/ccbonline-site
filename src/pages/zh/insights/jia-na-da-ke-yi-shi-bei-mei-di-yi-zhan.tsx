@@ -8,7 +8,7 @@ import useSEO from '../../../hooks/useSEO'
 export default function ZH_JiaNaDaKeYiShiBeiMeiDiYiZhan() {
   useSEO({
     title: '加拿大可以成为北美市场进入的第一站 | CCBONLINE INC.',
-    description: '加拿大市场门槛相对较低、法规透明、与中国贸易关系稳定，是中国企业进入北美的理想第一站。CCBONLINE解析加拿大优先策略。',
+    description: '加拿大市场门槛相对较低、法规透明、与中国贸易关系稳定，是企业进入北美的理想第一站。CCBONLINE解析加拿大优先策略。',
     canonical: 'https://www.ccbonline.ca/zh/insights/jia-na-da-ke-yi-shi-bei-mei-di-yi-zhan',
     ogType: 'article',
     lang: 'zh',
@@ -29,7 +29,7 @@ export default function ZH_JiaNaDaKeYiShiBeiMeiDiYiZhan() {
               加拿大可以成为北美市场进入的第一站
             </h1>
             <p className="text-[15px] md:text-[17px] text-[#444] leading-[1.65] max-w-[720px] italic">
-              加拿大的准入门槛更低、监管流程更透明，并且能为进入更广阔的北美市场提供战略跳板，是中国企业验证自身条件的理想第一站。
+              加拿大的准入门槛更低、监管流程更透明，并且能为进入更广阔的北美市场提供战略跳板，是海外企业验证自身条件的理想第一站。
             </p>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function ZH_JiaNaDaKeYiShiBeiMeiDiYiZhan() {
             </h2>
             <div className="p-5 md:p-6 bg-[#F8F9FA] border border-[#E5E5E5] mb-10">
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
-                CCBONLINE 总部在多伦多，已经帮助多家中国企业完成了加拿大首发、再扩展美国的路径。我们把加拿大看作战略跳板，不是次等市场。成功的企业认真对待加拿大——投入本地关系建设，适应加拿大的商业节奏，用加拿大的成功为进入美国积累信誉。我们帮客户确定合适的省份、渠道和时机，然后建立一个可复制的北美扩展模型。
+                CCBONLINE 总部在多伦多，已经帮助多家企业完成了加拿大首发、再扩展美国的路径。我们把加拿大看作战略跳板，不是次等市场。成功的企业认真对待加拿大——投入本地关系建设，适应加拿大的商业节奏，用加拿大的成功为进入美国积累信誉。我们帮客户确定合适的省份、渠道和时机，然后建立一个可复制的北美扩展模型。
               </p>
             </div>
 

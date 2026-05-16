@@ -40,7 +40,7 @@ export default function ZH_ZhanHuiBuShiQuBaiTan() {
               为什么这件事重要
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              中国企业参加北美展会的方式，常常和国内展会一样：租个展位，把产品摆出来，发发资料，等客户上门。这种方式在北美效果一直很差。北美的展会成本很高——展位、运输、差旅、物料，一个展轻松花掉三万美元以上。没有明确目标和系统准备，大部分投入都打了水漂。做得好的企业把展会当成集中的市场调研和关系建设机会。他们知道哪些买家会来，提前约见面，准备好竞争情报的采集问题，甚至在拆展位之前就已经制定了 90 天跟进计划。
+              企业参加北美展会的方式，常常和国内展会一样：租个展位，把产品摆出来，发发资料，等客户上门。这种方式在北美效果一直很差。北美的展会成本很高——展位、运输、差旅、物料，一个展轻松花掉三万美元以上。没有明确目标和系统准备，大部分投入都打了水漂。做得好的企业把展会当成集中的市场调研和关系建设机会。他们知道哪些买家会来，提前约见面，准备好竞争情报的采集问题，甚至在拆展位之前就已经制定了 90 天跟进计划。
             </p>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
@@ -117,7 +117,7 @@ export default function ZH_ZhanHuiBuShiQuBaiTan() {
               </details>
               <details className="border border-[#E5E5E5] bg-white">
                 <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                  <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">中国企业在北美展会上最常见的错误是什么？</span>
+                  <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">企业在北美展会上最常见的错误是什么？</span>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
                 </summary>
                 <div className="px-4 pb-4 md:px-5 md:pb-5">

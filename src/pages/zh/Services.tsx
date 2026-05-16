@@ -32,6 +32,7 @@ const entryPrepServices: ServiceCard[] = [
   { title: '目标客户与渠道路径设计', desc: '识别谁购买、如何购买，以及哪条渠道路径对你最现实。', slug: 'customer-channel-validation' },
   { title: '北美客户开发准备', desc: '在接触北美潜在客户之前，准备好外联策略、资格筛选问题和材料。', slug: 'customer-channel-validation' },
   { title: '合规与责任链初筛', desc: '在进入市场前，识别认证、进口、文件和责任缺口。', slug: 'compliance-responsibility-chain' },
+  { title: '专业服务商网站与内容建设', desc: '帮助本地专业服务商整理网站、服务说明、信任资料、FAQ 和沟通入口，搭建让客户看懂并愿意联系的线上入口。', slug: 'website-content-for-service-providers' },
 ]
 
 const localExecutionServices: ServiceCard[] = [
@@ -97,14 +98,14 @@ function ServiceCardComponent({ card }: { card: ServiceCard }) {
 
 export default function ZHServices() {
   useSEO({
-    title: '面向中国企业进入加拿大与北美市场的服务体系 | CCBONLINE INC.',
+    title: '面向企业进入加拿大与北美市场的服务体系 | CCBONLINE INC.',
     description: '从市场进入诊断、合规路径梳理、客户与渠道验证，到本地承接协调和项目推进支持。',
     canonical: 'https://www.ccbonline.ca/zh/services',
     ogType: 'website',
     lang: 'zh',
   })
   useEffect(() => {
-    document.title = '面向中国企业进入加拿大与北美市场的服务体系 | CCBONLINE INC.'
+    document.title = '面向企业进入加拿大与北美市场的服务体系 | CCBONLINE INC.'
     window.scrollTo(0, 0)
   }, [])
 
@@ -117,7 +118,7 @@ export default function ZHServices() {
           <div className="container-site">
             <p className="text-label mb-3">服务体系</p>
             <h1 className="font-serif text-[#212121] text-[26px] sm:text-[32px] md:text-[40px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
-              面向中国企业进入加拿大与北美市场的服务体系
+              面向企业进入加拿大与北美市场的服务体系
             </h1>
             <p className="text-[16px] md:text-[17px] text-[#767676] max-w-[600px] mb-6">
               从市场进入诊断、合规路径梳理、客户与渠道验证，到本地承接协调和项目推进支持。

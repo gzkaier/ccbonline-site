@@ -39,7 +39,7 @@ export default function Philosophy() {
           <p className="text-[12px] md:text-[15px] text-white/60 leading-[1.8] mb-8">
             {t(
               'Entering North America is not simply about finding buyers or launching a website. Successful entry requires a practical path across market positioning, compliance coordination, import responsibility, channel development, local service capability, digital trust, and execution discipline.',
-              '进入北美不是简单找买家或上线一个英文网站。对中国企业来说，真正的进入需要同时解决市场定位、合规协同、进口责任、渠道开发、本地服务、数字化信任和项目执行问题。'
+              '进入北美不是简单找买家或上线一个英文网站。对企业来说，真正的进入需要同时解决市场定位、合规协同、进口责任、渠道开发、本地服务、数字化信任和项目执行问题。'
             )}
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">

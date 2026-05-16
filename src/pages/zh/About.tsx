@@ -7,14 +7,14 @@ import useSEO from '../../hooks/useSEO'
 
 export default function ZHAbout() {
   useSEO({
-    title: '关于 CCBONLINE INC. | 北美市场进入咨询与落地支持',
-    description: 'CCBONLINE INC. 是一家加拿大注册咨询公司，总部位于多伦多，帮助中国制造企业和成长型公司进入加拿大和北美市场。',
+    title: '关于 CCBONLINE INC. | 北美市场进入服务与落地支持',
+    description: 'CCBONLINE INC. 是一家加拿大注册服务公司，总部位于多伦多，帮助中国制造企业和成长型公司进入加拿大和北美市场。',
     canonical: 'https://www.ccbonline.ca/zh/about',
     ogType: 'website',
     lang: 'zh',
   })
   useEffect(() => {
-    document.title = '关于 CCBONLINE INC. | 北美市场进入咨询与落地支持'
+    document.title = '关于 CCBONLINE INC. | 北美市场进入服务与落地支持'
     window.scrollTo(0, 0)
   }, [])
 
@@ -29,7 +29,7 @@ export default function ZHAbout() {
               关于 CCBONLINE INC.
             </h1>
             <p className="text-[16px] md:text-[17px] text-[#767676] max-w-[600px]">
-              加拿大注册咨询与落地支持公司，帮助中国企业进入加拿大和北美市场。
+              加拿大注册服务与落地支持公司，帮助企业进入加拿大和北美市场。
             </p>
           </div>
         </section>
@@ -40,20 +40,20 @@ export default function ZHAbout() {
               <div className="md:col-span-4">
                 <img
                   src="/images/about-ccbonline-team-consultation.jpg"
-                  alt="CCBONLINE INC. 多伦多办公室团队会议，帮助中国企业规划北美市场进入。"
+                  alt="CCBONLINE INC. 多伦多办公室团队会议，帮助企业规划北美市场进入。"
                   className="w-full h-auto object-cover"
                   loading="lazy"
                 />
               </div>
               <div className="md:col-span-8">
                 <h2 className="font-serif text-[#212121] text-[24px] md:text-[30px] leading-[1.35] tracking-tight mb-6">
-                  市场进入咨询与落地支持
+                  市场进入服务与落地支持
                 </h2>
                 <p className="text-[16px] md:text-[17px] text-[#444] leading-[1.65] mb-4">
-                  CCBONLINE INC. 是一家加拿大注册的咨询与落地支持公司，总部位于多伦多。我们帮助中国制造企业、品牌和工业公司进入加拿大和北美，提供结构化的市场进入诊断、合规路径设计、渠道验证、本地合作伙伴协调和实际执行支持。
+                  CCBONLINE INC. 是一家加拿大注册的服务与落地支持公司，总部位于多伦多。我们帮助中国制造企业、品牌和工业公司进入加拿大和北美，提供结构化的市场进入诊断、合规路径设计、渠道验证、本地合作伙伴协调和实际执行支持。
                 </p>
                 <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.65] mb-5">
-                  我们不是营销机构、网站开发公司或获客平台。我们是市场进入顾问，结合市场判断、合规意识、渠道理解、本地资源和执行纪律，帮助中国企业在北美建立真实的运营根基。
+                  我们不是营销机构、网站开发公司或获客平台。我们是市场进入顾问，结合市场判断、合规意识、渠道理解、本地资源和执行纪律，帮助企业在北美建立真实的运营根基。
                 </p>
                 <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65] mb-6">
                   我们的团队直接与每位客户合作，提供结构化评估、实际协调和持续支持，将市场进入计划转化为实际客户对话、合作伙伴关系和落地运营。

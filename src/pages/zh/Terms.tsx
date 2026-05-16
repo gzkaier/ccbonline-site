@@ -7,7 +7,7 @@ import useSEO from '../../hooks/useSEO'
 export default function ZHTerms() {
   useSEO({
     title: '使用条款 | CCBONLINE INC.',
-    description: 'CCBONLINE INC. 市场进入咨询服务的使用条款，面向进入加拿大和北美市场的中国企业。',
+    description: 'CCBONLINE INC. 市场进入服务的使用条款，面向进入加拿大和北美市场的企业。',
     canonical: 'https://www.ccbonline.ca/zh/terms',
     ogType: 'website',
     lang: 'zh',
@@ -36,7 +36,7 @@ export default function ZHTerms() {
             </div>
             <div>
               <h3 className="text-[14px] font-semibold mb-2">服务说明</h3>
-              <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.7]">CCBONLINE INC. 提供市场进入咨询和协调服务。我们不保证特定的商业结果、销售或收入。结果取决于产品质量、市场条件和客户执行。</p>
+              <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.7]">CCBONLINE INC. 提供市场进入服务和协调服务。我们不保证特定的商业结果、销售或收入。结果取决于产品质量、市场条件和客户执行。</p>
             </div>
             <div>
               <h3 className="text-[14px] font-semibold mb-2">知识产权</h3>

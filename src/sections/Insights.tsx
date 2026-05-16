@@ -7,13 +7,13 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 export default function Insights() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const pageRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     document.title = t(
       'Insights — Canada & North America Market Entry | CCBONLINE INC.',
-      '洞察 — 中国企业加拿大与北美市场进入 | CCBONLINE INC.'
+      '洞察 — 加拿大与北美市场进入 | CCBONLINE INC.'
     )
     window.scrollTo(0, 0)
     const page = pageRef.current
@@ -106,7 +106,7 @@ export default function Insights() {
           <h2 className="font-serif text-[#212121] text-[24px] md:text-[28px] lg:text-[32px] leading-[1.35] md:leading-[1.3] tracking-tight max-w-[600px] mx-auto mb-6">
             {t('Want personalized market entry guidance?', '想要个性化的市场进入指导？')}
           </h2>
-          <Link to="/contact" className="btn-primary text-[12px] md:text-[14px]">
+          <Link to={`/${lang}/contact`} className="btn-primary text-[12px] md:text-[14px]">
             {t('Discuss Your Market Entry Plan', '讨论您的市场进入计划')}
           </Link>
         </div>

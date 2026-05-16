@@ -53,7 +53,7 @@ export default function About() {
               <p className="text-[18px] md:text-[20px] leading-[1.8] text-black/80">
                 {t(
                   'CCBONLINE INC. is a consulting and digital growth partner for businesses entering the Canadian and North American markets. We combine strategic consulting, regulatory guidance, bilingual communication, and digital infrastructure expertise into one integrated service.',
-                  'CCBONLINE INC. 是一家面向进入加拿大和北美市场的中国企业的咨询与数字增长合作伙伴。我们将战略咨询、监管指导、双语沟通和数字基础设施专业知识整合为一项综合服务。'
+                  'CCBONLINE INC. 是一家面向进入加拿大和北美市场的企业的服务与数字增长合作伙伴。我们将战略服务、监管指导、双语沟通和数字基础设施专业知识整合为一项综合服务。'
                 )}
               </p>
             </div>
@@ -105,7 +105,7 @@ export default function About() {
               <p className="text-[15px] leading-[1.8] text-[#767676]">
                 {t(
                   'Founded in Canada, we understand both the operational realities of overseas businesses and the expectations of North American customers. Our mission is to lower the barriers to market entry and help our clients build sustainable, trust-based business relationships across borders.',
-                  '成立于加拿大，我们既理解中国企业的运营实际，也了解北美客户的期望。我们的使命是降低市场进入门槛，帮助客户建立可持续的、基于信任的跨境商业关系。'
+                  '成立于加拿大，我们既理解海外企业的运营实际，也了解北美客户的期望。我们的使命是降低市场进入门槛，帮助客户建立可持续的、基于信任的跨境商业关系。'
                 )}
               </p>
             </div>

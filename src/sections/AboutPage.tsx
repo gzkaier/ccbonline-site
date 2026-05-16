@@ -7,13 +7,13 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 export default function AboutPage() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const pageRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     document.title = t(
       'About CCBONLINE | North America Market Entry Advisory',
-      '关于CCBONLINE | 北美市场进入咨询'
+      '关于CCBONLINE | 北美市场进入服务'
     )
     window.scrollTo(0, 0)
     const page = pageRef.current
@@ -33,10 +33,10 @@ export default function AboutPage() {
         <div className="container-site">
           <p className="text-label mb-3">{t('About', '关于')}</p>
           <h1 className="font-serif text-[#212121] text-[28px] md:text-[32px] lg:text-[36px] leading-[1.35] tracking-tight max-w-[800px] mb-4">
-            {t('About CCBONLINE | North America Market Entry Advisory', '关于CCBONLINE | 北美市场进入咨询')}
+            {t('About CCBONLINE | North America Market Entry Advisory', '关于CCBONLINE | 北美市场进入服务')}
           </h1>
           <p className="text-[12px] md:text-[14px] text-[#767676] max-w-[600px]">
-            {t('Canada-based market entry advisory and execution support company helping businesses enter Canada and North America.', '总部位于加拿大的市场进入咨询与落地支持公司，帮助企业进入加拿大和北美。')}
+            {t('Canada-based market entry advisory and execution support company helping businesses enter Canada and North America.', '总部位于加拿大的市场进入服务与落地支持公司，帮助企业进入加拿大和北美。')}
           </p>
         </div>
       </section>
@@ -54,13 +54,13 @@ export default function AboutPage() {
               <p className="text-[14px] md:text-[16px] text-[#444] leading-[1.8] mb-5">
                 {t(
                   'CCBONLINE INC. is a Canada-registered consulting and execution support company. We support manufacturers, brands, industrial suppliers, and growth-stage companies entering Canada and North America through structured market-entry diagnosis, compliance pathway design, channel validation, local partner coordination, and hands-on execution support.',
-                  'CCBONLINE INC. 是一家加拿大注册的咨询与落地支持公司。我们通过结构化的市场进入诊断、合规路径设计、渠道验证、本地合作伙伴协调和实际执行支持，帮助中国制造企业、品牌和工业公司进入加拿大和北美。'
+                  'CCBONLINE INC. 是一家加拿大注册的服务与落地支持公司。我们通过结构化的市场进入诊断、合规路径设计、渠道验证、本地合作伙伴协调和实际执行支持，帮助中国制造企业、品牌和工业公司进入加拿大和北美。'
                 )}
               </p>
               <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8] mb-5">
                 {t(
                   'We are not a marketing agency, a web development shop, or a lead-generation platform. We are market-entry advisors who combine market judgment, compliance awareness, channel understanding, local resources, and execution discipline to help Chinese companies build real operations on the ground in North America.',
-                  '我们不是营销机构、网站开发公司或获客平台。我们是市场进入顾问，结合市场判断、合规意识、渠道理解、本地资源和执行纪律，帮助中国企业在北美建立真实的运营根基。'
+                  '我们不是营销机构、网站开发公司或获客平台。我们是市场进入顾问，结合市场判断、合规意识、渠道理解、本地资源和执行纪律，帮助企业在北美建立真实的运营根基。'
                 )}
               </p>
               <p className="text-[12px] md:text-[14px] text-[#767676] leading-[1.8]">
@@ -97,7 +97,7 @@ export default function AboutPage() {
               <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8] mb-4">
                 {t(
                   'CCBONLINE INC. is a Canada-based market entry advisory team with years of experience helping businesses navigate the Canadian and North American markets. Our work spans market-entry consulting, customer development, brand localization, compliance coordination, and execution support.',
-                  'CCBONLINE INC. 是一支总部位于加拿大的市场进入顾问团队，多年来帮助中国企业开拓加拿大和北美市场。我们的工作涵盖市场进入咨询、客户开发、品牌本地化、合规协调和落地执行支持。'
+                  'CCBONLINE INC. 是一支总部位于加拿大的市场进入顾问团队，多年来帮助企业开拓加拿大和北美市场。我们的工作涵盖市场进入服务、客户开发、品牌本地化、合规协调和落地执行支持。'
                 )}
               </p>
               <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8]">
@@ -157,7 +157,7 @@ export default function AboutPage() {
             <h2 className="font-serif text-white text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6">
               {t('Ready to evaluate your North America readiness?', '准备好评估您的北美市场准备程度了吗？')}
             </h2>
-            <Link to="/contact" className="btn-primary text-[12px] md:text-[14px]">
+            <Link to={`/${lang}/contact`} className="btn-primary text-[12px] md:text-[14px]">
               {t('Discuss Your Market Entry Plan', '讨论您的市场进入计划')}
             </Link>
           </div>

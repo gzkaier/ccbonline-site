@@ -40,7 +40,7 @@ export default function ZH_advisory_retainer() {
             <div className="mb-10">
               <img
                 src="/images/services-advisory-retainer.jpg"
-                alt="CCBONLINE 为中国企业提供北美市场进入顾问式陪跑"
+                alt="CCBONLINE 为企业提供北美市场进入顾问式陪跑"
                 className="w-full h-auto max-h-[400px] object-cover"
                 loading="lazy"
               />
@@ -206,7 +206,7 @@ export default function ZH_advisory_retainer() {
                 to="/zh/contact"
                 className="btn-primary inline-block text-[15px] px-8 py-3.5 min-h-[52px]"
               >
-                预约顾问式陪跑咨询
+                预约顾问式陪跑服务
               </Link>
             </div>
           </div>

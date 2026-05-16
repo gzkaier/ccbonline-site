@@ -179,6 +179,35 @@ export default function ENHome() {
           </div>
         </section>
 
+        {/* Website Content for Service Providers — lightweight entry */}
+        <section className="section-padding bg-[#F8F9FA]">
+          <div className="container-site">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div className="lg:col-span-8">
+                <p className="text-label mb-3">Also Available</p>
+                <h2 className="font-serif text-[#212121] text-[20px] md:text-[24px] leading-[1.35] tracking-tight mb-3">
+                  Website & Content for Local Service Providers
+                </h2>
+                <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.65] max-w-[600px] mb-4">
+                  For local professional service providers in tax, insurance, logistics, certification, customs, education, and related fields. We help you organize a credible online presence that clients can understand, trust, and act on.
+                </p>
+                <Link to="/en/services/website-content-for-service-providers" className="text-[#00A884] hover:text-[#008F6E] text-[14px] font-medium inline-flex items-center gap-1 group">
+                  Learn More
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="group-hover:translate-x-1 transition-transform"><path d="m9 18 6-6-6-6"/></svg>
+                </Link>
+              </div>
+              <div className="lg:col-span-4">
+                <img
+                  src="/images/services-website-content-for-service-providers.jpg"
+                  alt="Website and content system for local professional service providers"
+                  className="w-full h-auto max-h-[220px] object-cover rounded-sm"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="section-padding bg-[#07111F]">
           <div className="container-site text-center">

@@ -6,14 +6,14 @@ import useSEO from '../../hooks/useSEO'
 
 export default function ZHHome() {
   useSEO({
-    title: 'CCBONLINE INC. | 中加商业在线——加拿大与北美市场进入咨询',
+    title: 'CCBONLINE INC. | 中加商业在线——加拿大与北美市场进入服务',
     description: 'CCBONLINE INC. 中加商业在线，帮助制造企业、品牌方、供应商和成长型公司评估、规划并执行加拿大及北美市场的实际进入。',
     canonical: 'https://www.ccbonline.ca/zh',
     ogType: 'website',
     lang: 'zh',
   })
   useEffect(() => {
-    document.title = 'CCBONLINE INC. | 中加商业在线——加拿大与北美市场进入咨询'
+    document.title = 'CCBONLINE INC. | 中加商业在线——加拿大与北美市场进入服务'
     window.scrollTo(0, 0)
   }, [])
 
@@ -43,7 +43,7 @@ export default function ZHHome() {
               我们专注于帮助商业机构真正进入加拿大市场，而不是仅仅完成交易。CCBONLINE INC. 中加商业在线是注册于加拿大的公司，总部位于多伦多，专注于北美市场的商业进入服务。
             </p>
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 mb-4">
-              <Link to="/zh/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">预约免费咨询</Link>
+              <Link to="/zh/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">预约免费沟通</Link>
               <Link to="/zh/services" className="btn-outline text-[15px] px-6 py-3.5 min-h-[52px]" style={{ borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}>了解我们的服务</Link>
             </div>
             <p className="text-white/40 text-[13px] md:text-[14px] max-w-[560px]">
@@ -142,10 +142,10 @@ export default function ZHHome() {
           <div className="container-site">
             <p className="text-label mb-3">定义</p>
             <h2 className="font-serif text-[#212121] text-[24px] md:text-[30px] leading-[1.35] tracking-tight max-w-[700px] mb-6 md:mb-8">
-              什么是北美市场进入咨询？
+              什么是北美市场进入服务？
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.65] max-w-[720px] mb-4">
-              北美市场进入咨询不是营销、销售外包或网站开发。它是评估产品是否适配、设计合规与运营路径、验证客户与合作伙伴渠道、协调本地执行资源，将市场意向转化为实际运营的结构化工作。
+              北美市场进入服务不是营销、销售外包或网站开发。它是评估产品是否适配、设计合规与运营路径、验证客户与合作伙伴渠道、协调本地执行资源，将市场意向转化为实际运营的结构化工作。
             </p>
             <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.65] max-w-[720px]">
               进入加拿大和美国不仅需要需求。它需要一条清晰的责任链，涵盖认证、进口、文件、渠道、仓储、售后、保险和本地问责。CCBONLINE INC. 协调这条链。
@@ -179,6 +179,35 @@ export default function ZHHome() {
           </div>
         </section>
 
+        {/* 本地服务商网站与内容建设 — 轻量入口 */}
+        <section className="section-padding bg-[#F8F9FA]">
+          <div className="container-site">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div className="lg:col-span-8">
+                <p className="text-label mb-3">同步提供</p>
+                <h2 className="font-serif text-[#212121] text-[20px] md:text-[24px] leading-[1.35] tracking-tight mb-3">
+                  本地服务商网站与内容建设
+                </h2>
+                <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.65] max-w-[600px] mb-4">
+                  为财税、保险、物流、认证、清关、教育等本地专业服务商，整理一个可被客户理解和信任的线上入口。不只是做一个页面，而是把服务讲清楚、把信任建起来。
+                </p>
+                <Link to="/zh/services/website-content-for-service-providers" className="text-[#00A884] hover:text-[#008F6E] text-[14px] font-medium inline-flex items-center gap-1 group">
+                  了解详情
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="group-hover:translate-x-1 transition-transform"><path d="m9 18 6-6-6-6"/></svg>
+                </Link>
+              </div>
+              <div className="lg:col-span-4">
+                <img
+                  src="/images/services-website-content-for-service-providers.jpg"
+                  alt="本地专业服务商网站与内容建设服务"
+                  className="w-full h-auto max-h-[220px] object-cover rounded-sm"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="section-padding bg-[#07111F]">
           <div className="container-site text-center">
@@ -189,7 +218,7 @@ export default function ZHHome() {
             <p className="text-white/60 text-[15px] md:text-[16px] leading-[1.65] max-w-[600px] mx-auto mb-8">
               告诉我们您目前的阶段、产品类型以及阻碍进展的问题。我们将推荐最合适的第一步。
             </p>
-            <Link to="/zh/contact" className="btn-primary text-[15px] px-8 py-3.5 min-h-[52px] inline-block">预约免费咨询</Link>
+            <Link to="/zh/contact" className="btn-primary text-[15px] px-8 py-3.5 min-h-[52px] inline-block">预约免费沟通</Link>
           </div>
         </section>
       </main>

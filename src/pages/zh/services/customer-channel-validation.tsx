@@ -40,7 +40,7 @@ export default function ZH_customer_channel_validation() {
             <div className="mb-10">
               <img
                 src="/images/services-customer-channel-validation.jpg"
-                alt="CCBONLINE 帮助中国企业验证北美客户与渠道"
+                alt="CCBONLINE 帮助企业验证北美客户与渠道"
                 className="w-full h-auto max-h-[400px] object-cover"
                 loading="lazy"
               />
@@ -205,7 +205,7 @@ export default function ZH_customer_channel_validation() {
                 to="/zh/contact"
                 className="btn-primary inline-block text-[15px] px-8 py-3.5 min-h-[52px]"
               >
-                预约客户与渠道验证咨询
+                预约客户与渠道验证服务
               </Link>
             </div>
           </div>

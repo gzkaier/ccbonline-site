@@ -61,13 +61,13 @@ export default function ZHContact() {
           <div className="absolute inset-0">
             <img
               src="/images/business-consultation-market-entry-discussion.jpg"
-              alt="市场进入咨询：为加拿大和北美市场进入计划进行商业讨论。"
+              alt="市场进入服务：为加拿大和北美市场进入计划进行商业讨论。"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="absolute inset-0 bg-[#F8F9FA]/90" />
           <div className="relative z-10 container-site">
-            <p className="text-label mb-3">咨询</p>
+            <p className="text-label mb-3">沟通</p>
             <h1 className="font-serif text-[#212121] text-[32px] md:text-[42px] leading-[1.3] tracking-tight max-w-[720px] mb-4">
               预约市场进入初步评估
             </h1>

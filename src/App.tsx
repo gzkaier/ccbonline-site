@@ -27,6 +27,7 @@ import EN_CustomerChannelValidation from './pages/en/services/customer-channel-v
 import EN_ComplianceResponsibilityChain from './pages/en/services/compliance-responsibility-chain'
 import EN_LocalExecutionSupport from './pages/en/services/local-execution-support'
 import EN_AdvisoryRetainer from './pages/en/services/advisory-retainer'
+import EN_WebsiteContent from './pages/en/services/website-content-for-service-providers'
 
 // Chinese pages
 import ZHHome from './pages/zh/Home'
@@ -45,6 +46,7 @@ import ZH_CustomerChannelValidation from './pages/zh/services/customer-channel-v
 import ZH_ComplianceResponsibilityChain from './pages/zh/services/compliance-responsibility-chain'
 import ZH_LocalExecutionSupport from './pages/zh/services/local-execution-support'
 import ZH_AdvisoryRetainer from './pages/zh/services/advisory-retainer'
+import ZH_WebsiteContent from './pages/zh/services/website-content-for-service-providers'
 
 // Chinese insight articles
 import ZH_MarketEntryNotSelling from './pages/zh/insights/bei-mei-shi-chang-jin-ru-bu-shi-mai-huo'
@@ -76,6 +78,7 @@ function App() {
         <Route path="/en/services/compliance-responsibility-chain" element={<EN_ComplianceResponsibilityChain />} />
         <Route path="/en/services/local-execution-support" element={<EN_LocalExecutionSupport />} />
         <Route path="/en/services/advisory-retainer" element={<EN_AdvisoryRetainer />} />
+        <Route path="/en/services/website-content-for-service-providers" element={<EN_WebsiteContent />} />
         <Route path="/en/responsibility-chain" element={<ENResponsibilityChain />} />
         <Route path="/en/insights" element={<ENInsights />} />
         <Route path="/en/insights/market-entry-is-not-selling-overseas" element={<EN_MarketEntryIsNotSellingOverseas />} />
@@ -100,6 +103,7 @@ function App() {
         <Route path="/zh/services/compliance-responsibility-chain" element={<ZH_ComplianceResponsibilityChain />} />
         <Route path="/zh/services/local-execution-support" element={<ZH_LocalExecutionSupport />} />
         <Route path="/zh/services/advisory-retainer" element={<ZH_AdvisoryRetainer />} />
+        <Route path="/zh/services/website-content-for-service-providers" element={<ZH_WebsiteContent />} />
         <Route path="/zh/responsibility-chain" element={<ZHResponsibilityChain />} />
         <Route path="/zh/insights" element={<ZHInsights />} />
         <Route path="/zh/insights/bei-mei-shi-chang-jin-ru-bu-shi-mai-huo" element={<ZH_MarketEntryNotSelling />} />

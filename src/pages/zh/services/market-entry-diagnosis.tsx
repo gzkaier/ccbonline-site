@@ -40,7 +40,7 @@ export default function ZH_market_entry_diagnosis() {
             <div className="mb-10">
               <img
                 src="/images/services-market-entry-diagnosis.jpg"
-                alt="CCBONLINE 帮助中国企业评估北美市场进入可行性"
+                alt="CCBONLINE 帮助企业评估北美市场进入可行性"
                 className="w-full h-auto max-h-[400px] object-cover"
                 loading="lazy"
               />

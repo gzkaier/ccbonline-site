@@ -8,7 +8,7 @@ import { Factory, ShoppingBag, Wrench, Cpu, Globe, Users, ChevronDown, Stethosco
 gsap.registerPlugin(ScrollTrigger)
 
 export default function HomeModules() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const sectionRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -232,7 +232,7 @@ export default function HomeModules() {
               <p className="hm-block text-[15px] md:text-[16px] text-[#444] leading-[1.65] mb-4">
                 {t(
                   'CCBONLINE INC. is a Canada-registered consulting firm based in Toronto, helping manufacturers, brands, and growth-stage businesses enter Canada and North America.',
-                  'CCBONLINE INC. 是一家加拿大注册咨询公司，总部位于多伦多，帮助中国制造企业和成长型公司进入加拿大和北美。'
+                  'CCBONLINE INC. 是一家加拿大注册服务公司，总部位于多伦多，帮助中国制造企业和成长型公司进入加拿大和北美。'
                 )}
               </p>
               <p className="hm-block text-[14px] md:text-[15px] text-[#767676] leading-[1.65] mb-5">
@@ -295,10 +295,10 @@ export default function HomeModules() {
               {t('Ready to assess your North America readiness?', '准备好评估您的北美市场准备程度了吗？')}
             </h2>
             <div className="hm-block flex flex-col sm:flex-row gap-3">
-              <Link to="/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">
-                {t('Book a Market Entry Consultation', '预约市场进入咨询')}
+              <Link to={`/${lang}/contact`} className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">
+                {t('Book a Market Entry Consultation', '预约市场进入沟通')}
               </Link>
-              <Link to="/canada-market-entry" className="btn-outline text-[15px] px-6 py-3.5 min-h-[52px]" style={{ borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}>
+              <Link to={`/${lang}/canada-market-entry`} className="btn-outline text-[15px] px-6 py-3.5 min-h-[52px]" style={{ borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}>
                 {t('Explore Canada Entry', '探索加拿大进入')}
               </Link>
             </div>

@@ -8,7 +8,7 @@ import { ArrowRight } from 'lucide-react'
 gsap.registerPlugin(ScrollTrigger)
 
 export default function HomeAbout() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const sectionRef = useRef<HTMLElement>(null)
 
   useEffect(() => {
@@ -35,10 +35,10 @@ export default function HomeAbout() {
             <p className="text-[12px] md:text-[14px] text-[#555] leading-[1.8] mb-5">
               {t(
                 'CCBONLINE INC. helps businesses enter the North American market. Readiness assessments, market comparisons, risk screening, and actionable launch plans.',
-                'CCBONLINE INC. 帮助中国企业进入北美市场。就绪度评估、市场比较、风险筛查和可执行的启动计划。'
+                'CCBONLINE INC. 帮助企业进入北美市场。就绪度评估、市场比较、风险筛查和可执行的启动计划。'
               )}
             </p>
-            <Link to="/about" className="inline-flex items-center gap-1.5 text-[11px] md:text-[13px] font-medium text-[#212121] hover:text-[#00A884] transition-colors">
+            <Link to={`/${lang}/about`} className="inline-flex items-center gap-1.5 text-[11px] md:text-[13px] font-medium text-[#212121] hover:text-[#00A884] transition-colors">
               {t('Learn more', '了解更多')} <ArrowRight size={13} />
             </Link>
           </div>

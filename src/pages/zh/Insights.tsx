@@ -165,7 +165,7 @@ function InsightSection({ title, label, cards }: { title: string; label: string;
 export default function ZHInsights() {
   useSEO({
     title: '北美市场进入洞察 | CCBONLINE INC.',
-    description: '关于市场进入、合规、渠道开发和执行的专业观点，帮助中国企业进入加拿大和北美市场。',
+    description: '关于市场进入、合规、渠道开发和执行的专业观点，帮助企业进入加拿大和北美市场。',
     canonical: 'https://www.ccbonline.ca/zh/insights',
     ogType: 'website',
     lang: 'zh',

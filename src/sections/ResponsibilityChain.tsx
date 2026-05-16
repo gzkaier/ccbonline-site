@@ -7,7 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 export default function ResponsibilityChain() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const pageRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -61,7 +61,7 @@ export default function ResponsibilityChain() {
               <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.8]">
                 {t(
                   'For companies entering from overseas, the responsibility chain is often invisible until something goes wrong: a customs hold, a product recall, a warranty dispute, or a liability claim. Our role is to make this chain visible, manageable, and properly assigned before you ship.',
-                  '对中国企业来说，责任链通常在出问题前都是不可见的：海关扣留、产品召回、保修纠纷或责任索赔。我们的作用是在发货前让这条链变得可见、可管理并正确分配。'
+                  '对进入北美市场的企业来说，责任链通常在出问题前都是不可见的：海关扣留、产品召回、保修纠纷或责任索赔。我们的作用是在发货前让这条链变得可见、可管理并正确分配。'
                 )}
               </p>
             </div>
@@ -207,7 +207,7 @@ export default function ResponsibilityChain() {
             <h2 className="font-serif text-white text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6">
               {t('Map your responsibility chain before you ship.', '发货前绘制您的责任链。')}
             </h2>
-            <Link to="/contact" className="btn-primary text-[12px] md:text-[14px]">
+            <Link to={`/${lang}/contact`} className="btn-primary text-[12px] md:text-[14px]">
               {t('Request a Responsibility Chain Audit', '申请责任链审计')}
             </Link>
           </div>

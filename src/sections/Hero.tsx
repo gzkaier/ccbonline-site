@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 import gsap from 'gsap'
 
 export default function Hero() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const contentRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -52,15 +52,15 @@ export default function Hero() {
         <p className="hero-sub text-white/65 text-[15px] md:text-[16px] leading-[1.65] md:leading-[1.7] max-w-[640px] mb-6 md:mb-8">
           {t(
             'Market-entry diagnosis, compliance pathway design, channel validation, and local execution support for businesses entering Canada and North America.',
-            '为中国企业进入加拿大和北美提供市场进入诊断、合规路径设计、渠道验证和本地执行支持。'
+            '为企业进入加拿大和北美提供市场进入诊断、合规路径设计、渠道验证和本地执行支持。'
           )}
         </p>
 
         <div className="hero-btns flex flex-col sm:flex-row gap-3 md:gap-4">
-          <Link to="/contact" className="btn-primary text-[15px] md:text-[15px] px-6 py-3.5 min-h-[52px]">
-            {t('Book a Market Entry Consultation', '预约市场进入咨询')}
+          <Link to={`/${lang}/contact`} className="btn-primary text-[15px] md:text-[15px] px-6 py-3.5 min-h-[52px]">
+            {t('Book a Market Entry Discussion', '预约市场进入沟通')}
           </Link>
-          <Link to="/services" className="btn-outline text-[15px] md:text-[15px] px-6 py-3.5 min-h-[52px]" style={{ borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}>
+          <Link to={`/${lang}/services`} className="btn-outline text-[15px] md:text-[15px] px-6 py-3.5 min-h-[52px]" style={{ borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}>
             {t('View Services', '查看服务')}
           </Link>
         </div>

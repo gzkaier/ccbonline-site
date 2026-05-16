@@ -4,13 +4,13 @@ import { Link, useLocation } from 'react-router'
 import { Menu, X } from 'lucide-react'
 
 const navLinks = [
-  { en: 'Home', zh: '首页', href: '/' },
-  { en: 'Canada Market Entry', zh: '加拿大市场进入', href: '/canada-market-entry' },
-  { en: 'Services', zh: '服务', href: '/services' },
-  { en: 'Responsibility Chain', zh: '责任链', href: '/responsibility-chain' },
-  { en: 'Insights', zh: '洞察', href: '/insights' },
-  { en: 'About', zh: '关于', href: '/about' },
-  { en: 'Contact', zh: '联系', href: '/contact' },
+  { en: 'Home', zh: '首页', href: '' },
+  { en: 'Canada Market Entry', zh: '加拿大市场进入', href: 'canada-market-entry' },
+  { en: 'Services', zh: '服务', href: 'services' },
+  { en: 'Responsibility Chain', zh: '责任链', href: 'responsibility-chain' },
+  { en: 'Insights', zh: '洞察', href: 'insights' },
+  { en: 'About', zh: '关于', href: 'about' },
+  { en: 'Contact', zh: '联系', href: 'contact' },
 ]
 
 export default function Navbar() {
@@ -39,8 +39,11 @@ export default function Navbar() {
     }
   }
 
-  const isHome = location.pathname === '/'
-  const isActive = (href: string) => location.pathname === href
+  const isHome = location.pathname === `/${lang}` || location.pathname === '/'
+  const isActive = (href: string) => {
+    const fullPath = href === '' ? `/${lang}` : `/${lang}/${href}`
+    return location.pathname === fullPath
+  }
 
   return (
     <>
@@ -54,7 +57,7 @@ export default function Navbar() {
       >
         <div className="container-site h-[56px] md:h-[64px] flex items-center justify-between">
           <Link
-            to="/"
+            to={`/${lang}`}
             className="text-[15px] font-semibold tracking-wide uppercase z-50"
             style={{ color: (scrolled || !isHome) && !menuOpen ? '#212121' : '#fff' }}
             onClick={() => { setMenuOpen(false); document.body.style.overflow = '' }}
@@ -63,16 +66,19 @@ export default function Navbar() {
           </Link>
 
           <div className="hidden lg:flex items-center gap-6">
-            {navLinks.slice(1).map((link) => (
-              <Link
-                key={link.en}
-                to={link.href}
-                className={`text-[13px] font-medium transition-all duration-200 ${isActive(link.href) ? 'text-[#00A884]' : 'hover:text-[#00A884]'}`}
-                style={{ color: scrolled || !isHome ? (isActive(link.href) ? '#00A884' : '#212121') : '#fff' }}
-              >
-                {t(link.en, link.zh)}
-              </Link>
-            ))}
+            {navLinks.slice(1).map((link) => {
+              const linkPath = `/${lang}/${link.href}`
+              return (
+                <Link
+                  key={link.en}
+                  to={linkPath}
+                  className={`text-[13px] font-medium transition-all duration-200 ${isActive(link.href) ? 'text-[#00A884]' : 'hover:text-[#00A884]'}`}
+                  style={{ color: scrolled || !isHome ? (isActive(link.href) ? '#00A884' : '#212121') : '#fff' }}
+                >
+                  {t(link.en, link.zh)}
+                </Link>
+              )
+            })}
             <button
               onClick={toggleLang}
               className="text-[12px] font-medium px-3 py-1.5 border transition-all duration-200 hover:border-[#00A884] hover:text-[#00A884]"
@@ -100,23 +106,26 @@ export default function Navbar() {
       {menuOpen && (
         <div className="fixed inset-0 z-40 bg-white flex flex-col">
           <div className="flex-1 flex flex-col items-center justify-center gap-6 px-6">
-            {navLinks.map((link) => (
-              <Link
-                key={link.en}
-                to={link.href}
-                onClick={() => { setMenuOpen(false); document.body.style.overflow = '' }}
-                className={`text-[20px] font-semibold transition-colors ${isActive(link.href) ? 'text-[#00A884]' : 'text-[#212121] hover:text-[#00A884]'}`}
-              >
-                {t(link.en, link.zh)}
-              </Link>
-            ))}
+            {navLinks.map((link) => {
+              const linkPath = link.href === '' ? `/${lang}` : `/${lang}/${link.href}`
+              return (
+                <Link
+                  key={link.en}
+                  to={linkPath}
+                  onClick={() => { setMenuOpen(false); document.body.style.overflow = '' }}
+                  className={`text-[20px] font-semibold transition-colors ${isActive(link.href) ? 'text-[#00A884]' : 'text-[#212121] hover:text-[#00A884]'}`}
+                >
+                  {t(link.en, link.zh)}
+                </Link>
+              )
+            })}
             <div className="w-full max-w-[280px] pt-4 border-t border-[#E5E5E5] flex flex-col gap-3">
               <Link
-                to="/contact"
+                to={`/${lang}/contact`}
                 onClick={() => { setMenuOpen(false); document.body.style.overflow = '' }}
                 className="btn-primary text-[15px] py-3.5 text-center"
               >
-                {t('Book a Consultation', '预约咨询')}
+                {t('Book a Discussion', '预约沟通')}
               </Link>
               <button
                 onClick={() => { toggleLang(); }}

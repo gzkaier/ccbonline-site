@@ -2,20 +2,20 @@ import { useLanguage } from '../context/LanguageContext'
 import { Link } from 'react-router'
 
 export default function Footer() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
 
   return (
     <footer className="bg-[#111] text-white/55">
       <div className="container-site py-10 md:py-14">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-10">
           <div className="md:col-span-5">
-            <Link to="/" className="text-[14px] font-semibold tracking-wide uppercase text-white mb-3 block">
+            <Link to={`/${lang}`} className="text-[14px] font-semibold tracking-wide uppercase text-white mb-3 block">
               CCBONLINE INC.
             </Link>
             <p className="text-[13px] leading-[1.7] max-w-[320px]">
               {t(
                 'North America market entry advisory and execution support.',
-                '中国企业北美市场准入咨询。'
+                '企业北美市场准入服务。'
               )}
             </p>
           </div>
@@ -26,14 +26,14 @@ export default function Footer() {
             </h4>
             <div className="space-y-2">
               {[
-                { en: 'Canada Market Entry', zh: '加拿大市场进入', href: '/canada-market-entry' },
-                { en: 'Services', zh: '服务', href: '/services' },
-                { en: 'Responsibility Chain', zh: '责任链', href: '/responsibility-chain' },
-                { en: 'Insights', zh: '洞察', href: '/insights' },
-                { en: 'About', zh: '关于', href: '/about' },
-                { en: 'Contact', zh: '联系', href: '/contact' },
+                { en: 'Canada Market Entry', zh: '加拿大市场进入', href: 'canada-market-entry' },
+                { en: 'Services', zh: '服务', href: 'services' },
+                { en: 'Responsibility Chain', zh: '责任链', href: 'responsibility-chain' },
+                { en: 'Insights', zh: '洞察', href: 'insights' },
+                { en: 'About', zh: '关于', href: 'about' },
+                { en: 'Contact', zh: '联系', href: 'contact' },
               ].map((link) => (
-                <Link key={link.en} to={link.href} className="text-[13px] hover:text-white transition-colors block">
+                <Link key={link.en} to={`/${lang}/${link.href}`} className="text-[13px] hover:text-white transition-colors block">
                   {t(link.en, link.zh)}
                 </Link>
               ))}
@@ -45,10 +45,10 @@ export default function Footer() {
               {t('Legal', '法律')}
             </h4>
             <div className="space-y-2">
-              <Link to="/privacy" className="text-[13px] hover:text-white transition-colors block">
+              <Link to={`/${lang}/privacy`} className="text-[13px] hover:text-white transition-colors block">
                 {t('Privacy Policy', '隐私政策')}
               </Link>
-              <Link to="/terms" className="text-[13px] hover:text-white transition-colors block">
+              <Link to={`/${lang}/terms`} className="text-[13px] hover:text-white transition-colors block">
                 {t('Terms of Use', '使用条款')}
               </Link>
             </div>

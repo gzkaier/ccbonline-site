@@ -13,7 +13,7 @@ export default function ContactPage() {
   useEffect(() => {
     document.title = t(
       'Market Entry Consultation | CCBONLINE INC.',
-      '市场进入咨询 | CCBONLINE INC.'
+      '市场进入服务 | CCBONLINE INC.'
     )
     window.scrollTo(0, 0)
     const page = pageRef.current
@@ -119,7 +119,7 @@ export default function ContactPage() {
                 ) : (
                   <>
                     <div className="mb-6">
-                      <p className="text-[11px] font-medium uppercase tracking-wider text-[#999] mb-3">{t('Market Entry Consultation Form', '市场进入咨询表单')} <span className="text-[#00A884]">*</span> {t('required', '必填')}</p>
+                      <p className="text-[11px] font-medium uppercase tracking-wider text-[#999] mb-3">{t('Market Entry Consultation Form', '市场进入服务表单')} <span className="text-[#00A884]">*</span> {t('required', '必填')}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                         <input type="text" name="company" placeholder={t('Company Name *', '公司名称 *')} value={formData.company} onChange={handleChange} required className={inputClass} />
                         <input type="text" name="name" placeholder={t('Your Name *', '您的姓名 *')} value={formData.name} onChange={handleChange} required className={inputClass} />

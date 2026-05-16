@@ -7,14 +7,14 @@ import useSEO from '../../hooks/useSEO'
 
 export default function ZHCanadaMarketEntry() {
   useSEO({
-    title: '中国企业加拿大市场进入咨询 | CCBONLINE INC.',
-    description: 'CCBONLINE INC. 帮助中国企业通过结构化的市场进入诊断、合规路径设计和本地合作伙伴协调进入加拿大市场。',
+    title: '加拿大市场进入服务 | CCBONLINE INC.',
+    description: 'CCBONLINE INC. 帮助企业通过结构化的市场进入诊断、合规路径设计和本地合作伙伴协调进入加拿大市场。',
     canonical: 'https://www.ccbonline.ca/zh/canada-market-entry',
     ogType: 'website',
     lang: 'zh',
   })
   useEffect(() => {
-    document.title = '中国企业加拿大市场进入咨询 | CCBONLINE INC.'
+    document.title = '加拿大市场进入服务 | CCBONLINE INC.'
     window.scrollTo(0, 0)
   }, [])
 
@@ -26,7 +26,7 @@ export default function ZHCanadaMarketEntry() {
           <div className="container-site">
             <p className="text-label mb-3">加拿大市场进入</p>
             <h1 className="font-serif text-[#212121] text-[32px] md:text-[42px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
-              中国企业加拿大市场进入咨询
+              加拿大市场进入服务
             </h1>
             <p className="text-[16px] md:text-[17px] text-[#767676] max-w-[600px] leading-[1.65]">
               从探索到本地运营的实际路径——为中国制造企业、品牌和工业公司设计。

@@ -40,7 +40,7 @@ export default function ZH_local_execution_support() {
             <div className="mb-10">
               <img
                 src="/images/services-local-execution-support.jpg"
-                alt="CCBONLINE 为中国企业提供北美本地执行支持"
+                alt="CCBONLINE 为企业提供北美本地执行支持"
                 className="w-full h-auto max-h-[400px] object-cover"
                 loading="lazy"
               />
@@ -78,7 +78,7 @@ export default function ZH_local_execution_support() {
                 解决什么问题
               </h2>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
-                "有人对接"和"有人在本地处理"是两个不同层次的需求。很多中国企业可以通过邮件和视频会议完成初步客户沟通，但一旦涉及到样品寄送后的跟进、客户突然要求现场会面、经销商需要看仓库、或者物流出现异常需要本地协调——时差和距离就成了不可逾越的障碍。
+                "有人对接"和"有人在本地处理"是两个不同层次的需求。很多企业可以通过邮件和视频会议完成初步客户沟通，但一旦涉及到样品寄送后的跟进、客户突然要求现场会面、经销商需要看仓库、或者物流出现异常需要本地协调——时差和距离就成了不可逾越的障碍。
               </p>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
                 常见的问题场景：样品寄出后没人跟进客户反馈、客户在关键时刻联系不上中国团队、经销商对产品培训有疑问但没人能当面解答、或者订单出了小问题但因为沟通延迟变成了大问题。
@@ -210,7 +210,7 @@ export default function ZH_local_execution_support() {
                 to="/zh/contact"
                 className="btn-primary inline-block text-[15px] px-8 py-3.5 min-h-[52px]"
               >
-                预约本地执行支持咨询
+                预约本地执行支持服务
               </Link>
             </div>
           </div>

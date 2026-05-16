@@ -40,7 +40,7 @@ export default function ZH_IORBuShiDaiQingGuan() {
               为什么这件事重要
             </h2>
             <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              很多中国企业在发货时随便找一个货代或者在加拿大的朋友帮忙清关，却不知道这个人或公司在政府记录上就成了进口记录责任人。这个身份的法律责任远不止清关。加拿大边境服务局或美国海关如果发现申报不实，处罚对象是进口记录责任人。如果产品出了安全问题，监管机构和原告律师也会找进口记录责任人。这种责任在货物清关之后还会持续多年。随便指定进口记录责任人，相当于把法律风险交给一个可能并不知情、也没有能力承担责任的人。
+              很多企业在发货时随便找一个货代或者在加拿大的朋友帮忙清关，却不知道这个人或公司在政府记录上就成了进口记录责任人。这个身份的法律责任远不止清关。加拿大边境服务局或美国海关如果发现申报不实，处罚对象是进口记录责任人。如果产品出了安全问题，监管机构和原告律师也会找进口记录责任人。这种责任在货物清关之后还会持续多年。随便指定进口记录责任人，相当于把法律风险交给一个可能并不知情、也没有能力承担责任的人。
             </p>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
@@ -76,7 +76,7 @@ export default function ZH_IORBuShiDaiQingGuan() {
               <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">了解进口记录责任人在加拿大或美国的法律义务</li>
               <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">评估自建进口记录责任人能力还是使用合作伙伴</li>
               <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">用书面协议明确进口记录责任人关系和责任边界</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">联系 CCBONLINE 咨询进口记录责任人结构方案</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">联系 CCBONLINE 了解进口记录责任人结构方案</li>
             </ul>
           </div>
         </section>

@@ -7,7 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 export default function Services() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const sectionRef = useRef<HTMLElement>(null)
 
   const services = [
@@ -123,7 +123,7 @@ export default function Services() {
                   </li>
                 ))}
               </ul>
-              <Link to="/services" className="text-[11px] md:text-[13px] font-medium text-[#212121] hover:text-[#00A884] transition-colors inline-flex items-center gap-1.5">
+              <Link to={`/${lang}/services`} className="text-[11px] md:text-[13px] font-medium text-[#212121] hover:text-[#00A884] transition-colors inline-flex items-center gap-1.5">
                 {t('Learn More', '了解详情')} <span>→</span>
               </Link>
             </div>

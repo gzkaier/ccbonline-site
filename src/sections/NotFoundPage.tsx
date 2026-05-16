@@ -3,7 +3,7 @@ import { useLanguage } from '../context/LanguageContext'
 import { Link } from 'react-router'
 
 export default function NotFoundPage() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
 
   useEffect(() => {
     document.title = t('Page Not Found — CCBONLINE INC.', '页面未找到 — CCBONLINE INC.')
@@ -20,7 +20,7 @@ export default function NotFoundPage() {
         <p className="text-[13px] md:text-[14px] text-[#767676] mb-8 max-w-[400px] mx-auto">
           {t('The page you are looking for does not exist or has been moved.', '您访问的页面不存在或已被移除。')}
         </p>
-        <Link to="/" className="btn-primary text-[13px] md:text-[14px]">
+        <Link to={`/${lang}`} className="btn-primary text-[13px] md:text-[14px]">
           {t('Back to Home', '返回首页')}
         </Link>
       </div>

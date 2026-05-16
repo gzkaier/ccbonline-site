@@ -7,7 +7,7 @@ import useSEO from '../../hooks/useSEO'
 export default function ZHPrivacy() {
   useSEO({
     title: '隐私政策 | CCBONLINE INC.',
-    description: 'CCBONLINE INC. 隐私政策，面向寻求加拿大和北美市场进入咨询服务的中国企业。',
+    description: 'CCBONLINE INC. 隐私政策，面向寻求加拿大和北美市场进入服务的企业。',
     canonical: 'https://www.ccbonline.ca/zh/privacy',
     ogType: 'website',
     lang: 'zh',
@@ -36,7 +36,7 @@ export default function ZHPrivacy() {
             </div>
             <div>
               <h3 className="text-[14px] font-semibold mb-2">信息使用方式</h3>
-              <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.7]">我们使用您的信息来回复咨询、提供市场进入咨询服务，以及沟通项目进展。我们不会出于营销目的向第三方出售或分享您的信息。</p>
+              <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.7]">我们使用您的信息来回复沟通、提供市场进入服务，以及沟通项目进展。我们不会出于营销目的向第三方出售或分享您的信息。</p>
             </div>
             <div>
               <h3 className="text-[14px] font-semibold mb-2">数据安全</h3>

@@ -7,7 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 export default function HomeContact() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const sectionRef = useRef<HTMLElement>(null)
 
   useEffect(() => {
@@ -46,7 +46,7 @@ export default function HomeContact() {
             <div className="flex gap-4 md:gap-5 items-start">
               <span className="text-[#00A884] text-[12px] font-bold min-w-[24px]">02</span>
               <div>
-                <h3 className="text-white text-[14px] md:text-[16px] font-semibold mb-1">{t('Book a Strategy Call', '预约战略咨询通话')}</h3>
+                <h3 className="text-white text-[14px] md:text-[16px] font-semibold mb-1">{t('Book a Strategy Call', '预约战略沟通通话')}</h3>
                 <p className="text-white/50 text-[11px] md:text-[13px] leading-[1.6]">{t('For companies with clear needs. A focused discussion on your market entry strategy.', '已有明确需求的企业。聚焦讨论您的市场进入策略。')}</p>
               </div>
             </div>
@@ -59,7 +59,7 @@ export default function HomeContact() {
             </div>
           </div>
 
-          <Link to="/contact" className="btn-primary text-[12px] md:text-[14px] px-6 py-2.5 md:px-8 md:py-3.5">
+          <Link to={`/${lang}/contact`} className="btn-primary text-[12px] md:text-[14px] px-6 py-2.5 md:px-8 md:py-3.5">
             {t('Get Started', '开始对话')}
           </Link>
         </div>

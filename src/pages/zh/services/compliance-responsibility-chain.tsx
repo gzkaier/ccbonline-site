@@ -40,7 +40,7 @@ export default function ZH_compliance_responsibility_chain() {
             <div className="mb-10">
               <img
                 src="/images/services-compliance-responsibility-chain.jpg"
-                alt="CCBONLINE 帮助中国企业搭建北美合规与责任链"
+                alt="CCBONLINE 帮助企业搭建北美合规与责任链"
                 className="w-full h-auto max-h-[400px] object-cover"
                 loading="lazy"
               />
@@ -52,7 +52,7 @@ export default function ZH_compliance_responsibility_chain() {
                 这是什么服务
               </h2>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
-                合规与责任链搭建是 CCBONLINE 为准备实质性销售的中国企业提供的<strong className="font-medium text-[#212121]">前置合规梳理服务</strong>。北美市场对产品安全、标签规范、进口申报、税务合规和产品责任有严格且具体的要求。很多中国企业不是产品质量不好，而是因为没有在发货前完成必要的合规步骤，导致货物在海关被扣、客户收到后无法上架销售、或者在出现产品问题时没有人承担责任。
+                合规与责任链搭建是 CCBONLINE 为准备实质性销售的企业的提供的<strong className="font-medium text-[#212121]">前置合规梳理服务</strong>。北美市场对产品安全、标签规范、进口申报、税务合规和产品责任有严格且具体的要求。很多企业不是产品质量不好，而是因为没有在发货前完成必要的合规步骤，导致货物在海关被扣、客户收到后无法上架销售、或者在出现产品问题时没有人承担责任。
               </p>
             </div>
 
@@ -201,7 +201,7 @@ export default function ZH_compliance_responsibility_chain() {
                 to="/zh/contact"
                 className="btn-primary inline-block text-[15px] px-8 py-3.5 min-h-[52px]"
               >
-                预约合规与责任链梳理咨询
+                预约合规与责任链梳理
               </Link>
             </div>
           </div>

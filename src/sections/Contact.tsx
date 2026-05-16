@@ -78,7 +78,7 @@ export default function Contact() {
             <p className="text-[15px] text-[#767676] leading-[1.8] mb-10">
               {t(
                 'Schedule a consultation to understand the most realistic path for your business to enter Canada and North America.',
-                '预约咨询，了解您的企业进入加拿大和北美市场最现实的路径。'
+                '预约沟通，了解您的企业进入加拿大和北美市场最现实的路径。'
               )}
             </p>
 
@@ -209,7 +209,7 @@ export default function Contact() {
                     className="w-full sm:w-auto inline-flex items-center justify-center px-10 py-3.5 bg-[#00A884] text-white text-[14px] font-medium tracking-wide transition-all duration-400 hover:bg-[#A00000]"
                     style={{ transitionTimingFunction: 'cubic-bezier(0.16, 1, 0.3, 1)' }}
                   >
-                    {t('Submit Inquiry', '提交咨询')}
+                    {t('Submit Inquiry', '提交沟通')}
                   </button>
                 </>
               )}

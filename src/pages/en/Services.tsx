@@ -32,6 +32,7 @@ const entryPrepServices: ServiceCard[] = [
   { title: 'Target Customer & Channel Mapping', desc: 'Identify who buys, how they buy, and which channel path is most realistic for your product.', slug: 'customer-channel-validation' },
   { title: 'Customer Outreach Readiness', desc: 'Prepare outreach strategy, qualification questions, and materials before engaging North American prospects.', slug: 'customer-channel-validation' },
   { title: 'Compliance & Responsibility Chain Screening', desc: 'Identify certification, import, documentation, and liability gaps before entering the market.', slug: 'compliance-responsibility-chain' },
+  { title: 'Website & Content System for Local Service Providers', desc: 'Help local professional service providers organize their website, service messaging, trust materials, FAQs, and inquiry path into a clearer online presence.', slug: 'website-content-for-service-providers' },
 ]
 
 const localExecutionServices: ServiceCard[] = [

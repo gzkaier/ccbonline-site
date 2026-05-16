@@ -7,7 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 export default function ServicesPage() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const pageRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -154,7 +154,7 @@ export default function ServicesPage() {
             <h2 className="font-serif text-white text-[26px] md:text-[30px] lg:text-[34px] leading-[1.35] md:leading-[1.3] tracking-tight mb-6">
               {t('Not sure which service fits your stage?', '不确定哪个服务适合您的阶段？')}
             </h2>
-            <Link to="/contact" className="btn-primary text-[12px] md:text-[14px]">
+            <Link to={`/${lang}/contact`} className="btn-primary text-[12px] md:text-[14px]">
               {t('Discuss Your Market Entry Plan', '讨论您的市场进入计划')}
             </Link>
           </div>

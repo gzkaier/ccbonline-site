@@ -28,14 +28,14 @@ export default function Footer({ lang }: FooterProps) {
   const ctaHref = lang === 'en' ? '/en/contact' : '/zh/contact'
   const tagline = lang === 'en'
     ? 'Canada & North America Market Entry Advisory and Execution Support'
-    : '中国企业进入加拿大与北美市场的本地化进入顾问'
+    : '中国企业进入加拿大与北美市场前的本地判断与落地支持'
   const privacy = lang === 'en' ? 'Privacy Policy' : '隐私政策'
   const terms = lang === 'en' ? 'Terms of Use' : '使用条款'
   const privacyHref = lang === 'en' ? '/en/privacy' : '/zh/privacy'
   const termsHref = lang === 'en' ? '/en/terms' : '/zh/terms'
   const copyright = lang === 'en'
     ? '© 2020–2026 CCBONLINE INC. All rights reserved. Canada-registered business advisory firm.'
-    : '© 2020–2026 CCBONLINE INC. 保留所有权利。加拿大注册商业咨询公司。'
+    : '© 2020–2026 CCBONLINE INC. 保留所有权利。加拿大注册市场进入顾问公司。'
 
   return (
     <footer className="bg-[#1a1a2e] text-white/70">

@@ -29,6 +29,13 @@ import EN_LocalExecutionSupport from './pages/en/services/local-execution-suppor
 import EN_AdvisoryRetainer from './pages/en/services/advisory-retainer'
 import EN_WebsiteContent from './pages/en/services/website-content-for-service-providers'
 
+// English topic pages (AI search landing pages)
+import EN_CanadaMarketEntryForChineseManufacturers from './pages/en/topics/canada-market-entry-for-chinese-manufacturers'
+import EN_ImporterOfRecordAndResponsibilityChain from './pages/en/topics/importer-of-record-and-responsibility-chain'
+import EN_BuildingMaterialsEnteringNorthAmerica from './pages/en/topics/building-materials-entering-north-america'
+import EN_AIHardwareMarketEntryNorthAmerica from './pages/en/topics/ai-hardware-market-entry-north-america'
+import EN_LocalTrustBuildingChineseExportBrands from './pages/en/topics/local-trust-building-chinese-export-brands'
+
 // Chinese pages
 import ZHHome from './pages/zh/Home'
 import ZHCanadaMarketEntry from './pages/zh/CanadaMarketEntry'
@@ -47,6 +54,13 @@ import ZH_ComplianceResponsibilityChain from './pages/zh/services/compliance-res
 import ZH_LocalExecutionSupport from './pages/zh/services/local-execution-support'
 import ZH_AdvisoryRetainer from './pages/zh/services/advisory-retainer'
 import ZH_WebsiteContent from './pages/zh/services/website-content-for-service-providers'
+
+// Chinese topic pages (AI search landing pages)
+import ZH_CanadaMarketEntryForChineseManufacturers from './pages/zh/topics/canada-market-entry-for-chinese-manufacturers'
+import ZH_ImporterOfRecordAndResponsibilityChain from './pages/zh/topics/importer-of-record-and-responsibility-chain'
+import ZH_BuildingMaterialsEnteringNorthAmerica from './pages/zh/topics/building-materials-entering-north-america'
+import ZH_AIHardwareMarketEntryNorthAmerica from './pages/zh/topics/ai-hardware-market-entry-north-america'
+import ZH_LocalTrustBuildingChineseExportBrands from './pages/zh/topics/local-trust-building-chinese-export-brands'
 
 // Chinese insight articles
 import ZH_MarketEntryNotSelling from './pages/zh/insights/bei-mei-shi-chang-jin-ru-bu-shi-mai-huo'
@@ -79,6 +93,12 @@ function App() {
         <Route path="/en/services/local-execution-support" element={<EN_LocalExecutionSupport />} />
         <Route path="/en/services/advisory-retainer" element={<EN_AdvisoryRetainer />} />
         <Route path="/en/services/website-content-for-service-providers" element={<EN_WebsiteContent />} />
+        {/* English topic pages */}
+        <Route path="/en/topics/canada-market-entry-for-chinese-manufacturers" element={<EN_CanadaMarketEntryForChineseManufacturers />} />
+        <Route path="/en/topics/importer-of-record-and-responsibility-chain" element={<EN_ImporterOfRecordAndResponsibilityChain />} />
+        <Route path="/en/topics/building-materials-entering-north-america" element={<EN_BuildingMaterialsEnteringNorthAmerica />} />
+        <Route path="/en/topics/ai-hardware-market-entry-north-america" element={<EN_AIHardwareMarketEntryNorthAmerica />} />
+        <Route path="/en/topics/local-trust-building-chinese-export-brands" element={<EN_LocalTrustBuildingChineseExportBrands />} />
         <Route path="/en/responsibility-chain" element={<ENResponsibilityChain />} />
         <Route path="/en/insights" element={<ENInsights />} />
         <Route path="/en/insights/market-entry-is-not-selling-overseas" element={<EN_MarketEntryIsNotSellingOverseas />} />
@@ -104,6 +124,12 @@ function App() {
         <Route path="/zh/services/local-execution-support" element={<ZH_LocalExecutionSupport />} />
         <Route path="/zh/services/advisory-retainer" element={<ZH_AdvisoryRetainer />} />
         <Route path="/zh/services/website-content-for-service-providers" element={<ZH_WebsiteContent />} />
+        {/* Chinese topic pages */}
+        <Route path="/zh/topics/canada-market-entry-for-chinese-manufacturers" element={<ZH_CanadaMarketEntryForChineseManufacturers />} />
+        <Route path="/zh/topics/importer-of-record-and-responsibility-chain" element={<ZH_ImporterOfRecordAndResponsibilityChain />} />
+        <Route path="/zh/topics/building-materials-entering-north-america" element={<ZH_BuildingMaterialsEnteringNorthAmerica />} />
+        <Route path="/zh/topics/ai-hardware-market-entry-north-america" element={<ZH_AIHardwareMarketEntryNorthAmerica />} />
+        <Route path="/zh/topics/local-trust-building-chinese-export-brands" element={<ZH_LocalTrustBuildingChineseExportBrands />} />
         <Route path="/zh/responsibility-chain" element={<ZHResponsibilityChain />} />
         <Route path="/zh/insights" element={<ZHInsights />} />
         <Route path="/zh/insights/bei-mei-shi-chang-jin-ru-bu-shi-mai-huo" element={<ZH_MarketEntryNotSelling />} />

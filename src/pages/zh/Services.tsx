@@ -115,7 +115,7 @@ export default function ZHServices() {
         {/* Guidance */}
         <section className="py-6 md:py-8 bg-white border-b border-[#E5E5E5]">
           <div className="container-site">
-            <div className="max-w-[800px] p-5 md:p-6 bg-[#F8F9FA] border border-[#E5E5E5]">
+            <div className="max-w-[800px] p-5 md:p-6 bg-[#F8F9FA] border border-[#E5E5E5] mb-4">
               <h2 className="font-serif text-[#212121] text-[16px] md:text-[18px] leading-[1.35] tracking-tight mb-4">
                 你应该从哪里开始？
               </h2>
@@ -125,6 +125,12 @@ export default function ZHServices() {
                 <li className="pl-4 border-l-2 border-[#00A884]">如果你已经进入进口、仓储、履约或售后准备阶段，先看 <Link to="/zh/services/compliance-responsibility-chain" className="text-[#00A884] hover:underline">合规与责任链</Link></li>
                 <li className="pl-4 border-l-2 border-[#00A884]">如果你需要持续协调多个环节，先看 <Link to="/zh/services/advisory-retainer" className="text-[#00A884] hover:underline">顾问陪跑</Link></li>
               </ul>
+            </div>
+            <div className="max-w-[800px] p-4 bg-white border border-[#E5E5E5]">
+              <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">
+                如需提交服务资源、活动信息、招商合作或本地服务资源，可参考
+                <Link to="/zh/resource-submission-guidelines" className="text-[#00A884] hover:underline">《资源发布与合作信息说明》</Link>。
+              </p>
             </div>
           </div>
         </section>

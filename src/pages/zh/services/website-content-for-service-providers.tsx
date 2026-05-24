@@ -7,7 +7,7 @@ import useSEO from '../../../hooks/useSEO'
 export default function ZH_WebsiteContentForServiceProviders() {
   useSEO({
     title: '专业服务商网站与内容建设服务｜中加商业在线',
-    description: '中加商业在线帮助加拿大及北美本地专业服务商整理网站、服务说明、负责人背书、FAQ、可下载资料和客户沟通入口，搭建让客户看懂、信任并愿意联系的线上可信入口。',
+    description: '中加商业在线帮助加拿大及北美本地专业服务商整理网站、服务说明、负责人背书、常见问题解答、可下载资料和客户沟通入口，搭建让客户看懂、信任并愿意联系的线上可信入口。',
     canonical: 'https://www.ccbonline.ca/zh/services/website-content-for-service-providers',
     ogType: 'article',
     lang: 'zh',
@@ -50,7 +50,7 @@ export default function ZH_WebsiteContentForServiceProviders() {
               {[
                 { num: '01', title: '客户访问了你的网站，但没看懂你做什么', desc: '很多专业服务商有真实的行业能力，但网站上的内容要么太笼统、要么太专业，客户浏览后依然不清楚你具体解决什么问题、服务流程是什么样的、为什么值得选择你。' },
                 { num: '02', title: '有资质有经验，但线上表达没有建立信任', desc: '行业认证、客户案例、负责人专业背景、服务流程——这些信任要素往往散落在日常沟通记录或口头介绍里，网站没有系统呈现，客户第一次接触时无法快速建立信任感。' },
-                { num: '03', title: '从"对你感兴趣"到"愿意联系你"之间缺少路径', desc: '网站没有清晰的 FAQ、没有明确的联系入口、没有可下载的资料。客户有兴趣但不确定下一步该做什么，最终没有联系就离开了。' },
+                { num: '03', title: '从"对你感兴趣"到"愿意联系你"之间缺少路径', desc: '网站没有清晰的常见问题解答、没有明确的联系入口、没有可下载的资料。客户有兴趣但不确定下一步该做什么，最终没有联系就离开了。' },
               ].map((p, i) => (
                 <div key={i} className="p-5 md:p-6 border border-[#E5E5E5] hover:border-[#00A884] transition-colors bg-white">
                   <p className="text-[#C9A44C] text-[13px] font-medium mb-3">{p.num}</p>
@@ -105,11 +105,11 @@ export default function ZH_WebsiteContentForServiceProviders() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
               {[
                 { num: '01', title: '服务定位梳理', desc: '把客户对象、服务场景、核心问题和差异化优势讲清楚。' },
-                { num: '02', title: '网站内容搭建', desc: '整理首页、服务页、关于我们、FAQ、联系页等基础内容。' },
+                { num: '02', title: '网站内容搭建', desc: '整理首页、服务页、关于我们、常见问题、联系页等基础内容。' },
                 { num: '03', title: '信任资料整理', desc: '把负责人介绍、资质、经验、合作资源、客户评价和服务流程整理成客户能理解的表达。' },
                 { num: '04', title: '中英文内容表达', desc: '根据客户群体，提供中文、英文或中英双语内容。' },
                 { num: '05', title: '多平台内容延展', desc: '把网站内容延展为服务手册、邮件资料、客户跟进文档和社交媒体内容。' },
-                { num: '06', title: '后续内容维护', desc: '根据业务发展继续更新 FAQ、案例场景、服务说明、活动内容和服务商报道。' },
+                { num: '06', title: '后续内容维护', desc: '根据业务发展继续更新常见问题、案例场景、服务说明、活动内容和服务商报道。' },
               ].map((m, i) => (
                 <div key={i} className="p-5 border border-[#E5E5E5] hover:border-[#00A884] transition-colors">
                   <p className="text-[#C9A44C] text-[13px] font-medium mb-2">{m.num}</p>
@@ -134,7 +134,7 @@ export default function ZH_WebsiteContentForServiceProviders() {
                 '独立服务详情页文案',
                 '首页轻量入口文案',
                 '关于我们 / 负责人介绍',
-                'FAQ 常见问题',
+                '常见问题解答',
                 '联系页与联系表单建议',
                 '服务手册文案',
                 '社交媒体内容文案',
@@ -187,7 +187,7 @@ export default function ZH_WebsiteContentForServiceProviders() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
               {[
                 { name: '可信单页', tag: '起步', desc: '适合需要一个正式线上介绍页、准备活动推广或快速上线的服务商。一个聚焦的、建立信任的单页，让客户知道你是谁、做什么、怎么联系。', features: ['单页结构', '服务定位', '信任资料', '联系入口'] },
-                { name: '标准服务页', tag: '标准', desc: '适合已经有官网，希望在现有网站中新增清晰服务页面的机构。完整的服务详情页、FAQ 和联系流程，与现有网站风格统一。', features: ['服务详情页', 'FAQ 板块', '联系流程设计', '适配现有网站'] },
+                { name: '标准服务页', tag: '标准', desc: '适合已经有官网，希望在现有网站中新增清晰服务页面的机构。完整的服务详情页、常见问题解答和联系流程，与现有网站风格统一。', features: ['服务详情页', '常见问题板块', '联系流程设计', '适配现有网站'] },
                 { name: '网站 + 内容启动', tag: '完整', desc: '适合希望同时整理官网、社交媒体和客户沟通资料的服务商。从网站到邮件到社交的全套内容体系。', features: ['网站内容', '博客/文章文案', '客户沟通资料', '社交媒体文案'] },
               ].map((pkg, i) => (
                 <div key={i} className="p-6 border border-white/10 hover:border-[#00A884]/50 transition-colors">
@@ -221,7 +221,7 @@ export default function ZH_WebsiteContentForServiceProviders() {
                 { num: '01', title: '初步沟通', desc: '了解业务类型、客户对象、服务范围和现有线上资料。通常 30-45 分钟。' },
                 { num: '02', title: '资料收集', desc: '收集公司信息、负责人背景、资质证书、服务项目、案例、照片、二维码和联系方式。' },
                 { num: '03', title: '结构梳理', desc: '重新整理服务定位、客户问题、服务分类、信任背书和转化路径。' },
-                { num: '04', title: '内容制作', desc: '完成服务页面、介绍资料、FAQ、可下载资料和相关内容。' },
+                { num: '04', title: '内容制作', desc: '完成服务页面、介绍资料、常见问题解答、可下载资料和相关内容。' },
                 { num: '05', title: '上线与优化', desc: '根据实际使用情况继续优化页面表达、联系入口和内容方向。' },
               ].map((step, i) => (
                 <div key={i} className="flex gap-4 md:gap-6">
@@ -281,7 +281,7 @@ export default function ZH_WebsiteContentForServiceProviders() {
           </div>
         </section>
 
-        {/* 10. FAQ */}
+        {/* 10. 常见问题 */}
         <section className="section-padding bg-white">
           <div className="container-site max-w-[800px]">
             <p className="text-label mb-3">常见问题</p>
@@ -333,11 +333,11 @@ export default function ZH_WebsiteContentForServiceProviders() {
           <div className="container-site">
             <p className="text-label mb-3">相关服务</p>
             <h2 className="font-serif text-[#212121] text-[20px] md:text-[24px] leading-[1.35] tracking-tight mb-6">
-              您可能还需要
+              你可能还需要
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
-                { title: '市场进入判断', desc: '评估您的产品和时机是否适合进入北美。', slug: 'market-entry-diagnosis' },
+                { title: '市场进入判断', desc: '评估你的产品和时机是否适合进入北美。', slug: 'market-entry-diagnosis' },
                 { title: '合规与责任链', desc: '识别认证、进口和责任缺口，规避潜在风险。', slug: 'compliance-responsibility-chain' },
                 { title: '客户与渠道验证', desc: '在进入前验证买家、渠道和外联方向。', slug: 'customer-channel-validation' },
                 { title: '本地执行支持', desc: '协调进口、仓储、履约和售后支持。', slug: 'local-execution-support' },

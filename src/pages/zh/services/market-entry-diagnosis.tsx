@@ -7,7 +7,7 @@ import useSEO from '../../../hooks/useSEO'
 export default function ZH_market_entry_diagnosis() {
   useSEO({
     title: '北美市场进入可行性诊断 | CCBONLINE INC.',
-    description: '在正式投入前，先判断您是否适合进入北美市场、加拿大和美国哪个优先、当前准备度是否足够，以及未来 0-90 天应如何推进。',
+    description: '在正式投入前，先判断你是否适合进入北美市场、加拿大和美国哪个优先、当前准备度是否足够，以及未来 0-90 天应如何推进。',
     canonical: 'https://www.ccbonline.ca/zh/services/market-entry-diagnosis',
     ogType: 'article',
     lang: 'zh',
@@ -52,7 +52,7 @@ export default function ZH_market_entry_diagnosis() {
                 这是什么服务
               </h2>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
-                市场进入可行性诊断是 CCBONLINE 为企业提供的结构化评估服务。我们不替您做商业决策，而是通过系统化的资料审查、市场比对和风险筛查，帮助您在投入大量资源之前，看清自己是否已经准备好进入北美，以及如果准备好，第一步应该踩在哪里。
+                市场进入可行性诊断是 CCBONLINE 为企业提供的结构化评估服务。我们不替你做商业决策，而是通过系统化的资料审查、市场比对和风险筛查，帮助你在投入大量资源之前，看清自己是否已经准备好进入北美，以及如果准备好，第一步应该踩在哪里。
               </p>
             </div>
 
@@ -88,23 +88,23 @@ export default function ZH_market_entry_diagnosis() {
                 我们会审查什么 / 支持什么
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">产品与市场适配度</strong> — 您的产品功能、定价、认证状态是否与北美主流买家需求匹配</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">加拿大 / 美国优先级判断</strong> — 基于您的产品类别、竞争格局、合规门槛和渠道特性，建议先进入哪个市场</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">产品与市场适配度</strong> — 你的产品功能、定价、认证状态是否与北美主流买家需求匹配</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">加拿大 / 美国优先级判断</strong> — 基于你的产品类别、竞争格局、合规门槛和渠道特性，建议先进入哪个市场</li>
                 <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">合规与认证缺口筛查</strong> — 识别主要强制性认证、进口许可、标签要求和责任链前置条件</li>
                 <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">目标客户画像与渠道方向</strong> — 谁最可能购买、通过什么渠道采购、决策流程大概多长</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">现有资料与能力评估</strong> — 您的英文资料、产品文档、样品准备是否达到可展示标准</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">现有资料与能力评估</strong> — 你的英文资料、产品文档、样品准备是否达到可展示标准</li>
               </ul>
             </div>
 
             {/* 6. 核心交付物 */}
             <div className="mb-12">
               <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-5">
-                您会收到什么
+                你会收到什么
               </h2>
               <div className="space-y-4">
                 <div className="p-4 bg-[#F8F9FA] border border-[#E5E5E5]">
                   <p className="text-[14px] font-medium text-[#212121] mb-1">产品与市场适配初判报告</p>
-                  <p className="text-[13px] text-[#666] leading-[1.6]">初步评估您的产品是否适合北美买家，主要适配点与潜在阻力</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">初步评估你的产品是否适合北美买家，主要适配点与潜在阻力</p>
                 </div>
                 <div className="p-4 bg-[#F8F9FA] border border-[#E5E5E5]">
                   <p className="text-[14px] font-medium text-[#212121] mb-1">加拿大 / 美国优先级判断及理由</p>
@@ -116,7 +116,7 @@ export default function ZH_market_entry_diagnosis() {
                 </div>
                 <div className="p-4 bg-[#F8F9FA] border border-[#E5E5E5]">
                   <p className="text-[14px] font-medium text-[#212121] mb-1">目标客户与渠道方向建议</p>
-                  <p className="text-[13px] text-[#666] leading-[1.6]">谁购买、如何购买、通过哪些渠道的概览，帮助您聚焦资源</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">谁购买、如何购买、通过哪些渠道的概览，帮助你聚焦资源</p>
                 </div>
                 <div className="p-4 bg-[#F8F9FA] border border-[#E5E5E5]">
                   <p className="text-[14px] font-medium text-[#212121] mb-1">0-90 天行动路线图 + 初步风险清单</p>
@@ -131,10 +131,10 @@ export default function ZH_market_entry_diagnosis() {
                 这项服务不替代什么
               </h2>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
-                可行性诊断是一份<strong className="font-medium text-[#212121]">基于现有资料的评估与建议</strong>，它不是法律意见，也不是替您做最终的商业决策。我们不代替律师处理合规事务，不代替您的产品团队修改设计，也不代替销售团队去谈客户。
+                可行性诊断是一份<strong className="font-medium text-[#212121]">基于现有资料的评估与建议</strong>，它不是法律意见，也不是替你做最终的商业决策。我们不代替律师处理合规事务，不代替你的产品团队修改设计，也不代替销售团队去谈客户。
               </p>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
-                它的价值在于：帮您在花钱之前，先看清方向和缺口。具体的执行——无论是申请认证、修改产品、还是签约经销商——仍然需要您或后续的专业服务商来完成。
+                它的价值在于：帮你在花钱之前，先看清方向和缺口。具体的执行——无论是申请认证、修改产品、还是签约经销商——仍然需要你或后续的专业服务商来完成。
               </p>
             </div>
 
@@ -144,7 +144,7 @@ export default function ZH_market_entry_diagnosis() {
                 诊断之后，通常会走向哪里
               </h2>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
-                可行性诊断的输出会告诉您"应该做什么"。接下来通常需要验证"能不能做到"。多数客户在完成诊断后会选择以下路径之一：
+                可行性诊断的输出会告诉你"应该做什么"。接下来通常需要验证"能不能做到"。多数客户在完成诊断后会选择以下路径之一：
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果诊断显示需要<strong className="font-medium">先验证客户和渠道</strong> → 进入 <Link to="/zh/services/customer-channel-validation" className="text-[#00A884] hover:underline">客户与渠道验证</Link></li>
@@ -152,11 +152,11 @@ export default function ZH_market_entry_diagnosis() {
                 <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果客户和渠道已初步验证、合规已梳理 → 直接进入 <Link to="/zh/services/local-execution-support" className="text-[#00A884] hover:underline">本地执行支持</Link> 或 <Link to="/zh/services/advisory-retainer" className="text-[#00A884] hover:underline">顾问式长期陪跑</Link></li>
               </ul>
               <p className="text-[14px] text-[#666] leading-[1.6] italic">
-                您不需要预先决定下一步。诊断报告中会附带明确的阶段建议，您可以根据自身节奏选择推进方式。
+                你不需要预先决定下一步。诊断报告中会附带明确的阶段建议，你可以根据自身节奏选择推进方式。
               </p>
             </div>
 
-            {/* 9. FAQ */}
+            {/* 9. 常见问题 */}
             <div className="mb-12">
               <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-5">
                 常见问题
@@ -168,7 +168,7 @@ export default function ZH_market_entry_diagnosis() {
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
                   </summary>
                   <div className="px-4 pb-4 md:px-5 md:pb-5">
-                    <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">产品规格书、现有的英文资料（如有）、目标市场想法、以及一次 30-45 分钟的线上沟通。如果您的资料不完整，我们会告诉您缺什么，不会因此拒绝服务。</p>
+                    <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">产品规格书、现有的英文资料（如有）、目标市场想法、以及一次 30-45 分钟的线上沟通。如果你的资料不完整，我们会告诉你缺什么，不会因此拒绝服务。</p>
                   </div>
                 </details>
                 <details className="border border-[#E5E5E5] bg-white">
@@ -177,7 +177,7 @@ export default function ZH_market_entry_diagnosis() {
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
                   </summary>
                   <div className="px-4 pb-4 md:px-5 md:pb-5">
-                    <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">调研报告告诉您"市场有多大"。诊断告诉您"您的产品在这个市场里能不能卖、要先解决什么问题、第一步踩在哪里"。诊断是以您的企业为中心，不是以市场为中心。</p>
+                    <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">调研报告告诉你"市场有多大"。诊断告诉你"你的产品在这个市场里能不能卖、要先解决什么问题、第一步踩在哪里"。诊断是以你的企业为中心，不是以市场为中心。</p>
                   </div>
                 </details>
                 <details className="border border-[#E5E5E5] bg-white">
@@ -186,7 +186,7 @@ export default function ZH_market_entry_diagnosis() {
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
                   </summary>
                   <div className="px-4 pb-4 md:px-5 md:pb-5">
-                    <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">不能。诊断帮您缩小考察的范围、明确考察时应该验证什么。它让您去北美的时候带着清晰的问题清单，而不是盲目参展。</p>
+                    <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">不能。诊断帮你缩小考察的范围、明确考察时应该验证什么。它让你去北美的时候带着清晰的问题清单，而不是盲目参展。</p>
                   </div>
                 </details>
               </div>

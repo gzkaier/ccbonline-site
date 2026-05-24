@@ -29,7 +29,7 @@ export default function ZH_local_execution_support() {
               北美本地执行支持
             </h1>
             <p className="text-[15px] md:text-[17px] text-[#444] leading-[1.65] max-w-[720px] italic">
-              在客户意向确认、渠道就绪、合规清晰之后，为您提供经销商对接、样品管理、客户沟通、订单跟进和本地事务协调等落地支持——让您在北美有人可找、有事可托。
+              在客户意向确认、渠道就绪、合规清晰之后，为你提供经销商对接、样品管理、客户沟通、订单跟进和本地事务协调等落地支持——让你在北美有人可找、有事可托。
             </p>
           </div>
         </section>
@@ -55,7 +55,7 @@ export default function ZH_local_execution_support() {
                 本地执行支持是 CCBONLINE 为已经<strong className="font-medium text-[#212121]">完成前期判断和验证、准备实质性进入销售阶段</strong>的企业提供的落地协助服务。很多企业到了这一步发现：虽然市场判断清楚了、客户也找到了，但自己没有人在北美本地处理样品寄送、客户跟进、经销商会议安排、或者突发的物流和售后问题。
               </p>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mt-4">
-                我们的本地执行支持不是替您做销售，而是作为您在北美本地的<strong className="font-medium text-[#212121]">协调人和信息节点</strong>，帮您处理那些"必须有人在本地才能做的事"。
+                我们的本地执行支持不是替你做销售，而是作为你在北美本地的<strong className="font-medium text-[#212121]">协调人和信息节点</strong>，帮你处理那些"必须有人在本地才能做的事"。
               </p>
             </div>
 
@@ -84,7 +84,7 @@ export default function ZH_local_execution_support() {
                 常见的问题场景：样品寄出后没人跟进客户反馈、客户在关键时刻联系不上中国团队、经销商对产品培训有疑问但没人能当面解答、或者订单出了小问题但因为沟通延迟变成了大问题。
               </p>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
-                本地执行支持的核心价值是<strong className="font-medium text-[#212121]">消除"距离带来的响应延迟"</strong>，让您在北美有一个可信赖的本地触点来处理这些必须面对面或即时响应的事务。
+                本地执行支持的核心价值是<strong className="font-medium text-[#212121]">消除"距离带来的响应延迟"</strong>，让你在北美有一个可信赖的本地触点来处理这些必须面对面或即时响应的事务。
               </p>
             </div>
 
@@ -96,16 +96,16 @@ export default function ZH_local_execution_support() {
               <ul className="space-y-3">
                 <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">经销商/渠道对接协调</strong> — 协助安排会议、传递资料、跟进合作条款进展、处理沟通中的信息缺口</li>
                 <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">样品管理与跟进</strong> — 协助样品在本地接收、转交、客户反馈收集和后续沟通</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">客户沟通支持</strong> — 在关键节点代您出面或协助沟通，确保客户感到被重视、响应及时</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">客户沟通支持</strong> — 在关键节点代你出面或协助沟通，确保客户感到被重视、响应及时</li>
                 <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">订单与物流协调</strong> — 协助跟进订单执行、物流状态、交付异常处理</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">本地事务信息节点</strong> — 作为您在北美本地的信息枢纽，收集市场动态、客户反馈和渠道动态，定期同步给您</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">本地事务信息节点</strong> — 作为你在北美本地的信息枢纽，收集市场动态、客户反馈和渠道动态，定期同步给你</li>
               </ul>
             </div>
 
             {/* 6. 核心交付物 */}
             <div className="mb-12">
               <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-5">
-                您会收到什么
+                你会收到什么
               </h2>
               <div className="space-y-4">
                 <div className="p-4 bg-[#F8F9FA] border border-[#E5E5E5]">
@@ -126,7 +126,7 @@ export default function ZH_local_execution_support() {
                 </div>
                 <div className="p-4 bg-[#F8F9FA] border border-[#E5E5E5]">
                   <p className="text-[14px] font-medium text-[#212121] mb-1">本地市场动态简报</p>
-                  <p className="text-[13px] text-[#666] leading-[1.6]">与您行业相关的本地市场变化、竞争动态和客户行为趋势的简要信息</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">与你行业相关的本地市场变化、竞争动态和客户行为趋势的简要信息</p>
                 </div>
               </div>
             </div>
@@ -137,10 +137,10 @@ export default function ZH_local_execution_support() {
                 这项服务不替代什么
               </h2>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
-                本地执行支持是<strong className="font-medium text-[#212121]">协调与信息传递</strong>，不是替您完成销售目标。我们不替您签订销售合同，不替您的产品做质量保证，也不对最终的销售结果承担责任。
+                本地执行支持是<strong className="font-medium text-[#212121]">协调与信息传递</strong>，不是替你完成销售目标。我们不替你签订销售合同，不替你的产品做质量保证，也不对最终的销售结果承担责任。
               </p>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
-                我们的角色是<strong className="font-medium text-[#212121]">您在北美本地的延伸触点</strong>。重大商业决策、价格谈判、合同条款和产品策略仍然由您主导。我们确保的是：当这些决策需要本地执行时，不会因为"没有人在现场"而延误或出错。
+                我们的角色是<strong className="font-medium text-[#212121]">你在北美本地的延伸触点</strong>。重大商业决策、价格谈判、合同条款和产品策略仍然由你主导。我们确保的是：当这些决策需要本地执行时，不会因为"没有人在现场"而延误或出错。
               </p>
             </div>
 
@@ -150,7 +150,7 @@ export default function ZH_local_execution_support() {
                 本地支持之后，通常会走向哪里
               </h2>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
-                本地执行支持通常是一个过渡性安排。它的目的是让您在不设立正式办公室的情况下，验证北美销售的可行性和运营模式。经过 3-6 个月的本地支持后，您通常会更清楚：
+                本地执行支持通常是一个过渡性安排。它的目的是让你在不设立正式办公室的情况下，验证北美销售的可行性和运营模式。经过 3-6 个月的本地支持后，你通常会更清楚：
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 销售节奏和客户需求是否<strong className="font-medium">值得设立长期本地运营据点</strong></li>
@@ -158,11 +158,11 @@ export default function ZH_local_execution_support() {
                 <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 产品是否需要针对北美市场做<strong className="font-medium">本地化改进</strong></li>
               </ul>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
-                如果验证结果积极，您可以考虑招聘本地代表或设立小型办公室；如果还需要时间观察，可以继续通过 <Link to="/zh/services/advisory-retainer" className="text-[#00A884] hover:underline">顾问式长期陪跑</Link> 获得持续支持。
+                如果验证结果积极，你可以考虑招聘本地代表或设立小型办公室；如果还需要时间观察，可以继续通过 <Link to="/zh/services/advisory-retainer" className="text-[#00A884] hover:underline">顾问式长期陪跑</Link> 获得持续支持。
               </p>
             </div>
 
-            {/* 9. FAQ */}
+            {/* 9. 常见问题 */}
             <div className="mb-12">
               <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-5">
                 常见问题
@@ -183,7 +183,7 @@ export default function ZH_local_execution_support() {
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
                   </summary>
                   <div className="px-4 pb-4 md:px-5 md:pb-5">
-                    <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">不会。我们不替您做销售、不签单、不承诺销售目标。我们做的是销售背后的协调和支持——跟进、沟通、信息传递、问题处理——让您可以专注于产品和策略。</p>
+                    <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">不会。我们不替你做销售、不签单、不承诺销售目标。我们做的是销售背后的协调和支持——跟进、沟通、信息传递、问题处理——让你可以专注于产品和策略。</p>
                   </div>
                 </details>
                 <details className="border border-[#E5E5E5] bg-white">
@@ -201,10 +201,10 @@ export default function ZH_local_execution_support() {
             {/* CTA */}
             <div className="p-6 md:p-8 bg-[#212121] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
-                在北美市场，您需要一个可信赖的本地触点
+                在北美市场，你需要一个可信赖的本地触点
               </h3>
               <p className="text-white/70 text-[14px] md:text-[15px] leading-[1.6] max-w-[500px] mx-auto mb-6">
-                不要让距离和时差成为您失去订单的原因。让 CCBONLINE 作为您在北美本地的协调人，帮您把验证过的机会转化为实际销售。
+                不要让距离和时差成为你失去订单的原因。让 CCBONLINE 作为你在北美本地的协调人，帮你把验证过的机会转化为实际销售。
               </p>
               <Link
                 to="/zh/contact"

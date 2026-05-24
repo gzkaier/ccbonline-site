@@ -58,7 +58,7 @@ export default function ZHAbout() {
                 <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65] mb-6">
                   我们认为，进入一个新市场最危险的不是"进不去"，而是"没想清楚就进去了"。所以我们把"判断"放在服务的第一步——帮助企业在投入大量资源之前，先看清条件、理清责任、明确路径。
                 </p>
-                <div className="grid grid-cols-2 gap-3 text-[14px] md:text-[15px]">
+                <div className="grid grid-cols-2 gap-3 text-[14px] md:text-[15px] mb-5">
                   <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
                     <p className="text-[11px] text-[#999] uppercase mb-1">成立时间</p>
                     <p className="font-medium">2020</p>
@@ -75,6 +75,12 @@ export default function ZHAbout() {
                     <p className="text-[11px] text-[#999] uppercase mb-1">专注领域</p>
                     <p className="font-medium">加拿大与北美市场进入</p>
                   </div>
+                </div>
+                <div className="p-4 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">
+                    如需提交服务资源、活动信息、招商合作或本地服务资源，可参考
+                    <Link to="/zh/resource-submission-guidelines" className="text-[#00A884] hover:underline">《资源发布与合作信息说明》</Link>。
+                  </p>
                 </div>
               </div>
             </div>

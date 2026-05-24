@@ -11,6 +11,8 @@ import ENAbout from './pages/en/About'
 import ENContact from './pages/en/Contact'
 import ENPrivacy from './pages/en/Privacy'
 import ENTerms from './pages/en/Terms'
+import ENFaq from './pages/en/Faq'
+import ENResources from './pages/en/Resources'
 
 // English insight articles
 import EN_MarketEntryIsNotSellingOverseas from './pages/en/insights/market-entry-is-not-selling-overseas'
@@ -46,6 +48,8 @@ import ZHAbout from './pages/zh/About'
 import ZHContact from './pages/zh/Contact'
 import ZHPrivacy from './pages/zh/Privacy'
 import ZHTerms from './pages/zh/Terms'
+import ZHFaq from './pages/zh/Faq'
+import ZHResources from './pages/zh/Resources'
 
 // Chinese service detail pages
 import ZH_MarketEntryDiagnosis from './pages/zh/services/market-entry-diagnosis'
@@ -71,6 +75,9 @@ import ZH_CanadaFirst from './pages/zh/insights/jia-na-da-ke-yi-shi-bei-mei-di-y
 import ZH_TradeShow from './pages/zh/insights/zhan-hui-bu-shi-qu-bai-tan'
 import ZH_ChannelDev from './pages/zh/insights/qu-dao-kai-fa-bu-shi-qun-fa-you-jian'
 import ZH_90DayRoadmap from './pages/zh/insights/0-90-tian-bei-mei-shi-chang-jin-ru-lu-jing'
+
+// Chinese resource submission guidelines
+import ZHResourceSubmissionGuidelines from './pages/zh/ResourceSubmissionGuidelines'
 
 // 404
 import NotFoundPage from './sections/NotFoundPage'
@@ -113,6 +120,8 @@ function App() {
         <Route path="/en/contact" element={<ENContact />} />
         <Route path="/en/privacy" element={<ENPrivacy />} />
         <Route path="/en/terms" element={<ENTerms />} />
+        <Route path="/en/faq" element={<ENFaq />} />
+        <Route path="/en/resources" element={<ENResources />} />
 
         {/* Chinese routes */}
         <Route path="/zh" element={<ZHHome />} />
@@ -144,6 +153,9 @@ function App() {
         <Route path="/zh/contact" element={<ZHContact />} />
         <Route path="/zh/privacy" element={<ZHPrivacy />} />
         <Route path="/zh/terms" element={<ZHTerms />} />
+        <Route path="/zh/faq" element={<ZHFaq />} />
+        <Route path="/zh/resources" element={<ZHResources />} />
+        <Route path="/zh/resource-submission-guidelines" element={<ZHResourceSubmissionGuidelines />} />
 
         {/* 404 */}
         <Route path="*" element={<NotFoundPage />} />

@@ -7,7 +7,7 @@ import useSEO from '../../../hooks/useSEO'
 export default function ZH_compliance_responsibility_chain() {
   useSEO({
     title: '合规与责任链搭建 | CCBONLINE INC.',
-    description: '帮您在北美销售前梳理清关、认证、产品责任、税务和售后责任链，避免因合规缺口导致货物扣留或法律风险。',
+    description: '帮你在北美销售前梳理清关、认证、产品责任、税务和售后责任链，避免因合规缺口导致货物扣留或法律风险。',
     canonical: 'https://www.ccbonline.ca/zh/services/compliance-responsibility-chain',
     ogType: 'article',
     lang: 'zh',
@@ -29,7 +29,7 @@ export default function ZH_compliance_responsibility_chain() {
               合规与责任链搭建
             </h1>
             <p className="text-[15px] md:text-[17px] text-[#444] leading-[1.65] max-w-[720px] italic">
-              帮您在北美销售前梳理清关、认证、产品责任、税务结构和售后责任链，避免因合规缺口导致货物扣留、订单取消或法律风险。
+              帮你在北美销售前梳理清关、认证、产品责任、税务结构和售后责任链，避免因合规缺口导致货物扣留、订单取消或法律风险。
             </p>
           </div>
         </section>
@@ -78,7 +78,7 @@ export default function ZH_compliance_responsibility_chain() {
                 合规问题不会自己消失，只会变成更大的麻烦。常见场景包括：货物到港后才发现缺少某个认证、产品标签上的警告语不符合加拿大英法双语要求、客户在安装过程中受伤但责任归属不清楚、或者税务结构设置错误导致后续被追缴。
               </p>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
-                这些问题不是"运气不好"，而是<strong className="font-medium text-[#212121]">在进入前没有系统性地梳理责任链和合规清单</strong>。这项服务的目标，是在您第一次发货前就让您知道：需要哪些认证、标签要怎么做、清关需要什么文件、以及如果出了问题谁负责。
+                这些问题不是"运气不好"，而是<strong className="font-medium text-[#212121]">在进入前没有系统性地梳理责任链和合规清单</strong>。这项服务的目标，是在你第一次发货前就让你知道：需要哪些认证、标签要怎么做、清关需要什么文件、以及如果出了问题谁负责。
               </p>
             </div>
 
@@ -99,12 +99,12 @@ export default function ZH_compliance_responsibility_chain() {
             {/* 6. 核心交付物 */}
             <div className="mb-12">
               <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-5">
-                您会收到什么
+                你会收到什么
               </h2>
               <div className="space-y-4">
                 <div className="p-4 bg-[#F8F9FA] border border-[#E5E5E5]">
                   <p className="text-[14px] font-medium text-[#212121] mb-1">产品合规要求清单</p>
-                  <p className="text-[13px] text-[#666] leading-[1.6]">针对您的产品类别，列出加拿大和美国分别需要的认证、标准、标签要求和获取方式</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">针对你的产品类别，列出加拿大和美国分别需要的认证、标准、标签要求和获取方式</p>
                 </div>
                 <div className="p-4 bg-[#F8F9FA] border border-[#E5E5E5]">
                   <p className="text-[14px] font-medium text-[#212121] mb-1">标签与包装合规检查表</p>
@@ -131,10 +131,10 @@ export default function ZH_compliance_responsibility_chain() {
                 这项服务不替代什么
               </h2>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
-                合规与责任链搭建是<strong className="font-medium text-[#212121]">梳理、识别和建议</strong>，不是替您完成所有合规手续。我们不代替认证机构做产品测试，不代替报关行处理清关，不代替律师出具法律意见，也不代替会计师做税务申报。
+                合规与责任链搭建是<strong className="font-medium text-[#212121]">梳理、识别和建议</strong>，不是替你完成所有合规手续。我们不代替认证机构做产品测试，不代替报关行处理清关，不代替律师出具法律意见，也不代替会计师做税务申报。
               </p>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
-                我们的价值在于：帮您<strong className="font-medium text-[#212121]">在第一次发货前就知道缺什么、找谁补、以及按什么顺序做</strong>。具体的认证申请、测试执行、税务登记等，您需要委托对应的专业机构完成，我们可以协助您理解需求并与这些机构沟通。
+                我们的价值在于：帮你<strong className="font-medium text-[#212121]">在第一次发货前就知道缺什么、找谁补、以及按什么顺序做</strong>。具体的认证申请、测试执行、税务登记等，你需要委托对应的专业机构完成，我们可以协助你理解需求并与这些机构沟通。
               </p>
             </div>
 
@@ -144,7 +144,7 @@ export default function ZH_compliance_responsibility_chain() {
                 合规梳理之后，通常会走向哪里
               </h2>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
-                合规清单完成后，您会知道哪些认证必须在发货前拿到、哪些可以并行推进、以及责任链如何设计。接下来的典型路径：
+                合规清单完成后，你会知道哪些认证必须在发货前拿到、哪些可以并行推进、以及责任链如何设计。接下来的典型路径：
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65]">• 如果清单显示<strong className="font-medium">需要 2-3 个月完成认证</strong> → 在认证推进的同时，可以并行进入 <Link to="/zh/services/customer-channel-validation" className="text-[#00A884] hover:underline">客户与渠道验证</Link></li>
@@ -153,7 +153,7 @@ export default function ZH_compliance_responsibility_chain() {
               </ul>
             </div>
 
-            {/* 9. FAQ */}
+            {/* 9. 常见问题 */}
             <div className="mb-12">
               <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-5">
                 常见问题
@@ -165,7 +165,7 @@ export default function ZH_compliance_responsibility_chain() {
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
                   </summary>
                   <div className="px-4 pb-4 md:px-5 md:pb-5">
-                    <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">不能。我们不替代认证机构。但我们会告诉您需要什么认证、找哪家机构、准备什么资料、大概多长时间、以及常见的失败原因。如果您愿意，我们可以协助您与认证机构的前期沟通。</p>
+                    <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">不能。我们不替代认证机构。但我们会告诉你需要什么认证、找哪家机构、准备什么资料、大概多长时间、以及常见的失败原因。如果你愿意，我们可以协助你与认证机构的前期沟通。</p>
                   </div>
                 </details>
                 <details className="border border-[#E5E5E5] bg-white">
@@ -174,7 +174,7 @@ export default function ZH_compliance_responsibility_chain() {
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
                   </summary>
                   <div className="px-4 pb-4 md:px-5 md:pb-5">
-                    <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">产品规格书、现有认证（如有）、产品照片和标签样本、目标市场的初步计划。如果您的资料不完整，我们会告诉您缺什么，并指导您如何补充。</p>
+                    <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">产品规格书、现有认证（如有）、产品照片和标签样本、目标市场的初步计划。如果你的资料不完整，我们会告诉你缺什么，并指导你如何补充。</p>
                   </div>
                 </details>
                 <details className="border border-[#E5E5E5] bg-white">

@@ -10,6 +10,8 @@ export default function Footer({ lang }: FooterProps) {
     { label: 'Services', href: '/en/services' },
     { label: 'Responsibility Chain', href: '/en/responsibility-chain' },
     { label: 'Insights', href: '/en/insights' },
+    { label: 'Resources', href: '/en/resources' },
+    { label: 'FAQ', href: '/en/faq' },
     { label: 'About', href: '/en/about' },
     { label: 'Contact', href: '/en/contact' },
   ]
@@ -19,6 +21,9 @@ export default function Footer({ lang }: FooterProps) {
     { label: '服务', href: '/zh/services' },
     { label: '责任链', href: '/zh/responsibility-chain' },
     { label: '洞察', href: '/zh/insights' },
+    { label: '资源', href: '/zh/resources' },
+    { label: '常见问题', href: '/zh/faq' },
+    { label: '资源发布', href: '/zh/resource-submission-guidelines' },
     { label: '关于', href: '/zh/about' },
     { label: '联系', href: '/zh/contact' },
   ]

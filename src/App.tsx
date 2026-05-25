@@ -58,6 +58,7 @@ import ZH_ComplianceResponsibilityChain from './pages/zh/services/compliance-res
 import ZH_LocalExecutionSupport from './pages/zh/services/local-execution-support'
 import ZH_AdvisoryRetainer from './pages/zh/services/advisory-retainer'
 import ZH_WebsiteContent from './pages/zh/services/website-content-for-service-providers'
+import ZH_LogisticsCustomsImportDiagnosis from './pages/zh/services/logistics-customs-import-diagnosis'
 
 // Chinese topic pages (AI search landing pages)
 import ZH_CanadaMarketEntryForChineseManufacturers from './pages/zh/topics/canada-market-entry-for-chinese-manufacturers'
@@ -133,6 +134,7 @@ function App() {
         <Route path="/zh/services/local-execution-support" element={<ZH_LocalExecutionSupport />} />
         <Route path="/zh/services/advisory-retainer" element={<ZH_AdvisoryRetainer />} />
         <Route path="/zh/services/website-content-for-service-providers" element={<ZH_WebsiteContent />} />
+        <Route path="/zh/services/logistics-customs-import-diagnosis" element={<ZH_LogisticsCustomsImportDiagnosis />} />
         {/* Chinese topic pages */}
         <Route path="/zh/topics/canada-market-entry-for-chinese-manufacturers" element={<ZH_CanadaMarketEntryForChineseManufacturers />} />
         <Route path="/zh/topics/importer-of-record-and-responsibility-chain" element={<ZH_ImporterOfRecordAndResponsibilityChain />} />

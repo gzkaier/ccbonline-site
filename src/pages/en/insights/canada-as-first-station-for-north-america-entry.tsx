@@ -133,7 +133,8 @@ export default function EN_canada_as_first_station_for_north_america_entry() {
             </h2>
             <ul className="space-y-2 mb-8">
           <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Market Entry Services</Link></li>
-          <li><Link to="/en/canada-market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Canada Market Entry</Link></li>
+          <li><Link to="/en/canada-market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Canada Market Entry Overview →</Link></li>
+          <li><Link to="/en/services/canada-market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Canada Market Entry Advisory Service →</Link></li>
           <li><Link to="/en/insights/certification-is-not-the-end-of-market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Certification Is Not the End of Market Entry</Link></li>
           <li><Link to="/en/insights/0-90-day-north-america-market-entry-roadmap" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">A 0–90 Day Roadmap for North America Market Entry</Link></li>
           <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>

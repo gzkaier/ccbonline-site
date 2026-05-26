@@ -32,18 +32,22 @@ const entryPrepServices: ServiceCard[] = [
   { title: 'Target Customer & Channel Mapping', desc: 'Identify who buys, how they buy, and which channel path is most realistic for your product.', slug: 'customer-channel-validation' },
   { title: 'Customer Outreach Readiness', desc: 'Prepare outreach strategy, qualification questions, and materials before engaging North American prospects.', slug: 'customer-channel-validation' },
   { title: 'Compliance & Responsibility Chain Screening', desc: 'Identify certification, import, documentation, and liability gaps before entering the market.', slug: 'compliance-responsibility-chain' },
+  { title: 'Product Compliance & Certification Pathway', desc: 'Identify which certifications (CSA, UL, FCC, ISED) your product needs and map a practical compliance timeline before market entry.', slug: 'product-compliance' },
   { title: 'Website & Content System for Local Service Providers', desc: 'Help local professional service providers organize their website, service messaging, trust materials, FAQs, and inquiry path into a clearer online presence.', slug: 'website-content-for-service-providers' },
+  { title: 'Media Communication & Business Content', desc: 'Content positioning, English/Chinese adaptation, media-style company profiles, and business exposure coordination.', slug: 'media-business-content' },
+  { title: 'SEO & GEO Optimization', desc: 'Traditional SEO for Google search plus Generative Engine Optimization for AI-powered search tools like ChatGPT and Perplexity.', slug: 'seo-geo-optimization' },
 ]
 
 const localExecutionServices: ServiceCard[] = [
   { title: 'Import Pathway & IOR Coordination', desc: 'Design the import route, clarify the Importer of Record role, and coordinate customs documentation.', slug: 'local-execution-support' },
   { title: 'Warehousing & Local Fulfillment Coordination', desc: 'Match with suitable warehousing and third-party logistics partners for your volume and product type.', slug: 'local-execution-support' },
+  { title: '3PL Selection & Warehouse Operation Audit', desc: 'Systematic evaluation of third-party logistics providers and warehouse operations for Canadian distribution.', slug: '3pl-warehousing-advisory' },
   { title: 'After-sales & Service Readiness Planning', desc: 'Plan for warranty handling, returns, spare parts, and local service response capability.', slug: 'local-execution-support' },
   { title: 'Local Partner Coordination', desc: 'Ongoing communication and coordination with North American operational and service partners.', slug: 'local-execution-support' },
 ]
 
 const projectExecutionServices: ServiceCard[] = [
-  { title: 'Trade Show Market Entry Support', desc: 'Pre-show planning, buyer targeting, messaging adaptation, and post-show follow-up systems.', slug: 'advisory-retainer' },
+  { title: 'Trade Show Follow-up & Market Entry Support', desc: 'Pre-show planning, buyer targeting, messaging adaptation, and post-show follow-up systems.', slug: 'trade-show-follow-up' },
   { title: 'Market Entry Project Management', desc: 'Structured project tracking, milestone management, and coordination between your team and external partners.', slug: 'advisory-retainer' },
   { title: 'North America Entry Advisory Retainer', desc: 'Monthly advisory support, document review, partner coordination, and strategic judgment as you enter.', slug: 'advisory-retainer' },
   { title: 'Quarterly Review & Next-step Planning', desc: 'Regular progress reviews, risk assessment, and updated action plans based on market feedback.', slug: 'advisory-retainer' },
@@ -123,6 +127,31 @@ export default function ENServices() {
             <p className="text-[15px] md:text-[16px] text-[#767676] max-w-[600px] mb-6">
               From market-entry diagnosis and compliance pathway review to channel validation, local execution coordination, and project support.
             </p>
+          </div>
+        </section>
+
+        {/* Core Platform Services */}
+        <section className="section-padding bg-white border-b border-[#E5E5E5]">
+          <div className="container-site">
+            <p className="text-label mb-3">Core Services</p>
+            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-8">
+              Five Service Areas
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+              {[
+                { title: 'Canada & North America Market Entry', desc: 'Structured entry support from readiness assessment to local execution coordination.', slug: 'market-entry' },
+                { title: 'Brand Credibility & Digital Infrastructure', desc: 'Evaluate and improve how your company appears to North American buyers online.', slug: 'brand-credibility' },
+                { title: 'Bilingual Website & Content', desc: 'Chinese and English website content organized for North American business audiences.', slug: 'website-content' },
+                { title: 'Canada-China Business Connection', desc: 'Supplier matching, supply chain coordination, and cross-border commercial introductions.', slug: 'business-connection' },
+                { title: 'Media Coverage & Content Collaboration', desc: 'Industry media exposure, professional profiling, and business content coordination.', slug: 'media-content' },
+              ].map((s, i) => (
+                <Link key={i} to={`/en/${s.slug}`} className="p-5 bg-white border border-[#E5E5E5] hover:border-[#00A884] transition-colors group">
+                  <h3 className="text-[15px] font-semibold mb-2 group-hover:text-[#00A884] transition-colors">{s.title}</h3>
+                  <p className="text-[13px] text-[#767676] leading-[1.6] mb-3">{s.desc}</p>
+                  <span className="text-[14px] font-medium text-[#00A884] group-hover:underline inline-flex items-center gap-1">Learn more <span className="text-[16px]">&rarr;</span></span>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
 

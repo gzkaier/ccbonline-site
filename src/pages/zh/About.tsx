@@ -244,7 +244,6 @@ export default function ZHAbout() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link to="/zh/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">预约初步沟通</Link>
-                <Link to="/zh/resource-submission-guidelines" className="btn-outline text-[15px] px-6 py-3.5 min-h-[52px]" style={{ borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}>提交资源与合作信息</Link>
               </div>
             </div>
           </div>

@@ -177,7 +177,6 @@ export default function ZHResources() {
               </p>
               <div className="flex flex-wrap gap-3">
                 <Link to="/zh/contact" className="btn-primary text-[14px] px-5 py-3 min-h-[48px]">提交资源请求</Link>
-                <Link to="/zh/resource-submission-guidelines" className="btn-outline text-[14px] px-5 py-3 min-h-[48px]">提交服务资源</Link>
               </div>
             </div>
           </div>
@@ -248,7 +247,6 @@ export default function ZHResources() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link to="/zh/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">提交资源请求</Link>
-                <Link to="/zh/resource-submission-guidelines" className="btn-outline text-[15px] px-6 py-3.5 min-h-[52px]" style={{ borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}>提交服务资源</Link>
               </div>
             </div>
           </div>

@@ -7,26 +7,23 @@ interface NavbarProps {
 }
 
 const enNav = [
-  { label: 'Canada Market Entry', href: '/en/canada-market-entry' },
-  { label: 'Services', href: '/en/services' },
-  { label: 'Responsibility Chain', href: '/en/responsibility-chain' },
+  { label: 'Market Entry', href: '/en/market-entry' },
+  { label: 'Brand Credibility', href: '/en/brand-credibility' },
+  { label: 'Business Connection', href: '/en/business-connection' },
+  { label: 'Media & Content', href: '/en/media-content' },
   { label: 'Insights', href: '/en/insights' },
-  { label: 'Resources', href: '/en/resources' },
-  { label: 'FAQ', href: '/en/faq' },
   { label: 'About', href: '/en/about' },
   { label: 'Contact', href: '/en/contact' },
 ]
 
 const zhNav = [
-  { label: '加拿大市场进入', href: '/zh/canada-market-entry' },
-  { label: '服务', href: '/zh/services' },
-  { label: '责任链', href: '/zh/responsibility-chain' },
-  { label: '洞察', href: '/zh/insights' },
-  { label: '资源', href: '/zh/resources' },
-  { label: '常见问题', href: '/zh/faq' },
-  { label: '资源发布', href: '/zh/resource-submission-guidelines' },
-  { label: '关于', href: '/zh/about' },
-  { label: '联系', href: '/zh/contact' },
+  { label: '市场进入', href: '/zh/market-entry' },
+  { label: '品牌可信度', href: '/zh/brand-credibility' },
+  { label: '商业连接', href: '/zh/business-connection' },
+  { label: '媒体与内容', href: '/zh/media-content' },
+  { label: '行业洞察', href: '/zh/insights' },
+  { label: '关于我们', href: '/zh/about' },
+  { label: '联系我们', href: '/zh/contact' },
 ]
 
 export default function Navbar({ lang }: NavbarProps) {

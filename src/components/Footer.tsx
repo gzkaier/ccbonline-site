@@ -23,7 +23,6 @@ export default function Footer({ lang }: FooterProps) {
     { label: '洞察', href: '/zh/insights' },
     { label: '资源', href: '/zh/resources' },
     { label: '常见问题', href: '/zh/faq' },
-    { label: '资源发布', href: '/zh/resource-submission-guidelines' },
     { label: '关于', href: '/zh/about' },
     { label: '联系', href: '/zh/contact' },
   ]

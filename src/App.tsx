@@ -23,6 +23,14 @@ import EN_CanadaFirstStation from './pages/en/insights/canada-as-first-station-f
 import EN_TradeShow from './pages/en/insights/trade-show-is-not-just-exhibition'
 import EN_ChannelDevelopment from './pages/en/insights/channel-development-is-not-email-blasting'
 import EN_90DayRoadmap from './pages/en/insights/0-90-day-north-america-market-entry-roadmap'
+import EN_CSAVsUL from './pages/en/insights/csa-vs-ul-certification-difference'
+import EN_TradeShowFollowUp from './pages/en/insights/trade-show-lead-follow-up-best-practices'
+import EN_3PLVsFreightForwarder from './pages/en/insights/3pl-vs-freight-forwarder'
+import EN_ProductCertificationGuide from './pages/en/insights/product-certification-canada-guide'
+import EN_CanadaVsUS from './pages/en/insights/canada-vs-us-market-entry'
+import EN_CSAVsULWhichBody from './pages/en/insights/csa-vs-ul-which-certification-body'
+import EN_WhatHappensWithoutIOR from './pages/en/insights/what-happens-without-ior'
+import EN_IsCanadaTooSmall from './pages/en/insights/is-canada-market-too-small'
 
 import EN_MarketEntryDiagnosis from './pages/en/services/market-entry-diagnosis'
 import EN_CustomerChannelValidation from './pages/en/services/customer-channel-validation'
@@ -30,6 +38,18 @@ import EN_ComplianceResponsibilityChain from './pages/en/services/compliance-res
 import EN_LocalExecutionSupport from './pages/en/services/local-execution-support'
 import EN_AdvisoryRetainer from './pages/en/services/advisory-retainer'
 import EN_WebsiteContent from './pages/en/services/website-content-for-service-providers'
+import EN_3PLWarehousingAdvisory from './pages/en/services/3pl-warehousing-advisory'
+import EN_MediaBusinessContent from './pages/en/services/media-business-content'
+import EN_ProductCompliance from './pages/en/services/product-compliance'
+import EN_TradeShowFollowUpService from './pages/en/services/trade-show-follow-up'
+import EN_SeoGeoOptimization from './pages/en/services/seo-geo-optimization'
+
+// New English service pages (platform repositioning)
+import EN_MarketEntry from './pages/en/market-entry'
+import EN_BrandCredibility from './pages/en/brand-credibility'
+import EN_WebsiteContentPlatform from './pages/en/website-content'
+import EN_BusinessConnection from './pages/en/business-connection'
+import EN_MediaContent from './pages/en/media-content'
 
 // English topic pages (AI search landing pages)
 import EN_CanadaMarketEntryForChineseManufacturers from './pages/en/topics/canada-market-entry-for-chinese-manufacturers'
@@ -59,6 +79,18 @@ import ZH_LocalExecutionSupport from './pages/zh/services/local-execution-suppor
 import ZH_AdvisoryRetainer from './pages/zh/services/advisory-retainer'
 import ZH_WebsiteContent from './pages/zh/services/website-content-for-service-providers'
 import ZH_LogisticsCustomsImportDiagnosis from './pages/zh/services/logistics-customs-import-diagnosis'
+import ZH_3PLWarehousingAdvisory from './pages/zh/services/3pl-warehousing-advisory'
+import ZH_MediaBusinessContent from './pages/zh/services/media-business-content'
+import ZH_ProductCompliance from './pages/zh/services/product-compliance'
+import ZH_TradeShowFollowUpService from './pages/zh/services/trade-show-follow-up'
+import ZH_SeoGeoOptimization from './pages/zh/services/seo-geo-optimization'
+
+// New Chinese service pages (platform repositioning)
+import ZH_MarketEntry from './pages/zh/market-entry'
+import ZH_BrandCredibility from './pages/zh/brand-credibility'
+import ZH_WebsiteContentPlatform from './pages/zh/website-content'
+import ZH_BusinessConnection from './pages/zh/business-connection'
+import ZH_MediaContent from './pages/zh/media-content'
 
 // Chinese topic pages (AI search landing pages)
 import ZH_CanadaMarketEntryForChineseManufacturers from './pages/zh/topics/canada-market-entry-for-chinese-manufacturers'
@@ -76,10 +108,16 @@ import ZH_CanadaFirst from './pages/zh/insights/jia-na-da-ke-yi-shi-bei-mei-di-y
 import ZH_TradeShow from './pages/zh/insights/zhan-hui-bu-shi-qu-bai-tan'
 import ZH_ChannelDev from './pages/zh/insights/qu-dao-kai-fa-bu-shi-qun-fa-you-jian'
 import ZH_90DayRoadmap from './pages/zh/insights/0-90-tian-bei-mei-shi-chang-jin-ru-lu-jing'
+import ZH_CSAVsUL from './pages/zh/insights/csa-he-ul-de-qu-bie'
+import ZH_TradeShowFollowUp from './pages/zh/insights/zhan-hou-xian-suo-gen-jin'
+import ZH_3PLVsFreightForwarder from './pages/zh/insights/3pl-he-huo-lai-de-qu-bie'
+import ZH_ProductCertificationGuide from './pages/zh/insights/chan-pin-ren-zheng-lu-jing-zhi-nan'
+import ZH_CanadaVsUS from './pages/zh/insights/jia-na-da-vs-mei-guo-xian-jin-ru'
+import ZH_CSAVsULWhichBody from './pages/zh/insights/csa-he-ul-xuan-na-jia'
+import ZH_HuoDaoGangMeiYouIOR from './pages/zh/insights/huo-dao-gang-mei-you-ior'
+import ZH_JiaNaDaShiChangZhiDeZuoMa from './pages/zh/insights/jia-na-da-shi-chang-zhi-de-zuo-ma'
 
 // Chinese resource submission guidelines
-import ZHResourceSubmissionGuidelines from './pages/zh/ResourceSubmissionGuidelines'
-
 // 404
 import NotFoundPage from './sections/NotFoundPage'
 
@@ -101,6 +139,17 @@ function App() {
         <Route path="/en/services/local-execution-support" element={<EN_LocalExecutionSupport />} />
         <Route path="/en/services/advisory-retainer" element={<EN_AdvisoryRetainer />} />
         <Route path="/en/services/website-content-for-service-providers" element={<EN_WebsiteContent />} />
+        <Route path="/en/services/3pl-warehousing-advisory" element={<EN_3PLWarehousingAdvisory />} />
+        <Route path="/en/services/media-business-content" element={<EN_MediaBusinessContent />} />
+        <Route path="/en/services/product-compliance" element={<EN_ProductCompliance />} />
+        <Route path="/en/services/trade-show-follow-up" element={<EN_TradeShowFollowUpService />} />
+        <Route path="/en/services/seo-geo-optimization" element={<EN_SeoGeoOptimization />} />
+        {/* New English platform pages */}
+        <Route path="/en/market-entry" element={<EN_MarketEntry />} />
+        <Route path="/en/brand-credibility" element={<EN_BrandCredibility />} />
+        <Route path="/en/website-content" element={<EN_WebsiteContentPlatform />} />
+        <Route path="/en/business-connection" element={<EN_BusinessConnection />} />
+        <Route path="/en/media-content" element={<EN_MediaContent />} />
         {/* English topic pages */}
         <Route path="/en/topics/canada-market-entry-for-chinese-manufacturers" element={<EN_CanadaMarketEntryForChineseManufacturers />} />
         <Route path="/en/topics/importer-of-record-and-responsibility-chain" element={<EN_ImporterOfRecordAndResponsibilityChain />} />
@@ -117,6 +166,14 @@ function App() {
         <Route path="/en/insights/trade-show-is-not-just-exhibition" element={<EN_TradeShow />} />
         <Route path="/en/insights/channel-development-is-not-email-blasting" element={<EN_ChannelDevelopment />} />
         <Route path="/en/insights/0-90-day-north-america-market-entry-roadmap" element={<EN_90DayRoadmap />} />
+        <Route path="/en/insights/csa-vs-ul-certification-difference" element={<EN_CSAVsUL />} />
+        <Route path="/en/insights/trade-show-lead-follow-up-best-practices" element={<EN_TradeShowFollowUp />} />
+        <Route path="/en/insights/3pl-vs-freight-forwarder" element={<EN_3PLVsFreightForwarder />} />
+        <Route path="/en/insights/product-certification-canada-guide" element={<EN_ProductCertificationGuide />} />
+        <Route path="/en/insights/canada-vs-us-market-entry" element={<EN_CanadaVsUS />} />
+        <Route path="/en/insights/csa-vs-ul-which-certification-body" element={<EN_CSAVsULWhichBody />} />
+        <Route path="/en/insights/what-happens-without-ior" element={<EN_WhatHappensWithoutIOR />} />
+        <Route path="/en/insights/is-canada-market-too-small" element={<EN_IsCanadaTooSmall />} />
         <Route path="/en/about" element={<ENAbout />} />
         <Route path="/en/contact" element={<ENContact />} />
         <Route path="/en/privacy" element={<ENPrivacy />} />
@@ -135,6 +192,17 @@ function App() {
         <Route path="/zh/services/advisory-retainer" element={<ZH_AdvisoryRetainer />} />
         <Route path="/zh/services/website-content-for-service-providers" element={<ZH_WebsiteContent />} />
         <Route path="/zh/services/logistics-customs-import-diagnosis" element={<ZH_LogisticsCustomsImportDiagnosis />} />
+        <Route path="/zh/services/3pl-warehousing-advisory" element={<ZH_3PLWarehousingAdvisory />} />
+        <Route path="/zh/services/media-business-content" element={<ZH_MediaBusinessContent />} />
+        <Route path="/zh/services/product-compliance" element={<ZH_ProductCompliance />} />
+        <Route path="/zh/services/trade-show-follow-up" element={<ZH_TradeShowFollowUpService />} />
+        <Route path="/zh/services/seo-geo-optimization" element={<ZH_SeoGeoOptimization />} />
+        {/* New Chinese platform pages */}
+        <Route path="/zh/market-entry" element={<ZH_MarketEntry />} />
+        <Route path="/zh/brand-credibility" element={<ZH_BrandCredibility />} />
+        <Route path="/zh/website-content" element={<ZH_WebsiteContentPlatform />} />
+        <Route path="/zh/business-connection" element={<ZH_BusinessConnection />} />
+        <Route path="/zh/media-content" element={<ZH_MediaContent />} />
         {/* Chinese topic pages */}
         <Route path="/zh/topics/canada-market-entry-for-chinese-manufacturers" element={<ZH_CanadaMarketEntryForChineseManufacturers />} />
         <Route path="/zh/topics/importer-of-record-and-responsibility-chain" element={<ZH_ImporterOfRecordAndResponsibilityChain />} />
@@ -151,14 +219,20 @@ function App() {
         <Route path="/zh/insights/zhan-hui-bu-shi-qu-bai-tan" element={<ZH_TradeShow />} />
         <Route path="/zh/insights/qu-dao-kai-fa-bu-shi-qun-fa-you-jian" element={<ZH_ChannelDev />} />
         <Route path="/zh/insights/0-90-tian-bei-mei-shi-chang-jin-ru-lu-jing" element={<ZH_90DayRoadmap />} />
+        <Route path="/zh/insights/csa-he-ul-de-qu-bie" element={<ZH_CSAVsUL />} />
+        <Route path="/zh/insights/zhan-hou-xian-suo-gen-jin" element={<ZH_TradeShowFollowUp />} />
+        <Route path="/zh/insights/3pl-he-huo-lai-de-qu-bie" element={<ZH_3PLVsFreightForwarder />} />
+        <Route path="/zh/insights/chan-pin-ren-zheng-lu-jing-zhi-nan" element={<ZH_ProductCertificationGuide />} />
+        <Route path="/zh/insights/jia-na-da-vs-mei-guo-xian-jin-ru" element={<ZH_CanadaVsUS />} />
+        <Route path="/zh/insights/csa-he-ul-xuan-na-jia" element={<ZH_CSAVsULWhichBody />} />
+        <Route path="/zh/insights/huo-dao-gang-mei-you-ior" element={<ZH_HuoDaoGangMeiYouIOR />} />
+        <Route path="/zh/insights/jia-na-da-shi-chang-zhi-de-zuo-ma" element={<ZH_JiaNaDaShiChangZhiDeZuoMa />} />
         <Route path="/zh/about" element={<ZHAbout />} />
         <Route path="/zh/contact" element={<ZHContact />} />
         <Route path="/zh/privacy" element={<ZHPrivacy />} />
         <Route path="/zh/terms" element={<ZHTerms />} />
         <Route path="/zh/faq" element={<ZHFaq />} />
         <Route path="/zh/resources" element={<ZHResources />} />
-        <Route path="/zh/resource-submission-guidelines" element={<ZHResourceSubmissionGuidelines />} />
-
         {/* 404 */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

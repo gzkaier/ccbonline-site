@@ -131,7 +131,8 @@ export default function ZH_JiaNaDaKeYiShiBeiMeiDiYiZhan() {
             </h2>
             <ul className="space-y-2 mb-8">
               <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">市场进入服务</Link></li>
-              <li><Link to="/zh/canada-market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">加拿大市场进入</Link></li>
+              <li><Link to="/zh/canada-market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">加拿大市场进入概览 →</Link></li>
+              <li><Link to="/zh/services/canada-market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">加拿大市场进入咨询服务 →</Link></li>
               <li><Link to="/zh/insights/ren-zheng-bu-shi-zhong-dian" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">认证不是终点</Link></li>
               <li><Link to="/zh/insights/0-90-tian-bei-mei-shi-chang-jin-ru-lu-jing" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">北美市场进入的 0–90 天路径</Link></li>
               <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">联系 CCBONLINE</Link></li>

@@ -29,7 +29,7 @@ const mainServices: { category: string; title: string; desc: string; services: S
     services: [
       { title: '合规与责任链初筛', desc: '在进入市场前，识别认证、进口、文件和责任缺口。', slug: 'compliance-responsibility-chain' },
       { title: '进口路径与 IOR 安排', desc: '明确进口记录主体（Importer of Record）的安排方式、责任边界和协调路径。', slug: 'local-execution-support' },
-      { title: '产品认证路径梳理', desc: 'CSA、UL、FCC 等认证要求判断，以及认证周期和成本预估。', slug: 'compliance-responsibility-chain' },
+      { title: '产品合规与认证路径梳理', desc: '明确产品进入加拿大和北美需要的认证（CSA、UL、FCC、ISED），制定合规时间线。', slug: 'product-compliance' },
       { title: '标签、说明书与合规文档', desc: '英文/法文标签、安全数据表、产品声明等文档的合规性审查。', slug: 'compliance-responsibility-chain' },
     ],
   },
@@ -40,7 +40,7 @@ const mainServices: { category: string; title: string; desc: string; services: S
     services: [
       { title: '目标客户与渠道路径设计', desc: '识别谁购买、如何购买，以及哪条渠道路径对你最现实。', slug: 'customer-channel-validation' },
       { title: '北美客户开发准备', desc: '在接触北美潜在客户之前，准备好外联策略、资格筛选问题和材料。', slug: 'customer-channel-validation' },
-      { title: '展会市场进入支持', desc: '展前规划、买家定位、资料调整和展后跟进系统搭建。', slug: 'advisory-retainer' },
+      { title: '展会前准备与展会后跟进', desc: '展前规划、买家定位、资料调整和展后跟进系统搭建。', slug: 'trade-show-follow-up' },
       { title: '渠道合作方能力评估', desc: '评估潜在代理、经销商或合作方的真实能力和匹配度。', slug: 'customer-channel-validation' },
     ],
   },
@@ -50,6 +50,7 @@ const mainServices: { category: string; title: string; desc: string; services: S
     desc: '协调进口、仓储、履约、售后和本地服务商资源，确保进入市场后有承接能力。',
     services: [
       { title: '本地执行与服务商资源连接', desc: '协调仓储物流、售后支持、本地服务商对接和实际执行落地。', slug: 'local-execution-support' },
+      { title: '3PL筛选与仓库运营审计', desc: '系统性评估加拿大第三方物流合作伙伴和仓库运营能力，避免签约后才发现运营缺口。', slug: '3pl-warehousing-advisory' },
       { title: '售后与备件承接方案设计', desc: '规划保修处理、退货、备件和本地服务响应能力。', slug: 'local-execution-support' },
       { title: '北美市场进入项目推进管理', desc: '结构化项目跟踪、里程碑管理和团队与外部合作伙伴的协调。', slug: 'advisory-retainer' },
       { title: '季度复盘与下一步计划', desc: '定期进展回顾、风险评估和基于市场反馈的更新行动计划。', slug: 'advisory-retainer' },
@@ -60,7 +61,9 @@ const mainServices: { category: string; title: string; desc: string; services: S
 const supportServices: ServiceDetail[] = [
   { title: '网站与内容建设', desc: '为加拿大本地专业服务商整理线上内容和服务表达。', slug: 'website-content-for-service-providers' },
   { title: '英文资料整理', desc: '产品资料、服务说明、品牌内容的英文本地化表达。', slug: 'customer-channel-validation' },
+  { title: '媒体报道与商业内容服务', desc: '品牌定位、中英文内容适配、媒体化公司 profile 和商业曝光协调。', slug: 'media-business-content' },
   { title: '市场进入顾问陪跑', desc: '月度顾问支持、文件审阅、合作伙伴协调和战略判断。', slug: 'advisory-retainer' },
+  { title: 'SEO 与 GEO 优化', desc: '传统SEO确保Google搜索可见，GEO优化确保在ChatGPT、Perplexity等AI助手推荐中被引用。', slug: 'seo-geo-optimization' },
 ]
 
 function ServiceCard({ service }: { service: ServiceDetail }) {
@@ -112,6 +115,31 @@ export default function ZHServices() {
           </div>
         </section>
 
+        {/* Core Platform Services */}
+        <section className="section-padding bg-white border-b border-[#E5E5E5]">
+          <div className="container-site">
+            <p className="text-label mb-3">核心服务</p>
+            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-8">
+              五大服务板块
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+              {[
+                { title: '加拿大及北美市场进入', desc: '从可行性评估到本地执行协调的结构化进入支持。', slug: 'market-entry' },
+                { title: '品牌可信度与数字基础设施', desc: '评估并改善中国企业在北美买家面前的网络形象。', slug: 'brand-credibility' },
+                { title: '中英双语官网与商业内容', desc: '为北美商业受众和双语客户群体组织网站内容。', slug: 'website-content' },
+                { title: '中加商业连接与供应链', desc: '供应商匹配、供应链协调和跨境商业引荐。', slug: 'business-connection' },
+                { title: '媒体报道与商业内容合作', desc: '行业媒体曝光、专业人物报道和商业内容协调。', slug: 'media-content' },
+              ].map((s, i) => (
+                <Link key={i} to={`/zh/${s.slug}`} className="p-5 bg-white border border-[#E5E5E5] hover:border-[#00A884] transition-colors group">
+                  <h3 className="text-[15px] font-semibold mb-2 group-hover:text-[#00A884] transition-colors">{s.title}</h3>
+                  <p className="text-[13px] text-[#767676] leading-[1.6] mb-3">{s.desc}</p>
+                  <span className="text-[14px] font-medium text-[#00A884] group-hover:underline inline-flex items-center gap-1">了解详情 <span className="text-[16px]">&rarr;</span></span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Guidance */}
         <section className="py-6 md:py-8 bg-white border-b border-[#E5E5E5]">
           <div className="container-site">
@@ -128,8 +156,7 @@ export default function ZHServices() {
             </div>
             <div className="max-w-[800px] p-4 bg-white border border-[#E5E5E5]">
               <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">
-                如需提交服务资源、活动信息、招商合作或本地服务资源，可参考
-                <Link to="/zh/resource-submission-guidelines" className="text-[#00A884] hover:underline">《资源发布与合作信息说明》</Link>。
+                如需提交服务资源、活动信息、招商合作或本地服务资源，请直接联系沟通。
               </p>
             </div>
           </div>

@@ -7,21 +7,21 @@ interface NavbarProps {
 }
 
 const enNav = [
+  { label: 'Home', href: '/en' },
+  { label: 'Services', href: '/en/services' },
   { label: 'Market Entry', href: '/en/market-entry' },
-  { label: 'Brand Credibility', href: '/en/brand-credibility' },
-  { label: 'Business Connection', href: '/en/business-connection' },
-  { label: 'Media & Content', href: '/en/media-content' },
+  { label: 'Business Media', href: '/en/media-content' },
   { label: 'Insights', href: '/en/insights' },
   { label: 'About', href: '/en/about' },
   { label: 'Contact', href: '/en/contact' },
 ]
 
 const zhNav = [
+  { label: '首页', href: '/zh' },
+  { label: '服务', href: '/zh/services' },
   { label: '市场进入', href: '/zh/market-entry' },
-  { label: '品牌可信度', href: '/zh/brand-credibility' },
-  { label: '商业连接', href: '/zh/business-connection' },
-  { label: '媒体与内容', href: '/zh/media-content' },
-  { label: '行业洞察', href: '/zh/insights' },
+  { label: '商业媒体', href: '/zh/media-content' },
+  { label: '洞察', href: '/zh/insights' },
   { label: '关于我们', href: '/zh/about' },
   { label: '联系我们', href: '/zh/contact' },
 ]

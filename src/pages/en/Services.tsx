@@ -4,112 +4,16 @@ import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import useSEO from '../../hooks/useSEO'
 
-
-interface ServiceCard {
-  title: string
-  desc: string
-  slug: string
-}
-
-interface ServicePackage {
-  name: string
-  tag: string
-  for: string
-  deliverables: string[]
-  ctaText: string
-  ctaLink: string
-}
-
-const beforeEntryServices: ServiceCard[] = [
-  { title: 'Market Entry Feasibility Review', desc: 'Assess whether your product, capabilities, and timing are suitable for North America entry.', slug: 'market-entry-diagnosis' },
-  { title: 'Canada vs. U.S. Entry Path Assessment', desc: 'Determine which market should come first based on product fit, competition, and regulatory complexity.', slug: 'market-entry-diagnosis' },
-  { title: 'Product & Market Fit Review', desc: 'Evaluate whether your product, packaging, and positioning match North American buyer expectations.', slug: 'market-entry-diagnosis' },
-  { title: '0–90 Day Market Entry Roadmap', desc: 'A practical, phased action plan for the first 90 days of market entry preparation.', slug: 'market-entry-diagnosis' },
-]
-
-const entryPrepServices: ServiceCard[] = [
-  { title: 'North America Business Material Readiness', desc: 'Review and improve your product materials, website, and documentation for North American buyers.', slug: 'customer-channel-validation' },
-  { title: 'Target Customer & Channel Mapping', desc: 'Identify who buys, how they buy, and which channel path is most realistic for your product.', slug: 'customer-channel-validation' },
-  { title: 'Customer Outreach Readiness', desc: 'Prepare outreach strategy, qualification questions, and materials before engaging North American prospects.', slug: 'customer-channel-validation' },
-  { title: 'Compliance & Responsibility Chain Screening', desc: 'Identify certification, import, documentation, and liability gaps before entering the market.', slug: 'compliance-responsibility-chain' },
-  { title: 'Product Compliance & Certification Pathway', desc: 'Identify which certifications (CSA, UL, FCC, ISED) your product needs and map a practical compliance timeline before market entry.', slug: 'product-compliance' },
-  { title: 'Website & Content System for Local Service Providers', desc: 'Help local professional service providers organize their website, service messaging, trust materials, FAQs, and inquiry path into a clearer online presence.', slug: 'website-content-for-service-providers' },
-  { title: 'Media Communication & Business Content', desc: 'Content positioning, English/Chinese adaptation, media-style company profiles, and business exposure coordination.', slug: 'media-business-content' },
-  { title: 'SEO & GEO Optimization', desc: 'Traditional SEO for Google search plus Generative Engine Optimization for AI-powered search tools like ChatGPT and Perplexity.', slug: 'seo-geo-optimization' },
-]
-
-const localExecutionServices: ServiceCard[] = [
-  { title: 'Import Pathway & IOR Coordination', desc: 'Design the import route, clarify the Importer of Record role, and coordinate customs documentation.', slug: 'local-execution-support' },
-  { title: 'Warehousing & Local Fulfillment Coordination', desc: 'Match with suitable warehousing and third-party logistics partners for your volume and product type.', slug: 'local-execution-support' },
-  { title: '3PL Selection & Warehouse Operation Audit', desc: 'Systematic evaluation of third-party logistics providers and warehouse operations for Canadian distribution.', slug: '3pl-warehousing-advisory' },
-  { title: 'After-sales & Service Readiness Planning', desc: 'Plan for warranty handling, returns, spare parts, and local service response capability.', slug: 'local-execution-support' },
-  { title: 'Local Partner Coordination', desc: 'Ongoing communication and coordination with North American operational and service partners.', slug: 'local-execution-support' },
-]
-
-const projectExecutionServices: ServiceCard[] = [
-  { title: 'Trade Show Follow-up & Market Entry Support', desc: 'Pre-show planning, buyer targeting, messaging adaptation, and post-show follow-up systems.', slug: 'trade-show-follow-up' },
-  { title: 'Market Entry Project Management', desc: 'Structured project tracking, milestone management, and coordination between your team and external partners.', slug: 'advisory-retainer' },
-  { title: 'North America Entry Advisory Retainer', desc: 'Monthly advisory support, document review, partner coordination, and strategic judgment as you enter.', slug: 'advisory-retainer' },
-  { title: 'Quarterly Review & Next-step Planning', desc: 'Regular progress reviews, risk assessment, and updated action plans based on market feedback.', slug: 'advisory-retainer' },
-]
-
-const servicePackages: ServicePackage[] = [
-  {
-    name: 'Market Entry Diagnosis Package',
-    tag: 'Most Stable',
-    for: 'Best for companies that are still deciding whether Canada or North America should become a near-term priority. This package helps management teams make an informed go / no-go judgment before heavier investment.',
-    deliverables: ['Market Entry Diagnosis Report', '0–90 Day Entry Roadmap', 'Initial Risk Checklist'],
-    ctaText: 'View Diagnosis Service',
-    ctaLink: '/en/services/market-entry-diagnosis',
-  },
-  {
-    name: 'Customer & Channel Validation Package',
-    tag: 'Fastest',
-    for: 'Best for companies that already have products and want to validate buyers, channels, and outreach direction quickly — especially before or after trade shows, distributor conversations, or early customer development.',
-    deliverables: ['Target Customer & Channel Map', 'Outreach Material Checklist', '30-Day Customer Validation Plan'],
-    ctaText: 'View Validation Service',
-    ctaLink: '/en/services/customer-channel-validation',
-  },
-  {
-    name: 'North America Entry Execution Support Package',
-    tag: 'Highest Potential',
-    for: 'Best for companies that have already decided to enter North America and now need coordinated support across compliance, importation, warehousing, after-sales, partner communication, and project management.',
-    deliverables: ['Market Entry Execution Roadmap', 'Responsibility Chain & Local Execution Plan', 'Channel Validation & Project Dashboard', 'Monthly Review Report'],
-    ctaText: 'View Execution Support',
-    ctaLink: '/en/services/local-execution-support',
-  },
-]
-
-function ServiceCardComponent({ card }: { card: ServiceCard }) {
-  return (
-    <div className="group bg-white border border-[#E5E5E5] hover:border-[#00A884] transition-colors p-5 md:p-6 flex flex-col">
-      <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 leading-[1.5] group-hover:text-[#00A884] transition-colors">
-        {card.title}
-      </h3>
-      <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.6] mb-4 flex-1">
-        {card.desc}
-      </p>
-      <Link
-        to={`/en/services/${card.slug}`}
-        className="text-[14px] font-medium text-[#00A884] hover:underline inline-flex items-center gap-1"
-      >
-        Learn more
-        <span className="text-[16px]">&rarr;</span>
-      </Link>
-    </div>
-  )
-}
-
 export default function ENServices() {
   useSEO({
-    title: 'Services for Businesses Entering Canada & North America | CCBONLINE INC.',
-    description: 'From market-entry diagnosis and compliance pathway review to channel validation, local execution coordination, and project support.',
+    title: 'CCBONLINE INC. Services | Buyer Trust Diagnostic, Market Entry Support',
+    description: 'CCBONLINE INC. offers Website & Materials Quick Audit, Pre-Outreach Credibility Diagnostic, North American Buyer Trust Materials Package, Trade Show Buyer Engagement Package, and 30-Day Market Entry Launch Support for businesses entering Canada and North America.',
     canonical: 'https://www.ccbonline.ca/en/services',
     ogType: 'website',
     lang: 'en',
   })
   useEffect(() => {
-    document.title = 'Services for Businesses Entering Canada & North America | CCBONLINE INC.'
+    document.title = 'CCBONLINE INC. Services | Buyer Trust Diagnostic, Market Entry Support'
     window.scrollTo(0, 0)
   }, [])
 
@@ -118,175 +22,256 @@ export default function ENServices() {
       <Navbar lang="en" />
       <main>
         {/* Hero */}
-        <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
+        <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#07111F]">
           <div className="container-site">
-            <p className="text-label mb-3">Services</p>
-            <h1 className="font-serif text-[#212121] text-[26px] sm:text-[32px] md:text-[42px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
-              Services for Businesses Entering Canada & North America
+            <p className="text-[#00A884] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">Services</p>
+            <h1 className="font-serif text-white text-[26px] sm:text-[32px] md:text-[40px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
+              Not Everything for Everyone — The Right Step at the Right Stage
             </h1>
-            <p className="text-[15px] md:text-[16px] text-[#767676] max-w-[600px] mb-6">
-              From market-entry diagnosis and compliance pathway review to channel validation, local execution coordination, and project support.
+            <p className="text-white/60 text-[15px] md:text-[17px] leading-[1.65] max-w-[720px] mb-6">
+              Five staged service products, from a quick audit to 30-day launch support. Each has a clear target audience, deliverables, value boundaries, and upgrade path. Our recommendation: before spending more on outreach, confirm your materials are ready to convert interest.
             </p>
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
+              <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">
+                Send Us Your Website for a Review
+              </Link>
+            </div>
           </div>
         </section>
 
-        {/* Core Platform Services */}
+        {/* Pain Point Entry */}
         <section className="section-padding bg-white border-b border-[#E5E5E5]">
           <div className="container-site">
-            <p className="text-label mb-3">Core Services</p>
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-8">
-              Five Service Areas
+            <p className="text-label mb-3">Where You Might Be Stuck</p>
+            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-8">
+              Five Common Situations, Each with a Service Entry Point
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
-                { title: 'Canada & North America Market Entry', desc: 'Structured entry support from readiness assessment to local execution coordination.', slug: 'market-entry' },
-                { title: 'Brand Credibility & Digital Infrastructure', desc: 'Evaluate and improve how your company appears to North American buyers online.', slug: 'brand-credibility' },
-                { title: 'Bilingual Website & Content', desc: 'Chinese and English website content organized for North American business audiences.', slug: 'website-content' },
-                { title: 'Canada-China Business Connection', desc: 'Supplier matching, supply chain coordination, and cross-border commercial introductions.', slug: 'business-connection' },
-                { title: 'Media Coverage & Content Collaboration', desc: 'Industry media exposure, professional profiling, and business content coordination.', slug: 'media-content' },
-              ].map((s, i) => (
-                <Link key={i} to={`/en/${s.slug}`} className="p-5 bg-white border border-[#E5E5E5] hover:border-[#00A884] transition-colors group">
-                  <h3 className="text-[15px] font-semibold mb-2 group-hover:text-[#00A884] transition-colors">{s.title}</h3>
-                  <p className="text-[13px] text-[#767676] leading-[1.6] mb-3">{s.desc}</p>
-                  <span className="text-[14px] font-medium text-[#00A884] group-hover:underline inline-flex items-center gap-1">Learn more <span className="text-[16px]">&rarr;</span></span>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Guidance Box */}
-        <section className="section-padding bg-white">
-          <div className="container-site">
-            <div className="max-w-[800px] p-5 md:p-6 bg-[#F8F9FA] border border-[#E5E5E5] mb-8">
-              <h2 className="font-serif text-[#212121] text-[18px] md:text-[22px] leading-[1.35] tracking-tight mb-4">
-                Where should you start?
-              </h2>
-              <ul className="space-y-3 text-[14px] md:text-[15px] text-[#444] leading-[1.65]">
-                <li className="pl-4 border-l-2 border-[#00A884]">If you are still deciding whether North America is the right next market, start with <Link to="/en/services/market-entry-diagnosis" className="text-[#00A884] hover:underline">Market Entry Diagnosis</Link>.</li>
-                <li className="pl-4 border-l-2 border-[#00A884]">If you already have products and want to validate real buyers and channels, start with <Link to="/en/services/customer-channel-validation" className="text-[#00A884] hover:underline">Customer & Channel Validation</Link>.</li>
-                <li className="pl-4 border-l-2 border-[#00A884]">If you are already moving into importation, warehousing, fulfillment, or after-sales planning, start with <Link to="/en/services/local-execution-support" className="text-[#00A884] hover:underline">Local Execution Support</Link>.</li>
-                <li className="pl-4 border-l-2 border-[#00A884]">If you already have multiple moving parts and need ongoing coordination, start with <Link to="/en/services/advisory-retainer" className="text-[#00A884] hover:underline">Advisory Retainer</Link>.</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        {/* Before Entry */}
-        <section className="section-padding bg-[#F8F9FA]">
-          <div className="container-site">
-            <p className="text-label mb-3">Before Entry</p>
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-4">
-              Before Entry: Market Entry Diagnosis
-            </h2>
-            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.65] max-w-[720px] mb-8 md:mb-10">
-              Before investing heavily in North America, companies need to understand whether they are ready to enter, which market should come first, and what risks must be addressed before customer outreach.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 mb-8">
-              {beforeEntryServices.map((card, i) => (
-                <ServiceCardComponent key={i} card={card} />
-              ))}
-            </div>
-            <Link to="/en/services/market-entry-diagnosis" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">Explore Market Entry Diagnosis</Link>
-          </div>
-        </section>
-
-        {/* Entry Preparation */}
-        <section className="section-padding bg-white">
-          <div className="container-site">
-            <p className="text-label mb-3">Entry Preparation</p>
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-4">
-              Entry Preparation: Materials, Customers, Channels and Risks
-            </h2>
-            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.65] max-w-[720px] mb-8 md:mb-10">
-              Many companies do not fail because their products are weak. They fail because their materials, customer targeting, compliance preparation, and channel logic are not ready for North American buyers.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 mb-8">
-              {entryPrepServices.map((card, i) => (
-                <ServiceCardComponent key={i} card={card} />
-              ))}
-            </div>
-            <div className="flex flex-wrap gap-3">
-              <Link to="/en/services/customer-channel-validation" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">Explore Customer & Channel Validation</Link>
-              <Link to="/en/services/compliance-responsibility-chain" className="btn-outline text-[15px] px-6 py-3.5 min-h-[52px]">Explore Compliance Screening</Link>
-            </div>
-          </div>
-        </section>
-
-        {/* Local Execution */}
-        <section className="section-padding bg-[#F8F9FA]">
-          <div className="container-site">
-            <p className="text-label mb-3">Local Execution</p>
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-4">
-              Local Execution: Importation, Warehousing, Fulfillment and After-sales
-            </h2>
-            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.65] max-w-[720px] mb-8 md:mb-10">
-              Entering North America is not only about getting products across the border. Companies need to clarify who receives the goods, who handles import responsibility, who manages inventory, who supports returns, and who responds when problems occur.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 mb-8">
-              {localExecutionServices.map((card, i) => (
-                <ServiceCardComponent key={i} card={card} />
-              ))}
-            </div>
-            <Link to="/en/services/local-execution-support" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">Explore Local Execution Support</Link>
-          </div>
-        </section>
-
-        {/* Project Execution */}
-        <section className="section-padding bg-white">
-          <div className="container-site">
-            <p className="text-label mb-3">Project Execution</p>
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-4">
-              Project Execution: Trade Shows, PMO and Advisory Retainer
-            </h2>
-            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.65] max-w-[720px] mb-8 md:mb-10">
-              Most market-entry projects do not fail because of one missing contact. They fail because there is no owner, no roadmap, no task structure, no follow-up rhythm, and no mechanism to coordinate internal teams and external partners.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 mb-8">
-              {projectExecutionServices.map((card, i) => (
-                <ServiceCardComponent key={i} card={card} />
-              ))}
-            </div>
-            <Link to="/en/services/advisory-retainer" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">Explore Advisory Retainer</Link>
-          </div>
-        </section>
-
-        {/* Service Packages */}
-        <section className="section-padding bg-[#F8F9FA]">
-          <div className="container-site">
-            <p className="text-label mb-3">Packages</p>
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-8 md:mb-10">
-              Recommended Service Packages
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6">
-              {servicePackages.map((pkg, i) => (
-                <div key={i} className="bg-white border border-[#E5E5E5] p-5 md:p-6 flex flex-col">
-                  <p className="text-[11px] text-[#999] uppercase tracking-wider mb-2">{pkg.tag}</p>
-                  <h3 className="text-[17px] md:text-[18px] font-semibold mb-3 leading-[1.4]">{pkg.name}</h3>
-                  <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.6] mb-4 flex-1">{pkg.for}</p>
-                  <div className="mb-4">
-                    <p className="text-[13px] text-[#999] uppercase tracking-wider mb-2">Deliverables</p>
-                    <ul className="space-y-1.5">
-                      {pkg.deliverables.map((d, j) => (
-                        <li key={j} className="text-[13px] md:text-[14px] text-[#555] leading-[1.5] pl-3 border-l-2 border-[#00A884]">{d}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <Link to={pkg.ctaLink} className="btn-primary text-[14px] px-5 py-3 min-h-[48px] w-full text-center">{pkg.ctaText}</Link>
+                {
+                  title: 'North American buyers are not responding',
+                  desc: 'You are sending emails and connecting on LinkedIn, but prospects review your website and materials and do not take the next step.',
+                  service: 'Pre-Outreach Credibility Diagnostic',
+                  link: '/en/services/customer-channel-validation',
+                },
+                {
+                  title: 'Your website and materials fail to convert',
+                  desc: 'You have a website and English materials, but they read like a translated brochure. Buyers do not feel confident enough to reach out.',
+                  service: 'Website & Materials Quick Audit',
+                  link: '/en/services/website-content-for-service-providers',
+                },
+                {
+                  title: 'Trade show is coming and materials are not ready',
+                  desc: 'Trade shows require more than booth space. What matters is whether prospects continue to trust you after they leave.',
+                  service: 'Trade Show Buyer Engagement Package',
+                  link: '/en/services/trade-show-follow-up',
+                },
+                {
+                  title: 'You want distribution partners but cannot articulate the value',
+                  desc: 'Agents and distributors evaluate margins, risk, after-sales support, and partnership terms — not just the product.',
+                  service: 'Channel Partnership Materials & Communication',
+                  link: '/en/services/customer-channel-validation',
+                },
+                {
+                  title: 'Unsure if your product can enter Canada/North America',
+                  desc: 'You need to assess product fit, compliance, responsibility chain, channels, and local support before committing budget.',
+                  service: 'Canada & North America Market Entry Diagnostic',
+                  link: '/en/services/market-entry-diagnosis',
+                },
+              ].map((item, i) => (
+                <div key={i} className="p-5 bg-[#F8F9FA] border border-[#E5E5E5] hover:border-[#00A884] transition-colors group">
+                  <h3 className="text-[16px] font-semibold mb-2 group-hover:text-[#00A884] transition-colors">{item.title}</h3>
+                  <p className="text-[14px] text-[#767676] leading-[1.6] mb-3">{item.desc}</p>
+                  <Link to={item.link} className="text-[14px] font-medium text-[#00A884] hover:underline inline-flex items-center gap-1">
+                    {item.service} <span>→</span>
+                  </Link>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
+        {/* Service Products */}
+        <section className="section-padding bg-[#F8F9FA]">
+          <div className="container-site">
+            <p className="text-label mb-3">Service Products</p>
+            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-4">
+              Five Staged Services
+            </h2>
+            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.65] max-w-[720px] mb-10">
+              Each product has a clear price range, target audience, deliverables, value source, and boundaries. Choose the service that matches your current stage.
+            </p>
+
+            {/* Product 1 */}
+            <div className="mb-6 p-5 md:p-6 bg-white border border-[#E5E5E5]">
+              <div className="flex flex-wrap items-center gap-3 mb-3">
+                <span className="text-[#C9A44C] text-[13px] font-medium">Starter</span>
+                <span className="text-[13px] text-[#767676]">CAD 299–499</span>
+              </div>
+              <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">Website & Materials Quick Audit</h3>
+              <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] mb-4 max-w-[680px]">
+                For companies that already have a website and English materials but are unsure whether prospects would feel confident reaching out. Know why buyers might not trust you — before you spend more on outreach.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+                <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <p className="text-[13px] font-medium text-[#212121] mb-1">Deliverables</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">Homepage quick diagnostic, English company introduction review, credibility gap highlights, buyer-perspective issue list, prioritized fix recommendations</p>
+                </div>
+                <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <p className="text-[13px] font-medium text-[#212121] mb-1">Boundaries</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">No guarantee of lead volume, inquiries, rankings, or sales. Cost can be credited toward Pre-Outreach Credibility Diagnostic or Buyer Trust Materials Package.</p>
+                </div>
+              </div>
+              <Link to="/en/contact" className="btn-primary text-[14px] px-5 py-3 min-h-[48px]">Request Quick Audit</Link>
+            </div>
+
+            {/* Product 2 */}
+            <div className="mb-6 p-5 md:p-6 bg-white border border-[#E5E5E5]">
+              <div className="flex flex-wrap items-center gap-3 mb-3">
+                <span className="text-[#C9A44C] text-[13px] font-medium">Core</span>
+                <span className="text-[13px] text-[#767676]">CAD 800–1,500</span>
+              </div>
+              <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">Pre-Outreach Credibility Diagnostic</h3>
+              <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] mb-4 max-w-[680px]">
+                For companies preparing to develop North American buyers, attend trade shows, run LinkedIn outreach, send prospecting emails, or find agents. Unprepared materials undermine every sales activity that follows.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+                <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <p className="text-[13px] font-medium text-[#212121] mb-1">Deliverables</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">Website and materials diagnostic, buyer-perspective purchase rationale analysis, credibility gap list, English expression issues, common North American buyer concerns, prioritized fix recommendations, 30-day outreach readiness plan</p>
+                </div>
+                <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <p className="text-[13px] font-medium text-[#212121] mb-1">Boundaries</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">No guarantee of response rates, conversion rates, or sales results. We help you assess whether buyers have reason to trust you — we do not replace your sales team.</p>
+                </div>
+              </div>
+              <Link to="/en/contact" className="btn-primary text-[14px] px-5 py-3 min-h-[48px]">Request Diagnostic</Link>
+            </div>
+
+            {/* Product 3 */}
+            <div className="mb-6 p-5 md:p-6 bg-white border border-[#E5E5E5]">
+              <div className="flex flex-wrap items-center gap-3 mb-3">
+                <span className="text-[#C9A44C] text-[13px] font-medium">Advanced</span>
+                <span className="text-[13px] text-[#767676]">CAD 1,800–3,500</span>
+              </div>
+              <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">North American Buyer Trust Materials Package</h3>
+              <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] mb-4 max-w-[680px]">
+                For companies ready to begin buyer development, attend trade shows, contact channels, or send company materials. We restructure internal introductions into content that North American buyers understand, trust, and can act on.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+                <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <p className="text-[13px] font-medium text-[#212121] mb-1">Deliverables</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">One-sentence positioning, English company introduction, one-page sales sheet, core product/service value proposition reconstruction, prospecting email opener, LinkedIn profile optimization, homepage core copy recommendations</p>
+                </div>
+                <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <p className="text-[13px] font-medium text-[#212121] mb-1">Boundaries</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">Does not include full website development. No guarantee of sales. Materials are ready for immediate use, but follow-up execution remains your responsibility.</p>
+                </div>
+              </div>
+              <Link to="/en/contact" className="btn-primary text-[14px] px-5 py-3 min-h-[48px]">Request Materials Package</Link>
+            </div>
+
+            {/* Product 4 */}
+            <div className="mb-6 p-5 md:p-6 bg-white border border-[#E5E5E5]">
+              <div className="flex flex-wrap items-center gap-3 mb-3">
+                <span className="text-[#C9A44C] text-[13px] font-medium">Trade Show</span>
+                <span className="text-[13px] text-[#767676]">CAD 2,500–6,000</span>
+              </div>
+              <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">Trade Show Buyer Engagement Package</h3>
+              <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] mb-4 max-w-[680px]">
+                For companies attending a trade show, investment conference, industry meeting, or client visit within 2–8 weeks. Avoid the common pattern: "great conversation at the booth, nothing happens after."
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+                <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <p className="text-[13px] font-medium text-[#212121] mb-1">Deliverables</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">Pre-show website credibility check, English company introduction, one-page handout, booth Q&A talking points, post-show email templates, lead tiering framework, 7-day post-show follow-up rhythm; optional business feature or event coverage</p>
+                </div>
+                <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <p className="text-[13px] font-medium text-[#212121] mb-1">Boundaries</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">No guarantee of show sales. Does not replace on-site sales engagement. We provide materials and follow-up systems; booth interaction remains your responsibility.</p>
+                </div>
+              </div>
+              <Link to="/en/contact" className="btn-primary text-[14px] px-5 py-3 min-h-[48px]">Request Trade Show Package</Link>
+            </div>
+
+            {/* Product 5 */}
+            <div className="mb-6 p-5 md:p-6 bg-[#07111F] border border-[#07111F]">
+              <div className="flex flex-wrap items-center gap-3 mb-3">
+                <span className="text-[#C9A44C] text-[13px] font-medium">Intensive</span>
+                <span className="text-[13px] text-white/60">CAD 3,500–8,000+</span>
+              </div>
+              <h3 className="text-[18px] md:text-[20px] font-semibold text-white mb-2">North America Market Entry 30-Day Launch Support</h3>
+              <p className="text-[14px] md:text-[15px] text-white/70 leading-[1.65] mb-4 max-w-[680px]">
+                For companies committed to entering Canada or North America but unclear on entry path, materials, responsibility chain, buyer development, and local support. We help you sequence the first phase correctly.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+                <div className="p-3 bg-white/5 border border-white/10">
+                  <p className="text-[13px] font-medium text-white mb-1">Deliverables</p>
+                  <p className="text-[13px] text-white/60 leading-[1.6]">Market entry initial diagnostic, product/service fit assessment, compliance and responsibility chain risk review, website and materials optimization direction, buyer development pathway, channel/agent/service provider communication prep, 30-day action plan, weekly progress call</p>
+                </div>
+                <div className="p-3 bg-white/5 border border-white/10">
+                  <p className="text-[13px] font-medium text-white mb-1">Boundaries</p>
+                  <p className="text-[13px] text-white/60 leading-[1.6]">Does not replace legal, tax, certification, customs, or insurance professionals. No guarantee of market entry success or customer acquisition. We clarify sequence, identify gaps, and drive next steps.</p>
+                </div>
+              </div>
+              <Link to="/en/contact" className="btn-primary text-[14px] px-5 py-3 min-h-[48px]">Request Launch Support</Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Why staged approach */}
+        <section className="section-padding bg-white">
+          <div className="container-site max-w-[800px]">
+            <p className="text-label mb-3">Service Design Logic</p>
+            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
+              Why a Staged Approach Instead of an "All-in-One Package"
+            </h2>
+            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
+              Many market entry services bundle everything — research, certification, channels, promotion, trade shows — into a single large package costing tens of thousands. The problem: before you have assessed whether your product fits this market and whether your materials can convert interest, committing to the full bundle means committing to the wrong things.
+            </p>
+            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
+              Our logic: assess first, prepare second, execute third. The quick audit surfaces the most visible issues. The credibility diagnostic evaluates whether buyers have reason to trust you. The trust materials package turns diagnostic findings into usable assets. The trade show package addresses time-sensitive scenarios. The 30-day launch support clarifies your overall sequence.
+            </p>
+            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
+              You can start at any step and stop at any step. But we recommend: before committing more budget to promotion, trade shows, or agent searches, at least do a quick audit or credibility diagnostic. The cost of this judgment is low; the money and missteps it prevents can be significant.
+            </p>
+          </div>
+        </section>
+
+        {/* Service Boundary */}
+        <section className="section-padding bg-[#F8F9FA]">
+          <div className="container-site max-w-[800px]">
+            <div className="p-5 md:p-6 bg-white border border-[#E5E5E5]">
+              <h3 className="text-[16px] font-semibold mb-3">What We Do Not Do</h3>
+              <p className="text-[14px] text-[#767676] leading-[1.65] mb-3">
+                CCBONLINE INC. provides business advisory, coordination, content, and market-entry support. We are not a law firm, accounting firm, certification body, insurance broker, customs broker, or logistics company.
+              </p>
+              <p className="text-[14px] text-[#767676] leading-[1.65]">
+                When formal professional advice is required, we help you prepare the right questions, organize materials, and connect with qualified specialists. We coordinate; they execute. We do not guarantee buyer acquisition, quick orders, or market entry success. Our value is helping you assess whether your direction is sound before you commit resources.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
-        <section className="section-padding bg-[#1a1a2e]">
+        <section className="section-padding bg-[#07111F]">
           <div className="container-site">
             <div className="max-w-[700px]">
-              <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-6">
-                Not sure which service fits your stage?
+              <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">
+                Not Sure Which Service Fits Your Stage?
               </h2>
-              <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">Book a Consultation</Link>
+              <p className="text-white/60 text-[15px] leading-[1.65] mb-6">
+                Start with a Website & Materials Quick Audit (CAD 299–499), or contact us to describe your situation and we will recommend the right first step.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
+                <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">
+                  Send Us Your Website for a Review
+                </Link>
+                <Link to="/en/contact" className="btn-outline text-[15px] px-6 py-3.5 min-h-[52px]" style={{ borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}>
+                  Contact Us
+                </Link>
+              </div>
+              <p className="text-white/40 text-[13px] mt-6">info@ccbonline.ca · +1 647 568 1128</p>
             </div>
           </div>
         </section>

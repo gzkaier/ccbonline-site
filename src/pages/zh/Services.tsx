@@ -4,97 +4,16 @@ import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import useSEO from '../../hooks/useSEO'
 
-interface ServiceDetail {
-  title: string
-  desc: string
-  slug: string
-}
-
-const mainServices: { category: string; title: string; desc: string; services: ServiceDetail[] }[] = [
-  {
-    category: '市场进入判断',
-    title: '判断该不该进、怎么进',
-    desc: '在投入资源前，先评估产品适配度、市场优先级和进入路径的可行性。',
-    services: [
-      { title: '北美市场进入可行性初判', desc: '评估你的产品、能力和时机是否适合进入北美市场。不是鼓励你进入，而是帮你看清条件。', slug: 'market-entry-diagnosis' },
-      { title: '加拿大 / 美国优先级判断', desc: '根据产品适配度、竞争格局和监管复杂度，判断哪个市场优先。', slug: 'market-entry-diagnosis' },
-      { title: '产品与市场适配初判', desc: '评估你的产品、包装和定位是否符合北美买家预期。', slug: 'market-entry-diagnosis' },
-      { title: '0–90 天市场进入路径设计', desc: '一份实用的、分阶段的前 90 天市场进入准备行动计划。', slug: 'market-entry-diagnosis' },
-    ],
-  },
-  {
-    category: '合规与责任链',
-    title: '发货前把责任链理清楚',
-    desc: '认证、进口、标签、清关、仓储、售后、保险、召回——谁在哪个环节负什么责任。',
-    services: [
-      { title: '合规与责任链初筛', desc: '在进入市场前，识别认证、进口、文件和责任缺口。', slug: 'compliance-responsibility-chain' },
-      { title: '进口路径与 IOR 安排', desc: '明确进口记录主体（Importer of Record）的安排方式、责任边界和协调路径。', slug: 'local-execution-support' },
-      { title: '产品合规与认证路径梳理', desc: '明确产品进入加拿大和北美需要的认证（CSA、UL、FCC、ISED），制定合规时间线。', slug: 'product-compliance' },
-      { title: '标签、说明书与合规文档', desc: '英文/法文标签、安全数据表、产品声明等文档的合规性审查。', slug: 'compliance-responsibility-chain' },
-    ],
-  },
-  {
-    category: '客户与渠道验证',
-    title: '找到真实客户前先验证方向',
-    desc: '不是发邮件买名单，而是系统性地验证目标客户画像、渠道逻辑和合作方能力。',
-    services: [
-      { title: '目标客户与渠道路径设计', desc: '识别谁购买、如何购买，以及哪条渠道路径对你最现实。', slug: 'customer-channel-validation' },
-      { title: '北美客户开发准备', desc: '在接触北美潜在客户之前，准备好外联策略、资格筛选问题和材料。', slug: 'customer-channel-validation' },
-      { title: '展会前准备与展会后跟进', desc: '展前规划、买家定位、资料调整和展后跟进系统搭建。', slug: 'trade-show-follow-up' },
-      { title: '渠道合作方能力评估', desc: '评估潜在代理、经销商或合作方的真实能力和匹配度。', slug: 'customer-channel-validation' },
-    ],
-  },
-  {
-    category: '本地执行支持',
-    title: '把计划落到本地操作层面',
-    desc: '协调进口、仓储、履约、售后和本地服务商资源，确保进入市场后有承接能力。',
-    services: [
-      { title: '本地执行与服务商资源连接', desc: '协调仓储物流、售后支持、本地服务商对接和实际执行落地。', slug: 'local-execution-support' },
-      { title: '3PL筛选与仓库运营审计', desc: '系统性评估加拿大第三方物流合作伙伴和仓库运营能力，避免签约后才发现运营缺口。', slug: '3pl-warehousing-advisory' },
-      { title: '售后与备件承接方案设计', desc: '规划保修处理、退货、备件和本地服务响应能力。', slug: 'local-execution-support' },
-      { title: '北美市场进入项目推进管理', desc: '结构化项目跟踪、里程碑管理和团队与外部合作伙伴的协调。', slug: 'advisory-retainer' },
-      { title: '季度复盘与下一步计划', desc: '定期进展回顾、风险评估和基于市场反馈的更新行动计划。', slug: 'advisory-retainer' },
-    ],
-  },
-]
-
-const supportServices: ServiceDetail[] = [
-  { title: '网站与内容建设', desc: '为加拿大本地专业服务商整理线上内容和服务表达。', slug: 'website-content-for-service-providers' },
-  { title: '英文资料整理', desc: '产品资料、服务说明、品牌内容的英文本地化表达。', slug: 'customer-channel-validation' },
-  { title: '媒体报道与商业内容服务', desc: '品牌定位、中英文内容适配、媒体化公司 profile 和商业曝光协调。', slug: 'media-business-content' },
-  { title: '市场进入顾问陪跑', desc: '月度顾问支持、文件审阅、合作伙伴协调和战略判断。', slug: 'advisory-retainer' },
-  { title: 'SEO 与 GEO 优化', desc: '传统SEO确保Google搜索可见，GEO优化确保在ChatGPT、Perplexity等AI助手推荐中被引用。', slug: 'seo-geo-optimization' },
-]
-
-function ServiceCard({ service }: { service: ServiceDetail }) {
-  return (
-    <div className="group bg-white border border-[#E5E5E5] hover:border-[#00A884] transition-colors p-5 md:p-6 flex flex-col">
-      <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 leading-[1.5] group-hover:text-[#00A884] transition-colors">
-        {service.title}
-      </h3>
-      <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.6] mb-4 flex-1">
-        {service.desc}
-      </p>
-      <Link
-        to={`/zh/services/${service.slug}`}
-        className="text-[14px] font-medium text-[#00A884] hover:underline inline-flex items-center gap-1"
-      >
-        了解详情 <span className="text-[16px]">&rarr;</span>
-      </Link>
-    </div>
-  )
-}
-
 export default function ZHServices() {
   useSEO({
-    title: '市场进入判断、合规责任链、客户验证与本地落地支持 | CCBONLINE INC.',
-    description: 'CCBONLINE INC. 提供市场进入判断、合规与责任链梳理、客户与渠道验证、本地执行支持四项主线服务，以及网站内容建设、英文资料整理和顾问陪跑等支撑服务。',
+    title: '中加商业在线服务｜北美客户开发准备、可信度诊断、市场进入支持',
+    description: 'CCBONLINE INC. 提供官网与资料快速体检、北美客户开发前可信度诊断、北美买家信任资料包、展会前客户承接包、北美市场进入30天启动陪跑五项服务，帮助企业在进入加拿大与北美市场前做好准备。',
     canonical: 'https://www.ccbonline.ca/zh/services',
     ogType: 'website',
     lang: 'zh',
   })
   useEffect(() => {
-    document.title = '市场进入判断、合规责任链、客户验证与本地落地支持 | CCBONLINE INC.'
+    document.title = '中加商业在线服务｜北美客户开发准备、可信度诊断、市场进入支持'
     window.scrollTo(0, 0)
   }, [])
 
@@ -103,164 +22,233 @@ export default function ZHServices() {
       <Navbar lang="zh" />
       <main>
         {/* Hero */}
-        <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
+        <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#07111F]">
           <div className="container-site">
-            <p className="text-label mb-3">服务体系</p>
-            <h1 className="font-serif text-[#212121] text-[26px] sm:text-[32px] md:text-[40px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
-              主线服务 + 支撑服务
+            <p className="text-[#00A884] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">服务</p>
+            <h1 className="font-serif text-white text-[26px] sm:text-[32px] md:text-[40px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
+              不是做什么都能做，而是帮你判断现在该做什么
             </h1>
-            <p className="text-[16px] md:text-[17px] text-[#767676] max-w-[680px] mb-6">
-              主线服务围绕市场进入的四个核心环节——判断、合规、验证、落地。支撑服务帮助企业在内容、资料和持续沟通方面做好准备。
+            <p className="text-white/60 text-[15px] md:text-[17px] leading-[1.65] max-w-[720px] mb-6">
+              五项按阶段设计的服务产品，从快速体检到30天启动陪跑。每项服务都有明确的服务对象、交付内容、价值边界和升级路径。我们建议：在继续发邮件、参展、投广告之前，先确认你的资料准备好了。
             </p>
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
+              <Link to="/zh/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">
+                发送官网，做一次可信度体检
+              </Link>
+            </div>
           </div>
         </section>
 
-        {/* Core Platform Services */}
+        {/* Pain Point Entry */}
         <section className="section-padding bg-white border-b border-[#E5E5E5]">
           <div className="container-site">
-            <p className="text-label mb-3">核心服务</p>
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-8">
-              五大服务板块
+            <p className="text-label mb-3">你可能卡在这些地方</p>
+            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-8">
+              五种常见情况，对应不同的服务入口
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-              {[
-                { title: '加拿大及北美市场进入', desc: '从可行性评估到本地执行协调的结构化进入支持。', slug: 'market-entry' },
-                { title: '品牌可信度与数字基础设施', desc: '评估并改善中国企业在北美买家面前的网络形象。', slug: 'brand-credibility' },
-                { title: '中英双语官网与商业内容', desc: '为北美商业受众和双语客户群体组织网站内容。', slug: 'website-content' },
-                { title: '中加商业连接与供应链', desc: '供应商匹配、供应链协调和跨境商业引荐。', slug: 'business-connection' },
-                { title: '媒体报道与商业内容合作', desc: '行业媒体曝光、专业人物报道和商业内容协调。', slug: 'media-content' },
-              ].map((s, i) => (
-                <Link key={i} to={`/zh/${s.slug}`} className="p-5 bg-white border border-[#E5E5E5] hover:border-[#00A884] transition-colors group">
-                  <h3 className="text-[15px] font-semibold mb-2 group-hover:text-[#00A884] transition-colors">{s.title}</h3>
-                  <p className="text-[13px] text-[#767676] leading-[1.6] mb-3">{s.desc}</p>
-                  <span className="text-[14px] font-medium text-[#00A884] group-hover:underline inline-flex items-center gap-1">了解详情 <span className="text-[16px]">&rarr;</span></span>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Guidance */}
-        <section className="py-6 md:py-8 bg-white border-b border-[#E5E5E5]">
-          <div className="container-site">
-            <div className="max-w-[800px] p-5 md:p-6 bg-[#F8F9FA] border border-[#E5E5E5] mb-4">
-              <h2 className="font-serif text-[#212121] text-[16px] md:text-[18px] leading-[1.35] tracking-tight mb-4">
-                你应该从哪里开始？
-              </h2>
-              <ul className="space-y-3 text-[14px] md:text-[15px] text-[#444] leading-[1.65]">
-                <li className="pl-4 border-l-2 border-[#00A884]">如果你还在判断北美值不值得做，先看 <Link to="/zh/services/market-entry-diagnosis" className="text-[#00A884] hover:underline">市场进入诊断</Link></li>
-                <li className="pl-4 border-l-2 border-[#00A884]">如果你已经有产品，需要验证客户和渠道，先看 <Link to="/zh/services/customer-channel-validation" className="text-[#00A884] hover:underline">客户与渠道验证</Link></li>
-                <li className="pl-4 border-l-2 border-[#00A884]">如果你已经进入进口、仓储、履约或售后准备阶段，先看 <Link to="/zh/services/compliance-responsibility-chain" className="text-[#00A884] hover:underline">合规与责任链</Link></li>
-                <li className="pl-4 border-l-2 border-[#00A884]">如果你需要持续协调多个环节，先看 <Link to="/zh/services/advisory-retainer" className="text-[#00A884] hover:underline">顾问陪跑</Link></li>
-              </ul>
-            </div>
-            <div className="max-w-[800px] p-4 bg-white border border-[#E5E5E5]">
-              <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">
-                如需提交服务资源、活动信息、招商合作或本地服务资源，请直接联系沟通。
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* 主线服务 */}
-        <section className="section-padding bg-white">
-          <div className="container-site">
-            <p className="text-[#00A884] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">主线服务</p>
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-4">
-              四项市场进入核心环节
-            </h2>
-            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.65] max-w-[720px] mb-10">
-              每项服务都有明确的服务对象、解决的问题和适合的阶段。选择与你当前阶段最匹配的服务开始。
-            </p>
-          </div>
-        </section>
-
-        {mainServices.map((group, idx) => (
-          <section key={idx} className={`${idx % 2 === 0 ? 'bg-[#F8F9FA]' : 'bg-white'} section-padding`}>
-            <div className="container-site">
-              <p className="text-label mb-3">{group.category}</p>
-              <h3 className="font-serif text-[#212121] text-[20px] md:text-[24px] leading-[1.35] tracking-tight max-w-[700px] mb-2">
-                {group.title}
-              </h3>
-              <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.65] max-w-[720px] mb-8">
-                {group.desc}
-              </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
-                {group.services.map((service, i) => (
-                  <ServiceCard key={i} service={service} />
-                ))}
-              </div>
-            </div>
-          </section>
-        ))}
-
-        {/* 支撑服务 */}
-        <section className="section-padding bg-[#F8F9FA]">
-          <div className="container-site">
-            <p className="text-[#00A884] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">支撑服务</p>
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-2">
-              内容、资料与持续支持
-            </h2>
-            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.65] max-w-[720px] mb-8">
-              这些服务不替代主线服务，而是帮助企业在进入市场前准备好必要的沟通内容和资料。
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-5">
-              {supportServices.map((service, i) => (
-                <ServiceCard key={i} service={service} />
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* 推荐服务包 */}
-        <section className="section-padding bg-white">
-          <div className="container-site">
-            <p className="text-label mb-3">服务包</p>
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-8 md:mb-10">
-              推荐服务组合
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
                 {
-                  name: '市场进入诊断包',
-                  tag: '适合刚起步',
-                  desc: '适合刚开始考虑北美市场、还不确定是否值得进入的企业。核心价值是把方向看清楚，再决定下一步。',
-                  includes: ['北美市场进入初步诊断报告', '0–90 天进入建议路线图', '初步风险清单'],
-                  link: '/zh/services/market-entry-diagnosis',
-                  cta: '查看诊断服务',
-                },
-                {
-                  name: '客户与渠道验证包',
-                  tag: '适合有产品',
-                  desc: '适合已有产品、准备开发客户或参展的企业。目标是先验证方向，而不是盲目扩量。',
-                  includes: ['北美目标客户与渠道路径图', '客户开发资料准备清单', '30 天客户验证计划'],
+                  title: '北美客户不回复',
+                  desc: '你已经在发邮件、加 LinkedIn、找买家，但客户看完官网和资料后没有继续动作。',
+                  service: '北美客户开发前可信度诊断',
                   link: '/zh/services/customer-channel-validation',
-                  cta: '查看验证服务',
                 },
                 {
-                  name: '责任链与本地落地包',
-                  tag: '适合已进入执行阶段',
-                  desc: '适合已经进入或准备进入执行阶段的企业。围绕合规、进口、仓储、售后做系统协同。',
-                  includes: ['责任链与本地承接方案', '进口路径与 IOR 安排', '服务商资源连接计划'],
-                  link: '/zh/services/compliance-responsibility-chain',
-                  cta: '查看合规服务',
+                  title: '官网和英文资料接不住客户',
+                  desc: '网站有了，资料也有了，但看起来像模板站、翻译稿或内部介绍。',
+                  service: '官网与资料快速体检',
+                  link: '/zh/services/website-content-for-service-providers',
                 },
-              ].map((pkg, i) => (
-                <div key={i} className="bg-[#F8F9FA] border border-[#E5E5E5] p-5 md:p-6 flex flex-col">
-                  <p className="text-[11px] text-[#999] uppercase tracking-wider mb-2">{pkg.tag}</p>
-                  <h3 className="text-[17px] md:text-[18px] font-semibold mb-3 leading-[1.4]">{pkg.name}</h3>
-                  <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.6] mb-4 flex-1">{pkg.desc}</p>
-                  <div className="mb-4">
-                    <p className="text-[13px] text-[#999] uppercase tracking-wider mb-2">包含</p>
-                    <ul className="space-y-1.5">
-                      {pkg.includes.map((d, j) => (
-                        <li key={j} className="text-[13px] md:text-[14px] text-[#555] leading-[1.5] pl-3 border-l-2 border-[#00A884]">{d}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <Link to={pkg.link} className="btn-primary text-[14px] px-5 py-3 min-h-[48px] w-full text-center">{pkg.cta}</Link>
+                {
+                  title: '展会快到了，资料还没准备好',
+                  desc: '展会不只是展位和样品，更重要的是客户离开展位后还能继续相信你。',
+                  service: '展会前北美客户承接包',
+                  link: '/zh/services/trade-show-follow-up',
+                },
+                {
+                  title: '想找代理和渠道，但合作价值讲不清',
+                  desc: '代理商不只看产品，也看利润、风险、售后、市场支持和合作边界。',
+                  service: '渠道合作资料与沟通路径',
+                  link: '/zh/services/customer-channel-validation',
+                },
+                {
+                  title: '不确定产品能不能进入加拿大/北美',
+                  desc: '需要先判断产品、资料、合规、责任链、渠道和本地承接的基础条件。',
+                  service: '加拿大与北美市场进入初步诊断',
+                  link: '/zh/services/market-entry-diagnosis',
+                },
+              ].map((item, i) => (
+                <div key={i} className="p-5 bg-[#F8F9FA] border border-[#E5E5E5] hover:border-[#00A884] transition-colors group">
+                  <h3 className="text-[16px] font-semibold mb-2 group-hover:text-[#00A884] transition-colors">{item.title}</h3>
+                  <p className="text-[14px] text-[#767676] leading-[1.6] mb-3">{item.desc}</p>
+                  <Link to={item.link} className="text-[14px] font-medium text-[#00A884] hover:underline inline-flex items-center gap-1">
+                    {item.service} <span>→</span>
+                  </Link>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Service Products */}
+        <section className="section-padding bg-[#F8F9FA]">
+          <div className="container-site">
+            <p className="text-label mb-3">服务产品</p>
+            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-4">
+              五项按阶段设计的服务
+            </h2>
+            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.65] max-w-[720px] mb-10">
+              每个产品都有明确的价格区间、服务对象、交付内容、价值来源和不承诺事项。选择与你当前阶段最匹配的服务开始。
+            </p>
+
+            {/* Product 1 */}
+            <div className="mb-6 p-5 md:p-6 bg-white border border-[#E5E5E5]">
+              <div className="flex flex-wrap items-center gap-3 mb-3">
+                <span className="text-[#C9A44C] text-[13px] font-medium">入门</span>
+                <span className="text-[13px] text-[#767676]">CAD 299–499</span>
+              </div>
+              <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">官网与资料快速体检</h3>
+              <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] mb-4 max-w-[680px]">
+                适合已经有官网、英文资料或公司介绍，但不确定客户看完是否愿意联系的企业。在继续发邮件、参展、投广告之前，先知道客户为什么可能不信你。
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+                <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <p className="text-[13px] font-medium text-[#212121] mb-1">交付</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">官网首页快速诊断、英文公司介绍初步检查、可信度缺口提示、买家视角问题清单、优先修改建议</p>
+                </div>
+                <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <p className="text-[13px] font-medium text-[#212121] mb-1">边界</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">不承诺客户数量、询盘、搜索排名或成交。可抵扣后续北美客户开发前可信度诊断或北美买家信任资料包。</p>
+                </div>
+              </div>
+              <Link to="/zh/contact" className="btn-primary text-[14px] px-5 py-3 min-h-[48px]">申请快速体检</Link>
+            </div>
+
+            {/* Product 2 */}
+            <div className="mb-6 p-5 md:p-6 bg-white border border-[#E5E5E5]">
+              <div className="flex flex-wrap items-center gap-3 mb-3">
+                <span className="text-[#C9A44C] text-[13px] font-medium">核心</span>
+                <span className="text-[13px] text-[#767676]">CAD 800–1,500</span>
+              </div>
+              <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">北美客户开发前可信度诊断</h3>
+              <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] mb-4 max-w-[680px]">
+                适合准备开发北美客户、跑展会、做 LinkedIn、发开发信、找代理的企业。客户开发之前，资料没有准备好，后面的邮件、广告、展会和销售动作都会打折。
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+                <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <p className="text-[13px] font-medium text-[#212121] mb-1">交付</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">官网与资料诊断、买家视角购买理由分析、可信度缺口清单、英文表达问题、北美客户常见疑虑、优先修改建议、30天客户开发准备建议</p>
+                </div>
+                <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <p className="text-[13px] font-medium text-[#212121] mb-1">边界</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">不承诺客户回复率、成交率或销售结果。帮助你判断客户是否有理由相信你，但不替代销售团队。</p>
+                </div>
+              </div>
+              <Link to="/zh/contact" className="btn-primary text-[14px] px-5 py-3 min-h-[48px]">申请可信度诊断</Link>
+            </div>
+
+            {/* Product 3 */}
+            <div className="mb-6 p-5 md:p-6 bg-white border border-[#E5E5E5]">
+              <div className="flex flex-wrap items-center gap-3 mb-3">
+                <span className="text-[#C9A44C] text-[13px] font-medium">进阶</span>
+                <span className="text-[13px] text-[#767676]">CAD 1,800–3,500</span>
+              </div>
+              <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">北美买家信任资料包</h3>
+              <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] mb-4 max-w-[680px]">
+                适合已经准备开始开发客户、参加展会、联系渠道、做 LinkedIn 或发送公司资料的企业。把企业内部介绍重构成北美买家看得懂、信得过、方便继续沟通的资料。
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+                <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <p className="text-[13px] font-medium text-[#212121] mb-1">交付</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">一句话定位、英文公司介绍、一页纸销售资料（One-page Sales Sheet）、产品/服务核心卖点重构、北美客户开发邮件开头、LinkedIn 简介优化、官网首页核心文案建议</p>
+                </div>
+                <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <p className="text-[13px] font-medium text-[#212121] mb-1">边界</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">不包含完整网站开发，不承诺成交。交付资料可直接用于客户开发和展会，但需要你自己或团队执行后续跟进。</p>
+                </div>
+              </div>
+              <Link to="/zh/contact" className="btn-primary text-[14px] px-5 py-3 min-h-[48px]">申请信任资料包</Link>
+            </div>
+
+            {/* Product 4 */}
+            <div className="mb-6 p-5 md:p-6 bg-white border border-[#E5E5E5]">
+              <div className="flex flex-wrap items-center gap-3 mb-3">
+                <span className="text-[#C9A44C] text-[13px] font-medium">展会</span>
+                <span className="text-[13px] text-[#767676]">CAD 2,500–6,000</span>
+              </div>
+              <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">展会前北美客户承接包</h3>
+              <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] mb-4 max-w-[680px]">
+                适合未来 2–8 周内准备参加展会、招商会、行业会议或客户拜访的企业。避免"现场聊得不错，展后没有下文"。
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+                <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <p className="text-[13px] font-medium text-[#212121] mb-1">交付</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">展会前官网可信度检查、英文公司介绍、一页纸资料、展会问答话术、展后邮件模板、客户分层表、展后7天跟进节奏；可选企业报道或展会动态内容</p>
+                </div>
+                <div className="p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
+                  <p className="text-[13px] font-medium text-[#212121] mb-1">边界</p>
+                  <p className="text-[13px] text-[#666] leading-[1.6]">不承诺展会成交，不替代销售团队现场跟进。提供的是资料和跟进体系，现场接待仍需你自己完成。</p>
+                </div>
+              </div>
+              <Link to="/zh/contact" className="btn-primary text-[14px] px-5 py-3 min-h-[48px]">申请展会承接包</Link>
+            </div>
+
+            {/* Product 5 */}
+            <div className="mb-6 p-5 md:p-6 bg-[#07111F] border border-[#07111F]">
+              <div className="flex flex-wrap items-center gap-3 mb-3">
+                <span className="text-[#C9A44C] text-[13px] font-medium">深度</span>
+                <span className="text-[13px] text-white/60">CAD 3,500–8,000 起</span>
+              </div>
+              <h3 className="text-[18px] md:text-[20px] font-semibold text-white mb-2">北美市场进入30天启动陪跑</h3>
+              <p className="text-[14px] md:text-[15px] text-white/70 leading-[1.65] mb-4 max-w-[680px]">
+                适合已经确定要进入加拿大或北美市场，但进入路径、资料、责任链、客户开发和本地承接还没有理顺的企业。帮助企业把第一阶段推进顺序理清楚，避免一开始就乱投钱、乱找资源、乱参展。
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+                <div className="p-3 bg-white/5 border border-white/10">
+                  <p className="text-[13px] font-medium text-white mb-1">交付</p>
+                  <p className="text-[13px] text-white/60 leading-[1.6]">市场进入初步诊断、产品/服务适配判断、合规与责任链风险提示、官网与资料优化方向、客户开发路径、渠道/代理/服务商沟通准备、30天行动计划、每周一次推进沟通</p>
+                </div>
+                <div className="p-3 bg-white/5 border border-white/10">
+                  <p className="text-[13px] font-medium text-white mb-1">边界</p>
+                  <p className="text-[13px] text-white/60 leading-[1.6]">不替代法律、税务、认证、清关、保险等专业意见；不承诺市场进入成功或客户成交。帮你理清顺序、识别缺口、推动下一步。</p>
+                </div>
+              </div>
+              <Link to="/zh/contact" className="btn-primary text-[14px] px-5 py-3 min-h-[48px]">申请启动陪跑</Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Why staged approach */}
+        <section className="section-padding bg-white">
+          <div className="container-site max-w-[800px]">
+            <p className="text-label mb-3">服务设计逻辑</p>
+            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
+              为什么按阶梯设计，而不是打包成"一站式方案"
+            </h2>
+            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
+              很多企业接触到的"市场进入服务"是一个大而全的套餐，包含调研、认证、渠道、推广、展会等所有环节，价格动辄几万到几十万。问题是：在你还没判断清楚产品是否适合这个市场、资料是否接得住客户之前，把这些全部打包在一起，很容易花错钱。
+            </p>
+            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
+              我们的设计逻辑是：先判断，再准备，再执行。快速体检帮你发现最明显的问题；可信度诊断帮你判断客户是否有理由相信你；信任资料包把诊断结果变成可以直接使用的材料；展会承接包针对有明确时间节点的场景；30天陪跑则帮你把整体推进顺序理清楚。
+            </p>
+            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
+              你可以从任何一步开始，也可以只走一步。但我们建议：在投入更多预算做推广、参展或找代理之前，至少做一次快速体检或可信度诊断。这个判断的成本很低，但省下的钱和避免的弯路可能很大。
+            </p>
+          </div>
+        </section>
+
+        {/* Service Boundary */}
+        <section className="section-padding bg-[#F8F9FA]">
+          <div className="container-site max-w-[800px]">
+            <div className="p-5 md:p-6 bg-white border border-[#E5E5E5]">
+              <h3 className="text-[16px] font-semibold mb-3">服务边界</h3>
+              <p className="text-[14px] text-[#767676] leading-[1.65] mb-3">
+                中加商业在线 CCBONLINE INC. 提供商业顾问、协调、内容和市场进入支持。我们不是律师事务所、会计师事务所、认证机构、保险经纪公司、报关行或物流公司。
+              </p>
+              <p className="text-[14px] text-[#767676] leading-[1.65]">
+                当需要正式的专业意见——法律、税务、认证、保险或报关——我们帮助你准备正确的问题、整理材料并对接合格的专业人员。我们协调；他们执行。我们不承诺保证买家、快速拿订单或市场进入成功。我们的价值在于帮你在投入之前判断方向是否正确。
+              </p>
             </div>
           </div>
         </section>
@@ -269,13 +257,21 @@ export default function ZHServices() {
         <section className="section-padding bg-[#07111F]">
           <div className="container-site">
             <div className="max-w-[700px]">
-              <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-6">
-                不确定哪个服务适合你的阶段？
+              <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">
+                不确定从哪个服务开始？
               </h2>
               <p className="text-white/60 text-[15px] leading-[1.65] mb-6">
-                可以先做一次初步沟通。我们会了解你的产品、目标市场和当前阶段，再推荐最合适的第一步。
+                可以先做一次官网与资料快速体检（CAD 299–499），或者联系我们描述你当前的情况，我们会推荐最合适的第一步。
               </p>
-              <Link to="/zh/contact" className="btn-primary text-[16px] px-6 py-3.5 min-h-[52px]">预约初步沟通</Link>
+              <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
+                <Link to="/zh/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">
+                  发送官网，做一次可信度体检
+                </Link>
+                <Link to="/zh/contact" className="btn-outline text-[15px] px-6 py-3.5 min-h-[52px]" style={{ borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}>
+                  联系我们，描述你的情况
+                </Link>
+              </div>
+              <p className="text-white/40 text-[13px] mt-6">info@ccbonline.ca · +1 647 568 1128</p>
             </div>
           </div>
         </section>

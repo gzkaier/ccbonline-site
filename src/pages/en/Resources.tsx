@@ -72,7 +72,7 @@ export default function ENResources() {
                   </div>
                   <h3 className="text-[15px] font-semibold mb-2 leading-[1.4]">{item.title}</h3>
                   <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6] mb-3">{item.desc}</p>
-                  {item.link && <Link to={item.link} className="text-[13px] text-[#00A884] hover:underline">Read now &rarr;</Link>}
+                  {item.link && <Link to={item.link} className="text-[13px] text-[#00B894] hover:underline">Read now &rarr;</Link>}
                 </div>
               ))}
             </div>
@@ -93,7 +93,7 @@ export default function ENResources() {
               {caseNotes.map((item, i) => (
                 <div key={i} className="p-5 md:p-6 bg-white border border-[#E5E5E5]">
                   <div className="flex items-center gap-2 mb-3">
-                    <span className="text-[11px] text-[#00A884] uppercase tracking-wider">{item.industry}</span>
+                    <span className="text-[11px] text-[#00B894] uppercase tracking-wider">{item.industry}</span>
                   </div>
                   <h3 className="text-[16px] md:text-[17px] font-semibold mb-2">{item.title}</h3>
                   <p className="text-[14px] text-[#767676] leading-[1.65]">{item.desc}</p>
@@ -112,16 +112,16 @@ export default function ENResources() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {insights.map((item, i) => (
-                <Link key={i} to={`/en/insights/${item.slug}`} className="p-5 bg-[#F8F9FA] border border-[#E5E5E5] hover:border-[#00A884] transition-colors group">
-                  <h3 className="text-[15px] font-semibold mb-2 group-hover:text-[#00A884] transition-colors">{item.title}</h3>
-                  <span className="text-[13px] text-[#00A884]">Read article &rarr;</span>
+                <Link key={i} to={`/en/insights/${item.slug}`} className="p-5 bg-[#F8F9FA] border border-[#E5E5E5] hover:border-[#00B894] transition-colors group">
+                  <h3 className="text-[15px] font-semibold mb-2 group-hover:text-[#00B894] transition-colors">{item.title}</h3>
+                  <span className="text-[13px] text-[#00B894]">Read article &rarr;</span>
                 </Link>
               ))}
             </div>
           </div>
         </section>
 
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

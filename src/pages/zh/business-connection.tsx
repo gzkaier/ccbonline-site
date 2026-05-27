@@ -49,29 +49,29 @@ export default function ZH_BusinessConnection() {
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
-              <div className="p-5 md:p-6 border border-[#00A884] bg-white">
-                <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 text-[#00A884]">加拿大 / 美国 → 中国</h3>
+              <div className="p-5 md:p-6 border border-[#00B894] bg-white">
+                <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 text-[#00B894]">加拿大 / 美国 → 中国</h3>
                 <p className="text-[14px] text-[#444] leading-[1.7] mb-3">
                   北美企业寻找可靠的中国供应商、制造商或 OEM 合作伙伴。我们帮助您识别合格候选方、验证能力，并协调初步尽职调查。
                 </p>
                 <ul className="space-y-2">
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">供应商识别和候选名单筛选</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">工厂能力验证协调</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">初步沟通和会面协调</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">样品和原型物流协调</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">供应商识别和候选名单筛选</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">工厂能力验证协调</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">初步沟通和会面协调</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">样品和原型物流协调</li>
                 </ul>
               </div>
 
-              <div className="p-5 md:p-6 border border-[#C9A44C] bg-white">
-                <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 text-[#C9A44C]">中国 → 加拿大 / 美国</h3>
+              <div className="p-5 md:p-6 border border-[#D4AF37] bg-white">
+                <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 text-[#D4AF37]">中国 → 加拿大 / 美国</h3>
                 <p className="text-[14px] text-[#444] leading-[1.7] mb-3">
                   中国制造商和品牌寻找分销合作伙伴、本地代理或加拿大及北美的直接市场准入。我们帮助您了解市场要求并连接合适的本地合作方。
                 </p>
                 <ul className="space-y-2">
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#C9A44C]">市场进入准备度筛查</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#C9A44C]">潜在分销商或渠道合作伙伴引荐</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#C9A44C]">展会和行业活动协调</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#C9A44C]">初始市场存在的本地运营支持</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#D4AF37]">市场进入准备度筛查</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#D4AF37]">潜在分销商或渠道合作伙伴引荐</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#D4AF37]">展会和行业活动协调</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#D4AF37]">初始市场存在的本地运营支持</li>
                 </ul>
               </div>
             </div>
@@ -83,19 +83,19 @@ export default function ZH_BusinessConnection() {
               除了引荐之外，我们还帮助协调跨境供应链关系的运营要素：
             </p>
             <div className="space-y-3 mb-10">
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h4 className="text-[15px] font-medium mb-1">3PL 和仓储引荐</h4>
                 <p className="text-[14px] text-[#555] leading-[1.6]">对接加拿大和美国的第三方物流供应商和仓储选项，用于库存存储和配送执行。</p>
               </div>
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h4 className="text-[15px] font-medium mb-1">合规与单证指导</h4>
                 <p className="text-[14px] text-[#555] leading-[1.6]">概述跨境货运的进口单证、标签要求和认证需求。具体报关事务我们与持牌报关行协调。</p>
               </div>
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h4 className="text-[15px] font-medium mb-1">质量与检验协调</h4>
                 <p className="text-[14px] text-[#555] leading-[1.6]">支持安排装运前检验、工厂审核和货物离华前的质量验证流程。</p>
               </div>
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h4 className="text-[15px] font-medium mb-1">展会与商务考察支持</h4>
                 <p className="text-[14px] text-[#555] leading-[1.6]">协调展会参与、商务考察规划和代表团的实地支持，无论方向是中国还是北美。</p>
               </div>
@@ -118,28 +118,28 @@ export default function ZH_BusinessConnection() {
             </h2>
             <div className="space-y-4 mb-10">
               <div className="flex gap-4">
-                <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-6">01</span>
+                <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-6">01</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">需求沟通</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">了解您的产品、数量、时间线、质量标准和商业合作方期望。</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-6">02</span>
+                <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-6">02</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">匹配与引荐</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">我们从网络中识别并引荐合格候选方，附背景信息和能力说明。</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-6">03</span>
+                <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-6">03</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">协调与跟进</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">我们支持初次会面、样品交换和尽职调查协调。双方独立评估匹配度。</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-6">04</span>
+                <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-6">04</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">运营落地支持</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">若双方决定推进，我们帮助协调运营要素 —— 物流、合规、仓储 —— 使合作关系在实践中运转。</p>
@@ -201,16 +201,16 @@ export default function ZH_BusinessConnection() {
               相关服务
             </h2>
             <ul className="space-y-2">
-              <li><Link to="/zh/market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">加拿大及北美市场进入服务</Link></li>
-              <li><Link to="/zh/services/3pl-warehousing-advisory" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">3PL 与仓储顾问</Link></li>
-              <li><Link to="/zh/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">合规与责任链条筛查</Link></li>
-              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">联系 CCBONLINE</Link></li>
+              <li><Link to="/zh/market-entry" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">加拿大及北美市场进入服务</Link></li>
+              <li><Link to="/zh/services/3pl-warehousing-advisory" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">3PL 与仓储顾问</Link></li>
+              <li><Link to="/zh/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">合规与责任链条筛查</Link></li>
+              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">联系 CCBONLINE</Link></li>
             </ul>
           </div>
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

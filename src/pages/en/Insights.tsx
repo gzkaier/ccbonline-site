@@ -125,9 +125,9 @@ const latestArticles: InsightCard[] = [
 
 function InsightCardComponent({ card }: { card: InsightCard }) {
   return (
-    <div className="group bg-white border border-[#E5E5E5] hover:border-[#00A884] transition-colors p-5 md:p-6 flex flex-col">
+    <div className="group bg-white border border-[#E5E5E5] hover:border-[#00B894] transition-colors p-5 md:p-6 flex flex-col">
       <p className="text-[11px] text-[#999] uppercase tracking-wider mb-2">{card.category}</p>
-      <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 leading-[1.5] group-hover:text-[#00A884] transition-colors">
+      <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 leading-[1.5] group-hover:text-[#00B894] transition-colors">
         {card.title}
       </h3>
       <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.6] mb-4 flex-1">
@@ -135,7 +135,7 @@ function InsightCardComponent({ card }: { card: InsightCard }) {
       </p>
       <Link
         to={`/en/insights/${card.slug}`}
-        className="text-[14px] font-medium text-[#00A884] hover:underline inline-flex items-center gap-1"
+        className="text-[14px] font-medium text-[#00B894] hover:underline inline-flex items-center gap-1"
       >
         Read full insight
         <span className="text-[16px]">&rarr;</span>
@@ -255,17 +255,17 @@ export default function ENInsights() {
             </h2>
             <div className="grid grid-cols-1 gap-3 md:gap-4">
               {latestArticles.map((card, i) => (
-                <div key={i} className="group flex items-start gap-4 p-4 bg-white border border-[#E5E5E5] hover:border-[#00A884] transition-colors">
+                <div key={i} className="group flex items-start gap-4 p-4 bg-white border border-[#E5E5E5] hover:border-[#00B894] transition-colors">
                   <div className="flex-1 min-w-0">
                     <p className="text-[11px] text-[#999] uppercase tracking-wider mb-1">{card.category}</p>
-                    <h3 className="text-[15px] md:text-[16px] font-semibold leading-[1.5] group-hover:text-[#00A884] transition-colors mb-1">
+                    <h3 className="text-[15px] md:text-[16px] font-semibold leading-[1.5] group-hover:text-[#00B894] transition-colors mb-1">
                       {card.title}
                     </h3>
                     <p className="text-[13px] md:text-[14px] text-[#767676]">{card.summary}</p>
                   </div>
                   <Link
                     to={`/en/insights/${card.slug}`}
-                    className="text-[14px] font-medium text-[#00A884] hover:underline shrink-0 mt-1"
+                    className="text-[14px] font-medium text-[#00B894] hover:underline shrink-0 mt-1"
                   >
                     Read &rarr;
                   </Link>

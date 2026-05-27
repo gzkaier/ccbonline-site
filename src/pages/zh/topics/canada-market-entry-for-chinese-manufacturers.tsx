@@ -49,7 +49,7 @@ export default function ZH_CanadaMarketEntryForChineseManufacturers() {
                 { num: '06', q: '出了问题怎么办？', a: '产品缺陷、保修索赔和召回需要本地响应能力。加拿大监管机构、保险公司和客户都期望有国内联系人。没有的话，你的品牌和企业都面临风险。' },
               ].map((item) => (
                 <div key={item.num} className="p-5 md:p-6 bg-[#F8F9FA] border border-[#E5E5E5]">
-                  <span className="text-[#C9A44C] text-[13px] font-medium">{item.num}</span>
+                  <span className="text-[#D4AF37] text-[13px] font-medium">{item.num}</span>
                   <h3 className="text-[16px] font-semibold mt-2 mb-3 leading-[1.5]">{item.q}</h3>
                   <p className="text-[14px] text-[#767676] leading-[1.65]">{item.a}</p>
                 </div>
@@ -75,7 +75,7 @@ export default function ZH_CanadaMarketEntryForChineseManufacturers() {
                   <h3 className="text-[16px] md:text-[17px] font-semibold mb-4">{group.cat}</h3>
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     {group.items.map((item, j) => (
-                      <li key={j} className="text-[14px] text-[#555] leading-[1.6] pl-3 border-l-2 border-[#00A884]">{item}</li>
+                      <li key={j} className="text-[14px] text-[#555] leading-[1.6] pl-3 border-l-2 border-[#00B894]">{item}</li>
                     ))}
                   </ul>
                 </div>
@@ -99,7 +99,7 @@ export default function ZH_CanadaMarketEntryForChineseManufacturers() {
               ].map((phase) => (
                 <div key={phase.days} className="flex gap-4 md:gap-6">
                   <div className="shrink-0 w-[100px]">
-                    <p className="text-[#C9A44C] text-[13px] font-medium">{phase.days}</p>
+                    <p className="text-[#D4AF37] text-[13px] font-medium">{phase.days}</p>
                   </div>
                   <div className="pb-6 border-b border-[#E5E5E5] flex-1">
                     <h4 className="text-[16px] font-semibold mb-2">{phase.title}</h4>
@@ -127,7 +127,7 @@ export default function ZH_CanadaMarketEntryForChineseManufacturers() {
                 '期望开始后 30 天内就有第一笔销售',
                 '把加拿大当作美国市场的附带来考虑',
               ].map((item, i) => (
-                <div key={i} className="p-4 bg-white border-l-2 border-[#C9A44C]">
+                <div key={i} className="p-4 bg-white border-l-2 border-[#D4AF37]">
                   <p className="text-[14px] text-[#444] leading-[1.6]">{item}</p>
                 </div>
               ))}
@@ -162,7 +162,7 @@ export default function ZH_CanadaMarketEntryForChineseManufacturers() {
           </div>
         </section>
 
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

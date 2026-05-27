@@ -54,7 +54,7 @@ export default function ZH_ImporterOfRecordAndResponsibilityChain() {
                 </div>
               </div>
               <div className="lg:col-span-5">
-                <div className="p-5 bg-[#07111F]">
+                <div className="p-5 bg-[#0B0E14]">
                   <h3 className="text-white text-[16px] font-semibold mb-4">IOR 责任清单</h3>
                   <ul className="space-y-3">
                     {[
@@ -68,7 +68,7 @@ export default function ZH_ImporterOfRecordAndResponsibilityChain() {
                       '在召回情况下作为责任方',
                     ].map((item, i) => (
                       <li key={i} className="text-white/70 text-[14px] flex items-start gap-2">
-                        <span className="text-[#00A884] shrink-0 text-[13px]">{'0' + (i + 1)}</span>{item}
+                        <span className="text-[#00B894] shrink-0 text-[13px]">{'0' + (i + 1)}</span>{item}
                       </li>
                     ))}
                   </ul>
@@ -98,7 +98,7 @@ export default function ZH_ImporterOfRecordAndResponsibilityChain() {
                     <h4 className="text-[15px] font-semibold shrink-0 sm:w-[160px]">{item.role}</h4>
                     <p className="text-[14px] text-[#555] leading-[1.6]">{item.resp}</p>
                   </div>
-                  <p className="text-[13px] text-[#767676] pl-0 sm:pl-[176px]"><span className="text-[#C9A44C]">风险敞口：</span>{item.risk}</p>
+                  <p className="text-[13px] text-[#767676] pl-0 sm:pl-[176px]"><span className="text-[#D4AF37]">风险敞口：</span>{item.risk}</p>
                 </div>
               ))}
             </div>
@@ -120,9 +120,9 @@ export default function ZH_ImporterOfRecordAndResponsibilityChain() {
               ].map((item, i) => (
                 <div key={i} className="p-5 md:p-6 bg-[#F8F9FA] border border-[#E5E5E5]">
                   <h4 className="text-[16px] font-semibold mb-3">{item.option}</h4>
-                  <p className="text-[13px] text-[#00A884] mb-1">优势</p>
+                  <p className="text-[13px] text-[#00B894] mb-1">优势</p>
                   <p className="text-[14px] text-[#555] leading-[1.6] mb-3">{item.pros}</p>
-                  <p className="text-[13px] text-[#C9A44C] mb-1">劣势</p>
+                  <p className="text-[13px] text-[#D4AF37] mb-1">劣势</p>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">{item.cons}</p>
                 </div>
               ))}
@@ -144,9 +144,9 @@ export default function ZH_ImporterOfRecordAndResponsibilityChain() {
                 { gap: '没有召回或危机预案', fix: '预先定义谁协调召回、沟通如何流动、谁承担成本。监管机构期望有本地联系人。' },
                 { gap: '保险缺口', fix: '产品责任险、货物险和商业综合责任是不同的保险。核实你的 IOR 有什么保险、还有什么缺口。' },
               ].map((item, i) => (
-                <div key={i} className="p-5 bg-white border-l-2 border-l-[#C9A44C] border border-[#E5E5E5]">
+                <div key={i} className="p-5 bg-white border-l-2 border-l-[#D4AF37] border border-[#E5E5E5]">
                   <h4 className="text-[14px] font-semibold mb-2 text-[#212121]">{item.gap}</h4>
-                  <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.6]"><span className="text-[#00A884]">解决方案：</span>{item.fix}</p>
+                  <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.6]"><span className="text-[#00B894]">解决方案：</span>{item.fix}</p>
                 </div>
               ))}
             </div>
@@ -180,7 +180,7 @@ export default function ZH_ImporterOfRecordAndResponsibilityChain() {
           </div>
         </section>
 
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

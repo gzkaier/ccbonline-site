@@ -72,11 +72,11 @@ export default function ZH_BeiMeiShiChangJinRuBuShiMaiHuo() {
               下一步动作
             </h2>
             <ul className="space-y-3 mb-10">
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">做产品适配评估，看是否具备进入北美市场的基础条件</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">绘制所需认证清单，估算时间和费用</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">确定进口记录责任人及其法律责任</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">验证渠道策略：经销、直销还是混合模式</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">联系 CCBONLINE 做一次市场进入就绪度诊断</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">做产品适配评估，看是否具备进入北美市场的基础条件</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">绘制所需认证清单，估算时间和费用</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">确定进口记录责任人及其法律责任</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">验证渠道策略：经销、直销还是混合模式</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">联系 CCBONLINE 做一次市场进入就绪度诊断</li>
             </ul>
           </div>
         </section>
@@ -130,11 +130,11 @@ export default function ZH_BeiMeiShiChangJinRuBuShiMaiHuo() {
               相关阅读
             </h2>
             <ul className="space-y-2 mb-8">
-              <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">市场进入服务</Link></li>
-              <li><Link to="/zh/responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">责任链</Link></li>
-              <li><Link to="/zh/insights/bei-mei-shi-chang-jin-ru-ze-ren-lian" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">北美市场进入的核心，是责任链</Link></li>
-              <li><Link to="/zh/insights/0-90-tian-bei-mei-shi-chang-jin-ru-lu-jing" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">北美市场进入的 0–90 天路径</Link></li>
-              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">联系 CCBONLINE</Link></li>
+              <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">市场进入服务</Link></li>
+              <li><Link to="/zh/responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">责任链</Link></li>
+              <li><Link to="/zh/insights/bei-mei-shi-chang-jin-ru-ze-ren-lian" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">北美市场进入的核心，是责任链</Link></li>
+              <li><Link to="/zh/insights/0-90-tian-bei-mei-shi-chang-jin-ru-lu-jing" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">北美市场进入的 0–90 天路径</Link></li>
+              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">联系 CCBONLINE</Link></li>
             </ul>
           </div>
         </section>

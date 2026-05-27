@@ -75,7 +75,7 @@ export default function EN_AIHardwareMarketEntryNorthAmerica() {
                   <h3 className="text-[16px] md:text-[17px] font-semibold mb-4">{group.type}</h3>
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     {group.issues.map((issue, j) => (
-                      <li key={j} className="text-[14px] text-[#555] leading-[1.6] pl-3 border-l-2 border-[#00A884]">{issue}</li>
+                      <li key={j} className="text-[14px] text-[#555] leading-[1.6] pl-3 border-l-2 border-[#00B894]">{issue}</li>
                     ))}
                   </ul>
                 </div>
@@ -101,7 +101,7 @@ export default function EN_AIHardwareMarketEntryNorthAmerica() {
                 { step: '06', title: 'Labeling and Documentation', desc: 'English and French labels (for Canada), ISED certification numbers, model numbers, manufacturer information, safety warnings. Documentation must be accurate and complete for customs clearance.' },
               ].map((phase) => (
                 <div key={phase.step} className="flex gap-4 md:gap-6">
-                  <span className="text-[#C9A44C] text-[14px] font-medium w-[32px] shrink-0">{phase.step}</span>
+                  <span className="text-[#D4AF37] text-[14px] font-medium w-[32px] shrink-0">{phase.step}</span>
                   <div className="pb-6 border-b border-[#E5E5E5] flex-1">
                     <h4 className="text-[16px] font-semibold mb-2">{phase.title}</h4>
                     <p className="text-[14px] text-[#767676] leading-[1.65]">{phase.desc}</p>
@@ -128,7 +128,7 @@ export default function EN_AIHardwareMarketEntryNorthAmerica() {
                 <div key={i} className="p-5 md:p-6 bg-white border border-[#E5E5E5]">
                   <h4 className="text-[16px] font-semibold mb-2">{item.channel}</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6] mb-3">{item.desc}</p>
-                  <p className="text-[13px] text-[#00A884]">{item.fit}</p>
+                  <p className="text-[13px] text-[#00B894]">{item.fit}</p>
                 </div>
               ))}
             </div>
@@ -164,7 +164,7 @@ export default function EN_AIHardwareMarketEntryNorthAmerica() {
           </div>
         </section>
 
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

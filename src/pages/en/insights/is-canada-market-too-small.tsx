@@ -46,19 +46,19 @@ export default function EN_IsCanadaMarketTooSmall() {
                 When Canada IS Worth It
               </h2>
               <div className="space-y-4">
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[15px] mb-1">Your product is premium or specialized</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">Canada has high per-capita purchasing power and consumers who value quality over the lowest price. Premium industrial equipment, specialized tools, and quality consumer products can find strong demand.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[15px] mb-1">Your product category is underserved</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">In many industrial and B2B categories, Canada has fewer suppliers than the US. A Chinese manufacturer with competitive quality and pricing can establish a strong position before competitors arrive.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[15px] mb-1">Canada is your learning market</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">The real value of Canada is often strategic: learning how North American buyers behave, refining your product and documentation, building references — all at lower risk and cost than the US.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[15px] mb-1">You already have a US strategy</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">If you are planning US entry anyway, adding Canada is often incremental: same certification (CSA is recognized in the US), similar logistics, and an additional revenue stream that costs relatively little to activate.</p>
                 </div>
@@ -70,15 +70,15 @@ export default function EN_IsCanadaMarketTooSmall() {
                 When Canada Alone Is NOT Enough
               </h2>
               <div className="space-y-4">
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">Your product needs massive volume to be profitable</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">Consumer electronics, mass-market goods, and low-margin products often require the scale of the US market to generate meaningful returns. Canada's population simply cannot support the volume.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">The product adaptation cost is too high relative to market size</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">If your product requires extensive redesign, bilingual packaging, and Canadian-specific certification for a market of 40 million, the economics may not work. The US offers a much larger return on the same adaptation investment.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">Your category is dominated by established Canadian suppliers</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">Some product categories in Canada are well-served by local or US suppliers with deep relationships. Entering these segments requires significant competitive differentiation, not just a price advantage.</p>
                 </div>
@@ -93,11 +93,11 @@ export default function EN_IsCanadaMarketTooSmall() {
                 Instead of asking "Is 40 million people enough?" ask these practical questions:
               </p>
               <ul className="space-y-2">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">What is the addressable market size in your specific product category?</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">How many competitors are already serving that segment?</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">What margin can you realistically achieve?</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">What is the total cost of entry (certification, IOR, distribution, marketing)?</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">How long until you break even on the entry investment?</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">What is the addressable market size in your specific product category?</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">How many competitors are already serving that segment?</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">What margin can you realistically achieve?</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">What is the total cost of entry (certification, IOR, distribution, marketing)?</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">How long until you break even on the entry investment?</li>
               </ul>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mt-4">
                 A niche industrial product with 50 potential buyers in Canada, sold at a 40% margin with minimal competition, can be far more profitable than a consumer product competing with hundreds of suppliers for thin margins in the US.
@@ -124,12 +124,12 @@ export default function EN_IsCanadaMarketTooSmall() {
                 Related Resources
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/en/insights/canada-vs-us-market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Canada vs. US: Which Market First? →</Link></li>
-                <li><Link to="/en/services/market-entry-diagnosis" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Market Entry Diagnosis Service →</Link></li>
+                <li><Link to="/en/insights/canada-vs-us-market-entry" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Canada vs. US: Which Market First? →</Link></li>
+                <li><Link to="/en/services/market-entry-diagnosis" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Market Entry Diagnosis Service →</Link></li>
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 Wondering if Canada is the right market for your product?
               </h3>

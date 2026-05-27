@@ -76,33 +76,33 @@ export default function ZH_LogisticsCustomsImportDiagnosis() {
                 CCBONLINE 不是物流公司，不直接承运货物。我们做的是在正式发货前，帮企业把路径、资料、责任和服务商匹配方向先理清楚。具体包括：
               </p>
               <ul className="space-y-4">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">
                   <strong className="font-medium text-[#212121]">物流路径与运输方式</strong>{' '}
                   —
                   你的货物适合海运、空运还是联运？整柜还是拼箱？是否需要特殊温控或包装？目的地是港口、机场还是直接到仓？
                 </li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">
                   <strong className="font-medium text-[#212121]">进口责任（IOR）归属</strong>{' '}
                   —
                   谁作为法定进口人承担清关责任？是你自己、你的北美客户、还是第三方代理？不同选择对税务、合规和售后有什么影响？
                 </li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">
                   <strong className="font-medium text-[#212121]">贸易条款选择</strong>{' '}
                   —
                   DDP、DAP、FOB、CIF……哪种条款对你的产品类别、客户关系和风险承受能力最合适？条款决定了谁负责什么，不是随便选的。
                 </li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">
                   <strong className="font-medium text-[#212121]">清关资料与合规前置</strong>{' '}
                   —
                   你的产品进北美需要哪些文件？HS编码是否正确？是否需要原产地证、FDA、FCC、UL
                   或其他认证？资料不齐全的后果是什么？
                 </li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">
                   <strong className="font-medium text-[#212121]">海外仓与最后一公里</strong>{' '}
                   —
                   货物清关后去哪？是否需要海外仓？谁负责入库、质检、贴标和发货给最终客户？你的客户对交付时效有什么预期？
                 </li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">
                   <strong className="font-medium text-[#212121]">退货与售后承接</strong>{' '}
                   —
                   如果客户退货，货物退到哪？谁来处理？退货流程在北美和中国之间的成本差异有多大？有没有本地承接方？
@@ -116,22 +116,22 @@ export default function ZH_LogisticsCustomsImportDiagnosis() {
                 适合哪些企业
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">
                   准备首次向北美发货，但不确定从哪个港口/机场进入、需要什么资料的企业
                 </li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">
                   被物流公司给出不同报价方案，看不懂差异、不知道哪种适合自己的企业
                 </li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">
                   听说"包税包清关"但心里没底，想知道这句话背后实际覆盖了什么、没覆盖什么的企业
                 </li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">
                   产品涉及认证要求（电子、食品接触、建材、医疗器械等），担心清关时被扣或退运的企业
                 </li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">
                   客户要求DDP交付，但企业不确定自己能否承担进口责任和税务风险的企业
                 </li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">
                   已经在北美有客户或仓库，但退货和售后链路没有理顺、每次退货成本很高的企业
                 </li>
               </ul>
@@ -275,7 +275,7 @@ export default function ZH_LogisticsCustomsImportDiagnosis() {
                   → 进入{' '}
                   <Link
                     to="/zh/services/compliance-responsibility-chain"
-                    className="text-[#00A884] hover:underline"
+                    className="text-[#00B894] hover:underline"
                   >
                     合规与责任链搭建
                   </Link>
@@ -287,7 +287,7 @@ export default function ZH_LogisticsCustomsImportDiagnosis() {
                   → 进入{' '}
                   <Link
                     to="/zh/services/customer-channel-validation"
-                    className="text-[#00A884] hover:underline"
+                    className="text-[#00B894] hover:underline"
                   >
                     客户与渠道验证
                   </Link>
@@ -296,14 +296,14 @@ export default function ZH_LogisticsCustomsImportDiagnosis() {
                   • 如果物流路径已清晰、合规已梳理、客户已验证 → 直接进入{' '}
                   <Link
                     to="/zh/services/local-execution-support"
-                    className="text-[#00A884] hover:underline"
+                    className="text-[#00B894] hover:underline"
                   >
                     本地执行支持
                   </Link>{' '}
                   或{' '}
                   <Link
                     to="/zh/services/advisory-retainer"
-                    className="text-[#00A884] hover:underline"
+                    className="text-[#00B894] hover:underline"
                   >
                     顾问式长期陪跑
                   </Link>

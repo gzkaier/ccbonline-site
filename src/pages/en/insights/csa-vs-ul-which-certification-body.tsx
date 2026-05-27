@@ -100,10 +100,10 @@ export default function EN_CSAVsULWhichBody() {
                 When CSA Makes More Sense
               </h2>
               <ul className="space-y-2">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Canada is your first or primary target market</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">You want strong brand recognition with Canadian distributors and retailers</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Your product is complex and benefits from CSA's deep Canadian regulatory expertise</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">You plan to enter the US later and want the cCSA-us dual mark from the start</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Canada is your first or primary target market</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">You want strong brand recognition with Canadian distributors and retailers</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Your product is complex and benefits from CSA's deep Canadian regulatory expertise</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">You plan to enter the US later and want the cCSA-us dual mark from the start</li>
               </ul>
             </div>
 
@@ -112,10 +112,10 @@ export default function EN_CSAVsULWhichBody() {
                 When UL Makes More Sense
               </h2>
               <ul className="space-y-2">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]">The US is your first or primary target market</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]">Speed to market is critical (UL often has faster turnaround)</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]">Your product is relatively standard and straightforward to certify</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]">You want the strongest possible buyer recognition in the US market</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]">The US is your first or primary target market</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]">Speed to market is critical (UL often has faster turnaround)</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]">Your product is relatively standard and straightforward to certify</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]">You want the strongest possible buyer recognition in the US market</li>
               </ul>
             </div>
 
@@ -148,12 +148,12 @@ export default function EN_CSAVsULWhichBody() {
                 Related Resources
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/en/insights/product-certification-canada-guide" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Product Certification for Canada: Complete Guide →</Link></li>
-                <li><Link to="/en/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Product Compliance & Certification Pathway Service →</Link></li>
+                <li><Link to="/en/insights/product-certification-canada-guide" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Product Certification for Canada: Complete Guide →</Link></li>
+                <li><Link to="/en/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Product Compliance & Certification Pathway Service →</Link></li>
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 Need help choosing between CSA and UL?
               </h3>

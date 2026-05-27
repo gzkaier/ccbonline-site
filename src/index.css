@@ -5,12 +5,12 @@
 @layer base {
   :root {
     /* CCBONLINE Brand Colors */
-    --brand-navy: #07111F;
-    --brand-navy-light: #0F1D2E;
-    --brand-jade: #00A884;
-    --brand-jade-dark: #008F6E;
-    --brand-gold: #C9A44C;
-    --brand-gold-light: #D4B76A;
+    --brand-navy: #0B0E14;
+    --brand-navy-light: #151920;
+    --brand-jade: #00B894;
+    --brand-jade-dark: #009678;
+    --brand-gold: #D4AF37;
+    --brand-gold-light: #DBC04F;
     --brand-silver: #B8C0CC;
     --brand-silver-light: #D0D5DD;
     --brand-light-bg: #F7F9FC;
@@ -139,7 +139,7 @@
     justify-content: center;
     padding: 14px 24px;
     min-height: 48px;
-    background-color: #00A884;
+    background-color: #00B894;
     color: white;
     font-size: 15px;
     font-weight: 500;

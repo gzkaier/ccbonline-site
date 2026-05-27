@@ -95,10 +95,10 @@ export default function ZH_CSAHeULXuanNaJia() {
                 什么时候选 CSA 更合适
               </h2>
               <ul className="space-y-2">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">加拿大是你的第一或主要目标市场</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">你希望获得加拿大分销商和零售商的高度品牌认可</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">你的产品较复杂，受益于 CSA 深厚的加拿大监管专业知识</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">你计划以后进入美国，想从一开始就获得 cCSA-us 双标志</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">加拿大是你的第一或主要目标市场</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">你希望获得加拿大分销商和零售商的高度品牌认可</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">你的产品较复杂，受益于 CSA 深厚的加拿大监管专业知识</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">你计划以后进入美国，想从一开始就获得 cCSA-us 双标志</li>
               </ul>
             </div>
 
@@ -107,10 +107,10 @@ export default function ZH_CSAHeULXuanNaJia() {
                 什么时候选 UL 更合适
               </h2>
               <ul className="space-y-2">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]">美国是你的第一或主要目标市场</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]">上市速度至关重要（UL 通常周转更快）</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]">你的产品相对标准，认证流程 straightforward</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]">你希望在美国市场获得最强的买家认知度</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]">美国是你的第一或主要目标市场</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]">上市速度至关重要（UL 通常周转更快）</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]">你的产品相对标准，认证流程 straightforward</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]">你希望在美国市场获得最强的买家认知度</li>
               </ul>
             </div>
 
@@ -143,12 +143,12 @@ export default function ZH_CSAHeULXuanNaJia() {
                 相关资源
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/zh/insights/chan-pin-ren-zheng-lu-jing-zhi-nan" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">加拿大产品认证路径完整指南 →</Link></li>
-                <li><Link to="/zh/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">产品合规与认证路径服务 →</Link></li>
+                <li><Link to="/zh/insights/chan-pin-ren-zheng-lu-jing-zhi-nan" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">加拿大产品认证路径完整指南 →</Link></li>
+                <li><Link to="/zh/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">产品合规与认证路径服务 →</Link></li>
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 不确定选 CSA 还是 UL？
               </h3>

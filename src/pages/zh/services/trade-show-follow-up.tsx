@@ -49,10 +49,10 @@ export default function ZH_TradeShowFollowUpService() {
                 适合哪些企业
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">准备首次参加加拿大或美国展会的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">以前参展过但线索转化率低的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">产品不错但对北美展会预期和做法经验有限的制造商</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">在展会上收集了线索但从未系统化跟进的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">准备首次参加加拿大或美国展会的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">以前参展过但线索转化率低的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">产品不错但对北美展会预期和做法经验有限的制造商</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">在展会上收集了线索但从未系统化跟进的企业</li>
               </ul>
             </div>
 
@@ -75,19 +75,19 @@ export default function ZH_TradeShowFollowUpService() {
 
               <h3 className="text-[17px] font-semibold mb-3 text-[#212121]">展前</h3>
               <ul className="space-y-3 mb-6">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">展位信息审核</strong> — 评估你的展位呈现、材料和产品演示是否符合北美买家预期</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">展前 outreach</strong> — 识别并在展前联系目标参会者，安排展位会面</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">材料准备</strong> — 审核和适配产品资料、名片和 takeaway 材料，适配北美受众</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">线索收集系统设置</strong> — 简单实用的展位线索捕获和分类系统</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">展位信息审核</strong> — 评估你的展位呈现、材料和产品演示是否符合北美买家预期</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">展前 outreach</strong> — 识别并在展前联系目标参会者，安排展位会面</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">材料准备</strong> — 审核和适配产品资料、名片和 takeaway 材料，适配北美受众</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">线索收集系统设置</strong> — 简单实用的展位线索捕获和分类系统</li>
               </ul>
 
               <h3 className="text-[17px] font-semibold mb-3 text-[#212121]">展后</h3>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">线索优先级排序</strong> — 展会结束后 48 小时内按兴趣度、适配度和紧迫性对线索排序</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">跟进序列设计</strong> — 结构化 outreach 计划，含时间、信息和渠道建议</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">本地化跟进执行</strong> — 我们以加拿大本地联系人身份帮助执行初次跟进，提高回复率</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">会议安排</strong> — 协调与合格潜在客户展后的电话、视频或面对面 follow-up</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">进度跟踪</strong> — 展后 4-8 周的所有线索状态、回复和下一步行动周度跟踪</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">线索优先级排序</strong> — 展会结束后 48 小时内按兴趣度、适配度和紧迫性对线索排序</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">跟进序列设计</strong> — 结构化 outreach 计划，含时间、信息和渠道建议</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">本地化跟进执行</strong> — 我们以加拿大本地联系人身份帮助执行初次跟进，提高回复率</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">会议安排</strong> — 协调与合格潜在客户展后的电话、视频或面对面 follow-up</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">进度跟踪</strong> — 展后 4-8 周的所有线索状态、回复和下一步行动周度跟踪</li>
               </ul>
             </div>
 
@@ -170,13 +170,13 @@ export default function ZH_TradeShowFollowUpService() {
                 相关资源
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/zh/insights/zhan-hou-xian-suo-gen-jin" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">展会后线索跟进最佳实践 →</Link></li>
-                <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">全部服务 →</Link></li>
-                <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">联系中加商业在线 →</Link></li>
+                <li><Link to="/zh/insights/zhan-hou-xian-suo-gen-jin" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">展会后线索跟进最佳实践 →</Link></li>
+                <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">全部服务 →</Link></li>
+                <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">联系中加商业在线 →</Link></li>
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 准备参加加拿大或美国展会？
               </h3>

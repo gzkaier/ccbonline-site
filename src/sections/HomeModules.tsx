@@ -149,7 +149,7 @@ export default function HomeModules() {
           <div className="grid grid-cols-1 gap-3 md:gap-4">
             {framework.map((f) => (
               <div key={f.num} className="hm-block flex items-start gap-4 p-4 md:p-5 bg-[#F8F9FA] border border-[#E5E5E5]">
-                <span className="text-[#00A884] text-[14px] font-bold mt-0.5 min-w-[28px]">{f.num}</span>
+                <span className="text-[#00B894] text-[14px] font-bold mt-0.5 min-w-[28px]">{f.num}</span>
                 <div>
                   <h3 className="text-[16px] md:text-[17px] font-semibold mb-1">{f.title}</h3>
                   <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.6]">{f.desc}</p>
@@ -201,7 +201,7 @@ export default function HomeModules() {
           </h2>
           <div className="grid grid-cols-1 gap-4 md:gap-5">
             {useCases.map((c, i) => (
-              <div key={i} className="hm-block p-5 md:p-6 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div key={i} className="hm-block p-5 md:p-6 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h3 className="text-[16px] md:text-[17px] font-semibold mb-2">{c.title}</h3>
                 <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.6]">{c.desc}</p>
               </div>
@@ -288,7 +288,7 @@ export default function HomeModules() {
       </section>
 
       {/* Module 10: CTA */}
-      <section className="section-padding bg-[#07111F]">
+      <section className="section-padding bg-[#0B0E14]">
         <div className="container-site">
           <div className="max-w-[700px]">
             <h2 className="hm-block font-serif text-white text-[24px] md:text-[30px] leading-[1.35] tracking-tight mb-6">

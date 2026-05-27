@@ -46,19 +46,19 @@ export default function ZH_HuoDaoGangMeiYouIOR() {
                 立即发生的后果
               </h2>
               <div className="space-y-4">
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">1. 货物被扣留在入境口岸</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">加拿大边境服务局（CBSA）或美国海关和边境保护局（CBP）在没有指定 IOR 的情况下不会放行货物。你的集装箱在码头等着——仓储费的计时已经开始。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">2. 滞港费和滞箱费每天累积</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">港口仓储费通常为每个集装箱每天 100-400 美元，取决于港口和码头。免费期过后（通常 4-7 天），费用会 escalating。两周的延误可能增加 2,000-5,000 美元的意外成本。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">3. 买家开始问棘手的问题</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">买家期望在某个日期收到货。现在他们被告知货物卡在海关因为"我们还没有 IOR"。这会损害信任，可能在关系正式开始前就危及合作。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">4. 紧急 IOR 设置成本更高</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">在货物正在累积费用的时间压力下设置 IOR 安排，会限制你与 IOR 服务提供商和清关行的谈判筹码。紧急服务存在，但成本显著更高。</p>
                 </div>
@@ -73,9 +73,9 @@ export default function ZH_HuoDaoGangMeiYouIOR() {
                 如果在合理时间内（通常 30-45 天，取决于港口和情况）没有指定 IOR，海关当局可能：
               </p>
               <ul className="space-y-2 mt-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]">没收货物用于拍卖或销毁</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]">下令将货物退回原产国，费用由发货人承担</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]">将你的公司标记为 future shipments 的重点检查对象</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]">没收货物用于拍卖或销毁</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]">下令将货物退回原产国，费用由发货人承担</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]">将你的公司标记为 future shipments 的重点检查对象</li>
               </ul>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mt-4">
                 这些结果都是不可挽回的。产品、运输成本和与买家的关系全部损失。
@@ -117,12 +117,12 @@ export default function ZH_HuoDaoGangMeiYouIOR() {
                 相关资源
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/zh/insights/ior-bu-shi-dai-qing-guan" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">什么是进口责任主体（IOR）？→</Link></li>
-                <li><Link to="/zh/services/ior-import-responsibility" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">IOR 与进口责任服务 →</Link></li>
+                <li><Link to="/zh/insights/ior-bu-shi-dai-qing-guan" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">什么是进口责任主体（IOR）？→</Link></li>
+                <li><Link to="/zh/services/ior-import-responsibility" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">IOR 与进口责任服务 →</Link></li>
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 正在计划第一票货到北美？
               </h3>

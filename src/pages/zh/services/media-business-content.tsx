@@ -52,11 +52,11 @@ export default function ZH_MediaBusinessContent() {
                 适合哪些企业
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">需要在北美建立品牌认知度和可信度的中国企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">准备参加展会、行业活动或商务考察，需要专业呈现的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">希望在加拿大或北美商业媒体获得报道或企业 profile 的公司</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">英文公司介绍、案例或成功故事没有有效传达自身能力的领导层</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">需要将中文营销材料适配给英语决策者，同时不丢失核心信息的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">需要在北美建立品牌认知度和可信度的中国企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">准备参加展会、行业活动或商务考察，需要专业呈现的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">希望在加拿大或北美商业媒体获得报道或企业 profile 的公司</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">英文公司介绍、案例或成功故事没有有效传达自身能力的领导层</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">需要将中文营销材料适配给英语决策者，同时不丢失核心信息的企业</li>
               </ul>
             </div>
 
@@ -79,12 +79,12 @@ export default function ZH_MediaBusinessContent() {
                 我们具体做什么
               </h2>
               <ul className="space-y-4">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">品牌定位评估</strong> — 评估你的公司、产品和能力在北美受众中的定位方式，提出更清晰的价值传达建议</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">中英文内容适配</strong> — 不是直译，而是语境适配：公司介绍、产品介绍、案例和高层摘要，适配北美商业读者的阅读习惯</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">媒体化公司 Profile 和文章</strong> — 撰写适合商业媒体、行业出版物和合作伙伴分发的专业公司 profile、高管访谈和行业文章</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">商业曝光协调</strong> — 规划和协调商业曝光机会，包括行业活动、企业专访和商业社交</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">展会和演讲材料</strong> — 展会演讲、Pitch Deck、高管演讲稿和合作伙伴会议材料</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">传播材料改进</strong> — 现有英文营销和传播材料的结构化评审和优先改进计划</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">品牌定位评估</strong> — 评估你的公司、产品和能力在北美受众中的定位方式，提出更清晰的价值传达建议</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">中英文内容适配</strong> — 不是直译，而是语境适配：公司介绍、产品介绍、案例和高层摘要，适配北美商业读者的阅读习惯</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">媒体化公司 Profile 和文章</strong> — 撰写适合商业媒体、行业出版物和合作伙伴分发的专业公司 profile、高管访谈和行业文章</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">商业曝光协调</strong> — 规划和协调商业曝光机会，包括行业活动、企业专访和商业社交</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">展会和演讲材料</strong> — 展会演讲、Pitch Deck、高管演讲稿和合作伙伴会议材料</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">传播材料改进</strong> — 现有英文营销和传播材料的结构化评审和优先改进计划</li>
               </ul>
             </div>
 
@@ -180,17 +180,17 @@ export default function ZH_MediaBusinessContent() {
                 相关服务
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">全部服务</Link></li>
-                <li><Link to="/zh/services/website-content-for-service-providers" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">网站与商业内容诊断</Link></li>
-                <li><Link to="/zh/services/market-entry-diagnosis" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">市场进入诊断</Link></li>
-                <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">联系中加商业在线</Link></li>
+                <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">全部服务</Link></li>
+                <li><Link to="/zh/services/website-content-for-service-providers" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">网站与商业内容诊断</Link></li>
+                <li><Link to="/zh/services/market-entry-diagnosis" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">市场进入诊断</Link></li>
+                <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">联系中加商业在线</Link></li>
               </ul>
             </div>
           </div>
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

@@ -22,9 +22,9 @@ export default function ENServices() {
       <Navbar lang="en" />
       <main>
         {/* Hero */}
-        <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#07111F]">
+        <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#0B0E14]">
           <div className="container-site">
-            <p className="text-[#00A884] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">Services</p>
+            <p className="text-[#00B894] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">Services</p>
             <h1 className="font-serif text-white text-[26px] sm:text-[32px] md:text-[40px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
               Not Everything for Everyone — The Right Step at the Right Stage
             </h1>
@@ -79,10 +79,10 @@ export default function ENServices() {
                   link: '/en/services/market-entry-diagnosis',
                 },
               ].map((item, i) => (
-                <div key={i} className="p-5 bg-[#F8F9FA] border border-[#E5E5E5] hover:border-[#00A884] transition-colors group">
-                  <h3 className="text-[16px] font-semibold mb-2 group-hover:text-[#00A884] transition-colors">{item.title}</h3>
+                <div key={i} className="p-5 bg-[#F8F9FA] border border-[#E5E5E5] hover:border-[#00B894] transition-colors group">
+                  <h3 className="text-[16px] font-semibold mb-2 group-hover:text-[#00B894] transition-colors">{item.title}</h3>
                   <p className="text-[14px] text-[#767676] leading-[1.6] mb-3">{item.desc}</p>
-                  <Link to={item.link} className="text-[14px] font-medium text-[#00A884] hover:underline inline-flex items-center gap-1">
+                  <Link to={item.link} className="text-[14px] font-medium text-[#00B894] hover:underline inline-flex items-center gap-1">
                     {item.service} <span>→</span>
                   </Link>
                 </div>
@@ -105,7 +105,7 @@ export default function ENServices() {
             {/* Product 1 */}
             <div className="mb-6 p-5 md:p-6 bg-white border border-[#E5E5E5]">
               <div className="flex flex-wrap items-center gap-3 mb-3">
-                <span className="text-[#C9A44C] text-[13px] font-medium">Starter</span>
+                <span className="text-[#D4AF37] text-[13px] font-medium">Starter</span>
                 <span className="text-[13px] text-[#767676]">CAD 299–499</span>
               </div>
               <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">Website & Materials Quick Audit</h3>
@@ -128,7 +128,7 @@ export default function ENServices() {
             {/* Product 2 */}
             <div className="mb-6 p-5 md:p-6 bg-white border border-[#E5E5E5]">
               <div className="flex flex-wrap items-center gap-3 mb-3">
-                <span className="text-[#C9A44C] text-[13px] font-medium">Core</span>
+                <span className="text-[#D4AF37] text-[13px] font-medium">Core</span>
                 <span className="text-[13px] text-[#767676]">CAD 800–1,500</span>
               </div>
               <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">Pre-Outreach Credibility Diagnostic</h3>
@@ -151,7 +151,7 @@ export default function ENServices() {
             {/* Product 3 */}
             <div className="mb-6 p-5 md:p-6 bg-white border border-[#E5E5E5]">
               <div className="flex flex-wrap items-center gap-3 mb-3">
-                <span className="text-[#C9A44C] text-[13px] font-medium">Advanced</span>
+                <span className="text-[#D4AF37] text-[13px] font-medium">Advanced</span>
                 <span className="text-[13px] text-[#767676]">CAD 1,800–3,500</span>
               </div>
               <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">North American Buyer Trust Materials Package</h3>
@@ -174,7 +174,7 @@ export default function ENServices() {
             {/* Product 4 */}
             <div className="mb-6 p-5 md:p-6 bg-white border border-[#E5E5E5]">
               <div className="flex flex-wrap items-center gap-3 mb-3">
-                <span className="text-[#C9A44C] text-[13px] font-medium">Trade Show</span>
+                <span className="text-[#D4AF37] text-[13px] font-medium">Trade Show</span>
                 <span className="text-[13px] text-[#767676]">CAD 2,500–6,000</span>
               </div>
               <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">Trade Show Buyer Engagement Package</h3>
@@ -195,9 +195,9 @@ export default function ENServices() {
             </div>
 
             {/* Product 5 */}
-            <div className="mb-6 p-5 md:p-6 bg-[#07111F] border border-[#07111F]">
+            <div className="mb-6 p-5 md:p-6 bg-[#0B0E14] border border-[#0B0E14]">
               <div className="flex flex-wrap items-center gap-3 mb-3">
-                <span className="text-[#C9A44C] text-[13px] font-medium">Intensive</span>
+                <span className="text-[#D4AF37] text-[13px] font-medium">Intensive</span>
                 <span className="text-[13px] text-white/60">CAD 3,500–8,000+</span>
               </div>
               <h3 className="text-[18px] md:text-[20px] font-semibold text-white mb-2">North America Market Entry 30-Day Launch Support</h3>
@@ -254,7 +254,7 @@ export default function ENServices() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

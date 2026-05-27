@@ -164,13 +164,13 @@ export default function ZHAbout() {
               </p>
               <div className="p-5 md:p-6 bg-white border border-[#E5E5E5] mt-4">
                 <ul className="space-y-3 text-[14px] text-[#555] leading-[1.7]">
-                  <li className="pl-4 border-l-2 border-[#00A884]">
+                  <li className="pl-4 border-l-2 border-[#00B894]">
                     <strong className="text-[#212121]">本地观察者：</strong>持续跟踪加拿大和北美市场中的企业动态、活动信息、服务资源和产业机会。
                   </li>
-                  <li className="pl-4 border-l-2 border-[#00A884]">
+                  <li className="pl-4 border-l-2 border-[#00B894]">
                     <strong className="text-[#212121]">市场进入顾问：</strong>帮助中国企业在进入前判断产品、资料、责任链和落地路径。
                   </li>
-                  <li className="pl-4 border-l-2 border-[#00A884]">
+                  <li className="pl-4 border-l-2 border-[#00B894]">
                     <strong className="text-[#212121]">资源连接者：</strong>协助中国企业与加拿大本地服务商、机构和合作资源建立更有效的沟通。
                   </li>
                 </ul>
@@ -198,7 +198,7 @@ export default function ZHAbout() {
                 '是否需要通过媒体内容、活动、报道或渠道合作提高本地可信度',
                 '下一步应该先验证客户、补齐资料、对接服务商，还是推进具体项目',
               ].map((item, i) => (
-                <div key={i} className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884] border border-[#E5E5E5]">
+                <div key={i} className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894] border border-[#E5E5E5]">
                   <p className="text-[14px] text-[#444] leading-[1.6]">{item}</p>
                 </div>
               ))}
@@ -230,7 +230,7 @@ export default function ZHAbout() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

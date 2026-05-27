@@ -49,11 +49,11 @@ export default function ZH_ProductCompliance() {
                 适合哪些企业
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">产品需要安全、电气、无线或排放认证才能进入北美的制造商</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">不确定应该找哪家认证机构（CSA、UL、ETL、Intertek）的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">已有CE或其他国际认证，想了解能否用于北美的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">需要根据销售渠道（零售、商用、工业、线上）做认证的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">听说"需要做认证"但不知道哪种、多久、多少钱的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">产品需要安全、电气、无线或排放认证才能进入北美的制造商</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">不确定应该找哪家认证机构（CSA、UL、ETL、Intertek）的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">已有CE或其他国际认证，想了解能否用于北美的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">需要根据销售渠道（零售、商用、工业、线上）做认证的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">听说"需要做认证"但不知道哪种、多久、多少钱的企业</li>
               </ul>
             </div>
 
@@ -74,12 +74,12 @@ export default function ZH_ProductCompliance() {
                 我们具体做什么
               </h2>
               <ul className="space-y-4">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">产品类别评估</strong> — 根据功能、组件和预期用途分类，确定所有适用的认证要求</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">适用标准识别</strong> — 确定具体标准：CSA C22.2、UL标准、FCC Part 15、ISED RSS、能效法规和省要求</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">现有认证评估</strong> — 评估CE、CCC等现有测试报告能否被利用，或是否需要额外北美专项测试</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">文档缺口分析</strong> — 明确提交认证前需要准备的技术文档、用户手册、标签和安全警示</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">认证路径规划</strong> — 制定分步时间线，展示测试、提交和批准的最优顺序</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">认证机构协调</strong> — 帮你准备接触认证机构时该问什么问题、准备什么材料</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">产品类别评估</strong> — 根据功能、组件和预期用途分类，确定所有适用的认证要求</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">适用标准识别</strong> — 确定具体标准：CSA C22.2、UL标准、FCC Part 15、ISED RSS、能效法规和省要求</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">现有认证评估</strong> — 评估CE、CCC等现有测试报告能否被利用，或是否需要额外北美专项测试</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">文档缺口分析</strong> — 明确提交认证前需要准备的技术文档、用户手册、标签和安全警示</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">认证路径规划</strong> — 制定分步时间线，展示测试、提交和批准的最优顺序</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">认证机构协调</strong> — 帮你准备接触认证机构时该问什么问题、准备什么材料</li>
               </ul>
             </div>
 
@@ -175,16 +175,16 @@ export default function ZH_ProductCompliance() {
                 相关服务
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">全部服务</Link></li>
-                <li><Link to="/zh/services/market-entry-diagnosis" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">市场进入诊断</Link></li>
-                <li><Link to="/zh/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">合规与责任链梳理</Link></li>
-                <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">联系中加商业在线</Link></li>
+                <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">全部服务</Link></li>
+                <li><Link to="/zh/services/market-entry-diagnosis" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">市场进入诊断</Link></li>
+                <li><Link to="/zh/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">合规与责任链梳理</Link></li>
+                <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">联系中加商业在线</Link></li>
               </ul>
             </div>
           </div>
         </section>
 
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

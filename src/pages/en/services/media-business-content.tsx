@@ -52,11 +52,11 @@ export default function EN_MediaBusinessContent() {
                 Who This Service Is For
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Chinese companies needing to build brand awareness and credibility in North America</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Businesses preparing for trade shows, industry events, or business missions where professional presentation matters</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies seeking media coverage or business profiling in Canadian or North American publications</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Leadership teams whose English company profiles, case studies, or success stories do not effectively convey their capabilities to Western business audiences</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Businesses that need to adapt their Chinese marketing materials for English-speaking decision-makers without losing their core message</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Chinese companies needing to build brand awareness and credibility in North America</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Businesses preparing for trade shows, industry events, or business missions where professional presentation matters</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Companies seeking media coverage or business profiling in Canadian or North American publications</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Leadership teams whose English company profiles, case studies, or success stories do not effectively convey their capabilities to Western business audiences</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Businesses that need to adapt their Chinese marketing materials for English-speaking decision-makers without losing their core message</li>
               </ul>
             </div>
 
@@ -79,12 +79,12 @@ export default function EN_MediaBusinessContent() {
                 What We Specifically Do
               </h2>
               <ul className="space-y-4">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Brand Positioning Review</strong> — Assessment of how your company, products, and capabilities are positioned for North American audiences, with recommendations for clearer value communication</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">English/Chinese Content Adaptation</strong> — Not direct translation, but contextual adaptation of company profiles, product introductions, case studies, and executive summaries for North American business readers</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Media-Style Company Profiles and Articles</strong> — Development of professional company profiles, executive interviews, and industry articles suitable for business media, trade publications, and partner presentations</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Business Exposure Coordination</strong> — Planning and coordination of business exposure opportunities, including trade events, industry features, and business networking activities</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Event and Presentation Materials</strong> — Support for trade show presentations, pitch decks, executive speeches, and partner meeting materials</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Communication Materials Improvement</strong> — Structured review and prioritized improvement plan for your existing English marketing and communication materials</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Brand Positioning Review</strong> — Assessment of how your company, products, and capabilities are positioned for North American audiences, with recommendations for clearer value communication</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">English/Chinese Content Adaptation</strong> — Not direct translation, but contextual adaptation of company profiles, product introductions, case studies, and executive summaries for North American business readers</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Media-Style Company Profiles and Articles</strong> — Development of professional company profiles, executive interviews, and industry articles suitable for business media, trade publications, and partner presentations</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Business Exposure Coordination</strong> — Planning and coordination of business exposure opportunities, including trade events, industry features, and business networking activities</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Event and Presentation Materials</strong> — Support for trade show presentations, pitch decks, executive speeches, and partner meeting materials</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Communication Materials Improvement</strong> — Structured review and prioritized improvement plan for your existing English marketing and communication materials</li>
               </ul>
             </div>
 
@@ -135,10 +135,10 @@ export default function EN_MediaBusinessContent() {
                 Related Services
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">All Services</Link></li>
-                <li><Link to="/en/services/website-content-for-service-providers" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Website & Commercial Content</Link></li>
-                <li><Link to="/en/services/market-entry-diagnosis" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Market Entry Diagnosis</Link></li>
-                <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
+                <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">All Services</Link></li>
+                <li><Link to="/en/services/website-content-for-service-providers" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Website & Commercial Content</Link></li>
+                <li><Link to="/en/services/market-entry-diagnosis" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Market Entry Diagnosis</Link></li>
+                <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Contact CCBONLINE</Link></li>
               </ul>
             </div>
           </div>
@@ -193,7 +193,7 @@ export default function EN_MediaBusinessContent() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

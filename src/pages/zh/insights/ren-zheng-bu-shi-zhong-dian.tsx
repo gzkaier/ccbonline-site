@@ -72,11 +72,11 @@ export default function ZH_RenZhengBuShiZhongDian() {
               下一步动作
             </h2>
             <ul className="space-y-3 mb-10">
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">审计现有认证的覆盖范围，找出缺口</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">梳理目标渠道和客户对认证的具体要求</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">建立产品变更后的重新认证管理流程</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">把认证里程碑和渠道开发时间线对齐</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">联系 CCBONLINE 做认证对齐的市场进入规划</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">审计现有认证的覆盖范围，找出缺口</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">梳理目标渠道和客户对认证的具体要求</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">建立产品变更后的重新认证管理流程</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">把认证里程碑和渠道开发时间线对齐</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">联系 CCBONLINE 做认证对齐的市场进入规划</li>
             </ul>
           </div>
         </section>
@@ -130,10 +130,10 @@ export default function ZH_RenZhengBuShiZhongDian() {
               相关阅读
             </h2>
             <ul className="space-y-2 mb-8">
-              <li><Link to="/zh/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">产品合规与认证路径服务 →</Link></li>
-              <li><Link to="/zh/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">合规与责任链梳理 →</Link></li>
-              <li><Link to="/zh/insights/ior-bu-shi-dai-qing-guan" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">IOR 进口责任主体不是清关代理 →</Link></li>
-              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">联系 CCBONLINE →</Link></li>
+              <li><Link to="/zh/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">产品合规与认证路径服务 →</Link></li>
+              <li><Link to="/zh/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">合规与责任链梳理 →</Link></li>
+              <li><Link to="/zh/insights/ior-bu-shi-dai-qing-guan" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">IOR 进口责任主体不是清关代理 →</Link></li>
+              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">联系 CCBONLINE →</Link></li>
             </ul>
           </div>
         </section>

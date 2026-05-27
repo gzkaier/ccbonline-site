@@ -46,19 +46,19 @@ export default function ZH_JiaNaDaShiChangZhiDeZuoMa() {
                 什么时候加拿大值得做
               </h2>
               <div className="space-y-4">
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[15px] mb-1">你的产品是高端或专业化的</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">加拿大人均购买力高，消费者重视质量胜过最低价格。高端工业设备、专业工具和质量消费品可以找到强劲需求。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[15px] mb-1">你的产品类别供应不足</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">在许多工业和B2B类别中，加拿大的供应商比美国少。一个有竞争力的质量和价格的中国制造商可以在竞争对手到来之前建立强势地位。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[15px] mb-1">加拿大是你的学习市场</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">加拿大的真正价值往往是战略性的：学习北美买家如何行为，打磨你的产品和文档，建立参考案例——所有这些都比在成本更低、风险更小。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[15px] mb-1">你已经有美国策略</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">如果你计划无论如何都要进入美国，添加加拿大通常是增量成本：同样的认证（CSA在美国被认可），相似的物流，以及一个成本相对较低的额外收入来源。</p>
                 </div>
@@ -70,15 +70,15 @@ export default function ZH_JiaNaDaShiChangZhiDeZuoMa() {
                 什么时候加拿大单独做不够
               </h2>
               <div className="space-y-4">
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">你的产品需要巨大销量才能盈利</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">消费电子、大众商品和低利润产品通常需要美国市场的规模才能产生有意义的回报。加拿大的人口根本支撑不了这个量。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">产品适应性成本相对市场规模太高</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">如果你的产品需要大量重新设计、双语包装和加拿大特定认证，而市场只有4千万人，经济学可能不成立。美国为同样的适应性投资提供了大得多的回报。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">你的产品类别已被加拿大成熟供应商主导</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">加拿大某些产品类别由本地或美国供应商深度服务，他们拥有牢固的关系。进入这些细分需要显著的竞争差异化，而不仅仅是价格优势。</p>
                 </div>
@@ -93,11 +93,11 @@ export default function ZH_JiaNaDaShiChangZhiDeZuoMa() {
                 与其问"4千万人够不够"，不如问这些实际问题：
               </p>
               <ul className="space-y-2">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">你的产品类别在加拿大可寻址的市场规模有多大？</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">该细分市场已有多少竞争者？</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">你能实际达到什么样的利润率？</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">进入的总成本是多少（认证、IOR、分销、营销）？</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">多久能收回进入投资？</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">你的产品类别在加拿大可寻址的市场规模有多大？</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">该细分市场已有多少竞争者？</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">你能实际达到什么样的利润率？</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">进入的总成本是多少（认证、IOR、分销、营销）？</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">多久能收回进入投资？</li>
               </ul>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mt-4">
                 一个有50个潜在买家、40%利润率、竞争极小的小众工业产品，可能远比一个与数百个供应商竞争、利润率微薄的大众消费品在美国更有利可图。
@@ -124,12 +124,12 @@ export default function ZH_JiaNaDaShiChangZhiDeZuoMa() {
                 相关资源
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/zh/insights/jia-na-da-vs-mei-guo-xian-jin-ru" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">加拿大 vs. 美国：先进哪个？→</Link></li>
-                <li><Link to="/zh/services/market-entry-diagnosis" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">市场进入诊断服务 →</Link></li>
+                <li><Link to="/zh/insights/jia-na-da-vs-mei-guo-xian-jin-ru" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">加拿大 vs. 美国：先进哪个？→</Link></li>
+                <li><Link to="/zh/services/market-entry-diagnosis" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">市场进入诊断服务 →</Link></li>
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 不确定加拿大是否适合你的产品？
               </h3>

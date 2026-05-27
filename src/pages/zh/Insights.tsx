@@ -69,8 +69,8 @@ const downloadResources = [
 
 function InsightCardComponent({ card }: { card: InsightCard }) {
   return (
-    <div className="group bg-white border border-[#E5E5E5] hover:border-[#00A884] transition-colors p-5 md:p-6 flex flex-col">
-      <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 leading-[1.5] group-hover:text-[#00A884] transition-colors">
+    <div className="group bg-white border border-[#E5E5E5] hover:border-[#00B894] transition-colors p-5 md:p-6 flex flex-col">
+      <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 leading-[1.5] group-hover:text-[#00B894] transition-colors">
         {card.title}
       </h3>
       <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.6] mb-4 flex-1">
@@ -78,7 +78,7 @@ function InsightCardComponent({ card }: { card: InsightCard }) {
       </p>
       <Link
         to={`/zh/insights/${card.slug}`}
-        className="text-[14px] font-medium text-[#00A884] hover:underline inline-flex items-center gap-1"
+        className="text-[14px] font-medium text-[#00B894] hover:underline inline-flex items-center gap-1"
       >
         阅读全文 <span className="text-[16px]">&rarr;</span>
       </Link>
@@ -161,7 +161,7 @@ export default function ZHInsights() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

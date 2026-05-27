@@ -80,19 +80,19 @@ export default function EN_TradeShowLeadFollowUpBestPractices() {
                 Common Follow-Up Mistakes
               </h2>
               <div className="space-y-4">
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">Generic mass emails</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">"Dear Sir/Madam, thank you for visiting our booth" signals that you do not remember the conversation. Personalize every email with a reference to what was discussed.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">No clear next step</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">Ending an email with "please let us know if you need anything" puts the burden on the buyer. Propose a specific next action with a timeline.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">Following up in the wrong timezone</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">Emailing at 2 AM Toronto time because that is business hours in China means your email gets buried under 50 others by morning. Schedule emails to arrive during North American business hours.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">Giving up after one or two attempts</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">North American buyers are busy. They may not respond to the first or even second email. A structured 5-6 touch sequence over 6-8 weeks is normal, not pushy.</p>
                 </div>
@@ -104,14 +104,14 @@ export default function EN_TradeShowLeadFollowUpBestPractices() {
                 Related Resources
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/en/services/channel-local-landing" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Channel Strategy & Local Landing Service →</Link></li>
-                <li><Link to="/en/services/customer-channel-validation" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Customer & Channel Validation →</Link></li>
-                <li><Link to="/en/insights/channel-development-is-not-email-blasting" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Channel Development Is Not Email Blasting →</Link></li>
-                <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE →</Link></li>
+                <li><Link to="/en/services/channel-local-landing" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Channel Strategy & Local Landing Service →</Link></li>
+                <li><Link to="/en/services/customer-channel-validation" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Customer & Channel Validation →</Link></li>
+                <li><Link to="/en/insights/channel-development-is-not-email-blasting" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Channel Development Is Not Email Blasting →</Link></li>
+                <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Contact CCBONLINE →</Link></li>
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 Need help structuring your trade show follow-up?
               </h3>

@@ -79,11 +79,11 @@ export default function EN_CSAVsULCertificationDifference() {
                 The right choice depends on several factors specific to your situation:
               </p>
               <ul className="space-y-2 mb-5">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>Primary target market</strong> — Canada-first typically favors CSA; US-first favors UL</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>Retailer or distributor requirements</strong> — Some specify which certification they accept</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>Existing certifications</strong> — If you already have UL for the US, adding cUL for Canada may be more efficient</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>Product category</strong> — Some categories have specific requirements that favor one body</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>Budget and timeline</strong> — Both are competitive; preparation quality matters more than body choice</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>Primary target market</strong> — Canada-first typically favors CSA; US-first favors UL</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>Retailer or distributor requirements</strong> — Some specify which certification they accept</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>Existing certifications</strong> — If you already have UL for the US, adding cUL for Canada may be more efficient</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>Product category</strong> — Some categories have specific requirements that favor one body</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>Budget and timeline</strong> — Both are competitive; preparation quality matters more than body choice</li>
               </ul>
               <div className="p-5 md:p-6 bg-[#FFF8F8] border border-[#F0D0D0]">
                 <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.7]">
@@ -97,14 +97,14 @@ export default function EN_CSAVsULCertificationDifference() {
                 Related Resources
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/en/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Product Compliance & Certification Pathway Service →</Link></li>
-                <li><Link to="/en/insights/certification-is-not-the-end-of-market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Certification Is Not the End of Market Entry →</Link></li>
-                <li><Link to="/en/insights/importer-of-record-is-not-just-customs-clearance" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Importer of Record Is Not Just Customs Clearance →</Link></li>
-                <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE →</Link></li>
+                <li><Link to="/en/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Product Compliance & Certification Pathway Service →</Link></li>
+                <li><Link to="/en/insights/certification-is-not-the-end-of-market-entry" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Certification Is Not the End of Market Entry →</Link></li>
+                <li><Link to="/en/insights/importer-of-record-is-not-just-customs-clearance" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Importer of Record Is Not Just Customs Clearance →</Link></li>
+                <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Contact CCBONLINE →</Link></li>
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 Need help choosing between CSA and UL?
               </h3>

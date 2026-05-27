@@ -91,7 +91,7 @@ export default function Insights() {
                   </div>
                 </div>
                 <p className="text-[11px] text-[#999] mb-2">{article.date}</p>
-                <h3 className="text-[14px] md:text-[15px] font-semibold mb-2 leading-[1.5] group-hover:text-[#00A884] transition-colors">
+                <h3 className="text-[14px] md:text-[15px] font-semibold mb-2 leading-[1.5] group-hover:text-[#00B894] transition-colors">
                   {article.title}
                 </h3>
                 <p className="text-[11px] md:text-[13px] text-[#767676] leading-[1.6]">{article.excerpt}</p>

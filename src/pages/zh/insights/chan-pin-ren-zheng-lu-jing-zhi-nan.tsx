@@ -136,10 +136,10 @@ export default function ZH_ChanPinRenZhengLuJingZhiNan() {
                 需要注意的关键差异：
               </p>
               <ul className="space-y-2">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]"><strong>电压标准</strong> — 北美使用 120V/60Hz，欧洲使用 230V/50Hz。产品必须在本地电压条件下测试。</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]"><strong>插头和电线标准</strong> — 不同的插头类型、电线规格和接地要求适用。</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]"><strong>标签要求</strong> — 北美标签标准与欧洲标识要求不同。</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]"><strong>射频发射</strong> — FCC 和 ISED 与欧洲 EMC 标准有不同的限值和测试程序。</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]"><strong>电压标准</strong> — 北美使用 120V/60Hz，欧洲使用 230V/50Hz。产品必须在本地电压条件下测试。</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]"><strong>插头和电线标准</strong> — 不同的插头类型、电线规格和接地要求适用。</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]"><strong>标签要求</strong> — 北美标签标准与欧洲标识要求不同。</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]"><strong>射频发射</strong> — FCC 和 ISED 与欧洲 EMC 标准有不同的限值和测试程序。</li>
               </ul>
               <p className="text-[14px] text-[#767676] leading-[1.6] mt-4">
                 建议在与认证机构初次沟通时带上你的 CE 测试报告。他们可以识别哪些测试可以利用，哪些需要重做——可能帮你节省大量时间和成本。
@@ -152,28 +152,28 @@ export default function ZH_ChanPinRenZhengLuJingZhiNan() {
               </h2>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-16">第 1-2 周</span>
+                  <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-16">第 1-2 周</span>
                   <div>
                     <p className="text-[15px] font-medium text-[#212121]">初步评估和文档审查</p>
                     <p className="text-[14px] text-[#767676] leading-[1.6]">向认证机构提交产品规格、现有测试报告和预期用途文档。</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-16">第 3-4 周</span>
+                  <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-16">第 3-4 周</span>
                   <div>
                     <p className="text-[15px] font-medium text-[#212121]">测试范围确定</p>
                     <p className="text-[14px] text-[#767676] leading-[1.6]">认证机构确定适用的标准和需要进行的测试。</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-16">第 5-10 周</span>
+                  <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-16">第 5-10 周</span>
                   <div>
                     <p className="text-[15px] font-medium text-[#212121]">产品测试</p>
                     <p className="text-[14px] text-[#767676] leading-[1.6]">实验室进行安全、性能和发射测试（如适用）。时间因产品复杂度而异。</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-16">第 11-14 周</span>
+                  <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-16">第 11-14 周</span>
                   <div>
                     <p className="text-[15px] font-medium text-[#212121]">报告审查和认证决定</p>
                     <p className="text-[14px] text-[#767676] leading-[1.6]">认证机构审查测试结果，进行任何后续评估，并颁发认证。</p>
@@ -187,12 +187,12 @@ export default function ZH_ChanPinRenZhengLuJingZhiNan() {
                 联系认证机构之前准备什么
               </h2>
               <ul className="space-y-2">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">完整的产品规格（包括所有电气组件、材料和尺寸）</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">现有测试报告（CE、CCC 或其他国际认证）</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">预期用途和目标市场的清晰描述</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">用户手册或产品文档（即使是草稿）</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">测试样品（通常 2-3 个）</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">你需要完成认证的时间线</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">完整的产品规格（包括所有电气组件、材料和尺寸）</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">现有测试报告（CE、CCC 或其他国际认证）</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">预期用途和目标市场的清晰描述</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">用户手册或产品文档（即使是草稿）</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">测试样品（通常 2-3 个）</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">你需要完成认证的时间线</li>
               </ul>
             </div>
 
@@ -250,13 +250,13 @@ export default function ZH_ChanPinRenZhengLuJingZhiNan() {
                 相关资源
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/zh/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">产品合规与认证路径服务 →</Link></li>
-                <li><Link to="/zh/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">合规与责任链梳理 →</Link></li>
-                <li><Link to="/zh/insights/ior-bu-shi-dai-qing-guan" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">IOR 进口责任主体不是清关代理 →</Link></li>
+                <li><Link to="/zh/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">产品合规与认证路径服务 →</Link></li>
+                <li><Link to="/zh/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">合规与责任链梳理 →</Link></li>
+                <li><Link to="/zh/insights/ior-bu-shi-dai-qing-guan" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">IOR 进口责任主体不是清关代理 →</Link></li>
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 不确定你的产品需要什么认证？
               </h3>

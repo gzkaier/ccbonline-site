@@ -49,10 +49,10 @@ export default function EN_TradeShowFollowUpService() {
                 Who This Is For
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies preparing for their first Canadian or US trade show</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Businesses that have exhibited before but struggled with lead conversion</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Manufacturers with solid products but limited experience with North American trade show expectations</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies that collected leads at a show but never followed up systematically</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Companies preparing for their first Canadian or US trade show</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Businesses that have exhibited before but struggled with lead conversion</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Manufacturers with solid products but limited experience with North American trade show expectations</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Companies that collected leads at a show but never followed up systematically</li>
               </ul>
             </div>
 
@@ -75,19 +75,19 @@ export default function EN_TradeShowFollowUpService() {
 
               <h3 className="text-[17px] font-semibold mb-3 text-[#212121]">Before the Show</h3>
               <ul className="space-y-3 mb-6">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Booth messaging review</strong> — Assessment of whether your booth presentation, materials, and product demos are aligned with North American buyer expectations</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Pre-show outreach</strong> — Identification and contact of target attendees before the show to schedule booth meetings</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Materials preparation</strong> — Review and adaptation of product sheets, business cards, and takeaway materials for the North American audience</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Lead capture system setup</strong> — Simple, practical system for capturing and categorizing leads at the booth</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Booth messaging review</strong> — Assessment of whether your booth presentation, materials, and product demos are aligned with North American buyer expectations</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Pre-show outreach</strong> — Identification and contact of target attendees before the show to schedule booth meetings</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Materials preparation</strong> — Review and adaptation of product sheets, business cards, and takeaway materials for the North American audience</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Lead capture system setup</strong> — Simple, practical system for capturing and categorizing leads at the booth</li>
               </ul>
 
               <h3 className="text-[17px] font-semibold mb-3 text-[#212121]">After the Show</h3>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Lead prioritization</strong> — Sorting and ranking leads by interest level, fit, and urgency within 48 hours of show close</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Follow-up sequence design</strong> — Structured outreach plan with timing, messaging, and channel recommendations for each lead tier</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Localized follow-up execution</strong> — We help execute initial follow-up from a Canadian-based contact, increasing response rates</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Meeting scheduling</strong> — Coordination of post-show calls, video meetings, or in-person follow-ups with qualified prospects</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Progress tracking</strong> — Weekly tracking of follow-up status, responses, and next-step actions for 4-8 weeks post-show</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Lead prioritization</strong> — Sorting and ranking leads by interest level, fit, and urgency within 48 hours of show close</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Follow-up sequence design</strong> — Structured outreach plan with timing, messaging, and channel recommendations for each lead tier</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Localized follow-up execution</strong> — We help execute initial follow-up from a Canadian-based contact, increasing response rates</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Meeting scheduling</strong> — Coordination of post-show calls, video meetings, or in-person follow-ups with qualified prospects</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Progress tracking</strong> — Weekly tracking of follow-up status, responses, and next-step actions for 4-8 weeks post-show</li>
               </ul>
             </div>
 
@@ -170,13 +170,13 @@ export default function EN_TradeShowFollowUpService() {
                 Related Resources
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/en/insights/trade-show-lead-follow-up-best-practices" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Trade Show Lead Follow-Up Best Practices →</Link></li>
-                <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">All Services →</Link></li>
-                <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE →</Link></li>
+                <li><Link to="/en/insights/trade-show-lead-follow-up-best-practices" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Trade Show Lead Follow-Up Best Practices →</Link></li>
+                <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">All Services →</Link></li>
+                <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Contact CCBONLINE →</Link></li>
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 Preparing for a Canadian or US trade show?
               </h3>

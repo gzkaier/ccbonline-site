@@ -72,11 +72,11 @@ export default function EN_channel_development_is_not_email_blasting() {
               Practical Next Steps
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Map the distribution landscape in your target product category</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Define your ideal distributor profile: size, coverage, capabilities</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Prepare channel-ready materials: pricing, margins, support, warranty</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Develop a targeted outreach plan with personalized messaging</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Contact CCBONLINE for channel development strategy and partner introductions</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Map the distribution landscape in your target product category</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Define your ideal distributor profile: size, coverage, capabilities</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Prepare channel-ready materials: pricing, margins, support, warranty</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Develop a targeted outreach plan with personalized messaging</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Contact CCBONLINE for channel development strategy and partner introductions</li>
 
             </ul>
           </div>
@@ -132,11 +132,11 @@ export default function EN_channel_development_is_not_email_blasting() {
               Related Resources
             </h2>
             <ul className="space-y-2 mb-8">
-          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Market Entry Services</Link></li>
-          <li><Link to="/en/insights/trade-show-is-not-just-exhibition" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">A Trade Show Is Not Just an Exhibition</Link></li>
-          <li><Link to="/en/insights/canada-as-first-station-for-north-america-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Canada as a First Station for North America Market Entry</Link></li>
-          <li><Link to="/en/insights/north-america-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">The Responsibility Chain Behind North America Market Entry</Link></li>
-          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
+          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Market Entry Services</Link></li>
+          <li><Link to="/en/insights/trade-show-is-not-just-exhibition" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">A Trade Show Is Not Just an Exhibition</Link></li>
+          <li><Link to="/en/insights/canada-as-first-station-for-north-america-entry" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Canada as a First Station for North America Market Entry</Link></li>
+          <li><Link to="/en/insights/north-america-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">The Responsibility Chain Behind North America Market Entry</Link></li>
+          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Contact CCBONLINE</Link></li>
 
             </ul>
           </div>

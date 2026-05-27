@@ -72,7 +72,7 @@ function ChecklistCard({ item, isLink }: { item: { title: string; desc: string; 
     <div className="p-5 bg-[#F8F9FA] border border-[#E5E5E5]">
       <h3 className="text-[15px] font-semibold mb-2 leading-[1.4]">{item.title}</h3>
       <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6] mb-3">{item.desc}</p>
-      {isLink && item.link && <Link to={item.link} className="text-[13px] text-[#00A884] hover:underline">立即阅读 &rarr;</Link>}
+      {isLink && item.link && <Link to={item.link} className="text-[13px] text-[#00B894] hover:underline">立即阅读 &rarr;</Link>}
     </div>
   )
 }
@@ -133,7 +133,7 @@ export default function ZHResources() {
 
             {/* 已上线 */}
             <div className="mb-8">
-              <h3 className="text-[15px] font-semibold text-[#00A884] mb-4">已上线</h3>
+              <h3 className="text-[15px] font-semibold text-[#00B894] mb-4">已上线</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {launched.map((item, i) => (
                   <ChecklistCard key={i} item={item} isLink />
@@ -195,7 +195,7 @@ export default function ZHResources() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {caseNotes.map((item, i) => (
                 <div key={i} className="p-5 bg-[#F8F9FA] border border-[#E5E5E5]">
-                  <span className="text-[11px] text-[#00A884] uppercase tracking-wider mb-3 block">{item.industry}</span>
+                  <span className="text-[11px] text-[#00B894] uppercase tracking-wider mb-3 block">{item.industry}</span>
                   <h3 className="text-[15px] font-semibold mb-2 leading-[1.5]">{item.title}</h3>
                   <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.65]">{item.desc}</p>
                 </div>
@@ -213,9 +213,9 @@ export default function ZHResources() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
               {insightsLive.map((item, i) => (
-                <Link key={i} to={`/zh/insights/${item.slug}`} className="p-5 bg-white border border-[#E5E5E5] hover:border-[#00A884] transition-colors group">
-                  <h3 className="text-[15px] font-semibold mb-2 group-hover:text-[#00A884] transition-colors">{item.title}</h3>
-                  <span className="text-[13px] text-[#00A884]">阅读文章 &rarr;</span>
+                <Link key={i} to={`/zh/insights/${item.slug}`} className="p-5 bg-white border border-[#E5E5E5] hover:border-[#00B894] transition-colors group">
+                  <h3 className="text-[15px] font-semibold mb-2 group-hover:text-[#00B894] transition-colors">{item.title}</h3>
+                  <span className="text-[13px] text-[#00B894]">阅读文章 &rarr;</span>
                 </Link>
               ))}
             </div>
@@ -233,7 +233,7 @@ export default function ZHResources() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

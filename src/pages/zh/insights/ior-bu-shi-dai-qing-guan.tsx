@@ -44,11 +44,11 @@ export default function ZH_IORBuShiDaiQingGuan() {
                 <strong>进口责任主体（Importer of Record，简称 IOR）</strong>是负责确保进口货物符合进口国所有法律法规的个人或实体。在加拿大，这意味着 IOR 在以下方面负有法律责任：
               </p>
               <ul className="space-y-2 mb-4">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">向加拿大边境服务局（CBSA）准确申报货物</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">缴纳所有适用的关税和税款</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">确保产品符合安全标准、标签要求和进口许可证规定</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">在规定的保留期限内保存记录（加拿大通常 6 年）</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">响应 CBSA 的审计、检查或合规询问</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">向加拿大边境服务局（CBSA）准确申报货物</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">缴纳所有适用的关税和税款</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">确保产品符合安全标准、标签要求和进口许可证规定</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">在规定的保留期限内保存记录（加拿大通常 6 年）</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">响应 CBSA 的审计、检查或合规询问</li>
               </ul>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
                 IOR 不一定是货物的所有者。它是承担进口法律责任的实体。这个区别非常重要。
@@ -120,10 +120,10 @@ export default function ZH_IORBuShiDaiQingGuan() {
                 实际上，你应该在计划发货前至少 4-6 周确定 IOR 结构。这需要时间：
               </p>
               <ul className="space-y-2">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">公司注册（如果设立自己的实体）</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">与分销商或第三方 IOR 的合同谈判</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">CBSA 账户设置和保证金安排</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">文件准备和合规审查</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">公司注册（如果设立自己的实体）</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">与分销商或第三方 IOR 的合同谈判</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">CBSA 账户设置和保证金安排</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">文件准备和合规审查</li>
               </ul>
             </div>
 
@@ -133,19 +133,19 @@ export default function ZH_IORBuShiDaiQingGuan() {
                 中国制造商常犯的错误
               </h2>
               <div className="space-y-4">
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">以为货代就是 IOR</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">货代负责运输货物。他们不对进口合规负法律责任，除非专门签订了 IOR 服务合同。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">让分销商处理 IOR 但没有明确协议</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">如果分销商是 IOR，你需要书面协议明确谁负责什么——文件、关税、合规和责任。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">不了解责任敞口有多大</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">IOR 可能因为申报不实、关税少缴或产品不合规而被追责。这不是走个形式——是法律责任。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">等货在路上了才想起来</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">等船在海上航行了再安排 IOR 就来不及了。港口滞留费可能每天数千加元。</p>
                 </div>
@@ -164,11 +164,11 @@ export default function ZH_IORBuShiDaiQingGuan() {
                 需要考虑的关键因素：
               </p>
               <ul className="space-y-2 mb-5">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>货量和频率</strong> — 更高的货量通常值得设立自己的实体</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>控制需求</strong> — 你是否需要直接控制进口流程？</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>分销商能力</strong> — 你的分销商是否有可靠的进口经验？</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>责任容忍度</strong> — 你是否接受另一个实体对你的产品负法律责任？</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>时间线</strong> — 你需要多快开始发货？</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>货量和频率</strong> — 更高的货量通常值得设立自己的实体</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>控制需求</strong> — 你是否需要直接控制进口流程？</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>分销商能力</strong> — 你的分销商是否有可靠的进口经验？</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>责任容忍度</strong> — 你是否接受另一个实体对你的产品负法律责任？</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>时间线</strong> — 你需要多快开始发货？</li>
               </ul>
               <div className="p-5 md:p-6 bg-[#FFF8F8] border border-[#F0D0D0]">
                 <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.7]">
@@ -228,15 +228,15 @@ export default function ZH_IORBuShiDaiQingGuan() {
                 相关资源
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/zh/services/ior-import-responsibility" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">IOR 与进口责任服务 →</Link></li>
-                <li><Link to="/zh/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">合规与责任链梳理 →</Link></li>
-                <li><Link to="/zh/services/local-execution-support" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">本地执行支持 →</Link></li>
-                <li><Link to="/zh/services/3pl-warehousing-advisory" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">3PL 筛选与仓库审计 →</Link></li>
+                <li><Link to="/zh/services/ior-import-responsibility" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">IOR 与进口责任服务 →</Link></li>
+                <li><Link to="/zh/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">合规与责任链梳理 →</Link></li>
+                <li><Link to="/zh/services/local-execution-support" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">本地执行支持 →</Link></li>
+                <li><Link to="/zh/services/3pl-warehousing-advisory" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">3PL 筛选与仓库审计 →</Link></li>
               </ul>
             </div>
 
             {/* CTA */}
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 需要帮助梳理 IOR 安排？
               </h3>

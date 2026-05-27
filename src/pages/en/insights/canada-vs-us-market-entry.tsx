@@ -50,23 +50,23 @@ export default function EN_CanadaVsUSMarketEntry() {
               </h2>
 
               <div className="space-y-5">
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[16px] mb-1">Smaller, more manageable market</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">Canada's population of 40 million is smaller than California alone. But that is precisely the point — fewer competitors, more predictable demand patterns, and the ability to build relationships with distributors and retailers without the overwhelming scale of the US.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[16px] mb-1">Clearer regulatory pathway</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">Canada has fewer regulatory agencies and a more centralized compliance framework than the US, where requirements can vary by state. For manufacturers navigating certification for the first time, this simplicity matters.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[16px] mb-1">CSA certification is recognized in the US</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">If you obtain CSA certification for Canada, it is also recognized in the United States (as cCSA-us). This means your Canada investment partially covers US entry down the road.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[16px] mb-1">Less price pressure</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">The US market is hyper-competitive on price, with buyers constantly pushing for lower costs. Canadian buyers typically place more emphasis on quality, reliability, and supplier relationships — which can mean better margins for the right products.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[16px] mb-1">Test your North American strategy</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">Canada gives you a real North American market to learn from — buyer behavior, logistics, after-sales requirements — at a scale that is less risky and expensive than the US. Refine your approach in Canada, then expand south.</p>
                 </div>
@@ -79,19 +79,19 @@ export default function EN_CanadaVsUSMarketEntry() {
               </h2>
 
               <div className="space-y-5">
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[16px] mb-1">Massive market size</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">The US market is roughly ten times larger than Canada's. For products with high volume potential or thin margins that require scale to be profitable, the US may be the only market that justifies the entry investment.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[16px] mb-1">Your customers are already there</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">If your existing international customers have US operations, or if you have received direct inquiries from American buyers, following existing demand may be the most efficient path.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[16px] mb-1">UL certification is recognized in Canada</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">Just as CSA works in the US, UL certification (as cUL) is recognized in Canada. If your product strategy naturally leads to UL first, you can enter both markets with a single certification effort.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[16px] mb-1">Certain product categories favor the US</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">Some product categories — particularly consumer electronics, automotive parts, and certain industrial equipment — have significantly larger addressable markets in the US. The Canadian market may be too small to justify the product adaptation costs.</p>
                 </div>
@@ -227,13 +227,13 @@ export default function EN_CanadaVsUSMarketEntry() {
                 Related Resources
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/en/services/market-entry-diagnosis" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Market Entry Diagnosis Service →</Link></li>
-                <li><Link to="/en/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Product Compliance & Certification Pathway →</Link></li>
-                <li><Link to="/en/insights/product-certification-canada-guide" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Product Certification for Canada Guide →</Link></li>
+                <li><Link to="/en/services/market-entry-diagnosis" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Market Entry Diagnosis Service →</Link></li>
+                <li><Link to="/en/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Product Compliance & Certification Pathway →</Link></li>
+                <li><Link to="/en/insights/product-certification-canada-guide" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Product Certification for Canada Guide →</Link></li>
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 Not sure which market to enter first?
               </h3>

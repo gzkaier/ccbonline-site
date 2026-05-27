@@ -48,10 +48,10 @@ export default function ZH_BrandCredibility() {
               适合哪些企业
             </h2>
             <ul className="space-y-3 mb-10">
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">准备进入北美市场、但网站和数字材料为国内市场而建的中国企业</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">已在产品研发和认证上投入资源，但尚未为西方买家更新数字形象的企业</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">收到反馈称北美潜在客户"看了网站但不太确定"的管理层</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">希望在投入网站重新设计之前，了解北美买家期望哪些可信度信号的企业</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">准备进入北美市场、但网站和数字材料为国内市场而建的中国企业</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">已在产品研发和认证上投入资源，但尚未为西方买家更新数字形象的企业</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">收到反馈称北美潜在客户"看了网站但不太确定"的管理层</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">希望在投入网站重新设计之前，了解北美买家期望哪些可信度信号的企业</li>
             </ul>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
@@ -68,27 +68,27 @@ export default function ZH_BrandCredibility() {
               诊断范围
             </h2>
             <div className="space-y-4 mb-10">
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h3 className="text-[15px] font-semibold mb-2">网站结构与清晰度</h3>
                 <p className="text-[14px] text-[#555] leading-[1.65]">首次访问者能否在 30 秒内理解您做什么、服务谁、如何联系？我们从北美买家角度评估导航、信息层级和架构。</p>
               </div>
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h3 className="text-[15px] font-semibold mb-2">信任信号存在性</h3>
                 <p className="text-[14px] text-[#555] leading-[1.65]">您是否展示认证、客户参考、案例成果、团队资质、实体地址和专业协会会员资格？北美买家在接触前会寻找这些信号来验证合法性。</p>
               </div>
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h3 className="text-[15px] font-semibold mb-2">英文内容质量</h3>
                 <p className="text-[14px] text-[#555] leading-[1.65]">您的英文内容是为母语者编写还是字面翻译？我们评估语气、术语、清晰度，以及您的价值主张是否有效传达。</p>
               </div>
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h3 className="text-[15px] font-semibold mb-2">联系与询盘路径</h3>
                 <p className="text-[14px] text-[#555] leading-[1.65]">潜在客户能否轻松找到联系信息、提交询盘或安排通话？我们审查从发现到联系提交的完整询盘路径。</p>
               </div>
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h3 className="text-[15px] font-semibold mb-2">社交媒体与第三方存在</h3>
                 <p className="text-[14px] text-[#555] leading-[1.65]">您是否有 LinkedIn 公司主页、行业目录 listing 或北美买家能够找到的第三方参考？我们评估您在自有网站之外的被发现能力。</p>
               </div>
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h3 className="text-[15px] font-semibold mb-2">移动端体验与技术性能</h3>
                 <p className="text-[14px] text-[#555] leading-[1.65]">页面加载速度、移动端响应性和 SSL/安全指标对商业买家很重要。我们标记影响可信度的技术问题。</p>
               </div>
@@ -119,21 +119,21 @@ export default function ZH_BrandCredibility() {
             </h2>
             <div className="space-y-4 mb-10">
               <div className="flex gap-4">
-                <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-6">01</span>
+                <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-6">01</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">信息收集</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">您提供网站地址、社交媒体链接、产品材料和现有英文内容。约需 15-20 分钟。</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-6">02</span>
+                <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-6">02</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">结构化审查</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">我们在六个审查维度进行系统评估，通常在 5-7 个工作日内完成。</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-6">03</span>
+                <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-6">03</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">报告交付与讲解</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">我们交付书面评估并安排 60 分钟通话，逐项讲解发现、回答问题并讨论实施优先级。</p>
@@ -195,16 +195,16 @@ export default function ZH_BrandCredibility() {
               相关服务
             </h2>
             <ul className="space-y-2">
-              <li><Link to="/zh/website-content" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">中英双语官网与商业内容优化</Link></li>
-              <li><Link to="/zh/media-content" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">媒体报道与商业曝光服务</Link></li>
-              <li><Link to="/zh/market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">加拿大及北美市场进入服务</Link></li>
-              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">联系 CCBONLINE</Link></li>
+              <li><Link to="/zh/website-content" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">中英双语官网与商业内容优化</Link></li>
+              <li><Link to="/zh/media-content" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">媒体报道与商业曝光服务</Link></li>
+              <li><Link to="/zh/market-entry" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">加拿大及北美市场进入服务</Link></li>
+              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">联系 CCBONLINE</Link></li>
             </ul>
           </div>
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

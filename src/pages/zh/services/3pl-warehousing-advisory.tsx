@@ -52,11 +52,11 @@ export default function ZH_3PLWarehousingAdvisory() {
                 适合哪些企业
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">首次需要在加拿大建立仓储和履约能力的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">正在评估多个3PL合作伙伴但不知道如何比较的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">正在设立加拿大本地库存，需要了解履约成本和SLA结构的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">当前3PL合作出现问题，需要独立评估的企业</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">需要理解货代、3PL和4PL区别后再做基础设施决策的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">首次需要在加拿大建立仓储和履约能力的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">正在评估多个3PL合作伙伴但不知道如何比较的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">正在设立加拿大本地库存，需要了解履约成本和SLA结构的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">当前3PL合作出现问题，需要独立评估的企业</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">需要理解货代、3PL和4PL区别后再做基础设施决策的企业</li>
               </ul>
             </div>
 
@@ -79,12 +79,12 @@ export default function ZH_3PLWarehousingAdvisory() {
                 我们具体做什么
               </h2>
               <ul className="space-y-4">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">需求定义</strong> — 根据你的产品特性、订单量预测、渠道策略（B2B还是B2C）和特殊处理需求（温控、危险品、超大件）定义3PL要求</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">合作伙伴识别</strong> — 识别3-5家符合你需求、地理位置和运营规模的加拿大3PL提供商</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">仓库运营审计</strong> — 现场或远程评估收货、仓储、库存管理、拣货、包装、发货和退货处理流程</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">技术系统评估</strong> — 评估WMS（仓库管理系统）、EDI/API能力、报告功能和与你现有系统的集成</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">合同与SLA审核</strong> — 评估定价结构、最低承诺、责任覆盖、绩效指标和终止条款</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">对比评分卡</strong> — 在运营、财务和战略维度上对候选合作伙伴进行并排评估</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">需求定义</strong> — 根据你的产品特性、订单量预测、渠道策略（B2B还是B2C）和特殊处理需求（温控、危险品、超大件）定义3PL要求</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">合作伙伴识别</strong> — 识别3-5家符合你需求、地理位置和运营规模的加拿大3PL提供商</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">仓库运营审计</strong> — 现场或远程评估收货、仓储、库存管理、拣货、包装、发货和退货处理流程</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">技术系统评估</strong> — 评估WMS（仓库管理系统）、EDI/API能力、报告功能和与你现有系统的集成</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">合同与SLA审核</strong> — 评估定价结构、最低承诺、责任覆盖、绩效指标和终止条款</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">对比评分卡</strong> — 在运营、财务和战略维度上对候选合作伙伴进行并排评估</li>
               </ul>
             </div>
 
@@ -139,10 +139,10 @@ export default function ZH_3PLWarehousingAdvisory() {
                 相关服务
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">全部服务</Link></li>
-                <li><Link to="/zh/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">合规与责任链梳理</Link></li>
-                <li><Link to="/zh/services/local-execution-support" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">本地执行支持</Link></li>
-                <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">联系中加商业在线</Link></li>
+                <li><Link to="/zh/services" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">全部服务</Link></li>
+                <li><Link to="/zh/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">合规与责任链梳理</Link></li>
+                <li><Link to="/zh/services/local-execution-support" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">本地执行支持</Link></li>
+                <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">联系中加商业在线</Link></li>
               </ul>
             </div>
           </div>
@@ -197,7 +197,7 @@ export default function ZH_3PLWarehousingAdvisory() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

@@ -79,11 +79,11 @@ export default function ZH_CSAHeULDeQuBie() {
                 正确的选择取决于你具体情况中的几个因素：
               </p>
               <ul className="space-y-2 mb-5">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>主要目标市场</strong> — 先进入加拿大通常偏好 CSA；先进入美国通常偏好 UL</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>零售商或分销商要求</strong> — 有些指定接受哪种认证</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>现有认证</strong> — 如果你已有美国 UL，增加加拿大 cUL 可能更高效</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>产品类别</strong> — 某些类别有偏向某一机构的特定要求</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>预算和时间线</strong> — 两者都有竞争力；准备质量比机构选择更重要</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>主要目标市场</strong> — 先进入加拿大通常偏好 CSA；先进入美国通常偏好 UL</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>零售商或分销商要求</strong> — 有些指定接受哪种认证</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>现有认证</strong> — 如果你已有美国 UL，增加加拿大 cUL 可能更高效</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>产品类别</strong> — 某些类别有偏向某一机构的特定要求</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>预算和时间线</strong> — 两者都有竞争力；准备质量比机构选择更重要</li>
               </ul>
               <div className="p-5 md:p-6 bg-[#FFF8F8] border border-[#F0D0D0]">
                 <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.7]">
@@ -97,14 +97,14 @@ export default function ZH_CSAHeULDeQuBie() {
                 相关资源
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/zh/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">产品合规与认证路径服务 →</Link></li>
-                <li><Link to="/zh/insights/ren-zheng-bu-shi-zhong-dian" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">认证不是市场进入的终点 →</Link></li>
-                <li><Link to="/zh/insights/ior-bu-shi-dai-qing-guan" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">IOR 进口责任主体不是清关代理 →</Link></li>
-                <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">联系 CCBONLINE →</Link></li>
+                <li><Link to="/zh/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">产品合规与认证路径服务 →</Link></li>
+                <li><Link to="/zh/insights/ren-zheng-bu-shi-zhong-dian" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">认证不是市场进入的终点 →</Link></li>
+                <li><Link to="/zh/insights/ior-bu-shi-dai-qing-guan" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">IOR 进口责任主体不是清关代理 →</Link></li>
+                <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">联系 CCBONLINE →</Link></li>
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 需要在 CSA 和 UL 之间做选择？
               </h3>

@@ -52,29 +52,29 @@ export default function EN_WebsiteContent() {
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
-              <div className="p-5 md:p-6 border border-[#00A884] bg-white">
-                <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 text-[#00A884]">Scenario A: Chinese Companies Entering North America</h3>
+              <div className="p-5 md:p-6 border border-[#00B894] bg-white">
+                <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 text-[#00B894]">Scenario A: Chinese Companies Entering North America</h3>
                 <p className="text-[14px] text-[#444] leading-[1.7] mb-3">
                   You have a Chinese website, product documentation, and company materials. You need English versions that communicate credibly to North American buyers — not just translated, but adapted for Western business conventions.
                 </p>
                 <ul className="space-y-2">
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">English website content adapted for North American business readers</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Service descriptions that match Western purchasing expectations</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Company profiles, case studies, and capability statements</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">FAQ content addressing North American buyer concerns</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">English website content adapted for North American business readers</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Service descriptions that match Western purchasing expectations</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Company profiles, case studies, and capability statements</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">FAQ content addressing North American buyer concerns</li>
                 </ul>
               </div>
 
-              <div className="p-5 md:p-6 border border-[#C9A44C] bg-white">
-                <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 text-[#C9A44C]">Scenario B: Local Firms Serving Bilingual Clients</h3>
+              <div className="p-5 md:p-6 border border-[#D4AF37] bg-white">
+                <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 text-[#D4AF37]">Scenario B: Local Firms Serving Bilingual Clients</h3>
                 <p className="text-[14px] text-[#444] leading-[1.7] mb-3">
                   You are a local professional service firm (tax, insurance, logistics, legal, consulting) serving both English-speaking and Chinese-speaking clients in Canada or the U.S. Your website needs to communicate clearly in both languages.
                 </p>
                 <ul className="space-y-2">
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#C9A44C]">Bilingual service pages with consistent messaging</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#C9A44C]">Trust materials adapted for both cultural contexts</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#C9A44C]">FAQ sections addressing questions from both language groups</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#C9A44C]">Content repurposed for brochures, social media, and email</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#D4AF37]">Bilingual service pages with consistent messaging</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#D4AF37]">Trust materials adapted for both cultural contexts</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#D4AF37]">FAQ sections addressing questions from both language groups</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#D4AF37]">Content repurposed for brochures, social media, and email</li>
                 </ul>
               </div>
             </div>
@@ -84,42 +84,42 @@ export default function EN_WebsiteContent() {
             </h2>
             <div className="space-y-4 mb-10">
               <div className="flex gap-4 items-start">
-                <span className="text-[#C9A44C] text-[13px] font-medium shrink-0 mt-1">01</span>
+                <span className="text-[#D4AF37] text-[13px] font-medium shrink-0 mt-1">01</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">Service positioning and messaging</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">Clarify who you serve, what problems you solve, and what differentiates you — expressed in language your target audience understands.</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
-                <span className="text-[#C9A44C] text-[13px] font-medium shrink-0 mt-1">02</span>
+                <span className="text-[#D4AF37] text-[13px] font-medium shrink-0 mt-1">02</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">Website page structure and copy</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">Homepage, service pages, about section, FAQ, and contact pages organized for clarity and conversion.</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
-                <span className="text-[#C9A44C] text-[13px] font-medium shrink-0 mt-1">03</span>
+                <span className="text-[#D4AF37] text-[13px] font-medium shrink-0 mt-1">03</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">Trust-building materials</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">Credentials, case experience, team backgrounds, certifications, and process descriptions presented to build visitor confidence.</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
-                <span className="text-[#C9A44C] text-[13px] font-medium shrink-0 mt-1">04</span>
+                <span className="text-[#D4AF37] text-[13px] font-medium shrink-0 mt-1">04</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">Bilingual content coordination</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">Chinese and English versions that say the same thing effectively — not word-for-word translation, but equivalent communication.</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
-                <span className="text-[#C9A44C] text-[13px] font-medium shrink-0 mt-1">05</span>
+                <span className="text-[#D4AF37] text-[13px] font-medium shrink-0 mt-1">05</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">Multi-channel content extension</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">Website content repurposed into service brochures, LinkedIn posts, email templates, and client follow-up documents.</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
-                <span className="text-[#C9A44C] text-[13px] font-medium shrink-0 mt-1">06</span>
+                <span className="text-[#D4AF37] text-[13px] font-medium shrink-0 mt-1">06</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">Ongoing content refinement</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">FAQ updates, service description adjustments, case study additions, and seasonal content as your business evolves.</p>
@@ -144,7 +144,7 @@ export default function EN_WebsiteContent() {
                 'Content style guide for consistency',
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3 p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
-                  <span className="text-[#00A884] mt-0.5 shrink-0 text-[13px]">&#10003;</span>
+                  <span className="text-[#00B894] mt-0.5 shrink-0 text-[13px]">&#10003;</span>
                   <p className="text-[14px] text-[#444] leading-[1.5]">{item}</p>
                 </div>
               ))}
@@ -219,16 +219,16 @@ export default function EN_WebsiteContent() {
               Related Services
             </h2>
             <ul className="space-y-2">
-              <li><Link to="/en/brand-credibility" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Brand Credibility & Digital Infrastructure Assessment</Link></li>
-              <li><Link to="/en/media-content" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Media & Business Content Services</Link></li>
-              <li><Link to="/en/market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Canada & North America Market Entry</Link></li>
-              <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
+              <li><Link to="/en/brand-credibility" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Brand Credibility & Digital Infrastructure Assessment</Link></li>
+              <li><Link to="/en/media-content" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Media & Business Content Services</Link></li>
+              <li><Link to="/en/market-entry" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Canada & North America Market Entry</Link></li>
+              <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Contact CCBONLINE</Link></li>
             </ul>
           </div>
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

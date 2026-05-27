@@ -72,11 +72,11 @@ export default function EN_0_90_day_north_america_market_entry_roadmap() {
               Practical Next Steps
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Assess your current market entry readiness with a structured diagnostic</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Identify certification requirements and compliance pathway for your product</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Map potential channel partners and begin targeted outreach</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Establish local warranty and service capabilities before first sale</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Contact CCBONLINE for a customized 90-day market entry roadmap</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Assess your current market entry readiness with a structured diagnostic</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Identify certification requirements and compliance pathway for your product</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Map potential channel partners and begin targeted outreach</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Establish local warranty and service capabilities before first sale</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Contact CCBONLINE for a customized 90-day market entry roadmap</li>
 
             </ul>
           </div>
@@ -132,11 +132,11 @@ export default function EN_0_90_day_north_america_market_entry_roadmap() {
               Related Resources
             </h2>
             <ul className="space-y-2 mb-8">
-          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Market Entry Services</Link></li>
-          <li><Link to="/en/canada-market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Canada Market Entry</Link></li>
-          <li><Link to="/en/insights/market-entry-is-not-selling-overseas" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Market Entry Is Not the Same as Selling Overseas</Link></li>
-          <li><Link to="/en/insights/north-america-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">The Responsibility Chain Behind North America Market Entry</Link></li>
-          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
+          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Market Entry Services</Link></li>
+          <li><Link to="/en/canada-market-entry" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Canada Market Entry</Link></li>
+          <li><Link to="/en/insights/market-entry-is-not-selling-overseas" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Market Entry Is Not the Same as Selling Overseas</Link></li>
+          <li><Link to="/en/insights/north-america-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">The Responsibility Chain Behind North America Market Entry</Link></li>
+          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Contact CCBONLINE</Link></li>
 
             </ul>
           </div>

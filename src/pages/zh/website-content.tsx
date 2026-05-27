@@ -52,29 +52,29 @@ export default function ZH_WebsiteContent() {
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
-              <div className="p-5 md:p-6 border border-[#00A884] bg-white">
-                <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 text-[#00A884]">场景 A：中国企业进入北美</h3>
+              <div className="p-5 md:p-6 border border-[#00B894] bg-white">
+                <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 text-[#00B894]">场景 A：中国企业进入北美</h3>
                 <p className="text-[14px] text-[#444] leading-[1.7] mb-3">
                   您已有中文网站、产品文档和公司材料。您需要英文版本，能够向北美买家可信地传达信息 —— 不只是翻译，而是适配西方商业惯例。
                 </p>
                 <ul className="space-y-2">
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">面向北美商业读者的英文网站内容</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">符合西方采购期望的服务描述</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">公司简介、案例研究和能力陈述</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">回应北美买家关切的 FAQ 内容</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">面向北美商业读者的英文网站内容</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">符合西方采购期望的服务描述</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">公司简介、案例研究和能力陈述</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">回应北美买家关切的 FAQ 内容</li>
                 </ul>
               </div>
 
-              <div className="p-5 md:p-6 border border-[#C9A44C] bg-white">
-                <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 text-[#C9A44C]">场景 B：本地服务商服务双语客户</h3>
+              <div className="p-5 md:p-6 border border-[#D4AF37] bg-white">
+                <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 text-[#D4AF37]">场景 B：本地服务商服务双语客户</h3>
                 <p className="text-[14px] text-[#444] leading-[1.7] mb-3">
                   您是本地专业服务机构（税务、保险、物流、法律、咨询），在加拿大或美国同时服务英语和中文客户群体。您的网站需要以两种语言清晰沟通。
                 </p>
                 <ul className="space-y-2">
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#C9A44C]">信息一致的双语服务页面</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#C9A44C]">适配两种文化背景的信任材料</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#C9A44C]">回应两组语言群体问题的 FAQ</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#C9A44C]">可复用于手册、社交媒体和邮件的内容</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#D4AF37]">信息一致的双语服务页面</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#D4AF37]">适配两种文化背景的信任材料</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#D4AF37]">回应两组语言群体问题的 FAQ</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#D4AF37]">可复用于手册、社交媒体和邮件的内容</li>
                 </ul>
               </div>
             </div>
@@ -84,42 +84,42 @@ export default function ZH_WebsiteContent() {
             </h2>
             <div className="space-y-4 mb-10">
               <div className="flex gap-4 items-start">
-                <span className="text-[#C9A44C] text-[13px] font-medium shrink-0 mt-1">01</span>
+                <span className="text-[#D4AF37] text-[13px] font-medium shrink-0 mt-1">01</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">服务定位与信息传递</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">明确您服务谁、解决什么问题、有何不同 —— 用目标受众能理解的语言表达。</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
-                <span className="text-[#C9A44C] text-[13px] font-medium shrink-0 mt-1">02</span>
+                <span className="text-[#D4AF37] text-[13px] font-medium shrink-0 mt-1">02</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">网站页面结构与文案</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">首页、服务页面、关于页面、FAQ 和联系页面，以清晰和转化为目标进行组织。</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
-                <span className="text-[#C9A44C] text-[13px] font-medium shrink-0 mt-1">03</span>
+                <span className="text-[#D4AF37] text-[13px] font-medium shrink-0 mt-1">03</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">信任建设材料</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">资质、案例经验、团队背景、认证和流程描述，以建立访客信心为目标进行呈现。</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
-                <span className="text-[#C9A44C] text-[13px] font-medium shrink-0 mt-1">04</span>
+                <span className="text-[#D4AF37] text-[13px] font-medium shrink-0 mt-1">04</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">双语内容协调</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">中英文版本有效传达同一信息 —— 不是逐字翻译，而是等效沟通。</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
-                <span className="text-[#C9A44C] text-[13px] font-medium shrink-0 mt-1">05</span>
+                <span className="text-[#D4AF37] text-[13px] font-medium shrink-0 mt-1">05</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">多渠道内容延伸</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">网站内容转化为服务手册、LinkedIn 帖子、邮件模板和客户跟进文档。</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
-                <span className="text-[#C9A44C] text-[13px] font-medium shrink-0 mt-1">06</span>
+                <span className="text-[#D4AF37] text-[13px] font-medium shrink-0 mt-1">06</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">持续内容优化</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">FAQ 更新、服务描述调整、案例补充和季节性内容，随业务发展持续迭代。</p>
@@ -144,7 +144,7 @@ export default function ZH_WebsiteContent() {
                 '内容风格指南（保持一致性）',
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3 p-3 bg-[#F8F9FA] border border-[#E5E5E5]">
-                  <span className="text-[#00A884] mt-0.5 shrink-0 text-[13px]">&#10003;</span>
+                  <span className="text-[#00B894] mt-0.5 shrink-0 text-[13px]">&#10003;</span>
                   <p className="text-[14px] text-[#444] leading-[1.5]">{item}</p>
                 </div>
               ))}
@@ -219,16 +219,16 @@ export default function ZH_WebsiteContent() {
               相关服务
             </h2>
             <ul className="space-y-2">
-              <li><Link to="/zh/brand-credibility" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">品牌可信度与数字基础设施诊断</Link></li>
-              <li><Link to="/zh/media-content" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">媒体报道与商业曝光服务</Link></li>
-              <li><Link to="/zh/market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">加拿大及北美市场进入服务</Link></li>
-              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">联系 CCBONLINE</Link></li>
+              <li><Link to="/zh/brand-credibility" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">品牌可信度与数字基础设施诊断</Link></li>
+              <li><Link to="/zh/media-content" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">媒体报道与商业曝光服务</Link></li>
+              <li><Link to="/zh/market-entry" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">加拿大及北美市场进入服务</Link></li>
+              <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">联系 CCBONLINE</Link></li>
             </ul>
           </div>
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

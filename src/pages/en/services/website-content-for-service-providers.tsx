@@ -23,7 +23,7 @@ export default function EN_WebsiteContentForServiceProviders() {
       <main>
         {/* 1. Hero */}
         <section className="relative pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA] overflow-hidden">
-          <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, #00A884 1px, transparent 0)', backgroundSize: '40px 40px' }} />
+          <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, #00B894 1px, transparent 0)', backgroundSize: '40px 40px' }} />
           <div className="container-site relative z-10">
             <p className="text-label mb-3">Content Systems</p>
             <h1 className="font-serif text-[#212121] text-[28px] sm:text-[34px] md:text-[42px] leading-[1.2] tracking-tight max-w-[900px] mb-4 md:mb-6">
@@ -52,8 +52,8 @@ export default function EN_WebsiteContentForServiceProviders() {
                 { num: '02', title: 'You have credentials and experience, but your online presence doesn\'t build trust', desc: 'Certifications, case experience, team backgrounds, and service processes — these trust signals often live in scattered conversations. Your website doesn\'t present them systematically, so first-time visitors have no foundation of confidence.' },
                 { num: '03', title: 'There is no clear path from "interested" to "willing to contact"', desc: 'Without structured FAQs, a clear inquiry channel, or downloadable materials, interested visitors don\'t know what to do next. They leave without reaching out, and you never know they were there.' },
               ].map((p, i) => (
-                <div key={i} className="p-5 md:p-6 border border-[#E5E5E5] hover:border-[#00A884] transition-colors bg-white">
-                  <p className="text-[#C9A44C] text-[13px] font-medium mb-3">{p.num}</p>
+                <div key={i} className="p-5 md:p-6 border border-[#E5E5E5] hover:border-[#00B894] transition-colors bg-white">
+                  <p className="text-[#D4AF37] text-[13px] font-medium mb-3">{p.num}</p>
                   <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 leading-[1.5]">{p.title}</h3>
                   <p className="text-[14px] text-[#767676] leading-[1.65]">{p.desc}</p>
                 </div>
@@ -82,7 +82,7 @@ export default function EN_WebsiteContentForServiceProviders() {
                 'Any local professional firm with real capability but unclear online expression',
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
-                  <span className="text-[#00A884] mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#00B894] mt-0.5 shrink-0">&#10003;</span>
                   <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.6]">{item}</p>
                 </div>
               ))}
@@ -111,8 +111,8 @@ export default function EN_WebsiteContentForServiceProviders() {
                 { num: '05', title: 'Multi-channel content extensions', desc: 'Repurpose website content into service brochures, email materials, client follow-up documents, and social media assets.' },
                 { num: '06', title: 'Ongoing content updates', desc: 'Continue refining FAQs, service descriptions, case scenarios, and promotional content as your business evolves.' },
               ].map((m, i) => (
-                <div key={i} className="p-5 border border-[#E5E5E5] hover:border-[#00A884] transition-colors">
-                  <p className="text-[#C9A44C] text-[13px] font-medium mb-2">{m.num}</p>
+                <div key={i} className="p-5 border border-[#E5E5E5] hover:border-[#00B894] transition-colors">
+                  <p className="text-[#D4AF37] text-[13px] font-medium mb-2">{m.num}</p>
                   <h3 className="text-[16px] font-semibold mb-2">{m.title}</h3>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">{m.desc}</p>
                 </div>
@@ -142,7 +142,7 @@ export default function EN_WebsiteContentForServiceProviders() {
                 'Google Business Profile optimization suggestions',
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3 p-3 bg-white border border-[#E5E5E5]">
-                  <span className="text-[#00A884] mt-0.5 shrink-0 text-[13px]">&#10003;</span>
+                  <span className="text-[#00B894] mt-0.5 shrink-0 text-[13px]">&#10003;</span>
                   <p className="text-[14px] text-[#444] leading-[1.5]">{item}</p>
                 </div>
               ))}
@@ -169,7 +169,7 @@ export default function EN_WebsiteContentForServiceProviders() {
                 'What the next step is',
                 'Which content can be reused for social media, brochures, and sales follow-up',
               ].map((item, i) => (
-                <div key={i} className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+                <div key={i} className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                   <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.6]">{item}</p>
                 </div>
               ))}
@@ -178,9 +178,9 @@ export default function EN_WebsiteContentForServiceProviders() {
         </section>
 
         {/* 7. Engagement Options */}
-        <section id="engagement" className="section-padding bg-[#07111F]">
+        <section id="engagement" className="section-padding bg-[#0B0E14]">
           <div className="container-site">
-            <p className="text-[#00A884] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">Engagement Options</p>
+            <p className="text-[#00B894] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">Engagement Options</p>
             <h2 className="font-serif text-white text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-8 md:mb-10">
               Three Ways to Work With Us
             </h2>
@@ -190,16 +190,16 @@ export default function EN_WebsiteContentForServiceProviders() {
                 { name: 'Standard Service Pages', tag: 'Standard', desc: 'For firms with existing websites who want to add clear, structured service pages. Complete service detail pages, FAQ, and inquiry flow that fits into your current site.', features: ['Service detail pages', 'FAQ section', 'Inquiry flow design', 'Content for existing site'] },
                 { name: 'Website + Content Launch Package', tag: 'Complete', desc: 'For firms who want to align website content, social media, and client communication materials in one coordinated effort. Full content system from website to email to social.', features: ['Website content', 'Blog / article copy', 'Client communication materials', 'Social media copy'] },
               ].map((pkg, i) => (
-                <div key={i} className="p-6 border border-white/10 hover:border-[#00A884]/50 transition-colors">
+                <div key={i} className="p-6 border border-white/10 hover:border-[#00B894]/50 transition-colors">
                   <div className="flex items-center gap-2 mb-3">
-                    <span className="text-[#C9A44C] text-[12px] font-medium tracking-wider">{pkg.tag}</span>
+                    <span className="text-[#D4AF37] text-[12px] font-medium tracking-wider">{pkg.tag}</span>
                   </div>
                   <h3 className="text-white text-[18px] font-semibold mb-3">{pkg.name}</h3>
                   <p className="text-white/60 text-[14px] leading-[1.65] mb-4">{pkg.desc}</p>
                   <ul className="space-y-2">
                     {pkg.features.map((f, j) => (
                       <li key={j} className="text-white/50 text-[13px] flex items-start gap-2">
-                        <span className="text-[#00A884] shrink-0">&#10003;</span>{f}
+                        <span className="text-[#00B894] shrink-0">&#10003;</span>{f}
                       </li>
                     ))}
                   </ul>
@@ -226,7 +226,7 @@ export default function EN_WebsiteContentForServiceProviders() {
               ].map((step, i) => (
                 <div key={i} className="flex gap-4 md:gap-6">
                   <div className="shrink-0">
-                    <p className="text-[#C9A44C] text-[14px] font-medium w-[32px]">{step.num}</p>
+                    <p className="text-[#D4AF37] text-[14px] font-medium w-[32px]">{step.num}</p>
                   </div>
                   <div className="pb-6 border-b border-[#E5E5E5]">
                     <h3 className="text-[16px] md:text-[17px] font-semibold mb-2">{step.title}</h3>
@@ -246,8 +246,8 @@ export default function EN_WebsiteContentForServiceProviders() {
               Is This the Right Fit?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-              <div className="p-6 border-l-2 border-[#00A884] bg-white">
-                <h3 className="text-[16px] font-semibold mb-4 text-[#00A884]">Good Fit</h3>
+              <div className="p-6 border-l-2 border-[#00B894] bg-white">
+                <h3 className="text-[16px] font-semibold mb-4 text-[#00B894]">Good Fit</h3>
                 <ul className="space-y-3">
                   {[
                     'Already delivering real services',
@@ -256,7 +256,7 @@ export default function EN_WebsiteContentForServiceProviders() {
                     'Need formal service pages, brochure content, and external content',
                   ].map((item, i) => (
                     <li key={i} className="text-[14px] text-[#444] leading-[1.6] flex items-start gap-2">
-                      <span className="text-[#00A884] shrink-0">&#10003;</span>{item}
+                      <span className="text-[#00B894] shrink-0">&#10003;</span>{item}
                     </li>
                   ))}
                 </ul>
@@ -314,9 +314,9 @@ export default function EN_WebsiteContentForServiceProviders() {
         </section>
 
         {/* 11. CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site text-center">
-            <p className="text-[#00A884] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">Start Here</p>
+            <p className="text-[#00B894] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">Start Here</p>
             <h2 className="font-serif text-white text-[22px] md:text-[28px] leading-[1.35] tracking-tight mb-4">
               Make Sure Clients Understand You at First Sight
             </h2>
@@ -342,8 +342,8 @@ export default function EN_WebsiteContentForServiceProviders() {
                 { title: 'Customer & Channel Validation', desc: 'Validate buyers, channels, and outreach direction before full-scale expansion.', slug: 'customer-channel-validation' },
                 { title: 'Local Execution Support', desc: 'Coordinate import, warehousing, fulfillment, and after-sales in North America.', slug: 'local-execution-support' },
               ].map((s, i) => (
-                <Link key={i} to={`/en/services/${s.slug}`} className="p-5 bg-white border border-[#E5E5E5] hover:border-[#00A884] transition-colors group">
-                  <h3 className="text-[15px] font-semibold mb-2 group-hover:text-[#00A884] transition-colors">{s.title}</h3>
+                <Link key={i} to={`/en/services/${s.slug}`} className="p-5 bg-white border border-[#E5E5E5] hover:border-[#00B894] transition-colors group">
+                  <h3 className="text-[15px] font-semibold mb-2 group-hover:text-[#00B894] transition-colors">{s.title}</h3>
                   <p className="text-[13px] text-[#767676] leading-[1.6]">{s.desc}</p>
                 </Link>
               ))}

@@ -100,7 +100,7 @@ export default function ContactPage() {
               <form onSubmit={handleSubmit} className="bg-[#F8F9FA] p-5 md:p-8">
                 {submitted ? (
                   <div className="text-center py-10 md:py-14">
-                    <div className="w-10 h-10 bg-[#00A884] flex items-center justify-center mx-auto mb-4"><span className="text-white text-[16px]">✓</span></div>
+                    <div className="w-10 h-10 bg-[#00B894] flex items-center justify-center mx-auto mb-4"><span className="text-white text-[16px]">✓</span></div>
                     <h3 className="text-[18px] font-semibold mb-2">{t('Thank You', '感谢您的提交')}</h3>
                     <p className="text-[13px] text-[#767676] mb-4">{t('We will review and respond within 1–2 business days.', '我们将在 1–2 个工作日内审阅并回复。')}</p>
                     <div className="p-4 bg-white border border-[#E5E5E5] max-w-[360px] mx-auto">
@@ -109,17 +109,17 @@ export default function ContactPage() {
                       <button
                         type="button"
                         onClick={() => { navigator.clipboard?.writeText('info@ccbonline.ca') }}
-                        className="text-[12px] text-[#00A884] hover:underline"
+                        className="text-[12px] text-[#00B894] hover:underline"
                       >
                         {t('Copy email address', '复制邮箱地址')}
                       </button>
                     </div>
-                    {mailtoLink && <a href={mailtoLink} className="text-[13px] text-[#00A884] hover:underline block mt-4">{t('Open email client', '打开邮件客户端')}</a>}
+                    {mailtoLink && <a href={mailtoLink} className="text-[13px] text-[#00B894] hover:underline block mt-4">{t('Open email client', '打开邮件客户端')}</a>}
                   </div>
                 ) : (
                   <>
                     <div className="mb-6">
-                      <p className="text-[11px] font-medium uppercase tracking-wider text-[#999] mb-3">{t('Market Entry Consultation Form', '市场进入服务表单')} <span className="text-[#00A884]">*</span> {t('required', '必填')}</p>
+                      <p className="text-[11px] font-medium uppercase tracking-wider text-[#999] mb-3">{t('Market Entry Consultation Form', '市场进入服务表单')} <span className="text-[#00B894]">*</span> {t('required', '必填')}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                         <input type="text" name="company" placeholder={t('Company Name *', '公司名称 *')} value={formData.company} onChange={handleChange} required className={inputClass} />
                         <input type="text" name="name" placeholder={t('Your Name *', '您的姓名 *')} value={formData.name} onChange={handleChange} required className={inputClass} />

@@ -74,7 +74,7 @@ export default function ZH_BuildingMaterialsEnteringNorthAmerica() {
                   <h3 className="text-[16px] md:text-[17px] font-semibold mb-4">{group.type}</h3>
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     {group.reqs.map((req, j) => (
-                      <li key={j} className="text-[14px] text-[#555] leading-[1.6] pl-3 border-l-2 border-[#00A884]">{req}</li>
+                      <li key={j} className="text-[14px] text-[#555] leading-[1.6] pl-3 border-l-2 border-[#00B894]">{req}</li>
                     ))}
                   </ul>
                 </div>
@@ -98,7 +98,7 @@ export default function ZH_BuildingMaterialsEnteringNorthAmerica() {
                 { step: '05', title: '渠道开发', desc: '建材通常通过以下渠道流通：分销商、建材供应经销商、直接对承包商、或通过建筑师/工程师指定。每个渠道需要不同的方法。' },
               ].map((phase) => (
                 <div key={phase.step} className="flex gap-4 md:gap-6">
-                  <span className="text-[#C9A44C] text-[14px] font-medium w-[32px] shrink-0">{phase.step}</span>
+                  <span className="text-[#D4AF37] text-[14px] font-medium w-[32px] shrink-0">{phase.step}</span>
                   <div className="pb-6 border-b border-[#E5E5E5] flex-1">
                     <h4 className="text-[16px] font-semibold mb-2">{phase.title}</h4>
                     <p className="text-[14px] text-[#767676] leading-[1.65]">{phase.desc}</p>
@@ -123,7 +123,7 @@ export default function ZH_BuildingMaterialsEnteringNorthAmerica() {
               ].map((item, i) => (
                 <div key={i} className="p-5 bg-white border border-[#E5E5E5]">
                   <h4 className="text-[16px] font-semibold mb-1">{item.prov}</h4>
-                  <p className="text-[12px] text-[#00A884] mb-3">{item.size}</p>
+                  <p className="text-[12px] text-[#00B894] mb-3">{item.size}</p>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">{item.note}</p>
                 </div>
               ))}
@@ -158,7 +158,7 @@ export default function ZH_BuildingMaterialsEnteringNorthAmerica() {
           </div>
         </section>
 
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

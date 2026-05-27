@@ -48,10 +48,10 @@ export default function EN_BrandCredibility() {
               Who This Service Is For
             </h2>
             <ul className="space-y-3 mb-10">
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Chinese companies preparing to enter North America whose website and digital materials were built for domestic audiences</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Businesses that have invested in product development and certification but have not updated their digital presence for Western buyers</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Leadership teams receiving feedback that North American prospects "looked at the website but were not sure"</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies that want to understand what credibility signals North American buyers expect before investing in website redesign</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Chinese companies preparing to enter North America whose website and digital materials were built for domestic audiences</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Businesses that have invested in product development and certification but have not updated their digital presence for Western buyers</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Leadership teams receiving feedback that North American prospects "looked at the website but were not sure"</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Companies that want to understand what credibility signals North American buyers expect before investing in website redesign</li>
             </ul>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
@@ -68,27 +68,27 @@ export default function EN_BrandCredibility() {
               What We Review
             </h2>
             <div className="space-y-4 mb-10">
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h3 className="text-[15px] font-semibold mb-2">Website Structure and Clarity</h3>
                 <p className="text-[14px] text-[#555] leading-[1.65]">Can a first-time visitor understand what you do, who you serve, and how to contact you within 30 seconds? We assess navigation, messaging hierarchy, and information architecture from a North American buyer perspective.</p>
               </div>
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h3 className="text-[15px] font-semibold mb-2">Trust Signal Presence</h3>
                 <p className="text-[14px] text-[#555] leading-[1.65]">Do you display certifications, client references, case results, team credentials, physical addresses, and professional affiliations? North American buyers look for these signals to validate legitimacy before engaging.</p>
               </div>
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h3 className="text-[15px] font-semibold mb-2">English Content Quality</h3>
                 <p className="text-[14px] text-[#555] leading-[1.65]">Is your English content written for native speakers or translated literally? We assess tone, terminology, clarity, and whether your value proposition comes through effectively.</p>
               </div>
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h3 className="text-[15px] font-semibold mb-2">Contact and Inquiry Path</h3>
                 <p className="text-[14px] text-[#555] leading-[1.65]">Can prospects easily find your contact information, submit an inquiry, or schedule a conversation? We review the inquiry path from discovery to contact submission.</p>
               </div>
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h3 className="text-[15px] font-semibold mb-2">Social Media and Third-Party Presence</h3>
                 <p className="text-[14px] text-[#555] leading-[1.65]">Do you have a LinkedIn company page, industry directory listings, or third-party references that North American buyers can find? We assess your discoverability beyond your own website.</p>
               </div>
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h3 className="text-[15px] font-semibold mb-2">Mobile Experience and Technical Performance</h3>
                 <p className="text-[14px] text-[#555] leading-[1.65]">Page load speed, mobile responsiveness, and SSL/security indicators matter to business buyers. We flag technical issues that affect credibility.</p>
               </div>
@@ -119,21 +119,21 @@ export default function EN_BrandCredibility() {
             </h2>
             <div className="space-y-4 mb-10">
               <div className="flex gap-4">
-                <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-6">01</span>
+                <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-6">01</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">Information gathering</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">You provide your website URL, social media links, product materials, and any existing English content. This takes 15-20 minutes.</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-6">02</span>
+                <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-6">02</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">Structured review</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">We conduct a systematic assessment across the six review areas, typically completed within 5-7 business days.</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-6">03</span>
+                <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-6">03</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">Report delivery and walkthrough</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">We deliver the written assessment and schedule a 60-minute call to walk through findings, answer questions, and discuss implementation priorities.</p>
@@ -195,16 +195,16 @@ export default function EN_BrandCredibility() {
               Related Services
             </h2>
             <ul className="space-y-2">
-              <li><Link to="/en/website-content" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Bilingual Website & Content Optimization</Link></li>
-              <li><Link to="/en/media-content" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Media & Business Content Services</Link></li>
-              <li><Link to="/en/market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Canada & North America Market Entry</Link></li>
-              <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
+              <li><Link to="/en/website-content" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Bilingual Website & Content Optimization</Link></li>
+              <li><Link to="/en/media-content" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Media & Business Content Services</Link></li>
+              <li><Link to="/en/market-entry" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Canada & North America Market Entry</Link></li>
+              <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Contact CCBONLINE</Link></li>
             </ul>
           </div>
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

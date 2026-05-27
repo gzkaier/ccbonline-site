@@ -56,7 +56,7 @@ export default function ZHResponsibilityChain() {
                 </div>
               </div>
               <div className="lg:col-span-5">
-                <div className="p-5 bg-[#07111F]">
+                <div className="p-5 bg-[#0B0E14]">
                   <h3 className="text-white text-[16px] font-semibold mb-4">责任链涉及的环节</h3>
                   <ul className="space-y-3">
                     {[
@@ -71,7 +71,7 @@ export default function ZHResponsibilityChain() {
                       '本地问责主体',
                     ].map((item, i) => (
                       <li key={i} className="text-white/70 text-[14px] flex items-start gap-2">
-                        <span className="text-[#00A884] shrink-0 text-[13px]">{'0' + (i + 1)}</span>{item}
+                        <span className="text-[#00B894] shrink-0 text-[13px]">{'0' + (i + 1)}</span>{item}
                       </li>
                     ))}
                   </ul>
@@ -96,7 +96,7 @@ export default function ZHResponsibilityChain() {
                 很多企业以为找一个货代或者让收货方签个字就解决了 IOR 问题。但真正的 IOR 意味着：如果产品出了问题，监管机构知道该找谁；如果海关有疑问，有人负责解释和补充文件；如果需要召回，有本地主体承担责任。
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="p-5 bg-white border-l-2 border-[#00A884]">
+                <div className="p-5 bg-white border-l-2 border-[#00B894]">
                   <h4 className="text-[15px] font-semibold mb-3">IOR 负责什么</h4>
                   <ul className="space-y-2 text-[13px] md:text-[14px] text-[#555] leading-[1.6]">
                     <li>确保产品符合进口国法规</li>
@@ -140,7 +140,7 @@ export default function ZHResponsibilityChain() {
                 { num: '08', title: '本地问责', desc: '出问题时，谁是本地联系人？监管机构、客户或律师可以联系谁？' },
               ].map((item) => (
                 <div key={item.num} className="flex gap-3 p-4 bg-[#F8F9FA] border border-[#E5E5E5]">
-                  <span className="text-[#00A884] text-[12px] font-bold mt-0.5 min-w-[24px]">{item.num}</span>
+                  <span className="text-[#00B894] text-[12px] font-bold mt-0.5 min-w-[24px]">{item.num}</span>
                   <div>
                     <h4 className="text-[14px] md:text-[15px] font-semibold mb-1">{item.title}</h4>
                     <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.6]">{item.desc}</p>
@@ -167,7 +167,7 @@ export default function ZHResponsibilityChain() {
                 { title: '售后无人承接', desc: '产品出了问题，客户找不到本地联系人，企业无法及时处理。' },
                 { title: '召回机制缺失', desc: '没有召回预案、没有本地应急联系人、没有与监管机构的沟通渠道。' },
               ].map((item, i) => (
-                <div key={i} className="p-5 bg-white border border-[#E5E5E5] border-l-2 border-l-[#C9A44C]">
+                <div key={i} className="p-5 bg-white border border-[#E5E5E5] border-l-2 border-l-[#D4AF37]">
                   <h4 className="text-[15px] font-semibold mb-2">{item.title}</h4>
                   <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">{item.desc}</p>
                 </div>
@@ -192,7 +192,7 @@ export default function ZHResponsibilityChain() {
                 { step: '05', title: '持续跟踪与调整', desc: '责任链不是梳理一次就结束了。随着产品和市场的变化，责任链也需要定期审视和调整。' },
               ].map((item) => (
                 <div key={item.step} className="flex gap-4 md:gap-6">
-                  <span className="text-[#C9A44C] text-[14px] font-medium w-[32px] shrink-0">{item.step}</span>
+                  <span className="text-[#D4AF37] text-[14px] font-medium w-[32px] shrink-0">{item.step}</span>
                   <div className="pb-4 border-b border-[#E5E5E5]">
                     <h4 className="text-[15px] md:text-[16px] font-semibold mb-2">{item.title}</h4>
                     <p className="text-[14px] text-[#767676] leading-[1.65]">{item.desc}</p>
@@ -204,7 +204,7 @@ export default function ZHResponsibilityChain() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

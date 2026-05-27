@@ -114,13 +114,13 @@ export default function ServicesPage() {
           {services.map((s) => (
             <div key={s.num} className="sp-block">
               <div className="flex items-baseline gap-3 mb-5">
-                <span className="text-[#00A884] text-[12px] font-bold">{s.num}</span>
+                <span className="text-[#00B894] text-[12px] font-bold">{s.num}</span>
                 <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] lg:text-[30px] leading-[1.35] md:leading-[1.3] tracking-tight">{s.title}</h2>
               </div>
 
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 mb-6">
                 <div className="lg:col-span-4">
-                  <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+                  <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                     <p className="text-[11px] font-semibold uppercase tracking-wider text-[#767676] mb-2">{t('What it means', '含义')}</p>
                     <p className="text-[12px] md:text-[14px] text-[#555] leading-[1.7]">{s.what}</p>
                   </div>
@@ -138,7 +138,7 @@ export default function ServicesPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   {s.deliver.map((item, i) => (
                     <div key={i} className="text-[11px] md:text-[13px] text-[#555] leading-[1.5] flex gap-2">
-                      <span className="text-[#00A884]">·</span>{item}
+                      <span className="text-[#00B894]">·</span>{item}
                     </div>
                   ))}
                 </div>

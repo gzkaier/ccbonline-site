@@ -72,11 +72,11 @@ export default function EN_market_entry_is_not_selling_overseas() {
               Practical Next Steps
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Conduct a product-fit assessment for Canada and North America readiness</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Map required certifications and estimate timelines and costs</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Identify who will serve as Importer of Record and what that entails</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Validate channel strategy: distributor, direct, or hybrid</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Book a market entry diagnosis with CCBONLINE to assess readiness gaps</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Conduct a product-fit assessment for Canada and North America readiness</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Map required certifications and estimate timelines and costs</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Identify who will serve as Importer of Record and what that entails</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Validate channel strategy: distributor, direct, or hybrid</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Book a market entry diagnosis with CCBONLINE to assess readiness gaps</li>
 
             </ul>
           </div>
@@ -132,11 +132,11 @@ export default function EN_market_entry_is_not_selling_overseas() {
               Related Resources
             </h2>
             <ul className="space-y-2 mb-8">
-          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Market Entry Services</Link></li>
-          <li><Link to="/en/responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">The Responsibility Chain</Link></li>
-          <li><Link to="/en/insights/north-america-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">The Responsibility Chain Behind North America Market Entry</Link></li>
-          <li><Link to="/en/insights/0-90-day-north-america-market-entry-roadmap" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">A 0–90 Day Roadmap for North America Market Entry</Link></li>
-          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
+          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Market Entry Services</Link></li>
+          <li><Link to="/en/responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">The Responsibility Chain</Link></li>
+          <li><Link to="/en/insights/north-america-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">The Responsibility Chain Behind North America Market Entry</Link></li>
+          <li><Link to="/en/insights/0-90-day-north-america-market-entry-roadmap" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">A 0–90 Day Roadmap for North America Market Entry</Link></li>
+          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Contact CCBONLINE</Link></li>
 
             </ul>
           </div>

@@ -52,11 +52,11 @@ export default function EN_3PLWarehousingAdvisory() {
                 Who This Service Is For
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies needing warehousing and fulfillment in Canada for the first time</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Businesses evaluating multiple 3PL partners and unsure how to compare them</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Manufacturers setting up local inventory who need to understand Canadian fulfillment costs and SLA structures</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies that have had operational issues with a current 3PL and need an independent assessment</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Businesses that need to understand the difference between freight forwarding, 3PL, and 4PL before making infrastructure decisions</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Companies needing warehousing and fulfillment in Canada for the first time</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Businesses evaluating multiple 3PL partners and unsure how to compare them</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Manufacturers setting up local inventory who need to understand Canadian fulfillment costs and SLA structures</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Companies that have had operational issues with a current 3PL and need an independent assessment</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Businesses that need to understand the difference between freight forwarding, 3PL, and 4PL before making infrastructure decisions</li>
               </ul>
             </div>
 
@@ -79,12 +79,12 @@ export default function EN_3PLWarehousingAdvisory() {
                 What We Specifically Do
               </h2>
               <ul className="space-y-4">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Requirements Definition</strong> — We define your 3PL requirements based on your product characteristics, order volume projections, channel strategy (B2B vs. B2C), and special handling needs (temperature control, hazardous materials, oversized items)</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Partner Identification</strong> — We identify 3-5 Canadian 3PL providers that match your requirements, geographic needs, and operational scale</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Warehouse Operation Audit</strong> — On-site or virtual assessment of receiving, storage, inventory management, picking, packing, shipping, and returns handling processes</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Technology Systems Review</strong> — Evaluation of WMS (Warehouse Management System), EDI/API capabilities, reporting, and integration with your systems</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Contract & SLA Review</strong> — Assessment of pricing structures, minimum commitments, liability coverage, performance metrics, and termination clauses</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Comparison Scorecard</strong> — Side-by-side evaluation of shortlisted partners across operational, financial, and strategic criteria</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Requirements Definition</strong> — We define your 3PL requirements based on your product characteristics, order volume projections, channel strategy (B2B vs. B2C), and special handling needs (temperature control, hazardous materials, oversized items)</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Partner Identification</strong> — We identify 3-5 Canadian 3PL providers that match your requirements, geographic needs, and operational scale</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Warehouse Operation Audit</strong> — On-site or virtual assessment of receiving, storage, inventory management, picking, packing, shipping, and returns handling processes</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Technology Systems Review</strong> — Evaluation of WMS (Warehouse Management System), EDI/API capabilities, reporting, and integration with your systems</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Contract & SLA Review</strong> — Assessment of pricing structures, minimum commitments, liability coverage, performance metrics, and termination clauses</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Comparison Scorecard</strong> — Side-by-side evaluation of shortlisted partners across operational, financial, and strategic criteria</li>
               </ul>
             </div>
 
@@ -139,10 +139,10 @@ export default function EN_3PLWarehousingAdvisory() {
                 Related Services
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">All Services</Link></li>
-                <li><Link to="/en/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Compliance & Responsibility Chain</Link></li>
-                <li><Link to="/en/services/local-execution-support" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Local Execution Support</Link></li>
-                <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
+                <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">All Services</Link></li>
+                <li><Link to="/en/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Compliance & Responsibility Chain</Link></li>
+                <li><Link to="/en/services/local-execution-support" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Local Execution Support</Link></li>
+                <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Contact CCBONLINE</Link></li>
               </ul>
             </div>
           </div>
@@ -197,7 +197,7 @@ export default function EN_3PLWarehousingAdvisory() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

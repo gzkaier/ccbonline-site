@@ -49,29 +49,29 @@ export default function EN_BusinessConnection() {
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
-              <div className="p-5 md:p-6 border border-[#00A884] bg-white">
-                <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 text-[#00A884]">Canada / U.S. → China</h3>
+              <div className="p-5 md:p-6 border border-[#00B894] bg-white">
+                <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 text-[#00B894]">Canada / U.S. → China</h3>
                 <p className="text-[14px] text-[#444] leading-[1.7] mb-3">
                   North American companies seeking reliable Chinese suppliers, manufacturers, or OEM partners. We help you identify qualified candidates, validate capabilities, and coordinate initial due diligence.
                 </p>
                 <ul className="space-y-2">
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Supplier identification and shortlisting</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Factory capability verification coordination</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Initial communication and meeting facilitation</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Sample and prototype logistics coordination</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Supplier identification and shortlisting</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Factory capability verification coordination</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Initial communication and meeting facilitation</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Sample and prototype logistics coordination</li>
                 </ul>
               </div>
 
-              <div className="p-5 md:p-6 border border-[#C9A44C] bg-white">
-                <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 text-[#C9A44C]">China → Canada / U.S.</h3>
+              <div className="p-5 md:p-6 border border-[#D4AF37] bg-white">
+                <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 text-[#D4AF37]">China → Canada / U.S.</h3>
                 <p className="text-[14px] text-[#444] leading-[1.7] mb-3">
                   Chinese manufacturers and brands seeking distribution partners, local representation, or direct market access in Canada and North America. We help you understand market requirements and connect with appropriate local counterparts.
                 </p>
                 <ul className="space-y-2">
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#C9A44C]">Market entry readiness screening</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#C9A44C]">Introduction to potential distributors or channel partners</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#C9A44C]">Trade show and industry event coordination</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#C9A44C]">Local operational support for initial market presence</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#D4AF37]">Market entry readiness screening</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#D4AF37]">Introduction to potential distributors or channel partners</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#D4AF37]">Trade show and industry event coordination</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#D4AF37]">Local operational support for initial market presence</li>
                 </ul>
               </div>
             </div>
@@ -83,19 +83,19 @@ export default function EN_BusinessConnection() {
               Beyond introductions, we help coordinate the operational elements of cross-border supply chain relationships:
             </p>
             <div className="space-y-3 mb-10">
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h4 className="text-[15px] font-medium mb-1">3PL and Warehousing Introductions</h4>
                 <p className="text-[14px] text-[#555] leading-[1.6]">Connections to third-party logistics providers and warehousing options in Canada and the United States for inventory storage and fulfillment.</p>
               </div>
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h4 className="text-[15px] font-medium mb-1">Compliance and Documentation Guidance</h4>
                 <p className="text-[14px] text-[#555] leading-[1.6]">Overview of import documentation, labeling requirements, and certification needs for cross-border shipments. We coordinate with licensed customs brokers for specific filing work.</p>
               </div>
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h4 className="text-[15px] font-medium mb-1">Quality and Inspection Coordination</h4>
                 <p className="text-[14px] text-[#555] leading-[1.6]">Support for arranging pre-shipment inspections, factory audits, and quality verification processes before goods leave China.</p>
               </div>
-              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+              <div className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                 <h4 className="text-[15px] font-medium mb-1">Trade Show and Business Mission Support</h4>
                 <p className="text-[14px] text-[#555] leading-[1.6]">Coordination of trade show participation, business mission planning, and on-the-ground support for delegations visiting from either direction.</p>
               </div>
@@ -118,28 +118,28 @@ export default function EN_BusinessConnection() {
             </h2>
             <div className="space-y-4 mb-10">
               <div className="flex gap-4">
-                <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-6">01</span>
+                <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-6">01</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">Requirements discussion</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">We understand your product, volume, timeline, quality standards, and what you are looking for in a commercial partner.</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-6">02</span>
+                <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-6">02</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">Matching and introduction</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">We identify and introduce qualified candidates from our network, with background information and capability notes.</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-6">03</span>
+                <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-6">03</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">Coordination and follow-through</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">We support initial meetings, sample exchanges, and due diligence coordination. Both parties evaluate fit independently.</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-6">04</span>
+                <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-6">04</span>
                 <div>
                   <h4 className="text-[15px] font-medium mb-1">Operational setup support</h4>
                   <p className="text-[14px] text-[#555] leading-[1.6]">If both parties proceed, we help coordinate the operational elements — logistics, compliance, warehousing — that make the relationship work in practice.</p>
@@ -201,16 +201,16 @@ export default function EN_BusinessConnection() {
               Related Services
             </h2>
             <ul className="space-y-2">
-              <li><Link to="/en/market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Canada & North America Market Entry</Link></li>
-              <li><Link to="/en/services/3pl-warehousing-advisory" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">3PL & Warehousing Advisory</Link></li>
-              <li><Link to="/en/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Compliance & Responsibility Chain</Link></li>
-              <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
+              <li><Link to="/en/market-entry" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Canada & North America Market Entry</Link></li>
+              <li><Link to="/en/services/3pl-warehousing-advisory" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">3PL & Warehousing Advisory</Link></li>
+              <li><Link to="/en/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Compliance & Responsibility Chain</Link></li>
+              <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Contact CCBONLINE</Link></li>
             </ul>
           </div>
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

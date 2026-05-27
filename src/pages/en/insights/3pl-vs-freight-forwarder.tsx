@@ -59,10 +59,10 @@ export default function EN_3PLVsFreightForwarder() {
                 When You Need a Freight Forwarder
               </h2>
               <ul className="space-y-2">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">You need to ship goods from China to Canada or the US</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">You are shipping direct to a customer or distributor who handles receiving</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">You do not plan to hold inventory in Canada</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">You need customs clearance coordination (many freight forwarders also offer customs brokerage)</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">You need to ship goods from China to Canada or the US</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">You are shipping direct to a customer or distributor who handles receiving</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">You do not plan to hold inventory in Canada</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">You need customs clearance coordination (many freight forwarders also offer customs brokerage)</li>
               </ul>
             </div>
 
@@ -71,10 +71,10 @@ export default function EN_3PLVsFreightForwarder() {
                 When You Need a 3PL
               </h2>
               <ul className="space-y-2">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">You need to hold inventory in Canada before selling to customers</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">You sell through e-commerce, retail, or B2B channels that require pick-and-pack fulfillment</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Your customers expect fast delivery (1-3 days) that is only possible with local inventory</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">You need returns handling, value-added services (labeling, kitting), or inventory management</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">You need to hold inventory in Canada before selling to customers</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">You sell through e-commerce, retail, or B2B channels that require pick-and-pack fulfillment</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Your customers expect fast delivery (1-3 days) that is only possible with local inventory</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">You need returns handling, value-added services (labeling, kitting), or inventory management</li>
               </ul>
             </div>
 
@@ -83,15 +83,15 @@ export default function EN_3PLVsFreightForwarder() {
                 Common Mistakes
               </h2>
               <div className="space-y-4">
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">Using a freight forwarder for order fulfillment</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">Freight forwarders do not typically pick, pack, and ship individual orders to end customers. If you need fulfillment, you need a 3PL.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">Expecting the 3PL to handle international shipping</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">Most 3PLs focus on domestic fulfillment. They receive goods at their warehouse (usually arranged by you or your freight forwarder) and handle distribution from there.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">Not clarifying responsibilities at the handoff point</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">When goods move from the freight forwarder to the 3PL, who is responsible for unloading, inspection, and damage claims? This must be defined in advance.</p>
                 </div>
@@ -103,14 +103,14 @@ export default function EN_3PLVsFreightForwarder() {
                 Related Resources
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/en/services/3pl-warehousing-advisory" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">3PL Selection & Warehouse Audit Service →</Link></li>
-                <li><Link to="/en/services/local-execution-support" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Local Execution Support →</Link></li>
-                <li><Link to="/en/insights/importer-of-record-is-not-just-customs-clearance" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Importer of Record Is Not Just Customs Clearance →</Link></li>
-                <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE →</Link></li>
+                <li><Link to="/en/services/3pl-warehousing-advisory" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">3PL Selection & Warehouse Audit Service →</Link></li>
+                <li><Link to="/en/services/local-execution-support" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Local Execution Support →</Link></li>
+                <li><Link to="/en/insights/importer-of-record-is-not-just-customs-clearance" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Importer of Record Is Not Just Customs Clearance →</Link></li>
+                <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Contact CCBONLINE →</Link></li>
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 Evaluating Canadian logistics partners?
               </h3>

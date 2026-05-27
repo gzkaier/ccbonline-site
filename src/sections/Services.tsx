@@ -113,17 +113,17 @@ export default function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
           {services.map((s) => (
             <div key={s.num} className="service-card card-border bg-white flex flex-col">
-              <span className="text-[#00A884] text-[11px] font-bold mb-2">{s.num}</span>
+              <span className="text-[#00B894] text-[11px] font-bold mb-2">{s.num}</span>
               <h3 className="text-[14px] md:text-[15px] font-semibold mb-2 tracking-tight">{s.title}</h3>
               <p className="text-[11px] md:text-[13px] text-[#767676] leading-[1.7] mb-3 flex-1">{s.desc}</p>
               <ul className="space-y-1 mb-4">
                 {s.bullets.map((b, i) => (
                   <li key={i} className="text-[11px] md:text-[12px] text-[#555] leading-[1.5] flex gap-2">
-                    <span className="text-[#00A884] mt-0.5">—</span>{b}
+                    <span className="text-[#00B894] mt-0.5">—</span>{b}
                   </li>
                 ))}
               </ul>
-              <Link to={`/${lang}/services`} className="text-[11px] md:text-[13px] font-medium text-[#212121] hover:text-[#00A884] transition-colors inline-flex items-center gap-1.5">
+              <Link to={`/${lang}/services`} className="text-[11px] md:text-[13px] font-medium text-[#212121] hover:text-[#00B894] transition-colors inline-flex items-center gap-1.5">
                 {t('Learn More', '了解详情')} <span>→</span>
               </Link>
             </div>

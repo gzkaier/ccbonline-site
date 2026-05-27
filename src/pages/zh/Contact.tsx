@@ -131,7 +131,7 @@ export default function ZHContact() {
                 <form onSubmit={handleSubmit} className="bg-[#F8F9FA] p-5 md:p-8">
                   {submitted ? (
                     <div className="text-center py-10">
-                      <div className="w-10 h-10 bg-[#00A884] flex items-center justify-center mx-auto mb-4"><span className="text-white text-[16px]">&#10003;</span></div>
+                      <div className="w-10 h-10 bg-[#00B894] flex items-center justify-center mx-auto mb-4"><span className="text-white text-[16px]">&#10003;</span></div>
                       <h3 className="text-[18px] font-semibold mb-2">评估申请已提交</h3>
                       <p className="text-[13px] text-[#767676] mb-4">感谢联系中加商业在线。我们会先阅读你提交的信息，再判断适合的下一步。如果涉及具体项目，我们可能会进一步了解产品、资料、认证、目标市场和当前进展，再给出更具体的建议。</p>
                       <div className="p-4 bg-white border border-[#E5E5E5] mb-4 max-w-[400px] mx-auto">
@@ -142,7 +142,7 @@ export default function ZHContact() {
                     </div>
                   ) : (
                     <>
-                      <p className="text-[11px] font-medium uppercase tracking-wider text-[#999] mb-4">市场进入评估 <span className="text-[#00A884]">*</span> 必填</p>
+                      <p className="text-[11px] font-medium uppercase tracking-wider text-[#999] mb-4">市场进入评估 <span className="text-[#00B894]">*</span> 必填</p>
 
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
                         <input type="text" name="company" placeholder="公司名称 *" required className={inputClass} value={formData.company} onChange={handleChange} />
@@ -210,7 +210,7 @@ export default function ZHContact() {
                           提交本表单即表示你同意中加商业在线使用你提供的信息回复咨询并判断下一步沟通方式。请不要通过本表单提交高度敏感的技术文件、商业秘密或敏感个人信息。
                         </p>
                         <p className="text-[11px] text-[#999] leading-[1.5]">
-                          我们不会与第三方分享你的信息。查看<Link to="/zh/privacy" className="text-[#00A884] hover:underline">隐私政策</Link>和<Link to="/zh/terms" className="text-[#00A884] hover:underline">使用条款</Link>。
+                          我们不会与第三方分享你的信息。查看<Link to="/zh/privacy" className="text-[#00B894] hover:underline">隐私政策</Link>和<Link to="/zh/terms" className="text-[#00B894] hover:underline">使用条款</Link>。
                         </p>
                       </div>
                     </>

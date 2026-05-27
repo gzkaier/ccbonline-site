@@ -38,7 +38,7 @@ export default function HomeAbout() {
                 'CCBONLINE INC. 帮助企业进入北美市场。就绪度评估、市场比较、风险筛查和可执行的启动计划。'
               )}
             </p>
-            <Link to={`/${lang}/about`} className="inline-flex items-center gap-1.5 text-[11px] md:text-[13px] font-medium text-[#212121] hover:text-[#00A884] transition-colors">
+            <Link to={`/${lang}/about`} className="inline-flex items-center gap-1.5 text-[11px] md:text-[13px] font-medium text-[#212121] hover:text-[#00B894] transition-colors">
               {t('Learn more', '了解更多')} <ArrowRight size={13} />
             </Link>
           </div>

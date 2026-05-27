@@ -54,7 +54,7 @@ export default function CoreValues() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
           {values.map((v) => (
             <div key={v.num} className="value-item card-border bg-white">
-              <span className="text-[#00A884] text-[11px] font-bold">{v.num}</span>
+              <span className="text-[#00B894] text-[11px] font-bold">{v.num}</span>
               <h3 className="text-[14px] md:text-[15px] font-semibold mt-2 mb-2">{v.title}</h3>
               <p className="text-[11px] md:text-[13px] text-[#767676] leading-[1.7]">{v.desc}</p>
             </div>

@@ -48,10 +48,10 @@ export default function EN_MediaContent() {
               Who This Service Is For
             </h2>
             <ul className="space-y-3 mb-10">
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Chinese manufacturers and brands that have entered or are preparing to enter the North American market and need professional visibility</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies with genuine capabilities, certifications, or market achievements that are not well-documented in English</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Leadership teams preparing for trade shows, industry events, or business missions where media presence supports credibility</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Businesses seeking to differentiate from competitors through professional content and industry recognition</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Chinese manufacturers and brands that have entered or are preparing to enter the North American market and need professional visibility</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Companies with genuine capabilities, certifications, or market achievements that are not well-documented in English</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Leadership teams preparing for trade shows, industry events, or business missions where media presence supports credibility</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Businesses seeking to differentiate from competitors through professional content and industry recognition</li>
             </ul>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
@@ -61,65 +61,65 @@ export default function EN_MediaContent() {
             <div className="space-y-6 mb-10">
               <div className="p-5 md:p-6 border border-[#E5E5E5] bg-[#F8F9FA]">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="text-[#C9A44C] text-[13px] font-medium">01</span>
+                  <span className="text-[#D4AF37] text-[13px] font-medium">01</span>
                   <h3 className="text-[16px] md:text-[17px] font-semibold">Professional Business Profiling</h3>
                 </div>
                 <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.7] mb-3">
                   Media-style company profiles, executive interviews, and capability articles that present your business professionally to North American audiences. These are not advertisements — they are journalistic-style business features that communicate credibility through substance and presentation.
                 </p>
                 <ul className="space-y-2">
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Company profile articles suitable for trade publications</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Executive interviews and leadership spotlights</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Case study documentation of market entry achievements</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Industry commentary and thought leadership content</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Company profile articles suitable for trade publications</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Executive interviews and leadership spotlights</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Case study documentation of market entry achievements</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Industry commentary and thought leadership content</li>
                 </ul>
               </div>
 
               <div className="p-5 md:p-6 border border-[#E5E5E5] bg-[#F8F9FA]">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="text-[#C9A44C] text-[13px] font-medium">02</span>
+                  <span className="text-[#D4AF37] text-[13px] font-medium">02</span>
                   <h3 className="text-[16px] md:text-[17px] font-semibold">Media Exposure Coordination</h3>
                 </div>
                 <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.7] mb-3">
                   Coordination of business media exposure through industry publications, business platforms, and professional networks. We identify appropriate channels, prepare content, and manage the publication process. Editorial decisions rest with the respective media outlets.
                 </p>
                 <ul className="space-y-2">
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Industry publication feature coordination</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Business platform profile development</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">LinkedIn and professional network content strategy</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Trade show and event coverage coordination</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Industry publication feature coordination</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Business platform profile development</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">LinkedIn and professional network content strategy</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Trade show and event coverage coordination</li>
                 </ul>
               </div>
 
               <div className="p-5 md:p-6 border border-[#E5E5E5] bg-[#F8F9FA]">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="text-[#C9A44C] text-[13px] font-medium">03</span>
+                  <span className="text-[#D4AF37] text-[13px] font-medium">03</span>
                   <h3 className="text-[16px] md:text-[17px] font-semibold">Content Collaboration</h3>
                 </div>
                 <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.7] mb-3">
                   Collaborative content projects that position your expertise in front of North American business audiences. This includes co-developed industry reports, market insight articles, and educational content that demonstrates knowledge without direct promotion.
                 </p>
                 <ul className="space-y-2">
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Industry insight articles and market commentary</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Co-developed content with business media partners</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Educational content that demonstrates expertise</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Event recap and industry analysis articles</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Industry insight articles and market commentary</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Co-developed content with business media partners</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Educational content that demonstrates expertise</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Event recap and industry analysis articles</li>
                 </ul>
               </div>
 
               <div className="p-5 md:p-6 border border-[#E5E5E5] bg-[#F8F9FA]">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="text-[#C9A44C] text-[13px] font-medium">04</span>
+                  <span className="text-[#D4AF37] text-[13px] font-medium">04</span>
                   <h3 className="text-[16px] md:text-[17px] font-semibold">Event and Presentation Support</h3>
                 </div>
                 <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.7] mb-3">
                   Content and coordination support for trade shows, industry conferences, business missions, and corporate events where professional presentation affects credibility and outcomes.
                 </p>
                 <ul className="space-y-2">
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Presentation material development and review</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Executive talking points and speech preparation</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">On-site event coordination and follow-up</li>
-                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00A884]">Post-event content and relationship nurturing</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Presentation material development and review</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Executive talking points and speech preparation</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">On-site event coordination and follow-up</li>
+                  <li className="text-[13px] text-[#555] leading-[1.6] pl-3 border-l border-[#00B894]">Post-event content and relationship nurturing</li>
                 </ul>
               </div>
             </div>
@@ -140,11 +140,11 @@ export default function EN_MediaContent() {
               Deliverables
             </h2>
             <ul className="space-y-3 mb-10">
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Professional company profile or executive interview article</strong> — publish-ready feature content</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Media exposure coordination plan</strong> — targeted channels and timeline</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Content collaboration proposals</strong> — identified opportunities for industry content partnerships</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Event content package</strong> — presentations, talking points, and follow-up materials</li>
-              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Professional photography guidance</strong> — recommendations for executive portraits, facility photos, and product imagery that meet publication standards</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium">Professional company profile or executive interview article</strong> — publish-ready feature content</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium">Media exposure coordination plan</strong> — targeted channels and timeline</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium">Content collaboration proposals</strong> — identified opportunities for industry content partnerships</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium">Event content package</strong> — presentations, talking points, and follow-up materials</li>
+              <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium">Professional photography guidance</strong> — recommendations for executive portraits, facility photos, and product imagery that meet publication standards</li>
             </ul>
 
             <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px] inline-block">Discuss Media & Content Services</Link>
@@ -201,16 +201,16 @@ export default function EN_MediaContent() {
               Related Services
             </h2>
             <ul className="space-y-2">
-              <li><Link to="/en/brand-credibility" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Brand Credibility & Digital Infrastructure Assessment</Link></li>
-              <li><Link to="/en/website-content" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Bilingual Website & Content Optimization</Link></li>
-              <li><Link to="/en/market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Canada & North America Market Entry</Link></li>
-              <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
+              <li><Link to="/en/brand-credibility" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Brand Credibility & Digital Infrastructure Assessment</Link></li>
+              <li><Link to="/en/website-content" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Bilingual Website & Content Optimization</Link></li>
+              <li><Link to="/en/market-entry" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Canada & North America Market Entry</Link></li>
+              <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Contact CCBONLINE</Link></li>
             </ul>
           </div>
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

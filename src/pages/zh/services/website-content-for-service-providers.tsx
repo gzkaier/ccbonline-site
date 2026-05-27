@@ -23,7 +23,7 @@ export default function ZH_WebsiteContentForServiceProviders() {
       <main>
         {/* 1. Hero */}
         <section className="relative pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA] overflow-hidden">
-          <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, #00A884 1px, transparent 0)', backgroundSize: '40px 40px' }} />
+          <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, #00B894 1px, transparent 0)', backgroundSize: '40px 40px' }} />
           <div className="container-site relative z-10">
             <p className="text-label mb-3">内容建设</p>
             <h1 className="font-serif text-[#212121] text-[26px] sm:text-[32px] md:text-[38px] leading-[1.25] tracking-tight max-w-[900px] mb-4 md:mb-6">
@@ -52,8 +52,8 @@ export default function ZH_WebsiteContentForServiceProviders() {
                 { num: '02', title: '有资质有经验，但线上表达没有建立信任', desc: '行业认证、客户案例、负责人专业背景、服务流程——这些信任要素往往散落在日常沟通记录或口头介绍里，网站没有系统呈现，客户第一次接触时无法快速建立信任感。' },
                 { num: '03', title: '从"对你感兴趣"到"愿意联系你"之间缺少路径', desc: '网站没有清晰的常见问题解答、没有明确的联系入口、没有可下载的资料。客户有兴趣但不确定下一步该做什么，最终没有联系就离开了。' },
               ].map((p, i) => (
-                <div key={i} className="p-5 md:p-6 border border-[#E5E5E5] hover:border-[#00A884] transition-colors bg-white">
-                  <p className="text-[#C9A44C] text-[13px] font-medium mb-3">{p.num}</p>
+                <div key={i} className="p-5 md:p-6 border border-[#E5E5E5] hover:border-[#00B894] transition-colors bg-white">
+                  <p className="text-[#D4AF37] text-[13px] font-medium mb-3">{p.num}</p>
                   <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 leading-[1.5]">{p.title}</h3>
                   <p className="text-[14px] text-[#767676] leading-[1.65]">{p.desc}</p>
                 </div>
@@ -82,7 +82,7 @@ export default function ZH_WebsiteContentForServiceProviders() {
                 '其他有明确服务能力但线上表达不清晰的专业机构',
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
-                  <span className="text-[#00A884] mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#00B894] mt-0.5 shrink-0">&#10003;</span>
                   <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.6]">{item}</p>
                 </div>
               ))}
@@ -111,8 +111,8 @@ export default function ZH_WebsiteContentForServiceProviders() {
                 { num: '05', title: '多平台内容延展', desc: '把网站内容延展为服务手册、邮件资料、客户跟进文档和社交媒体内容。' },
                 { num: '06', title: '后续内容维护', desc: '根据业务发展继续更新常见问题、案例场景、服务说明、活动内容和服务商报道。' },
               ].map((m, i) => (
-                <div key={i} className="p-5 border border-[#E5E5E5] hover:border-[#00A884] transition-colors">
-                  <p className="text-[#C9A44C] text-[13px] font-medium mb-2">{m.num}</p>
+                <div key={i} className="p-5 border border-[#E5E5E5] hover:border-[#00B894] transition-colors">
+                  <p className="text-[#D4AF37] text-[13px] font-medium mb-2">{m.num}</p>
                   <h3 className="text-[16px] font-semibold mb-2">{m.title}</h3>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">{m.desc}</p>
                 </div>
@@ -142,7 +142,7 @@ export default function ZH_WebsiteContentForServiceProviders() {
                 'Google Business Profile 基础优化建议',
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3 p-3 bg-white border border-[#E5E5E5]">
-                  <span className="text-[#00A884] mt-0.5 shrink-0 text-[13px]">&#10003;</span>
+                  <span className="text-[#00B894] mt-0.5 shrink-0 text-[13px]">&#10003;</span>
                   <p className="text-[14px] text-[#444] leading-[1.5]">{item}</p>
                 </div>
               ))}
@@ -169,7 +169,7 @@ export default function ZH_WebsiteContentForServiceProviders() {
                 '下一步怎么联系',
                 '哪些内容可以继续用于社交媒体、服务手册和销售跟进',
               ].map((item, i) => (
-                <div key={i} className="p-4 bg-[#F8F9FA] border-l-2 border-[#00A884]">
+                <div key={i} className="p-4 bg-[#F8F9FA] border-l-2 border-[#00B894]">
                   <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.6]">{item}</p>
                 </div>
               ))}
@@ -178,9 +178,9 @@ export default function ZH_WebsiteContentForServiceProviders() {
         </section>
 
         {/* 7. Engagement Options */}
-        <section id="process" className="section-padding bg-[#07111F]">
+        <section id="process" className="section-padding bg-[#0B0E14]">
           <div className="container-site">
-            <p className="text-[#00A884] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">服务方案</p>
+            <p className="text-[#00B894] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">服务方案</p>
             <h2 className="font-serif text-white text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-8 md:mb-10">
               三种合作方式
             </h2>
@@ -190,16 +190,16 @@ export default function ZH_WebsiteContentForServiceProviders() {
                 { name: '标准服务页', tag: '标准', desc: '适合已经有官网，希望在现有网站中新增清晰服务页面的机构。完整的服务详情页、常见问题解答和联系流程，与现有网站风格统一。', features: ['服务详情页', '常见问题板块', '联系流程设计', '适配现有网站'] },
                 { name: '网站 + 内容启动', tag: '完整', desc: '适合希望同时整理官网、社交媒体和客户沟通资料的服务商。从网站到邮件到社交的全套内容体系。', features: ['网站内容', '博客/文章文案', '客户沟通资料', '社交媒体文案'] },
               ].map((pkg, i) => (
-                <div key={i} className="p-6 border border-white/10 hover:border-[#00A884]/50 transition-colors">
+                <div key={i} className="p-6 border border-white/10 hover:border-[#00B894]/50 transition-colors">
                   <div className="flex items-center gap-2 mb-3">
-                    <span className="text-[#C9A44C] text-[12px] font-medium tracking-wider">{pkg.tag}</span>
+                    <span className="text-[#D4AF37] text-[12px] font-medium tracking-wider">{pkg.tag}</span>
                   </div>
                   <h3 className="text-white text-[18px] font-semibold mb-3">{pkg.name}</h3>
                   <p className="text-white/60 text-[14px] leading-[1.65] mb-4">{pkg.desc}</p>
                   <ul className="space-y-2">
                     {pkg.features.map((f, j) => (
                       <li key={j} className="text-white/50 text-[13px] flex items-start gap-2">
-                        <span className="text-[#00A884] shrink-0">&#10003;</span>{f}
+                        <span className="text-[#00B894] shrink-0">&#10003;</span>{f}
                       </li>
                     ))}
                   </ul>
@@ -226,7 +226,7 @@ export default function ZH_WebsiteContentForServiceProviders() {
               ].map((step, i) => (
                 <div key={i} className="flex gap-4 md:gap-6">
                   <div className="shrink-0">
-                    <p className="text-[#C9A44C] text-[14px] font-medium w-[32px]">{step.num}</p>
+                    <p className="text-[#D4AF37] text-[14px] font-medium w-[32px]">{step.num}</p>
                   </div>
                   <div className="pb-6 border-b border-[#E5E5E5]">
                     <h3 className="text-[16px] md:text-[17px] font-semibold mb-2">{step.title}</h3>
@@ -246,8 +246,8 @@ export default function ZH_WebsiteContentForServiceProviders() {
               是否适合你？
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-              <div className="p-6 border-l-2 border-[#00A884] bg-white">
-                <h3 className="text-[16px] font-semibold mb-4 text-[#00A884]">适合</h3>
+              <div className="p-6 border-l-2 border-[#00B894] bg-white">
+                <h3 className="text-[16px] font-semibold mb-4 text-[#00B894]">适合</h3>
                 <ul className="space-y-3">
                   {[
                     '已经有真实服务能力',
@@ -256,7 +256,7 @@ export default function ZH_WebsiteContentForServiceProviders() {
                     '需要正式服务页、服务手册和对外内容',
                   ].map((item, i) => (
                     <li key={i} className="text-[14px] text-[#444] leading-[1.6] flex items-start gap-2">
-                      <span className="text-[#00A884] shrink-0">&#10003;</span>{item}
+                      <span className="text-[#00B894] shrink-0">&#10003;</span>{item}
                     </li>
                   ))}
                 </ul>
@@ -314,9 +314,9 @@ export default function ZH_WebsiteContentForServiceProviders() {
         </section>
 
         {/* 11. CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site text-center">
-            <p className="text-[#00A884] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">开始</p>
+            <p className="text-[#00B894] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">开始</p>
             <h2 className="font-serif text-white text-[22px] md:text-[28px] leading-[1.35] tracking-tight mb-4">
               让客户第一次看到你时，就能看懂你
             </h2>
@@ -342,8 +342,8 @@ export default function ZH_WebsiteContentForServiceProviders() {
                 { title: '客户与渠道验证', desc: '在进入前验证买家、渠道和外联方向。', slug: 'customer-channel-validation' },
                 { title: '本地执行支持', desc: '协调进口、仓储、履约和售后支持。', slug: 'local-execution-support' },
               ].map((s, i) => (
-                <Link key={i} to={`/zh/services/${s.slug}`} className="p-5 bg-white border border-[#E5E5E5] hover:border-[#00A884] transition-colors group">
-                  <h3 className="text-[15px] font-semibold mb-2 group-hover:text-[#00A884] transition-colors">{s.title}</h3>
+                <Link key={i} to={`/zh/services/${s.slug}`} className="p-5 bg-white border border-[#E5E5E5] hover:border-[#00B894] transition-colors group">
+                  <h3 className="text-[15px] font-semibold mb-2 group-hover:text-[#00B894] transition-colors">{s.title}</h3>
                   <p className="text-[13px] text-[#767676] leading-[1.6]">{s.desc}</p>
                 </Link>
               ))}

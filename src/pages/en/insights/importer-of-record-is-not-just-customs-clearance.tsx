@@ -44,11 +44,11 @@ export default function EN_ImporterOfRecordIsNotJustCustomsClearance() {
                 An <strong>Importer of Record (IOR)</strong> is the person or entity responsible for ensuring that imported goods comply with all laws and regulations of the importing country. In Canada, this means the IOR is legally responsible for:
               </p>
               <ul className="space-y-2 mb-4">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Accurate declaration of goods to the Canada Border Services Agency (CBSA)</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Payment of all applicable duties and taxes</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Compliance with product safety standards, labeling requirements, and import permits</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Maintaining records for the required retention period (typically 6 years in Canada)</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Responding to CBSA audits, inspections, or compliance inquiries</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Accurate declaration of goods to the Canada Border Services Agency (CBSA)</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Payment of all applicable duties and taxes</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Compliance with product safety standards, labeling requirements, and import permits</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Maintaining records for the required retention period (typically 6 years in Canada)</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Responding to CBSA audits, inspections, or compliance inquiries</li>
               </ul>
               <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
                 The IOR is not necessarily the owner of the goods. It is the entity that takes legal responsibility for the importation. This distinction matters enormously.
@@ -120,10 +120,10 @@ export default function EN_ImporterOfRecordIsNotJustCustomsClearance() {
                 In practice, you should decide on your IOR structure at least 4-6 weeks before your planned shipment. This allows time for:
               </p>
               <ul className="space-y-2">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Corporate registration (if establishing your own entity)</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Contract negotiation with a distributor or third-party IOR</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">CBSA account setup and bonding arrangements</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Documentation preparation and compliance review</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Corporate registration (if establishing your own entity)</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Contract negotiation with a distributor or third-party IOR</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">CBSA account setup and bonding arrangements</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Documentation preparation and compliance review</li>
               </ul>
             </div>
 
@@ -133,19 +133,19 @@ export default function EN_ImporterOfRecordIsNotJustCustomsClearance() {
                 Common Mistakes Chinese Manufacturers Make
               </h2>
               <div className="space-y-4">
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">Assuming the freight forwarder is the IOR</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">Freight forwarders move goods. They are not legally responsible for import compliance unless specifically contracted as an IOR service provider.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">Letting the distributor handle IOR without a clear agreement</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">If your distributor is the IOR, you need a written agreement specifying who handles what — documentation, duties, compliance, and liability.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">Not understanding the liability exposure</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">The IOR can be held liable for incorrect declarations, underpaid duties, and non-compliant products. This is not a formality — it is a legal responsibility.</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">Waiting until the shipment is en route to decide</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">By the time the ship is crossing the ocean, it is too late to set up a proper IOR arrangement. Delays at port can cost thousands per day.</p>
                 </div>
@@ -164,11 +164,11 @@ export default function EN_ImporterOfRecordIsNotJustCustomsClearance() {
                 Key factors to consider:
               </p>
               <ul className="space-y-2 mb-5">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>Volume and frequency</strong> — Higher volumes typically justify establishing your own entity</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>Control requirements</strong> — Do you need direct control over the import process?</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>Distributor capability</strong> — Does your distributor have reliable import experience?</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>Liability tolerance</strong> — Are you comfortable with another entity holding legal responsibility for your products?</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong>Timeline</strong> — How quickly do you need to start shipping?</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>Volume and frequency</strong> — Higher volumes typically justify establishing your own entity</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>Control requirements</strong> — Do you need direct control over the import process?</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>Distributor capability</strong> — Does your distributor have reliable import experience?</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>Liability tolerance</strong> — Are you comfortable with another entity holding legal responsibility for your products?</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong>Timeline</strong> — How quickly do you need to start shipping?</li>
               </ul>
               <div className="p-5 md:p-6 bg-[#FFF8F8] border border-[#F0D0D0]">
                 <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.7]">
@@ -228,15 +228,15 @@ export default function EN_ImporterOfRecordIsNotJustCustomsClearance() {
                 Related Resources
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/en/services/ior-import-responsibility" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">IOR & Import Responsibility Advisory Service →</Link></li>
-                <li><Link to="/en/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Compliance & Responsibility Chain Screening →</Link></li>
-                <li><Link to="/en/services/local-execution-support" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Local Execution Support →</Link></li>
-                <li><Link to="/en/insights/north-america-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Understanding the North America Responsibility Chain →</Link></li>
+                <li><Link to="/en/services/ior-import-responsibility" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">IOR & Import Responsibility Advisory Service →</Link></li>
+                <li><Link to="/en/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Compliance & Responsibility Chain Screening →</Link></li>
+                <li><Link to="/en/services/local-execution-support" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Local Execution Support →</Link></li>
+                <li><Link to="/en/insights/north-america-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Understanding the North America Responsibility Chain →</Link></li>
               </ul>
             </div>
 
             {/* CTA */}
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 Need help structuring your IOR arrangement?
               </h3>

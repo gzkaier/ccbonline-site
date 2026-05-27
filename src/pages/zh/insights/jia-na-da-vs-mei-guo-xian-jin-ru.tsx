@@ -49,23 +49,23 @@ export default function ZH_JiaNaDaVsMeiGuoXianJinRu() {
                 为什么加拿大可能是更好的第一站
               </h2>
               <div className="space-y-5">
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[16px] mb-1">市场规模较小但更可控</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">加拿大4千万人口比加州还小。但这正是优势——竞争者更少，需求模式更可预测，可以在不被美国市场压倒性规模淹没的情况下，与分销商和零售商建立关系。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[16px] mb-1">更清晰的监管路径</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">加拿大的监管机构比美国少，合规框架比美国更集中，美国的要求可能因州而异。对于第一次走认证流程的制造商，这种简单性很重要。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[16px] mb-1">CSA 认证在美国也有效</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">如果你为加拿大获得 CSA 认证，在美国也被认可（标记为 cCSA-us）。这意味着你在加拿大的投资部分覆盖了未来进入美国的成本。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[16px] mb-1">价格压力较小</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">美国市场价格竞争极其激烈，买家不断压低价格。加拿大买家通常更重视质量、可靠性和供应商关系——对于合适的产品，这意味着更好的利润空间。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#00A884]">
+                <div className="pl-4 border-l-2 border-[#00B894]">
                   <h4 className="font-semibold text-[16px] mb-1">测试你的北美策略</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">加拿大给你一个真实的北美市场来学习——买家行为、物流、售后要求——但规模和风险比美国小。在加拿大打磨方法，然后向南扩张。</p>
                 </div>
@@ -77,19 +77,19 @@ export default function ZH_JiaNaDaVsMeiGuoXianJinRu() {
                 为什么可能应该先进美国（或同时进入）
               </h2>
               <div className="space-y-5">
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[16px] mb-1">巨大的市场规模</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">美国市场大约是加拿大的十倍。对于有高销量潜力或薄 margins 需要规模才能盈利的产品，美国可能是唯一值得进入投资的市场。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[16px] mb-1">你的客户已经在美国</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">如果你现有的国际客户在美国有业务，或者你收到了美国买家的直接询盘，跟随现有需求可能是最有效的路径。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[16px] mb-1">UL 认证在加拿大也有效</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">正如 CSA 在美国有效一样，UL 认证（作为 cUL）在加拿大也被认可。如果你的产品策略自然导向先获得 UL，你可以通过一次认证努力进入两个市场。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[16px] mb-1">某些产品类别美国市场大得多</h4>
                   <p className="text-[14px] text-[#444] leading-[1.65]">消费电子、汽车零部件和某些工业设备在美国有显著更大的可寻址市场。加拿大市场可能太小，不值得产品适应性成本。</p>
                 </div>
@@ -222,13 +222,13 @@ export default function ZH_JiaNaDaVsMeiGuoXianJinRu() {
                 相关资源
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/zh/services/market-entry-diagnosis" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">市场进入诊断服务 →</Link></li>
-                <li><Link to="/zh/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">产品合规与认证路径 →</Link></li>
-                <li><Link to="/zh/insights/chan-pin-ren-zheng-lu-jing-zhi-nan" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">加拿大产品认证路径指南 →</Link></li>
+                <li><Link to="/zh/services/market-entry-diagnosis" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">市场进入诊断服务 →</Link></li>
+                <li><Link to="/zh/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">产品合规与认证路径 →</Link></li>
+                <li><Link to="/zh/insights/chan-pin-ren-zheng-lu-jing-zhi-nan" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">加拿大产品认证路径指南 →</Link></li>
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 不确定应该先进入哪个市场？
               </h3>

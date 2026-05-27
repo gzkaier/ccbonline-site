@@ -80,19 +80,19 @@ export default function ZH_ZhanHouXianSuoGenJin() {
                 常见跟进错误
               </h2>
               <div className="space-y-4">
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">群发通用邮件</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">"尊敬的先生/女士，感谢您参观我们的展位"——这表示你不记得对话了。每封邮件都要个性化，提到讨论内容。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">没有明确的下一步</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">以"有任何需要请联系我们"结尾，把负担推给了买家。提出一个具体的下一步行动和时间线。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">在错误时区跟进</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">因为中国的工作时间发邮件，导致多伦多时间凌晨 2 点送达，你的邮件会被埋在 50 封其他邮件下面。安排邮件在北美工作时间送达。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">一两次尝试后就放弃</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">北美买家很忙。他们可能不回复第一封甚至第二封邮件。6-8 周内 5-6 次触达的结构化跟进是正常的，不是骚扰。</p>
                 </div>
@@ -104,14 +104,14 @@ export default function ZH_ZhanHouXianSuoGenJin() {
                 相关资源
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/zh/services/channel-local-landing" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">渠道策略与本地落地服务 →</Link></li>
-                <li><Link to="/zh/services/customer-channel-validation" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">客户与渠道验证 →</Link></li>
-                <li><Link to="/zh/insights/qu-dao-kai-fa-bu-shi-qun-fa-you-jian" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">渠道开发不是群发邮件 →</Link></li>
-                <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">联系 CCBONLINE →</Link></li>
+                <li><Link to="/zh/services/channel-local-landing" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">渠道策略与本地落地服务 →</Link></li>
+                <li><Link to="/zh/services/customer-channel-validation" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">客户与渠道验证 →</Link></li>
+                <li><Link to="/zh/insights/qu-dao-kai-fa-bu-shi-qun-fa-you-jian" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">渠道开发不是群发邮件 →</Link></li>
+                <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">联系 CCBONLINE →</Link></li>
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 需要帮助搭建展会跟进系统？
               </h3>

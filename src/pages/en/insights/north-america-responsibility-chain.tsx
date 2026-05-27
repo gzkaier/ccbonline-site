@@ -72,11 +72,11 @@ export default function EN_north_america_responsibility_chain() {
               Practical Next Steps
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Map the complete responsibility chain for your product category</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Review distribution agreements for liability gaps</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Identify who will serve as Importer of Record and certification holder</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Create a local warranty and service plan before first sale</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Contact CCBONLINE for a responsibility chain audit</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Map the complete responsibility chain for your product category</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Review distribution agreements for liability gaps</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Identify who will serve as Importer of Record and certification holder</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Create a local warranty and service plan before first sale</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Contact CCBONLINE for a responsibility chain audit</li>
 
             </ul>
           </div>
@@ -132,11 +132,11 @@ export default function EN_north_america_responsibility_chain() {
               Related Resources
             </h2>
             <ul className="space-y-2 mb-8">
-          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Market Entry Services</Link></li>
-          <li><Link to="/en/responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">The Responsibility Chain</Link></li>
-          <li><Link to="/en/insights/market-entry-is-not-selling-overseas" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Market Entry Is Not the Same as Selling Overseas</Link></li>
-          <li><Link to="/en/insights/importer-of-record-is-not-just-customs-clearance" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Importer of Record Is Not Just Customs Clearance</Link></li>
-          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
+          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Market Entry Services</Link></li>
+          <li><Link to="/en/responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">The Responsibility Chain</Link></li>
+          <li><Link to="/en/insights/market-entry-is-not-selling-overseas" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Market Entry Is Not the Same as Selling Overseas</Link></li>
+          <li><Link to="/en/insights/importer-of-record-is-not-just-customs-clearance" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Importer of Record Is Not Just Customs Clearance</Link></li>
+          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Contact CCBONLINE</Link></li>
 
             </ul>
           </div>

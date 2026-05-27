@@ -55,7 +55,7 @@ export default function EN_ImporterOfRecordAndResponsibilityChain() {
                 </div>
               </div>
               <div className="lg:col-span-5">
-                <div className="p-5 bg-[#07111F]">
+                <div className="p-5 bg-[#0B0E14]">
                   <h3 className="text-white text-[16px] font-semibold mb-4">IOR Responsibilities</h3>
                   <ul className="space-y-3">
                     {[
@@ -69,7 +69,7 @@ export default function EN_ImporterOfRecordAndResponsibilityChain() {
                       'Serve as the responsible party in case of recalls',
                     ].map((item, i) => (
                       <li key={i} className="text-white/70 text-[14px] flex items-start gap-2">
-                        <span className="text-[#00A884] shrink-0 text-[13px]">{'0' + (i + 1)}</span>{item}
+                        <span className="text-[#00B894] shrink-0 text-[13px]">{'0' + (i + 1)}</span>{item}
                       </li>
                     ))}
                   </ul>
@@ -100,7 +100,7 @@ export default function EN_ImporterOfRecordAndResponsibilityChain() {
                     <h4 className="text-[15px] font-semibold shrink-0 sm:w-[180px]">{item.role}</h4>
                     <p className="text-[14px] text-[#555] leading-[1.6]">{item.resp}</p>
                   </div>
-                  <p className="text-[13px] text-[#767676] pl-0 sm:pl-[196px]"><span className="text-[#C9A44C]">Risk exposure:</span> {item.risk}</p>
+                  <p className="text-[13px] text-[#767676] pl-0 sm:pl-[196px]"><span className="text-[#D4AF37]">Risk exposure:</span> {item.risk}</p>
                 </div>
               ))}
             </div>
@@ -123,9 +123,9 @@ export default function EN_ImporterOfRecordAndResponsibilityChain() {
               ].map((item, i) => (
                 <div key={i} className="p-5 md:p-6 bg-[#F8F9FA] border border-[#E5E5E5]">
                   <h4 className="text-[16px] font-semibold mb-3">{item.option}</h4>
-                  <p className="text-[13px] text-[#00A884] mb-1">Pros</p>
+                  <p className="text-[13px] text-[#00B894] mb-1">Pros</p>
                   <p className="text-[14px] text-[#555] leading-[1.6] mb-3">{item.pros}</p>
-                  <p className="text-[13px] text-[#C9A44C] mb-1">Cons</p>
+                  <p className="text-[13px] text-[#D4AF37] mb-1">Cons</p>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">{item.cons}</p>
                 </div>
               ))}
@@ -148,9 +148,9 @@ export default function EN_ImporterOfRecordAndResponsibilityChain() {
                 { gap: 'No recall or crisis plan', fix: 'Define in advance who coordinates a recall, how communication flows, and who bears costs. Regulators expect a domestic point of contact.' },
                 { gap: 'Insurance gaps', fix: 'Product liability insurance, cargo insurance, and commercial general liability are different coverages. Verify what your IOR carries and what gaps remain.' },
               ].map((item, i) => (
-                <div key={i} className="p-5 bg-white border-l-2 border-l-[#C9A44C] border border-[#E5E5E5]">
+                <div key={i} className="p-5 bg-white border-l-2 border-l-[#D4AF37] border border-[#E5E5E5]">
                   <h4 className="text-[14px] font-semibold mb-2 text-[#212121]">{item.gap}</h4>
-                  <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.6]"><span className="text-[#00A884]">Fix:</span> {item.fix}</p>
+                  <p className="text-[13px] md:text-[14px] text-[#555] leading-[1.6]"><span className="text-[#00B894]">Fix:</span> {item.fix}</p>
                 </div>
               ))}
             </div>
@@ -186,7 +186,7 @@ export default function EN_ImporterOfRecordAndResponsibilityChain() {
           </div>
         </section>
 
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

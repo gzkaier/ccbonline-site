@@ -31,9 +31,9 @@ export default function ZHHome() {
               fetchPriority="high"
             />
           </div>
-          <div className="absolute inset-0 bg-gradient-to-t from-[#07111F] via-[#07111F]/90 to-[#07111F]/55" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0B0E14] via-[#0B0E14]/90 to-[#0B0E14]/55" />
           <div className="relative z-10 container-site w-full pb-[7vh] md:pb-[10vh] pt-[18vh] md:pt-[22vh]">
-            <p className="text-[#00A884] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-4 md:mb-5 font-medium">
+            <p className="text-[#00B894] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-4 md:mb-5 font-medium">
               加拿大注册公司 · 多伦多本地运营 · 中英双语
             </p>
             <h1 className="font-serif text-white text-[24px] sm:text-[30px] md:text-[40px] lg:text-[46px] leading-[1.25] tracking-tight max-w-[900px] mb-4 md:mb-6">
@@ -63,9 +63,9 @@ export default function ZHHome() {
         </section>
 
         {/* ===== 2. Pain Points: Where You Might Be Stuck ===== */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
-            <p className="text-[#00A884] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">
+            <p className="text-[#00B894] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">
               你现在可能卡在这些地方
             </p>
             <h2 className="font-serif text-white text-[24px] md:text-[30px] leading-[1.35] tracking-tight max-w-[700px] mb-4">
@@ -112,15 +112,15 @@ export default function ZHHome() {
                   link: '/zh/services/market-entry-diagnosis',
                 },
               ].map((item) => (
-                <div key={item.num} className="p-5 md:p-6 border border-white/10 hover:border-[#00A884]/50 transition-colors bg-white/5">
+                <div key={item.num} className="p-5 md:p-6 border border-white/10 hover:border-[#00B894]/50 transition-colors bg-white/5">
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                     <div className="flex-1">
                       <div className="flex items-center gap-3 mb-3">
-                        <span className="text-[#C9A44C] text-[13px] font-medium">{item.num}</span>
+                        <span className="text-[#D4AF37] text-[13px] font-medium">{item.num}</span>
                         <h3 className="text-white text-[17px] md:text-[18px] font-semibold">{item.title}</h3>
                       </div>
                       <p className="text-white/60 text-[14px] md:text-[15px] leading-[1.65] mb-3">{item.desc}</p>
-                      <Link to={item.link} className="text-[14px] font-medium text-[#00A884] hover:underline inline-flex items-center gap-1">
+                      <Link to={item.link} className="text-[14px] font-medium text-[#00B894] hover:underline inline-flex items-center gap-1">
                         {item.service} <span>→</span>
                       </Link>
                     </div>
@@ -147,7 +147,7 @@ export default function ZHHome() {
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="text-[#C9A44C] text-[13px] font-medium">入门</span>
+                    <span className="text-[#D4AF37] text-[13px] font-medium">入门</span>
                     <span className="text-[13px] text-[#767676]">CAD 299–499</span>
                   </div>
                   <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">官网与资料快速体检</h3>
@@ -174,7 +174,7 @@ export default function ZHHome() {
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="text-[#C9A44C] text-[13px] font-medium">核心</span>
+                    <span className="text-[#D4AF37] text-[13px] font-medium">核心</span>
                     <span className="text-[13px] text-[#767676]">CAD 800–1,500</span>
                   </div>
                   <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">北美客户开发前可信度诊断</h3>
@@ -201,7 +201,7 @@ export default function ZHHome() {
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="text-[#C9A44C] text-[13px] font-medium">进阶</span>
+                    <span className="text-[#D4AF37] text-[13px] font-medium">进阶</span>
                     <span className="text-[13px] text-[#767676]">CAD 1,800–3,500</span>
                   </div>
                   <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">北美买家信任资料包</h3>
@@ -228,7 +228,7 @@ export default function ZHHome() {
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="text-[#C9A44C] text-[13px] font-medium">展会</span>
+                    <span className="text-[#D4AF37] text-[13px] font-medium">展会</span>
                     <span className="text-[13px] text-[#767676]">CAD 2,500–6,000</span>
                   </div>
                   <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">展会前北美客户承接包</h3>
@@ -251,11 +251,11 @@ export default function ZHHome() {
             </div>
 
             {/* Product 5 */}
-            <div className="mb-8 p-5 md:p-6 border border-[#07111F] bg-[#07111F]">
+            <div className="mb-8 p-5 md:p-6 border border-[#0B0E14] bg-[#0B0E14]">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="text-[#C9A44C] text-[13px] font-medium">深度</span>
+                    <span className="text-[#D4AF37] text-[13px] font-medium">深度</span>
                     <span className="text-[13px] text-white/60">CAD 3,500–8,000 起</span>
                   </div>
                   <h3 className="text-[18px] md:text-[20px] font-semibold text-white mb-2">北美市场进入30天启动陪跑</h3>
@@ -314,7 +314,7 @@ export default function ZHHome() {
                   '找过服务商，但感觉每家只讲自己那一段，没人帮看全局',
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-2">
-                    <span className="text-[#00A884] mt-1 shrink-0">—</span>
+                    <span className="text-[#00B894] mt-1 shrink-0">—</span>
                     <p className="text-[13px] md:text-[14px] text-[#444] leading-[1.6]">{item}</p>
                   </div>
                 ))}
@@ -338,7 +338,7 @@ export default function ZHHome() {
                 { step: '04', title: '跟踪', desc: '通过定期沟通、任务清单和进度审查保持项目推进——确保工作完成，而不只是计划。项目停在"计划好了"和"做完了"之间是最常见的失败模式。' },
               ].map((item) => (
                 <div key={item.step} className="p-5 bg-[#F8F9FA] border border-[#E5E5E5]">
-                  <p className="text-[#C9A44C] text-[13px] font-medium mb-3">{item.step}</p>
+                  <p className="text-[#D4AF37] text-[13px] font-medium mb-3">{item.step}</p>
                   <h3 className="text-[17px] font-semibold mb-2">{item.title}</h3>
                   <p className="text-[14px] text-[#767676] leading-[1.65]">{item.desc}</p>
                 </div>
@@ -363,7 +363,7 @@ export default function ZHHome() {
         </section>
 
         {/* ===== 7. Final CTA ===== */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

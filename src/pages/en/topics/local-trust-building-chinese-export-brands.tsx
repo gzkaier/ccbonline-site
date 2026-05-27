@@ -50,7 +50,7 @@ export default function EN_LocalTrustBuildingChineseExportBrands() {
                 </p>
               </div>
               <div className="lg:col-span-5">
-                <div className="p-5 bg-[#07111F]">
+                <div className="p-5 bg-[#0B0E14]">
                   <h3 className="text-white text-[16px] font-semibold mb-4">What Buyers Check</h3>
                   <ul className="space-y-3">
                     {[
@@ -64,7 +64,7 @@ export default function EN_LocalTrustBuildingChineseExportBrands() {
                       'Is the company transparent about its location and ownership?',
                     ].map((item, i) => (
                       <li key={i} className="text-white/70 text-[14px] flex items-start gap-2">
-                        <span className="text-[#00A884] shrink-0">{'0' + (i + 1)}</span>{item}
+                        <span className="text-[#00B894] shrink-0">{'0' + (i + 1)}</span>{item}
                       </li>
                     ))}
                   </ul>
@@ -90,7 +90,7 @@ export default function EN_LocalTrustBuildingChineseExportBrands() {
                 { num: '05', title: 'Professional Communication', desc: 'Email responses that are timely, well-written, and address the specific questions asked. Sales materials that are polished and consistent. Website copy that does not read like it was translated by software. Professional communication signals that your company operates at the level North American business culture expects.' },
               ].map((pillar) => (
                 <div key={pillar.num} className="p-5 md:p-6 bg-white border border-[#E5E5E5]">
-                  <span className="text-[#C9A44C] text-[13px] font-medium">{pillar.num}</span>
+                  <span className="text-[#D4AF37] text-[13px] font-medium">{pillar.num}</span>
                   <h3 className="text-[17px] md:text-[18px] font-semibold mt-2 mb-3">{pillar.title}</h3>
                   <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">{pillar.desc}</p>
                 </div>
@@ -119,7 +119,7 @@ export default function EN_LocalTrustBuildingChineseExportBrands() {
                   <h4 className="text-[15px] font-semibold mb-3 text-[#212121]">{group.area}</h4>
                   <ul className="space-y-2">
                     {group.items.map((item, j) => (
-                      <li key={j} className="text-[13px] md:text-[14px] text-[#555] leading-[1.5] pl-3 border-l-2 border-[#00A884]">{item}</li>
+                      <li key={j} className="text-[13px] md:text-[14px] text-[#555] leading-[1.5] pl-3 border-l-2 border-[#00B894]">{item}</li>
                     ))}
                   </ul>
                 </div>
@@ -144,7 +144,7 @@ export default function EN_LocalTrustBuildingChineseExportBrands() {
                 { mistake: 'No local contact method', impact: 'If the only way to reach you is a WeChat account or a Chinese phone number, most North American buyers will not bother.' },
                 { mistake: 'Overpromising on capabilities', impact: 'Claiming capabilities you cannot deliver destroys trust permanently. It is better to under-promise and over-deliver.' },
               ].map((item, i) => (
-                <div key={i} className="p-4 bg-white border-l-2 border-l-[#C9A44C] border border-[#E5E5E5]">
+                <div key={i} className="p-4 bg-white border-l-2 border-l-[#D4AF37] border border-[#E5E5E5]">
                   <h4 className="text-[14px] font-semibold mb-2 text-[#212121]">{item.mistake}</h4>
                   <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">{item.impact}</p>
                 </div>
@@ -182,7 +182,7 @@ export default function EN_LocalTrustBuildingChineseExportBrands() {
           </div>
         </section>
 
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

@@ -144,10 +144,10 @@ export default function EN_ProductCertificationCanadaGuide() {
                 Key differences to be aware of:
               </p>
               <ul className="space-y-2">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]"><strong>Voltage standards</strong> — North America uses 120V/60Hz; Europe uses 230V/50Hz. Products must be tested for local voltage conditions.</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]"><strong>Plug and cord standards</strong> — Different plug types, cord gauges, and grounding requirements apply.</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]"><strong>Labeling requirements</strong> — North American labeling standards differ from European marking requirements.</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#C9A44C]"><strong>RF emissions</strong> — FCC and ISED have different limits and test procedures than European EMC standards.</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]"><strong>Voltage standards</strong> — North America uses 120V/60Hz; Europe uses 230V/50Hz. Products must be tested for local voltage conditions.</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]"><strong>Plug and cord standards</strong> — Different plug types, cord gauges, and grounding requirements apply.</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]"><strong>Labeling requirements</strong> — North American labeling standards differ from European marking requirements.</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#D4AF37]"><strong>RF emissions</strong> — FCC and ISED have different limits and test procedures than European EMC standards.</li>
               </ul>
               <p className="text-[14px] text-[#767676] leading-[1.6] mt-4">
                 We recommend bringing your CE test reports to the initial consultation with a certification body. They can identify which tests can be leveraged and which need to be repeated — potentially saving significant time and cost.
@@ -164,28 +164,28 @@ export default function EN_ProductCertificationCanadaGuide() {
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-16">Week 1-2</span>
+                  <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-16">Week 1-2</span>
                   <div>
                     <p className="text-[15px] font-medium text-[#212121]">Initial assessment and documentation review</p>
                     <p className="text-[14px] text-[#767676] leading-[1.6]">Submit product specs, existing test reports, and intended use documentation to the certification body.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-16">Week 3-4</span>
+                  <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-16">Week 3-4</span>
                   <div>
                     <p className="text-[15px] font-medium text-[#212121]">Testing scope definition</p>
                     <p className="text-[14px] text-[#767676] leading-[1.6]">The certification body identifies which standards apply and what testing is required.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-16">Week 5-10</span>
+                  <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-16">Week 5-10</span>
                   <div>
                     <p className="text-[15px] font-medium text-[#212121]">Product testing</p>
                     <p className="text-[14px] text-[#767676] leading-[1.6]">Laboratory testing for safety, performance, and emissions (if applicable). Timeline varies by product complexity.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <span className="text-[#C9A44C] text-[14px] font-medium shrink-0 w-16">Week 11-14</span>
+                  <span className="text-[#D4AF37] text-[14px] font-medium shrink-0 w-16">Week 11-14</span>
                   <div>
                     <p className="text-[15px] font-medium text-[#212121]">Report review and certification decision</p>
                     <p className="text-[14px] text-[#767676] leading-[1.6]">The certification body reviews test results, conducts any follow-up evaluations, and issues the certification.</p>
@@ -206,12 +206,12 @@ export default function EN_ProductCertificationCanadaGuide() {
                 Preparing the right information before your first conversation with a certification body can significantly speed up the process and reduce costs:
               </p>
               <ul className="space-y-2">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Complete product specifications (including all electrical components, materials, and dimensions)</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Existing test reports (CE, CCC, or other international certifications)</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Clear description of intended use and target market</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">User manual or product documentation (even if in draft form)</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Sample products for testing (typically 2-3 units)</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Timeline for when you need the certification completed</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Complete product specifications (including all electrical components, materials, and dimensions)</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Existing test reports (CE, CCC, or other international certifications)</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Clear description of intended use and target market</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">User manual or product documentation (even if in draft form)</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Sample products for testing (typically 2-3 units)</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Timeline for when you need the certification completed</li>
               </ul>
             </div>
 
@@ -281,15 +281,15 @@ export default function EN_ProductCertificationCanadaGuide() {
                 Related Resources
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/en/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Product Compliance & Certification Pathway Service →</Link></li>
-                <li><Link to="/en/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Compliance & Responsibility Chain Screening →</Link></li>
-                <li><Link to="/en/insights/importer-of-record-is-not-just-customs-clearance" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">What Is an Importer of Record (IOR)? →</Link></li>
-                <li><Link to="/en/insights/north-america-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Understanding the North America Responsibility Chain →</Link></li>
+                <li><Link to="/en/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Product Compliance & Certification Pathway Service →</Link></li>
+                <li><Link to="/en/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Compliance & Responsibility Chain Screening →</Link></li>
+                <li><Link to="/en/insights/importer-of-record-is-not-just-customs-clearance" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">What Is an Importer of Record (IOR)? →</Link></li>
+                <li><Link to="/en/insights/north-america-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Understanding the North America Responsibility Chain →</Link></li>
               </ul>
             </div>
 
             {/* CTA */}
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 Unsure which certification your product needs?
               </h3>

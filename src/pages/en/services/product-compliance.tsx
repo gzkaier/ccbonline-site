@@ -52,11 +52,11 @@ export default function EN_ProductCompliance() {
                 Who This Service Is For
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Manufacturers whose products require safety, electrical, wireless, or emissions certifications for North America</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies unsure which certification body (CSA, UL, ETL, Intertek) to approach for their specific product category</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Businesses with existing CE or other international certifications wondering if they can be leveraged for North America</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies that need certification for their specific distribution channel (retail, commercial, industrial, online)</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Businesses that have been told they "need certification" but don't know which type, how long it takes, or what it costs</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Manufacturers whose products require safety, electrical, wireless, or emissions certifications for North America</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Companies unsure which certification body (CSA, UL, ETL, Intertek) to approach for their specific product category</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Businesses with existing CE or other international certifications wondering if they can be leveraged for North America</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Companies that need certification for their specific distribution channel (retail, commercial, industrial, online)</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Businesses that have been told they "need certification" but don't know which type, how long it takes, or what it costs</li>
               </ul>
             </div>
 
@@ -79,12 +79,12 @@ export default function EN_ProductCompliance() {
                 What We Specifically Do
               </h2>
               <ul className="space-y-4">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Product Category Assessment</strong> — We classify your product and identify all applicable certification requirements based on its function, components, and intended use</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Applicable Standards Identification</strong> — We determine which specific standards apply: CSA C22.2, UL  Standards, FCC Part 15, ISED RSS, energy efficiency regulations, and provincial requirements</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Existing Certification Review</strong> — We assess whether your existing CE, CCC, or other international test reports can be leveraged or if additional North America-specific testing is required</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Documentation Gap Analysis</strong> — We identify what technical documentation, user manuals, labels, and safety warnings you need to prepare before certification submission</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Certification Pathway Mapping</strong> — We create a step-by-step timeline showing the optimal sequence for testing, submission, and approval</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Certification Body Coordination</strong> — We help you prepare the right questions and documentation when approaching certification bodies and testing labs</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Product Category Assessment</strong> — We classify your product and identify all applicable certification requirements based on its function, components, and intended use</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Applicable Standards Identification</strong> — We determine which specific standards apply: CSA C22.2, UL  Standards, FCC Part 15, ISED RSS, energy efficiency regulations, and provincial requirements</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Existing Certification Review</strong> — We assess whether your existing CE, CCC, or other international test reports can be leveraged or if additional North America-specific testing is required</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Documentation Gap Analysis</strong> — We identify what technical documentation, user manuals, labels, and safety warnings you need to prepare before certification submission</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Certification Pathway Mapping</strong> — We create a step-by-step timeline showing the optimal sequence for testing, submission, and approval</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Certification Body Coordination</strong> — We help you prepare the right questions and documentation when approaching certification bodies and testing labs</li>
               </ul>
             </div>
 
@@ -139,11 +139,11 @@ export default function EN_ProductCompliance() {
                 Related Services
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">All Services</Link></li>
-                <li><Link to="/en/services/market-entry-diagnosis" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Market Entry Diagnosis</Link></li>
-                <li><Link to="/en/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Compliance & Responsibility Chain</Link></li>
-                <li><Link to="/en/topics/importer-of-record-and-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">IOR & Responsibility Chain Guide</Link></li>
-                <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
+                <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">All Services</Link></li>
+                <li><Link to="/en/services/market-entry-diagnosis" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Market Entry Diagnosis</Link></li>
+                <li><Link to="/en/services/compliance-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Compliance & Responsibility Chain</Link></li>
+                <li><Link to="/en/topics/importer-of-record-and-responsibility-chain" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">IOR & Responsibility Chain Guide</Link></li>
+                <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Contact CCBONLINE</Link></li>
               </ul>
             </div>
           </div>
@@ -198,7 +198,7 @@ export default function EN_ProductCompliance() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

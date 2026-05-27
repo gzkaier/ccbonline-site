@@ -59,10 +59,10 @@ export default function ZH_3PLHeHuoLaiDeQuBie() {
                 什么时候需要货代
               </h2>
               <ul className="space-y-2">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">你需要从中国发货到加拿大或美国</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">你直接发货给客户或分销商，由他们负责收货</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">你不计划在加拿大持有库存</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">你需要清关协调（很多货代也提供报关服务）</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">你需要从中国发货到加拿大或美国</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">你直接发货给客户或分销商，由他们负责收货</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">你不计划在加拿大持有库存</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">你需要清关协调（很多货代也提供报关服务）</li>
               </ul>
             </div>
 
@@ -71,10 +71,10 @@ export default function ZH_3PLHeHuoLaiDeQuBie() {
                 什么时候需要 3PL
               </h2>
               <ul className="space-y-2">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">你需要在加拿大销售前持有库存</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">你通过电商、零售或 B2B 渠道销售，需要拣货包装履约</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">你的客户期望快速交付（1-3 天），只有本地库存才能实现</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">你需要退货处理、增值服务（贴标、配套）或库存管理</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">你需要在加拿大销售前持有库存</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">你通过电商、零售或 B2B 渠道销售，需要拣货包装履约</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">你的客户期望快速交付（1-3 天），只有本地库存才能实现</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">你需要退货处理、增值服务（贴标、配套）或库存管理</li>
               </ul>
             </div>
 
@@ -83,15 +83,15 @@ export default function ZH_3PLHeHuoLaiDeQuBie() {
                 常见错误
               </h2>
               <div className="space-y-4">
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">用货代做订单履约</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">货代通常不为最终客户拣货、包装和发货单个订单。如果你需要履约服务，你需要的是 3PL。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">期望 3PL 处理国际运输</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">大多数 3PL 聚焦国内履约。他们在仓库接收货物（通常由你或货代安排），然后负责从仓库开始的配送。</p>
                 </div>
-                <div className="pl-4 border-l-2 border-[#C9A44C]">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
                   <h4 className="font-semibold text-[15px] mb-1">没有明确交接点的责任归属</h4>
                   <p className="text-[14px] text-[#767676] leading-[1.6]">当货物从货代移交到 3PL 时，谁负责卸货、检查和损坏索赔？这必须提前定义清楚。</p>
                 </div>
@@ -103,14 +103,14 @@ export default function ZH_3PLHeHuoLaiDeQuBie() {
                 相关资源
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/zh/services/3pl-warehousing-advisory" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">3PL 筛选与仓库审计服务 →</Link></li>
-                <li><Link to="/zh/services/local-execution-support" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">本地执行支持 →</Link></li>
-                <li><Link to="/zh/insights/ior-bu-shi-dai-qing-guan" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">IOR 进口责任主体不是清关代理 →</Link></li>
-                <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">联系 CCBONLINE →</Link></li>
+                <li><Link to="/zh/services/3pl-warehousing-advisory" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">3PL 筛选与仓库审计服务 →</Link></li>
+                <li><Link to="/zh/services/local-execution-support" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">本地执行支持 →</Link></li>
+                <li><Link to="/zh/insights/ior-bu-shi-dai-qing-guan" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">IOR 进口责任主体不是清关代理 →</Link></li>
+                <li><Link to="/zh/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">联系 CCBONLINE →</Link></li>
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 正在评估加拿大物流合作伙伴？
               </h3>

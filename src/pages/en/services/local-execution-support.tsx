@@ -56,10 +56,10 @@ export default function EN_local_execution_support() {
               Who This Service Is For
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies that have validated customer interest and need to set up local operational infrastructure</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Businesses that have a first order but do not know how to get products into Canada or the U.S. compliantly</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Teams that need to coordinate between overseas headquarters and North American logistics or service partners</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies preparing for a pilot launch and needing a small-scale local execution plan</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Companies that have validated customer interest and need to set up local operational infrastructure</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Businesses that have a first order but do not know how to get products into Canada or the U.S. compliantly</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Teams that need to coordinate between overseas headquarters and North American logistics or service partners</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Companies preparing for a pilot launch and needing a small-scale local execution plan</li>
 
             </ul>
 
@@ -74,12 +74,12 @@ export default function EN_local_execution_support() {
               What We Review or Support
             </h2>
             <ul className="space-y-3 mb-10">
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Import Pathway Coordination</strong> — design of the import route, customs strategy, and documentation handoff between your team, freight forwarder, and customs broker</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Importer of Record Role Clarification</strong> — clear definition of who serves as IOR and their legal and operational responsibilities</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Warehousing and 3PL Matching</strong> — matching with local warehousing and logistics partners suited to your product type and volume</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Return and Replacement Workflow Design</strong> — process for handling returns, defects, and exchanges in North America</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Spare Parts Readiness Planning</strong> — plan for maintaining spare parts availability and local service response capability</li>
-            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium">Local Partner Communication Support</strong> — ongoing coordination between your team and North American operational partners</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium">Import Pathway Coordination</strong> — design of the import route, customs strategy, and documentation handoff between your team, freight forwarder, and customs broker</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium">Importer of Record Role Clarification</strong> — clear definition of who serves as IOR and their legal and operational responsibilities</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium">Warehousing and 3PL Matching</strong> — matching with local warehousing and logistics partners suited to your product type and volume</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium">Return and Replacement Workflow Design</strong> — process for handling returns, defects, and exchanges in North America</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium">Spare Parts Readiness Planning</strong> — plan for maintaining spare parts availability and local service response capability</li>
+            <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium">Local Partner Communication Support</strong> — ongoing coordination between your team and North American operational partners</li>
             </ul>
 
             <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
@@ -164,11 +164,11 @@ export default function EN_local_execution_support() {
               Related Pages
             </h2>
             <ul className="space-y-2 mb-8">
-          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">All Services</Link></li>
-          <li><Link to="/en/canada-market-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Canada Market Entry</Link></li>
-          <li><Link to="/en/insights/canada-as-first-station-for-north-america-entry" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Canada as a First Station for North America Market Entry</Link></li>
-          <li><Link to="/en/insights/importer-of-record-is-not-just-customs-clearance" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Importer of Record Is Not Just Customs Clearance</Link></li>
-          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE</Link></li>
+          <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">All Services</Link></li>
+          <li><Link to="/en/canada-market-entry" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Canada Market Entry</Link></li>
+          <li><Link to="/en/insights/canada-as-first-station-for-north-america-entry" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Canada as a First Station for North America Market Entry</Link></li>
+          <li><Link to="/en/insights/importer-of-record-is-not-just-customs-clearance" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Importer of Record Is Not Just Customs Clearance</Link></li>
+          <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Contact CCBONLINE</Link></li>
 
             </ul>
           </div>

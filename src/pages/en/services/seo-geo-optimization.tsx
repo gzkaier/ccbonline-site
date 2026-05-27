@@ -49,10 +49,10 @@ export default function EN_SeoGeoOptimization() {
                 Who This Is For
               </h2>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Chinese manufacturers with English websites that are not appearing in relevant searches</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">B2B companies concerned about being left out of AI-generated recommendations</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Businesses that want their website to be cited as a source by AI assistants</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]">Companies entering North America who understand that digital presence is a prerequisite for credibility</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Chinese manufacturers with English websites that are not appearing in relevant searches</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">B2B companies concerned about being left out of AI-generated recommendations</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Businesses that want their website to be cited as a source by AI assistants</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">Companies entering North America who understand that digital presence is a prerequisite for credibility</li>
               </ul>
             </div>
 
@@ -75,19 +75,19 @@ export default function EN_SeoGeoOptimization() {
 
               <h3 className="text-[17px] font-semibold mb-3 text-[#212121]">Traditional SEO</h3>
               <ul className="space-y-3 mb-6">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Technical SEO audit</strong> — Review of site structure, crawlability, page speed, mobile usability, and indexation issues</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Keyword strategy</strong> — B2B-focused keyword research targeting buyer-intent search terms relevant to your product and market</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">On-page optimization</strong> — Title tags, meta descriptions, heading structure, internal linking, and content optimization</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Content structure</strong> — Organization of content into topic clusters and pillar pages that search engines can easily understand</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Technical SEO audit</strong> — Review of site structure, crawlability, page speed, mobile usability, and indexation issues</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Keyword strategy</strong> — B2B-focused keyword research targeting buyer-intent search terms relevant to your product and market</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">On-page optimization</strong> — Title tags, meta descriptions, heading structure, internal linking, and content optimization</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Content structure</strong> — Organization of content into topic clusters and pillar pages that search engines can easily understand</li>
               </ul>
 
               <h3 className="text-[17px] font-semibold mb-3 text-[#212121]">Generative Engine Optimization (GEO)</h3>
               <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">AI readability audit</strong> — Assessment of whether your content is structured in ways that AI systems can parse, understand, and cite</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">E-E-A-T signal enhancement</strong> — Strengthening Experience, Expertise, Authoritativeness, and Trustworthiness signals across your digital presence</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Citation optimization</strong> — Ensuring your business name, credentials, and key facts are presented clearly for AI citation</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Structured data implementation</strong> — Schema markup and structured data that help AI systems understand your business type, location, and services</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00A884]"><strong className="font-medium text-[#212121]">Content clarity improvement</strong> — Rewriting key pages for clarity, factual precision, and reduced ambiguity — all of which improve AI comprehension</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">AI readability audit</strong> — Assessment of whether your content is structured in ways that AI systems can parse, understand, and cite</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">E-E-A-T signal enhancement</strong> — Strengthening Experience, Expertise, Authoritativeness, and Trustworthiness signals across your digital presence</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Citation optimization</strong> — Ensuring your business name, credentials, and key facts are presented clearly for AI citation</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Structured data implementation</strong> — Schema markup and structured data that help AI systems understand your business type, location, and services</li>
+                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]"><strong className="font-medium text-[#212121]">Content clarity improvement</strong> — Rewriting key pages for clarity, factual precision, and reduced ambiguity — all of which improve AI comprehension</li>
               </ul>
             </div>
 
@@ -170,13 +170,13 @@ export default function EN_SeoGeoOptimization() {
                 Related Resources
               </h2>
               <ul className="space-y-2">
-                <li><Link to="/en/services/website-content-for-service-providers" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Website & Commercial Content Diagnosis →</Link></li>
-                <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">All Services →</Link></li>
-                <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00A884] hover:underline">Contact CCBONLINE →</Link></li>
+                <li><Link to="/en/services/website-content-for-service-providers" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Website & Commercial Content Diagnosis →</Link></li>
+                <li><Link to="/en/services" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">All Services →</Link></li>
+                <li><Link to="/en/contact" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Contact CCBONLINE →</Link></li>
               </ul>
             </div>
 
-            <div className="p-6 md:p-8 bg-[#07111F] text-center">
+            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
                 Want to improve your visibility in search and AI?
               </h3>

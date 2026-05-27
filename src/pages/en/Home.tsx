@@ -31,9 +31,9 @@ export default function ENHome() {
               fetchPriority="high"
             />
           </div>
-          <div className="absolute inset-0 bg-gradient-to-t from-[#07111F] via-[#07111F]/90 to-[#07111F]/55" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0B0E14] via-[#0B0E14]/90 to-[#0B0E14]/55" />
           <div className="relative z-10 container-site w-full pb-[7vh] md:pb-[10vh] pt-[18vh] md:pt-[22vh]">
-            <p className="text-[#00A884] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-4 md:mb-5 font-medium">
+            <p className="text-[#00B894] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-4 md:mb-5 font-medium">
               Canada-Registered · Toronto-Based · Bilingual Advisory
             </p>
             <h1 className="font-serif text-white text-[26px] sm:text-[32px] md:text-[42px] lg:text-[48px] leading-[1.2] tracking-tight max-w-[900px] mb-4 md:mb-6">
@@ -63,9 +63,9 @@ export default function ENHome() {
         </section>
 
         {/* ===== 2. Pain Points: Where You Might Be Stuck ===== */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
-            <p className="text-[#00A884] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">
+            <p className="text-[#00B894] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">
               Where You Might Be Stuck
             </p>
             <h2 className="font-serif text-white text-[24px] md:text-[30px] leading-[1.35] tracking-tight max-w-[700px] mb-4">
@@ -112,15 +112,15 @@ export default function ENHome() {
                   link: '/en/services/market-entry-diagnosis',
                 },
               ].map((item) => (
-                <div key={item.num} className="p-5 md:p-6 border border-white/10 hover:border-[#00A884]/50 transition-colors bg-white/5">
+                <div key={item.num} className="p-5 md:p-6 border border-white/10 hover:border-[#00B894]/50 transition-colors bg-white/5">
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                     <div className="flex-1">
                       <div className="flex items-center gap-3 mb-3">
-                        <span className="text-[#C9A44C] text-[13px] font-medium">{item.num}</span>
+                        <span className="text-[#D4AF37] text-[13px] font-medium">{item.num}</span>
                         <h3 className="text-white text-[17px] md:text-[18px] font-semibold">{item.title}</h3>
                       </div>
                       <p className="text-white/60 text-[14px] md:text-[15px] leading-[1.65] mb-3">{item.desc}</p>
-                      <Link to={item.link} className="text-[14px] font-medium text-[#00A884] hover:underline inline-flex items-center gap-1">
+                      <Link to={item.link} className="text-[14px] font-medium text-[#00B894] hover:underline inline-flex items-center gap-1">
                         {item.service} <span>→</span>
                       </Link>
                     </div>
@@ -147,7 +147,7 @@ export default function ENHome() {
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="text-[#C9A44C] text-[13px] font-medium">Starter</span>
+                    <span className="text-[#D4AF37] text-[13px] font-medium">Starter</span>
                     <span className="text-[13px] text-[#767676]">CAD 299–499</span>
                   </div>
                   <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">Website & Materials Quick Audit</h3>
@@ -174,7 +174,7 @@ export default function ENHome() {
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="text-[#C9A44C] text-[13px] font-medium">Core</span>
+                    <span className="text-[#D4AF37] text-[13px] font-medium">Core</span>
                     <span className="text-[13px] text-[#767676]">CAD 800–1,500</span>
                   </div>
                   <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">Pre-Outreach Credibility Diagnostic</h3>
@@ -201,7 +201,7 @@ export default function ENHome() {
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="text-[#C9A44C] text-[13px] font-medium">Advanced</span>
+                    <span className="text-[#D4AF37] text-[13px] font-medium">Advanced</span>
                     <span className="text-[13px] text-[#767676]">CAD 1,800–3,500</span>
                   </div>
                   <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">North American Buyer Trust Materials Package</h3>
@@ -228,7 +228,7 @@ export default function ENHome() {
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="text-[#C9A44C] text-[13px] font-medium">Trade Show</span>
+                    <span className="text-[#D4AF37] text-[13px] font-medium">Trade Show</span>
                     <span className="text-[13px] text-[#767676]">CAD 2,500–6,000</span>
                   </div>
                   <h3 className="text-[18px] md:text-[20px] font-semibold text-[#212121] mb-2">Trade Show Buyer Engagement Package</h3>
@@ -251,11 +251,11 @@ export default function ENHome() {
             </div>
 
             {/* Product 5 */}
-            <div className="mb-8 p-5 md:p-6 border border-[#07111F] bg-[#07111F]">
+            <div className="mb-8 p-5 md:p-6 border border-[#0B0E14] bg-[#0B0E14]">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="text-[#C9A44C] text-[13px] font-medium">Intensive</span>
+                    <span className="text-[#D4AF37] text-[13px] font-medium">Intensive</span>
                     <span className="text-[13px] text-white/60">CAD 3,500–8,000+</span>
                   </div>
                   <h3 className="text-[18px] md:text-[20px] font-semibold text-white mb-2">North America Market Entry 30-Day Launch Support</h3>
@@ -314,7 +314,7 @@ export default function ENHome() {
                   'Has worked with service providers who each only covered their own scope, with no one seeing the full picture',
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-2">
-                    <span className="text-[#00A884] mt-1 shrink-0">—</span>
+                    <span className="text-[#00B894] mt-1 shrink-0">—</span>
                     <p className="text-[13px] md:text-[14px] text-[#444] leading-[1.6]">{item}</p>
                   </div>
                 ))}
@@ -338,7 +338,7 @@ export default function ENHome() {
                 { step: '04', title: 'Track', desc: 'We keep the project moving through regular check-ins, task lists, and progress reviews — ensuring work gets done, not just planned. Projects die between "planned" and "done" more than anywhere else.' },
               ].map((item) => (
                 <div key={item.step} className="p-5 bg-[#F8F9FA] border border-[#E5E5E5]">
-                  <p className="text-[#C9A44C] text-[13px] font-medium mb-3">{item.step}</p>
+                  <p className="text-[#D4AF37] text-[13px] font-medium mb-3">{item.step}</p>
                   <h3 className="text-[17px] font-semibold mb-2">{item.title}</h3>
                   <p className="text-[14px] text-[#767676] leading-[1.65]">{item.desc}</p>
                 </div>
@@ -363,7 +363,7 @@ export default function ENHome() {
         </section>
 
         {/* ===== 7. Final CTA ===== */}
-        <section className="section-padding bg-[#07111F]">
+        <section className="section-padding bg-[#0B0E14]">
           <div className="container-site">
             <div className="max-w-[700px]">
               <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">

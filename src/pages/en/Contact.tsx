@@ -137,7 +137,7 @@ export default function ENContact() {
                 <form onSubmit={handleSubmit} className="bg-[#F8F9FA] p-5 md:p-8">
                   {submitted ? (
                     <div className="text-center py-10">
-                      <div className="w-10 h-10 bg-[#00A884] flex items-center justify-center mx-auto mb-4"><span className="text-white text-[16px]">&#10003;</span></div>
+                      <div className="w-10 h-10 bg-[#00B894] flex items-center justify-center mx-auto mb-4"><span className="text-white text-[16px]">&#10003;</span></div>
                       <h3 className="text-[18px] font-semibold mb-2">Assessment Submitted</h3>
                       <p className="text-[13px] text-[#767676] mb-4">Thank you for contacting CCBONLINE INC. We will review your information and recommend an appropriate next step. For project-related inquiries, we may ask for additional product, documentation, or market information before offering specific advice.</p>
                       <div className="p-4 bg-white border border-[#E5E5E5] mb-4 max-w-[400px] mx-auto">
@@ -148,7 +148,7 @@ export default function ENContact() {
                     </div>
                   ) : (
                     <>
-                      <p className="text-[11px] font-medium uppercase tracking-wider text-[#999] mb-4">Market Entry Assessment <span className="text-[#00A884]">*</span> required</p>
+                      <p className="text-[11px] font-medium uppercase tracking-wider text-[#999] mb-4">Market Entry Assessment <span className="text-[#00B894]">*</span> required</p>
 
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
                         <input type="text" name="company" placeholder="Company Name *" required className={inputClass} value={formData.company} onChange={handleChange} />
@@ -218,7 +218,7 @@ export default function ENContact() {
                           By submitting this form, you agree that CCBONLINE INC. may use the information provided to respond to your inquiry and assess the appropriate next step. Please do not submit confidential technical files, trade secrets, or sensitive personal information through this form.
                         </p>
                         <p className="text-[11px] text-[#999] leading-[1.5]">
-                          We do not share your information with third parties. See our <Link to="/en/privacy" className="text-[#00A884] hover:underline">Privacy Policy</Link> and <Link to="/en/terms" className="text-[#00A884] hover:underline">Terms of Use</Link>.
+                          We do not share your information with third parties. See our <Link to="/en/privacy" className="text-[#00B894] hover:underline">Privacy Policy</Link> and <Link to="/en/terms" className="text-[#00B894] hover:underline">Terms of Use</Link>.
                         </p>
                       </div>
                     </>

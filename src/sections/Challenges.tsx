@@ -51,7 +51,7 @@ export default function Challenges() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
           {challenges.map((c, i) => (
             <div key={i} className="challenge-item card-border bg-white">
-              <HelpCircle size={17} strokeWidth={1.5} className="text-[#00A884] mb-2.5" />
+              <HelpCircle size={17} strokeWidth={1.5} className="text-[#00B894] mb-2.5" />
               <h3 className="text-[13px] md:text-[15px] font-semibold mb-2">{c.title}</h3>
               <p className="text-[11px] md:text-[13px] text-[#767676] leading-[1.7]">{c.desc}</p>
             </div>

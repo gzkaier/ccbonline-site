@@ -4,98 +4,79 @@ import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import useSEO from '../../hooks/useSEO'
 
-interface InsightCard {
-  title: string
-  summary: string
-  slug: string
-}
-
-interface Column {
-  title: string
-  label: string
-  desc: string
-  cards: InsightCard[]
-  bg: 'white' | 'gray'
-}
-
-const columns: Column[] = [
+const categories = [
   {
-    title: '北美市场进入观察',
-    label: '市场进入',
-    desc: '关于北美市场进入的核心判断、路径设计和阶段性建议。',
-    bg: 'white',
-    cards: [
-      { title: '北美市场进入，不是把货卖出去', summary: '真正的问题不是有没有客户，而是企业是否已经搭起从合规、进口、渠道、仓储、售后到本地责任主体的完整进入路径。', slug: 'bei-mei-shi-chang-jin-ru-bu-shi-mai-huo' },
-      { title: '北美市场进入的 0–90 天路径', summary: '前 90 天应该遵循从诊断和合规映射、经过渠道验证到主动客户互动的结构化进程。', slug: '0-90-tian-bei-mei-shi-chang-jin-ru-lu-jing' },
+    title: '北美市场进入',
+    desc: '关于加拿大和美国市场进入路径、合规要求、认证标准和渠道开发的深度观察。',
+    insights: [
+      { title: '加拿大市场进入：先判断，再行动', slug: 'canada-market-entry-assess-first', published: true },
+      { title: 'IOR（进口责任主体）：为什么比清关更重要', slug: 'ior-importer-of-record-explained', published: true },
+      { title: 'CSA vs UL：你的产品需要哪种认证', slug: 'csa-vs-ul-certification-guide', published: true },
+      { title: '没有IOR就发货：你可能低估了风险', slug: 'shipping-without-ior-risks', published: true },
+      { title: '展会之后：为什么80%的线索没有跟进', slug: 'trade-show-lead-follow-up-failure', published: true },
     ],
   },
   {
-    title: '责任链与 IOR',
-    label: '责任链',
-    desc: '关于产品责任链、进口记录主体（IOR）、合规要求和风险识别。',
-    bg: 'gray',
-    cards: [
-      { title: '北美市场进入的核心，是责任链', summary: '每个市场进入项目都有一条隐形的责任链。大多数企业直到出了问题才意识到它的存在。', slug: 'bei-mei-shi-chang-jin-ru-ze-ren-lian' },
-      { title: 'IOR 不是代清关的人', summary: '进口记录主体（IOR）不只是海关文件上的一个名字，而是承担法律责任的身份。', slug: 'ior-bu-shi-dai-qing-guan' },
-      { title: '认证不是终点', summary: 'CSA、UL、FCC 认证是必要条件但不是充分条件。很多认证过的产品在北美依然卖不动。', slug: 'ren-zheng-bu-shi-zhong-dian' },
+    title: '品牌可信度',
+    desc: '关于企业购买理由、品牌信任建设、官网可信度和客户决策心理的实用分析。',
+    insights: [
+      { title: '为什么客户看了你的官网却不联系', slug: 'why-buyers-dont-contact', published: true },
+      { title: '购买理由：大多数企业没想清楚的事', slug: 'purchase-rationale-clarity', published: true },
+      { title: 'B2B可信度：客户凭什么相信你', slug: 'b2b-credibility-factors', published: true },
+      { title: 'FAQ不只是客服工具，更是销售工具', slug: 'faq-as-sales-tool', published: true },
     ],
   },
   {
-    title: '渠道与本地承接',
-    label: '渠道',
-    desc: '关于渠道开发、展会策略、客户验证和本地执行的实际操作方法。',
-    bg: 'white',
-    cards: [
-      { title: '渠道开发不是群发邮件', summary: '在北美找经销商需要结构化的关系建设和互惠价值展示，不是买名单发邮件。', slug: 'qu-dao-kai-fa-bu-shi-qun-fa-you-jian' },
-      { title: '参展不是去摆摊', summary: '北美的展会是市场验证、竞争情报收集、合作伙伴开发的战略工具，需要数月的准备。', slug: 'zhan-hui-bu-shi-qu-bai-tan' },
+    title: 'AI可见度与GEO',
+    desc: '关于SEO、GEO（生成式搜索引擎优化）、AI搜索趋势和网站内容优化的技术判断。',
+    insights: [
+      { title: 'SEO vs GEO：区别、联系与应对', slug: 'seo-vs-geo-difference', published: true },
+      { title: '你的网站在ChatGPT里被提到了吗', slug: 'is-your-website-in-chatgpt', published: true },
+      { title: 'AI搜索时代，FAQ为什么变得更重要', slug: 'why-faq-matters-for-ai', published: true },
+      { title: 'GEO准备：内容结构比关键词更重要', slug: 'geo-content-structure-over-keywords', published: true },
     ],
   },
   {
-    title: '加拿大作为北美第一站',
-    label: '加拿大',
-    desc: '为什么加拿大可以成为进入北美市场的优先选择。',
-    bg: 'gray',
-    cards: [
-      { title: '加拿大可以成为北美市场进入的第一站', summary: '加拿大准入门槛更低、监管流程更透明，并且能为进入更广阔的北美市场提供战略跳板。', slug: 'jia-na-da-ke-yi-shi-bei-mei-di-yi-zhan' },
+    title: 'IOR与责任链',
+    desc: '关于进口责任、产品责任、保险、售后保修和合规义务的深度梳理。',
+    insights: [
+      { title: '产品责任链：从生产到终端客户的完整路径', slug: 'product-liability-chain', published: true },
+      { title: '加拿大产品责任险：为什么你需要它', slug: 'product-liability-insurance-canada', published: true },
+      { title: '售后与保修：中国制造商容易忽略的事', slug: 'after-sales-warranty-overlooked', published: true },
+    ],
+  },
+  {
+    title: '中加商业观察',
+    desc: '关于中加商业环境、双边贸易、供应链变化和商业趋势的独立观察。',
+    insights: [
+      { title: '加拿大市场规模：到底值不值得进入', slug: 'canada-market-size-worth-it', published: true },
+      { title: '中美加三角：供应链重构中的机会', slug: 'supply-chain-reshuffling-opportunities', published: true },
+      { title: '从加拿大看北美：进入路径的比较分析', slug: 'canada-vs-us-market-entry', published: true },
+      { title: '北美采购商如何看待中国供应商', slug: 'how-north-american-buyers-view-chinese-suppliers', published: true },
+    ],
+  },
+  {
+    title: '服务商与活动报道',
+    desc: '关于本地服务商、展会活动、商业合作和行业资源的报道与展示。',
+    insights: [
+      { title: '如何评估一个本地服务商是否靠谱', slug: 'how-to-evaluate-local-service-providers', published: true },
+      { title: '展会选择：不是每个展都值得去', slug: 'trade-show-selection-strategy', published: true },
+      { title: '商业媒体报道：如何最大化报道价值', slug: 'maximize-media-coverage-value', published: true },
+      { title: '服务商展示：信任构建的起点', slug: 'service-provider-showcase-trust-entry', published: true },
     ],
   },
 ]
-
-const downloadResources = [
-  { title: '中国企业进入加拿大市场初步准备清单', desc: '一份基础清单，帮助你快速发现资料、合规和责任链上的明显缺口。不能替代正式判断，但可以作为起点。', status: '即将推出' },
-  { title: '北美市场进入前需要准备的英文资料清单', desc: '梳理进入北美市场前需要准备的英文产品资料、认证文件、标签要求和沟通模板。', status: '即将推出' },
-  { title: 'IOR 与进口责任常见问题说明', desc: '关于进口记录主体（Importer of Record）的常见疑问、责任边界和安排方式。', status: '即将推出' },
-]
-
-function InsightCardComponent({ card }: { card: InsightCard }) {
-  return (
-    <div className="group bg-white border border-[#E5E5E5] hover:border-[#00B894] transition-colors p-5 md:p-6 flex flex-col">
-      <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 leading-[1.5] group-hover:text-[#00B894] transition-colors">
-        {card.title}
-      </h3>
-      <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.6] mb-4 flex-1">
-        {card.summary}
-      </p>
-      <Link
-        to={`/zh/insights/${card.slug}`}
-        className="text-[14px] font-medium text-[#00B894] hover:underline inline-flex items-center gap-1"
-      >
-        阅读全文 <span className="text-[16px]">&rarr;</span>
-      </Link>
-    </div>
-  )
-}
 
 export default function ZHInsights() {
   useSEO({
-    title: '北美市场进入洞察与资料 | CCBONLINE INC.',
-    description: '关于市场进入、责任链、合规要求、渠道开发和本地执行的专业判断，帮助中国企业进入加拿大和北美市场。',
+    title: '洞察｜北美市场进入策略、品牌可信度建设、AI可见度优化｜CCBONLINE',
+    description: 'CCBONLINE INC. 关于北美市场进入、品牌可信度诊断、AI可见度（SEO+GEO）、IOR与责任链、中加商业观察的专业判断与实用建议。帮助中国制造企业系统性地理解北美市场、建立品牌信任、提升数字可见度。',
     canonical: 'https://www.ccbonline.ca/zh/insights',
     ogType: 'website',
     lang: 'zh',
   })
   useEffect(() => {
-    document.title = '北美市场进入洞察与资料 | CCBONLINE INC.'
+    document.title = '洞察｜北美市场进入策略、品牌可信度建设、AI可见度优化｜CCBONLINE'
     window.scrollTo(0, 0)
   }, [])
 
@@ -103,75 +84,64 @@ export default function ZHInsights() {
     <div className="relative min-h-[100dvh]">
       <Navbar lang="zh" />
       <main>
-        {/* Hero */}
         <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">洞察</p>
-            <h1 className="font-serif text-[#212121] text-[28px] sm:text-[34px] md:text-[40px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
-              市场进入判断与实用资料
+            <h1 className="font-serif text-[#212121] text-[26px] sm:text-[32px] md:text-[40px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
+              专业判断与实用建议
             </h1>
-            <p className="text-[16px] md:text-[17px] text-[#767676] max-w-[680px]">
-              关于北美市场进入的专业判断，按栏目分类整理。还有可下载的准备清单，帮助你在正式沟通前先自我评估。
-            </p>
-          </div>
-        </section>
-
-        {/* 栏目列表 */}
-        {columns.map((col, idx) => (
-          <section key={idx} className={`section-padding ${col.bg === 'gray' ? 'bg-[#F8F9FA]' : 'bg-white'}`}>
-            <div className="container-site">
-              <p className="text-label mb-3">{col.label}</p>
-              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-2">
-                {col.title}
-              </h2>
-              <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.65] max-w-[720px] mb-8">
-                {col.desc}
+            <div className="max-w-[720px] mb-8 space-y-4">
+              <p className="text-[16px] md:text-[17px] text-[#767676] leading-[1.65]">
+                CCBONLINE 的洞察栏目围绕中国制造商进入北美市场的核心挑战展开。我们不追逐热点，而是基于实际服务经验，提供关于
+                <Link to="/zh/market-entry" className="text-[#00B894] hover:underline">北美市场进入</Link>、
+                <Link to="/zh/brand-credibility" className="text-[#00B894] hover:underline">品牌可信度建设</Link>、
+                <Link to="/zh/website-content" className="text-[#00B894] hover:underline">AI 可见度（GEO）</Link>、
+                IOR 与责任链、中加商业观察的深度分析与实用建议。
               </p>
-              <div className={`grid grid-cols-1 ${col.cards.length > 2 ? 'md:grid-cols-3' : col.cards.length === 2 ? 'md:grid-cols-2' : ''} gap-4 md:gap-5`}>
-                {col.cards.map((card, i) => (
-                  <InsightCardComponent key={i} card={card} />
-                ))}
-              </div>
+              <p className="text-[15px] md:text-[16px] text-[#767676] leading-[1.65]">
+                每个主题下的文章既服务于人类读者的决策需求，也经过结构化设计，帮助搜索引擎和 AI 系统（如 ChatGPT、Perplexity）更准确地理解我们的专业方向和服务能力。如果你希望针对自身情况获得更具体的建议，欢迎
+                <Link to="/zh/contact" className="text-[#00B894] hover:underline">联系我们</Link>，我们可以围绕你的产品、目标和资源状况提供定向分析。
+              </p>
             </div>
-          </section>
-        ))}
-
-        {/* 资料下载 */}
-        <section className="section-padding bg-white">
-          <div className="container-site">
-            <p className="text-label mb-3">资料</p>
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[700px] mb-2">
-              市场进入准备资料
-            </h2>
-            <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.65] max-w-[720px] mb-8">
-              如果你正在准备进入加拿大或北美市场，可以先参考这些基础清单。它们不能替代正式判断，但可以帮助你快速发现资料、合规和责任链上的明显缺口。
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-5">
-              {downloadResources.map((res, i) => (
-                <div key={i} className="p-5 bg-[#F8F9FA] border border-[#E5E5E5]">
-                  <div className="flex items-center justify-between mb-3">
-                    <span className="text-[11px] text-[#999] uppercase tracking-wider">{res.status}</span>
-                  </div>
-                  <h3 className="text-[15px] font-semibold mb-2 leading-[1.5]">{res.title}</h3>
-                  <p className="text-[13px] md:text-[14px] text-[#767676] leading-[1.6]">{res.desc}</p>
-                </div>
+            <div className="flex flex-wrap gap-2">
+              {categories.map((cat) => (
+                <a key={cat.title} href={`#${cat.title}`} className="text-[13px] px-3 py-1.5 bg-white border border-[#E5E5E5] hover:border-[#00B894] hover:text-[#00B894] transition-colors">{cat.title}</a>
               ))}
             </div>
           </div>
         </section>
 
-        {/* CTA */}
+        <section className="section-padding bg-white">
+          <div className="container-site max-w-[900px]">
+            {categories.map((cat) => (
+              <div key={cat.title} id={cat.title} className="mb-12 last:mb-0 scroll-mt-[80px]">
+                <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-2">{cat.title}</h2>
+                <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.6] mb-5">{cat.desc}</p>
+                <div className="space-y-2">
+                  {cat.insights.map((item) => (
+                    item.published ? (
+                      <Link key={item.slug} to={`/zh/insights/${item.slug}`} className="flex items-center justify-between p-4 bg-[#F8F9FA] border border-[#E5E5E5] hover:border-[#00B894] transition-colors group">
+                        <span className="text-[14px] md:text-[15px] text-[#444] group-hover:text-[#00B894]">{item.title}</span>
+                        <span className="text-[13px] text-[#00B894] shrink-0 ml-4">阅读文章 →</span>
+                      </Link>
+                    ) : (
+                      <div key={item.slug} className="flex items-center justify-between p-4 bg-[#F8F9FA] border border-[#E5E5E5]">
+                        <span className="text-[14px] md:text-[15px] text-[#444]">{item.title}</span>
+                        <span className="text-[13px] text-[#767676] shrink-0 ml-4">即将发布</span>
+                      </div>
+                    )
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
         <section className="section-padding bg-[#0B0E14]">
-          <div className="container-site">
-            <div className="max-w-[700px]">
-              <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">
-                想深入讨论你的市场进入问题？
-              </h2>
-              <p className="text-white/60 text-[15px] leading-[1.65] mb-6">
-                洞察和资料提供的是通用判断，你的具体情况可能需要针对性评估。可以先做一次初步沟通。
-              </p>
-              <Link to="/zh/contact" className="btn-primary text-[16px] px-6 py-3.5 min-h-[52px]">预约初步沟通</Link>
-            </div>
+          <div className="container-site max-w-[700px]">
+            <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">想第一时间获取新内容？</h2>
+            <p className="text-white/60 text-[15px] leading-[1.65] mb-6">关注 CCBONLINE 公众号或 LinkedIn，获取关于北美市场进入、品牌可信度和AI可见度的最新判断。</p>
+            <Link to="/zh/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">联系我们</Link>
           </div>
         </section>
       </main>

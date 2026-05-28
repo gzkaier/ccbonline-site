@@ -6,14 +6,14 @@ import useSEO from '../../hooks/useSEO'
 
 export default function ZH_MediaContent() {
   useSEO({
-    title: '媒体报道、商业曝光与内容合作 | 中加商业在线 CCBONLINE INC.',
-    description: '商业媒体曝光、行业内容合作和专业商业人物报道，帮助中国企业在加拿大和北美商业社区建立可见、可信的专业形象。',
+    title: '商业媒体报道与内容合作｜建立可引用的公开信任资产｜CCBONLINE',
+    description: 'CCBONLINE INC. 为企业、服务商和活动方提供商业报道、活动报道、服务展示和内容策划，帮助企业在公开渠道建立可引用的信任资产。',
     canonical: 'https://www.ccbonline.ca/zh/media-content',
     ogType: 'article',
     lang: 'zh',
   })
   useEffect(() => {
-    document.title = '媒体报道、商业曝光与内容合作 | 中加商业在线 CCBONLINE INC.'
+    document.title = '商业媒体报道与内容合作｜建立可引用的公开信任资产｜CCBONLINE'
     window.scrollTo(0, 0)
   }, [])
 
@@ -24,12 +24,12 @@ export default function ZH_MediaContent() {
         {/* Hero */}
         <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
           <div className="container-site">
-            <p className="text-label mb-3">媒体与内容</p>
+            <p className="text-label mb-3">商业媒体与内容</p>
             <h1 className="font-serif text-[#212121] text-[28px] md:text-[40px] leading-[1.25] tracking-tight max-w-[860px] mb-4">
-              媒体报道、商业曝光与内容合作
+              让企业被看见、被理解、被引用
             </h1>
             <p className="text-[15px] md:text-[17px] text-[#444] leading-[1.65] max-w-[720px] italic">
-              行业媒体曝光、专业商业人物报道和内容合作 —— 帮助中国企业在加拿大和北美商业社区建立可见、可信的专业存在。
+              不是硬广，不是刷量，而是通过专业的商业报道、活动记录和内容策划，帮你在目标客户、搜索引擎和AI系统面前建立可验证的公开信任资产。
             </p>
           </div>
         </section>

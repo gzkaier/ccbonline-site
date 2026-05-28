@@ -6,14 +6,14 @@ import useSEO from '../../hooks/useSEO'
 
 export default function ZHContact() {
   useSEO({
-    title: '联系中加商业在线 | 市场进入初步评估与咨询',
-    description: '提交你的产品信息和目标市场，CCBONLINE INC. 会在1-2个工作日内回复，推荐适合你的市场进入下一步。',
+    title: '联系 CCBONLINE INC.｜预约初步沟通、提交官网做判断',
+    description: '联系CCBONLINE INC.，预约初步沟通或提交官网做初步判断。我们帮助企业在进入加拿大与北美市场前，先把商业表达、可信度和连接路径理清楚。',
     canonical: 'https://www.ccbonline.ca/zh/contact',
     ogType: 'website',
     lang: 'zh',
   })
   useEffect(() => {
-    document.title = '联系中加商业在线 | 市场进入初步评估与咨询'
+    document.title = '联系 CCBONLINE INC.｜预约初步沟通、提交官网做判断'
     window.scrollTo(0, 0)
   }, [])
 
@@ -65,10 +65,10 @@ export default function ZHContact() {
           <div className="container-site">
             <p className="text-label mb-3">联系</p>
             <h1 className="font-serif text-[#212121] text-[26px] sm:text-[32px] md:text-[40px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
-              申请市场进入初步评估
+              联系 CCBONLINE INC.
             </h1>
             <p className="text-[16px] md:text-[17px] text-[#767676] max-w-[680px]">
-              告诉我们你的产品和目标。我们会审阅你的情况，并在1-2个工作日内给出明确的下一步建议。
+              预约初步沟通（免费）或提交官网做初步判断。告诉我们你的产品、目标市场和当前问题，我们会在1-2个工作日内回复。
             </p>
           </div>
         </section>

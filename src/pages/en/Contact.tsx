@@ -66,7 +66,7 @@ export default function ENContact() {
           <div className="container-site">
             <p className="text-label mb-3">Contact</p>
             <h1 className="font-serif text-[#212121] text-[26px] sm:text-[32px] md:text-[40px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
-              Request a Market Entry Assessment
+              Contact CCBONLINE INC.
             </h1>
             <p className="text-[16px] md:text-[17px] text-[#767676] max-w-[680px]">
               Tell us about your product and goals. We will review your situation and respond within 1–2 business days with a clear next step.

@@ -4,16 +4,16 @@ import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
 import useSEO from '../../../hooks/useSEO'
 
-export default function EN_CanadaVsUSMarketEntry() {
+export default function Page() {
   useSEO({
-    title: 'Canada vs. US Market Entry: Which Should Chinese Manufacturers Enter First? | CCBONLINE',
-    description: 'Should your manufacturing business enter Canada or the US first? A practical comparison of market size, regulatory complexity, certification requirements, and entry barriers.',
+    title: 'Canada vs. US Market: A Comparative Analysis | North America Market Entry | CCBONLINE',
+    description: "The US market is ten times larger, but Canada may be the smarter first stop. This article helps Chinese manufacturers decide which market to enter first based on regulatory complexity, certification paths, and competitive landscape.",
     canonical: 'https://www.ccbonline.ca/en/insights/canada-vs-us-market-entry',
     ogType: 'article',
     lang: 'en',
   })
   useEffect(() => {
-    document.title = 'Canada vs. US Market Entry: Which Should Chinese Manufacturers Enter First? | CCBONLINE'
+    document.title = 'Canada vs. US Market: A Comparative Analysis | North America Market Entry | CCBONLINE'
     window.scrollTo(0, 0)
   }, [])
 
@@ -21,231 +21,140 @@ export default function EN_CanadaVsUSMarketEntry() {
     <div className="relative min-h-[100dvh]">
       <Navbar lang="en" />
       <main>
-        <article className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
-          <div className="container-site">
-            <p className="text-label mb-3">Market Strategy</p>
-            <h1 className="font-serif text-[#212121] text-[26px] sm:text-[30px] md:text-[38px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
-              Canada vs. US Market Entry: Which First?
-            </h1>
-            <p className="text-[15px] md:text-[17px] text-[#444] leading-[1.65] max-w-[720px] italic">
-              The US market is ten times larger, but Canada is often the smarter first entry point for Chinese manufacturers. Here is why — and how to decide for your specific product and situation.
-            </p>
-          </div>
-        </article>
-
-        <article className="section-padding bg-white">
+        <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#0B0E14]">
           <div className="container-site max-w-[800px]">
-            <div className="mb-12">
-              <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
-                Most Chinese manufacturers instinctively think of the United States first when considering North American expansion. The logic is straightforward: the US market is enormous, with over 330 million consumers and the world's largest economy. But bigger is not always better — especially for a first-time market entry.
+            <p className="text-[#00B894] text-[11px] md:text-[12px] tracking-[0.15em] uppercase mb-3 font-medium">North America Market Entry</p>
+            <h1 className="font-serif text-white text-[26px] sm:text-[32px] md:text-[40px] leading-[1.3] tracking-tight mb-4">
+              Canada vs. US Market: A Comparative Analysis
+            </h1>
+            <div className="flex flex-wrap items-center gap-3 text-[13px] text-white/50 mb-4">
+              <span>Reading time: ~8 min</span>
+              <span>·</span>
+              <span>Canada | US | Market Entry | Comparison</span>
+            </div>
+            <div className="p-4 md:p-5 bg-white/5 border border-white/10">
+              <p className="text-white/70 text-[14px] md:text-[15px] leading-[1.65] italic">
+                Most Chinese manufacturers instinctively think of the US first when considering North American expansion. The logic is straightforward: the US market is massive. But bigger is not always better—especially for first-time entrants. Canada offers a clearer regulatory framework, a more welcoming entry path, and a testing ground to refine your North American strategy.
               </p>
-              <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
-                For many Chinese manufacturers, Canada offers a more manageable entry pathway with clearer regulatory frameworks, less competition in certain product categories, and the ability to test and refine your North American strategy before tackling the much more complex US market.
-              </p>
-            </div>
-
-            <div className="mb-12">
-              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
-                The Case for Entering Canada First
-              </h2>
-
-              <div className="space-y-5">
-                <div className="pl-4 border-l-2 border-[#00B894]">
-                  <h4 className="font-semibold text-[16px] mb-1">Smaller, more manageable market</h4>
-                  <p className="text-[14px] text-[#444] leading-[1.65]">Canada's population of 40 million is smaller than California alone. But that is precisely the point — fewer competitors, more predictable demand patterns, and the ability to build relationships with distributors and retailers without the overwhelming scale of the US.</p>
-                </div>
-                <div className="pl-4 border-l-2 border-[#00B894]">
-                  <h4 className="font-semibold text-[16px] mb-1">Clearer regulatory pathway</h4>
-                  <p className="text-[14px] text-[#444] leading-[1.65]">Canada has fewer regulatory agencies and a more centralized compliance framework than the US, where requirements can vary by state. For manufacturers navigating certification for the first time, this simplicity matters.</p>
-                </div>
-                <div className="pl-4 border-l-2 border-[#00B894]">
-                  <h4 className="font-semibold text-[16px] mb-1">CSA certification is recognized in the US</h4>
-                  <p className="text-[14px] text-[#444] leading-[1.65]">If you obtain CSA certification for Canada, it is also recognized in the United States (as cCSA-us). This means your Canada investment partially covers US entry down the road.</p>
-                </div>
-                <div className="pl-4 border-l-2 border-[#00B894]">
-                  <h4 className="font-semibold text-[16px] mb-1">Less price pressure</h4>
-                  <p className="text-[14px] text-[#444] leading-[1.65]">The US market is hyper-competitive on price, with buyers constantly pushing for lower costs. Canadian buyers typically place more emphasis on quality, reliability, and supplier relationships — which can mean better margins for the right products.</p>
-                </div>
-                <div className="pl-4 border-l-2 border-[#00B894]">
-                  <h4 className="font-semibold text-[16px] mb-1">Test your North American strategy</h4>
-                  <p className="text-[14px] text-[#444] leading-[1.65]">Canada gives you a real North American market to learn from — buyer behavior, logistics, after-sales requirements — at a scale that is less risky and expensive than the US. Refine your approach in Canada, then expand south.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="mb-12">
-              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
-                The Case for Entering the US First (or Simultaneously)
-              </h2>
-
-              <div className="space-y-5">
-                <div className="pl-4 border-l-2 border-[#D4AF37]">
-                  <h4 className="font-semibold text-[16px] mb-1">Massive market size</h4>
-                  <p className="text-[14px] text-[#444] leading-[1.65]">The US market is roughly ten times larger than Canada's. For products with high volume potential or thin margins that require scale to be profitable, the US may be the only market that justifies the entry investment.</p>
-                </div>
-                <div className="pl-4 border-l-2 border-[#D4AF37]">
-                  <h4 className="font-semibold text-[16px] mb-1">Your customers are already there</h4>
-                  <p className="text-[14px] text-[#444] leading-[1.65]">If your existing international customers have US operations, or if you have received direct inquiries from American buyers, following existing demand may be the most efficient path.</p>
-                </div>
-                <div className="pl-4 border-l-2 border-[#D4AF37]">
-                  <h4 className="font-semibold text-[16px] mb-1">UL certification is recognized in Canada</h4>
-                  <p className="text-[14px] text-[#444] leading-[1.65]">Just as CSA works in the US, UL certification (as cUL) is recognized in Canada. If your product strategy naturally leads to UL first, you can enter both markets with a single certification effort.</p>
-                </div>
-                <div className="pl-4 border-l-2 border-[#D4AF37]">
-                  <h4 className="font-semibold text-[16px] mb-1">Certain product categories favor the US</h4>
-                  <p className="text-[14px] text-[#444] leading-[1.65]">Some product categories — particularly consumer electronics, automotive parts, and certain industrial equipment — have significantly larger addressable markets in the US. The Canadian market may be too small to justify the product adaptation costs.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="mb-12">
-              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
-                Key Differences You Need to Understand
-              </h2>
-              <div className="overflow-x-auto mb-4">
-                <table className="w-full text-[14px]">
-                  <thead>
-                    <tr className="border-b-2 border-[#212121]">
-                      <th className="text-left py-3 px-2 font-semibold">Factor</th>
-                      <th className="text-left py-3 px-2 font-semibold">Canada</th>
-                      <th className="text-left py-3 px-2 font-semibold">United States</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="border-b border-[#E5E5E5]">
-                      <td className="py-3 px-2 text-[#444]">Population</td>
-                      <td className="py-3 px-2 text-[#444]">40 million</td>
-                      <td className="py-3 px-2 text-[#444]">333 million</td>
-                    </tr>
-                    <tr className="border-b border-[#E5E5E5]">
-                      <td className="py-3 px-2 text-[#444]">Primary certification</td>
-                      <td className="py-3 px-2 text-[#444]">CSA, ISED</td>
-                      <td className="py-3 px-2 text-[#444]">UL, FCC</td>
-                    </tr>
-                    <tr className="border-b border-[#E5E5E5]">
-                      <td className="py-3 px-2 text-[#444]">Regulatory complexity</td>
-                      <td className="py-3 px-2 text-[#444]">Lower (federal)</td>
-                      <td className="py-3 px-2 text-[#444]">Higher (federal + state)</td>
-                    </tr>
-                    <tr className="border-b border-[#E5E5E5]">
-                      <td className="py-3 px-2 text-[#444]">Competition intensity</td>
-                      <td className="py-3 px-2 text-[#444]">Moderate</td>
-                      <td className="py-3 px-2 text-[#444]">Very high</td>
-                    </tr>
-                    <tr className="border-b border-[#E5E5E5]">
-                      <td className="py-3 px-2 text-[#444]">Import responsibility clarity</td>
-                      <td className="py-3 px-2 text-[#444]">Clearer (CBSA)</td>
-                      <td className="py-3 px-2 text-[#444]">Complex (CBP + agencies)</td>
-                    </tr>
-                    <tr className="border-b border-[#E5E5E5]">
-                      <td className="py-3 px-2 text-[#444]">Language requirement</td>
-                      <td className="py-3 px-2 text-[#444]">English + French (Quebec)</td>
-                      <td className="py-3 px-2 text-[#444]">English</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            <div className="mb-12">
-              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
-                How to Decide for Your Specific Situation
-              </h2>
-              <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-5">
-                There is no universal right answer. The decision should be based on your product, resources, timeline, and existing relationships. Here is a practical framework:
-              </p>
-              <div className="space-y-4">
-                <div className="p-5 bg-[#F8F9FA] border border-[#E5E5E5]">
-                  <h3 className="text-[16px] font-semibold mb-2">Choose Canada first if:</h3>
-                  <ul className="space-y-1.5">
-                    <li className="text-[14px] text-[#444]">You are a first-time North American entrant</li>
-                    <li className="text-[14px] text-[#444]">Your product requires certification and you want a simpler regulatory pathway</li>
-                    <li className="text-[14px] text-[#444]">You prefer to test your market approach at lower risk</li>
-                    <li className="text-[14px] text-[#444]">Your product emphasizes quality over rock-bottom pricing</li>
-                    <li className="text-[14px] text-[#444]">You have limited budget for market entry</li>
-                  </ul>
-                </div>
-                <div className="p-5 bg-[#F8F9FA] border border-[#E5E5E5]">
-                  <h3 className="text-[16px] font-semibold mb-2">Choose US first (or both) if:</h3>
-                  <ul className="space-y-1.5">
-                    <li className="text-[14px] text-[#444]">You already have US customer demand</li>
-                    <li className="text-[14px] text-[#444]">Your product requires high volume to be profitable</li>
-                    <li className="text-[14px] text-[#444]">You have substantial resources for market entry</li>
-                    <li className="text-[14px] text-[#444]">Your product category is much larger in the US</li>
-                    <li className="text-[14px] text-[#444]">You are already working with a US distributor</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="mb-12">
-              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
-                A Practical Note on Bilingual Requirements
-              </h2>
-              <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
-                One factor many Chinese manufacturers overlook: Canada requires bilingual (English and French) labeling for products sold in Quebec and certain federally regulated product categories. This adds a documentation and labeling cost that does not exist in the US. If your product requires extensive user documentation, factor in French translation costs when evaluating Canada as a first market.
-              </p>
-            </div>
-
-            <div className="mb-12">
-              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-5">
-                Frequently Asked Questions
-              </h2>
-              <div className="space-y-3">
-                <details className="border border-[#E5E5E5] bg-[#F8F9FA]">
-                  <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                    <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">Can I enter both markets at the same time?</span>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
-                  </summary>
-                  <div className="px-4 pb-4 md:px-5 md:pb-5">
-                    <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">Yes, but it requires more resources and careful coordination. Many manufacturers start with one market, establish operations, and then expand to the other. If you do enter both simultaneously, ensure your certification strategy covers both countries (dual-mark certification is available from both CSA and UL).</p>
-                  </div>
-                </details>
-                <details className="border border-[#E5E5E5] bg-[#F8F9FA]">
-                  <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                    <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">Does selling in Canada make it easier to enter the US later?</span>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
-                  </summary>
-                  <div className="px-4 pb-4 md:px-5 md:pb-5">
-                    <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">In many ways, yes. You will have North American operational experience, refined product documentation, and potentially CSA certification that is recognized in the US. You will also have a better understanding of what North American buyers expect. However, the US market has its own regulatory complexities that Canada does not prepare you for — particularly state-level requirements.</p>
-                  </div>
-                </details>
-                <details className="border border-[#E5E5E5] bg-[#F8F9FA]">
-                  <summary className="flex items-center justify-between p-4 md:p-5 cursor-pointer list-none">
-                    <span className="text-[15px] md:text-[16px] font-medium pr-4 leading-[1.5]">Is the Canadian market too small to be worth it?</span>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0 text-[#767676]"><path d="m6 9 6 6 6-6"/></svg>
-                  </summary>
-                  <div className="px-4 pb-4 md:px-5 md:pb-5">
-                    <p className="text-[14px] md:text-[15px] text-[#555] leading-[1.65]">Not necessarily. While smaller in absolute terms, Canada has high per-capita purchasing power, stable demand, and in many product categories less competition than the US. For the right product at the right price point, Canada can be a profitable and sustainable market. The key is assessing whether your product category has sufficient demand in Canada to justify the entry investment.</p>
-                  </div>
-                </details>
-              </div>
-            </div>
-
-            <div className="mb-12">
-              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
-                Related Resources
-              </h2>
-              <ul className="space-y-2">
-                <li><Link to="/en/services/market-entry-diagnosis" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Market Entry Diagnosis Service →</Link></li>
-                <li><Link to="/en/services/product-compliance" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Product Compliance & Certification Pathway →</Link></li>
-                <li><Link to="/en/insights/product-certification-canada-guide" className="text-[14px] md:text-[15px] text-[#00B894] hover:underline">Product Certification for Canada Guide →</Link></li>
-              </ul>
-            </div>
-
-            <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
-              <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">
-                Not sure which market to enter first?
-              </h3>
-              <p className="text-white/70 text-[14px] md:text-[15px] leading-[1.6] max-w-[500px] mx-auto mb-6">
-                We assess your product, resources, and goals to recommend the right market entry sequence — honestly and specifically.
-              </p>
-              <Link to="/en/contact" className="btn-primary inline-block text-[15px] px-8 py-3.5 min-h-[52px]">
-                Request Market Entry Assessment
-              </Link>
             </div>
           </div>
-        </article>
+        </section>
+
+        <section className="section-padding bg-white">
+          <div className="container-site max-w-[800px]">
+            
+            <div className="mb-10">
+              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
+                Market Size: The Truth Behind Numbers
+              </h2>
+              <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] whitespace-pre-line">
+                The US population is about 330 million; Canada is about 40 million. But market entry decisions shouldn't be based solely on total population. What matters more is target customer concentration, entry barrier height, and your product's competitive positioning in each market.
+
+Canada may have fewer people, but it has high per-capita purchasing power and strong demand in specific sectors like clean energy, building materials, agricultural technology, and industrial automation.
+              </p>
+            </div>
+
+            <div className="mb-10">
+              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
+                Regulatory Environment: Canada's Clear Advantage
+              </h2>
+              <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] whitespace-pre-line">
+                Both countries are federal systems, but Canada's product safety standards are more consistent across provinces than US state regulations.
+
+Certification reciprocity: CSA certification is widely accepted in the US, and UL certification is recognized in Canada. However, CSA's application process is typically more foreign-manufacturer-friendly.
+
+Import processes: Canada Border Services Agency's clearance process is relatively transparent, with more guidance resources for small and medium enterprises.
+              </p>
+            </div>
+
+            <div className="mb-10">
+              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
+                Competition: Blue Ocean vs. Red Ocean
+              </h2>
+              <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] whitespace-pre-line">
+                The US market has intense competition in virtually every category, including many Chinese competitors. Price wars are common and customer loyalty is low.
+
+Canada's market has relatively moderate competition in certain categories, especially products requiring local service support, high customization, or strict compliance requirements.
+              </p>
+            </div>
+
+            <div className="mb-10">
+              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
+                Canada as a Strategic Springboard
+              </h2>
+              <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] whitespace-pre-line">
+                Test and validate — Test product-market fit, pricing strategy, and marketing approach in Canada before tackling the more complex US market.
+
+Build North American reference customers — Canadian clients serve as case studies when entering the US market.
+
+Develop local service capabilities — Customer success systems built in Canada can be directly replicated in the US.
+
+Gain credibility for US market entry — Companies with Canadian operations are often perceived as more credible than purely China-based competitors.
+              </p>
+            </div>
+
+            <div className="mb-10">
+              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
+                Final Thoughts
+              </h2>
+              <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
+                There's no standard answer for whether to enter Canada or the US first. But for most Chinese manufacturers making their first North American entry, Canada offers a more controllable, economical, and efficient path.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="section-padding bg-[#F8F9FA]">
+          <div className="container-site max-w-[800px]">
+            <h3 className="font-serif text-[#212121] text-[20px] md:text-[24px] leading-[1.35] tracking-tight mb-6">Related Services</h3>
+            <div className="space-y-3">
+              
+              <Link to="/en/services/market-entry-diagnosis" className="flex items-center justify-between p-4 bg-white border border-[#E5E5E5] hover:border-[#00B894] transition-colors group">
+                <div>
+                  <span className="text-[14px] md:text-[15px] text-[#444] group-hover:text-[#00B894] font-medium">Market Entry Diagnosis</span>
+                  <p className="text-[13px] text-[#767676] mt-1">Assess if your product fits the Canadian/US market and determine the best entry path</p>
+                </div>
+                <span className="text-[13px] text-[#00B894] shrink-0 ml-4">Learn →</span>
+              </Link>
+
+              <Link to="/en/services/customer-channel-validation" className="flex items-center justify-between p-4 bg-white border border-[#E5E5E5] hover:border-[#00B894] transition-colors group">
+                <div>
+                  <span className="text-[14px] md:text-[15px] text-[#444] group-hover:text-[#00B894] font-medium">Customer & Channel Validation</span>
+                  <p className="text-[13px] text-[#767676] mt-1">Validate market demand and customer interest before full commitment</p>
+                </div>
+                <span className="text-[13px] text-[#00B894] shrink-0 ml-4">Learn →</span>
+              </Link>
+
+            </div>
+          </div>
+        </section>
+
+        <section className="section-padding bg-white">
+          <div className="container-site max-w-[800px]">
+            <h3 className="font-serif text-[#212121] text-[20px] md:text-[24px] leading-[1.35] tracking-tight mb-6">Related Reading</h3>
+            <div className="space-y-3">
+              
+              <Link to="/en/insights/canada-market-entry-assess-first" className="flex items-center justify-between p-4 bg-[#F8F9FA] border border-[#E5E5E5] hover:border-[#00B894] transition-colors group">
+                <span className="text-[14px] md:text-[15px] text-[#444] group-hover:text-[#00B894]">Canada Market Entry: Assess First</span>
+                <span className="text-[13px] text-[#00B894] shrink-0 ml-4">Read →</span>
+              </Link>
+
+              <Link to="/en/insights/canada-market-size-worth-it" className="flex items-center justify-between p-4 bg-[#F8F9FA] border border-[#E5E5E5] hover:border-[#00B894] transition-colors group">
+                <span className="text-[14px] md:text-[15px] text-[#444] group-hover:text-[#00B894]">Is Canada Market Worth It</span>
+                <span className="text-[13px] text-[#00B894] shrink-0 ml-4">Read →</span>
+              </Link>
+
+            </div>
+          </div>
+        </section>
+
+        <section className="section-padding bg-[#0B0E14]">
+          <div className="container-site max-w-[700px]">
+            <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">Need help with north america market entry?</h2>
+            <p className="text-white/60 text-[15px] leading-[1.65] mb-6">We can help you navigate North American market entry with professional guidance.</p>
+            <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">Contact Us</Link>
+          </div>
+        </section>
       </main>
       <Footer lang="en" />
     </div>

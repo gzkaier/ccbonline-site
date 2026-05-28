@@ -4,174 +4,79 @@ import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import useSEO from '../../hooks/useSEO'
 
-
-interface InsightCard {
-  title: string
-  summary: string
-  category: string
-  slug: string
-}
-
-const featuredViewpoints: InsightCard[] = [
+const categories = [
   {
-    title: 'Market Entry Is Not the Same as Selling Overseas',
-    summary: 'Selling overseas focuses on transactions. Market entry requires a system across compliance, import responsibility, channel validation, local execution, and after-sales accountability.',
-    category: 'Market Entry',
-    slug: 'market-entry-is-not-selling-overseas',
+    title: 'North America Market Entry',
+    desc: 'In-depth observations on Canada and US market entry pathways, compliance requirements, certification standards, and channel development.',
+    insights: [
+      { title: 'Canada Market Entry: Assess First, Act Second', slug: 'canada-market-entry-assess-first', published: true },
+      { title: 'IOR: Why It Matters More Than Customs Clearance', slug: 'ior-importer-of-record-explained', published: true },
+      { title: 'CSA vs UL: Which Certification Does Your Product Need', slug: 'csa-vs-ul-certification-guide', published: true },
+      { title: 'Shipping Without an IOR: The Risks You May Be Underestimating', slug: 'shipping-without-ior-risks', published: true },
+      { title: 'After the Trade Show: Why 80% of Leads Go Cold', slug: 'trade-show-lead-follow-up-failure', published: true },
+    ],
   },
   {
-    title: 'The Responsibility Chain Behind North America Market Entry',
-    summary: 'Market entry is not just about products and customers—it is a chain of responsibilities across importation, certification, distribution, warranty, and after-sales support.',
-    category: 'Responsibility Chain',
-    slug: 'north-america-responsibility-chain',
+    title: 'Brand Credibility',
+    desc: 'Practical analysis on business purchase rationale, brand trust building, website credibility, and buyer decision psychology.',
+    insights: [
+      { title: 'Why Buyers Visit Your Website But Never Contact You', slug: 'why-buyers-dont-contact', published: true },
+      { title: 'Purchase Rationale: What Most Companies Have Not Figured Out', slug: 'purchase-rationale-clarity', published: true },
+      { title: 'B2B Credibility: What Gives Buyers Reason to Trust You', slug: 'b2b-credibility-factors', published: true },
+      { title: 'FAQ Is Not Just Customer Support — It Is a Sales Tool', slug: 'faq-as-sales-tool', published: true },
+    ],
   },
   {
-    title: 'A 0–90 Day Roadmap for North America Market Entry',
-    summary: 'The first 90 days should follow a structured progression from diagnosis and compliance mapping through channel validation to active customer engagement.',
-    category: 'Market Entry',
-    slug: '0-90-day-north-america-market-entry-roadmap',
-  },
-]
-
-const marketEntryCards: InsightCard[] = [
-  {
-    title: 'Market Entry Is Not the Same as Selling Overseas',
-    summary: 'The real question is not whether you have a customer, but whether your company has built a complete entry path from compliance to local accountability.',
-    category: 'Market Entry',
-    slug: 'market-entry-is-not-selling-overseas',
+    title: 'AI Visibility & GEO',
+    desc: 'Technical judgments on SEO, GEO (Generative Engine Optimization), AI search trends, and website content optimization.',
+    insights: [
+      { title: 'SEO vs GEO: Differences, Connections, and How to Prepare', slug: 'seo-vs-geo-difference', published: true },
+      { title: 'Is Your Website Mentioned by ChatGPT', slug: 'is-your-website-in-chatgpt', published: true },
+      { title: 'Why FAQ Matters More in the Age of AI Search', slug: 'why-faq-matters-for-ai', published: true },
+      { title: 'GEO Readiness: Content Structure Over Keywords', slug: 'geo-content-structure-over-keywords', published: true },
+    ],
   },
   {
-    title: 'A 0–90 Day Roadmap for North America Market Entry',
-    summary: 'Days 0–30: diagnosis. Days 15–45: compliance pathway. Days 30–60: channel validation. Days 60–90: structured customer conversations.',
-    category: 'Market Entry',
-    slug: '0-90-day-north-america-market-entry-roadmap',
-  },
-]
-
-const responsibilityCards: InsightCard[] = [
-  {
-    title: 'The Responsibility Chain Behind North America Market Entry',
-    summary: 'Every market entry has a hidden responsibility chain. Most companies do not see it until something goes wrong. Understand the chain before you enter.',
-    category: 'Responsibility Chain',
-    slug: 'north-america-responsibility-chain',
-  },
-]
-
-const complianceCards: InsightCard[] = [
-  {
-    title: 'Importer of Record Is Not Just Customs Clearance',
-    summary: 'The IOR is not merely a customs filing role—it carries legal liability for product safety, compliance accuracy, and regulatory accountability long after clearance.',
-    category: 'Compliance & Importation',
-    slug: 'importer-of-record-is-not-just-customs-clearance',
+    title: 'IOR & Responsibility Chain',
+    desc: 'In-depth analysis of import responsibility, product liability, insurance, after-sales warranty, and compliance obligations.',
+    insights: [
+      { title: 'Product Liability Chain: From Production to End Customer', slug: 'product-liability-chain', published: true },
+      { title: 'Product Liability Insurance in Canada: Why You Need It', slug: 'product-liability-insurance-canada', published: true },
+      { title: 'After-Sales & Warranty: What Chinese Manufacturers Often Overlook', slug: 'after-sales-warranty-overlooked', published: true },
+    ],
   },
   {
-    title: 'Certification Is Not the End of Market Entry',
-    summary: 'CSA, UL, and FCC certification are necessary but not sufficient. Many certified products still fail because certification is treated as the finish line.',
-    category: 'Compliance & Importation',
-    slug: 'certification-is-not-the-end-of-market-entry',
+    title: 'Canada-China Business Observations',
+    desc: 'Independent observations on the Canada-China business environment, bilateral trade, supply chain shifts, and commercial trends.',
+    insights: [
+      { title: 'Canada Market Size: Is It Worth Entering', slug: 'canada-market-size-worth-it', published: true },
+      { title: 'US-Canada-China Triangle: Opportunities in Supply Chain Reshuffling', slug: 'supply-chain-reshuffling-opportunities', published: true },
+      { title: 'Canada as a Gateway to North America: A Comparative Analysis', slug: 'canada-vs-us-market-entry', published: true },
+      { title: 'How North American Buyers View Chinese Suppliers', slug: 'how-north-american-buyers-view-chinese-suppliers', published: true },
+    ],
+  },
+  {
+    title: 'Service Providers & Event Coverage',
+    desc: 'Reporting and showcasing local service providers, trade shows, business partnerships, and industry resources.',
+    insights: [
+      { title: 'How to Evaluate Whether a Local Service Provider Is Reliable', slug: 'how-to-evaluate-local-service-providers', published: true },
+      { title: 'Trade Show Selection: Not Every Show Is Worth Attending', slug: 'trade-show-selection-strategy', published: true },
+      { title: 'Business Media Coverage: How to Maximize Its Value', slug: 'maximize-media-coverage-value', published: true },
+      { title: 'Service Provider Showcase: Building Trust from Day One', slug: 'service-provider-showcase-trust-entry', published: true },
+    ],
   },
 ]
-
-const channelCards: InsightCard[] = [
-  {
-    title: 'Channel Development Is Not Email Blasting',
-    summary: 'Building distribution channels requires structured relationship development and mutual value demonstration—not mass email campaigns or transactional outreach.',
-    category: 'Channel & Local Execution',
-    slug: 'channel-development-is-not-email-blasting',
-  },
-  {
-    title: 'A Trade Show Is Not Just an Exhibition',
-    summary: 'Trade shows are strategic instruments for market validation, competitive intelligence, partnership development, and direct customer engagement.',
-    category: 'Channel & Local Execution',
-    slug: 'trade-show-is-not-just-exhibition',
-  },
-]
-
-const canadaCards: InsightCard[] = [
-  {
-    title: 'Canada as a First Station for North America Market Entry',
-    summary: 'Canada offers lower entry barriers, transparent regulatory processes, and a strategic pathway to the broader North American market.',
-    category: 'Canada as First Station',
-    slug: 'canada-as-first-station-for-north-america-entry',
-  },
-]
-
-const latestArticles: InsightCard[] = [
-  {
-    title: 'Market Entry Is Not the Same as Selling Overseas',
-    summary: 'The critical difference between transactions and systems.',
-    category: 'Market Entry',
-    slug: 'market-entry-is-not-selling-overseas',
-  },
-  {
-    title: 'The Responsibility Chain Behind North America Market Entry',
-    summary: 'Who is responsible for what, and why it matters before you ship.',
-    category: 'Responsibility Chain',
-    slug: 'north-america-responsibility-chain',
-  },
-  {
-    title: 'Importer of Record Is Not Just Customs Clearance',
-    summary: 'Understanding the full legal scope of the IOR role.',
-    category: 'Compliance & Importation',
-    slug: 'importer-of-record-is-not-just-customs-clearance',
-  },
-  {
-    title: 'A 0–90 Day Roadmap for North America Market Entry',
-    summary: 'A structured progression from diagnosis to first customer conversations.',
-    category: 'Market Entry',
-    slug: '0-90-day-north-america-market-entry-roadmap',
-  },
-]
-
-function InsightCardComponent({ card }: { card: InsightCard }) {
-  return (
-    <div className="group bg-white border border-[#E5E5E5] hover:border-[#00B894] transition-colors p-5 md:p-6 flex flex-col">
-      <p className="text-[11px] text-[#999] uppercase tracking-wider mb-2">{card.category}</p>
-      <h3 className="text-[16px] md:text-[17px] font-semibold mb-3 leading-[1.5] group-hover:text-[#00B894] transition-colors">
-        {card.title}
-      </h3>
-      <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.6] mb-4 flex-1">
-        {card.summary}
-      </p>
-      <Link
-        to={`/en/insights/${card.slug}`}
-        className="text-[14px] font-medium text-[#00B894] hover:underline inline-flex items-center gap-1"
-      >
-        Read full insight
-        <span className="text-[16px]">&rarr;</span>
-      </Link>
-    </div>
-  )
-}
-
-function InsightSection({ title, label, cards }: { title: string; label: string; cards: InsightCard[] }) {
-  return (
-    <section className="section-padding bg-white">
-      <div className="container-site">
-        <p className="text-label mb-3">{label}</p>
-        <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[600px] mb-8 md:mb-10">
-          {title}
-        </h2>
-        <div className="grid grid-cols-1 gap-4 md:gap-5">
-          {cards.map((card, i) => (
-            <InsightCardComponent key={i} card={card} />
-          ))}
-        </div>
-      </div>
-    </section>
-  )
-}
 
 export default function ENInsights() {
   useSEO({
-    title: 'Insights on Canada & North America Market Entry | CCBONLINE INC.',
-    description: 'Practical viewpoints on market entry, compliance, channel development, and execution for businesses entering Canada and North America.',
+    title: 'Insights | North America Market Entry Strategy, Brand Credibility, AI Visibility | CCBONLINE',
+    description: 'CCBONLINE INC. insights on North America market entry, brand credibility building, AI visibility (SEO+GEO), IOR & compliance, and Canada-China trade. Practical guidance for Chinese manufacturers entering Canadian and US markets.',
     canonical: 'https://www.ccbonline.ca/en/insights',
     ogType: 'website',
     lang: 'en',
   })
   useEffect(() => {
-    document.title = 'Insights on Canada & North America Market Entry | CCBONLINE INC.'
+    document.title = 'Insights | North America Market Entry Strategy, Brand Credibility, AI Visibility | CCBONLINE'
     window.scrollTo(0, 0)
   }, [])
 
@@ -179,111 +84,62 @@ export default function ENInsights() {
     <div className="relative min-h-[100dvh]">
       <Navbar lang="en" />
       <main>
-        {/* Hero */}
         <section className="pt-[100px] pb-[50px] md:pt-[140px] md:pb-[70px] bg-[#F8F9FA]">
           <div className="container-site">
             <p className="text-label mb-3">Insights</p>
-            <h1 className="font-serif text-[#212121] text-[28px] sm:text-[34px] md:text-[42px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
-              Insights on Canada & North America Market Entry
-            </h1>
-            <p className="text-[15px] md:text-[16px] text-[#767676] max-w-[600px]">
-              Practical viewpoints on market entry, compliance, channel development, and execution. Every insight links to detailed guidance.
-            </p>
+            <h1 className="font-serif text-[#212121] text-[26px] sm:text-[32px] md:text-[40px] leading-[1.3] tracking-tight max-w-[800px] mb-4">Professional Perspectives & Practical Guidance</h1>
+            <div className="max-w-[720px] mb-8 space-y-4">
+              <p className="text-[16px] md:text-[17px] text-[#767676] leading-[1.65]">
+                CCBONLINE's Insights series addresses the core challenges Chinese manufacturers face when entering North American markets. Based on hands-on service experience—not trending topics—we offer practical guidance on
+                <Link to="/en/market-entry" className="text-[#00B894] hover:underline">North America market entry</Link>,{' '}
+                <Link to="/en/brand-credibility" className="text-[#00B894] hover:underline">brand credibility building</Link>,{' '}
+                <Link to="/en/website-content" className="text-[#00B894] hover:underline">AI visibility and GEO</Link>,
+                IOR & responsibility chain, and Canada-China business observations.
+              </p>
+              <p className="text-[15px] md:text-[16px] text-[#767676] leading-[1.65]">
+                Each article is structured to serve both human readers making business decisions and AI systems (ChatGPT, Perplexity, etc.) seeking authoritative, well-organized information. For tailored advice on your specific product, goals, and resources, please{' '}
+                <Link to="/en/contact" className="text-[#00B894] hover:underline">contact us</Link> for a targeted assessment.
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {categories.map((cat) => (
+                <a key={cat.title} href={`#${cat.title}`} className="text-[13px] px-3 py-1.5 bg-white border border-[#E5E5E5] hover:border-[#00B894] hover:text-[#00B894] transition-colors">{cat.title}</a>
+              ))}
+            </div>
           </div>
         </section>
 
-        {/* Featured Viewpoints */}
         <section className="section-padding bg-white">
-          <div className="container-site">
-            <p className="text-label mb-3">Featured</p>
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[600px] mb-8 md:mb-10">
-              Featured Viewpoints
-            </h2>
-            <div className="grid grid-cols-1 gap-4 md:gap-5">
-              {featuredViewpoints.map((card, i) => (
-                <InsightCardComponent key={i} card={card} />
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Market Entry */}
-        <InsightSection title="Market Entry" label="Market Entry" cards={marketEntryCards} />
-
-        {/* Responsibility Chain */}
-        <section className="section-padding bg-[#F8F9FA]">
-          <div className="container-site">
-            <p className="text-label mb-3">Responsibility</p>
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[600px] mb-8 md:mb-10">
-              Responsibility Chain
-            </h2>
-            <div className="grid grid-cols-1 gap-4 md:gap-5">
-              {responsibilityCards.map((card, i) => (
-                <InsightCardComponent key={i} card={card} />
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Compliance & Importation */}
-        <InsightSection title="Compliance & Importation" label="Compliance" cards={complianceCards} />
-
-        {/* Channel & Local Execution */}
-        <section className="section-padding bg-[#F8F9FA]">
-          <div className="container-site">
-            <p className="text-label mb-3">Channel</p>
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[600px] mb-8 md:mb-10">
-              Channel & Local Execution
-            </h2>
-            <div className="grid grid-cols-1 gap-4 md:gap-5">
-              {channelCards.map((card, i) => (
-                <InsightCardComponent key={i} card={card} />
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Canada as First Station */}
-        <InsightSection title="Canada as First Station" label="Canada" cards={canadaCards} />
-
-        {/* Latest Articles */}
-        <section className="section-padding bg-[#F8F9FA]">
-          <div className="container-site">
-            <p className="text-label mb-3">Latest</p>
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight max-w-[600px] mb-8 md:mb-10">
-              Latest Articles
-            </h2>
-            <div className="grid grid-cols-1 gap-3 md:gap-4">
-              {latestArticles.map((card, i) => (
-                <div key={i} className="group flex items-start gap-4 p-4 bg-white border border-[#E5E5E5] hover:border-[#00B894] transition-colors">
-                  <div className="flex-1 min-w-0">
-                    <p className="text-[11px] text-[#999] uppercase tracking-wider mb-1">{card.category}</p>
-                    <h3 className="text-[15px] md:text-[16px] font-semibold leading-[1.5] group-hover:text-[#00B894] transition-colors mb-1">
-                      {card.title}
-                    </h3>
-                    <p className="text-[13px] md:text-[14px] text-[#767676]">{card.summary}</p>
-                  </div>
-                  <Link
-                    to={`/en/insights/${card.slug}`}
-                    className="text-[14px] font-medium text-[#00B894] hover:underline shrink-0 mt-1"
-                  >
-                    Read &rarr;
-                  </Link>
+          <div className="container-site max-w-[900px]">
+            {categories.map((cat) => (
+              <div key={cat.title} id={cat.title} className="mb-12 last:mb-0 scroll-mt-[80px]">
+                <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-2">{cat.title}</h2>
+                <p className="text-[14px] md:text-[15px] text-[#767676] leading-[1.6] mb-5">{cat.desc}</p>
+                <div className="space-y-2">
+                  {cat.insights.map((item) => (
+                    item.published ? (
+                      <Link key={item.slug} to={`/en/insights/${item.slug}`} className="flex items-center justify-between p-4 bg-[#F8F9FA] border border-[#E5E5E5] hover:border-[#00B894] transition-colors group">
+                        <span className="text-[14px] md:text-[15px] text-[#444] group-hover:text-[#00B894]">{item.title}</span>
+                        <span className="text-[13px] text-[#00B894] shrink-0 ml-4">Read article →</span>
+                      </Link>
+                    ) : (
+                      <div key={item.slug} className="flex items-center justify-between p-4 bg-[#F8F9FA] border border-[#E5E5E5]">
+                        <span className="text-[14px] md:text-[15px] text-[#444]">{item.title}</span>
+                        <span className="text-[13px] text-[#767676] shrink-0 ml-4">Coming soon</span>
+                      </div>
+                    )
+                  ))}
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
         </section>
 
-        {/* CTA */}
-        <section className="section-padding bg-[#1a1a2e]">
-          <div className="container-site">
-            <div className="max-w-[700px]">
-              <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-6">
-                Want personalized market entry guidance?
-              </h2>
-              <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">Book a Consultation</Link>
-            </div>
+        <section className="section-padding bg-[#0B0E14]">
+          <div className="container-site max-w-[700px]">
+            <h2 className="font-serif text-white text-[24px] md:text-[32px] leading-[1.35] tracking-tight mb-4">Want first access to new content?</h2>
+            <p className="text-white/60 text-[15px] leading-[1.65] mb-6">Follow CCBONLINE on LinkedIn for the latest insights on North America market entry, brand credibility, and AI visibility.</p>
+            <Link to="/en/contact" className="btn-primary text-[15px] px-6 py-3.5 min-h-[52px]">Contact Us</Link>
           </div>
         </section>
       </main>

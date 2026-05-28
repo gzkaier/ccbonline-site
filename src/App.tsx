@@ -31,6 +31,30 @@ import EN_CanadaVsUS from './pages/en/insights/canada-vs-us-market-entry'
 import EN_CSAVsULWhichBody from './pages/en/insights/csa-vs-ul-which-certification-body'
 import EN_WhatHappensWithoutIOR from './pages/en/insights/what-happens-without-ior'
 import EN_IsCanadaTooSmall from './pages/en/insights/is-canada-market-too-small'
+import EN_CanadaMarketEntryAssessFirst from './pages/en/insights/canada-market-entry-assess-first'
+import EN_CSAVsULGuide from './pages/en/insights/csa-vs-ul-certification-guide'
+import EN_PurchaseRationale from './pages/en/insights/purchase-rationale-clarity'
+import EN_IsYourWebsiteInChatgpt from './pages/en/insights/is-your-website-in-chatgpt'
+import EN_ProductLiabilityChain from './pages/en/insights/product-liability-chain'
+import EN_SupplyChainReshuffling from './pages/en/insights/supply-chain-reshuffling-opportunities'
+import EN_TradeShowSelection from './pages/en/insights/trade-show-selection-strategy'
+import EN_WhyBuyersDontContact from './pages/en/insights/why-buyers-dont-contact'
+import EN_SeoVsGeo from './pages/en/insights/seo-vs-geo-difference'
+import EN_IORExplained from './pages/en/insights/ior-importer-of-record-explained'
+import EN_CanadaMarketSize from './pages/en/insights/canada-market-size-worth-it'
+import EN_EvaluateServiceProviders from './pages/en/insights/how-to-evaluate-local-service-providers'
+import EN_ShippingWithoutIORRisks from './pages/en/insights/shipping-without-ior-risks'
+import EN_B2BCredibilityFactors from './pages/en/insights/b2b-credibility-factors'
+import EN_WhyFAQMattersForAI from './pages/en/insights/why-faq-matters-for-ai'
+import EN_ProductLiabilityInsuranceCanada from './pages/en/insights/product-liability-insurance-canada'
+import EN_CanadaVsUSEntry from './pages/en/insights/canada-vs-us-market-entry'
+import EN_MaximizeMediaCoverageValue from './pages/en/insights/maximize-media-coverage-value'
+import EN_TradeShowLeadFollowUpFailure from './pages/en/insights/trade-show-lead-follow-up-failure'
+import EN_FAQAsSalesTool from './pages/en/insights/faq-as-sales-tool'
+import EN_GEOContentStructure from './pages/en/insights/geo-content-structure-over-keywords'
+import EN_AfterSalesWarrantyOverlooked from './pages/en/insights/after-sales-warranty-overlooked'
+import EN_HowBuyersViewChineseSuppliers from './pages/en/insights/how-north-american-buyers-view-chinese-suppliers'
+import EN_ServiceProviderShowcase from './pages/en/insights/service-provider-showcase-trust-entry'
 
 import EN_MarketEntryDiagnosis from './pages/en/services/market-entry-diagnosis'
 import EN_CustomerChannelValidation from './pages/en/services/customer-channel-validation'
@@ -84,6 +108,12 @@ import ZH_MediaBusinessContent from './pages/zh/services/media-business-content'
 import ZH_ProductCompliance from './pages/zh/services/product-compliance'
 import ZH_TradeShowFollowUpService from './pages/zh/services/trade-show-follow-up'
 import ZH_SeoGeoOptimization from './pages/zh/services/seo-geo-optimization'
+import ZH_BusinessReasonCredibility from './pages/zh/services/business-reason-credibility-diagnosis'
+import ZH_WebsiteAIVisibility from './pages/zh/services/website-ai-visibility-diagnosis'
+import ZH_EnglishMaterialsOptimization from './pages/zh/services/english-materials-optimization'
+import ZH_BusinessMediaContent from './pages/zh/services/business-media-content'
+import ZH_LocalServiceConnection from './pages/zh/services/local-service-connection'
+import ZH_EcommerceSEOOptimization from './pages/zh/services/ecommerce-seo-optimization'
 
 // New Chinese service pages (platform repositioning)
 import ZH_MarketEntry from './pages/zh/market-entry'
@@ -114,8 +144,32 @@ import ZH_3PLVsFreightForwarder from './pages/zh/insights/3pl-he-huo-lai-de-qu-b
 import ZH_ProductCertificationGuide from './pages/zh/insights/chan-pin-ren-zheng-lu-jing-zhi-nan'
 import ZH_CanadaVsUS from './pages/zh/insights/jia-na-da-vs-mei-guo-xian-jin-ru'
 import ZH_CSAVsULWhichBody from './pages/zh/insights/csa-he-ul-xuan-na-jia'
+import ZH_CanadaMarketEntryAssessFirst from './pages/zh/insights/canada-market-entry-assess-first'
+import ZH_CSAVsULGuide from './pages/zh/insights/csa-vs-ul-certification-guide'
+import ZH_PurchaseRationale from './pages/zh/insights/purchase-rationale-clarity'
+import ZH_IsYourWebsiteInChatgpt from './pages/zh/insights/is-your-website-in-chatgpt'
+import ZH_ProductLiabilityChain from './pages/zh/insights/product-liability-chain'
+import ZH_SupplyChainReshuffling from './pages/zh/insights/supply-chain-reshuffling-opportunities'
+import ZH_TradeShowSelection from './pages/zh/insights/trade-show-selection-strategy'
+import ZH_WhyBuyersDontContact from './pages/zh/insights/why-buyers-dont-contact'
+import ZH_SeoVsGeo from './pages/zh/insights/seo-vs-geo-difference'
+import ZH_IORExplained from './pages/zh/insights/ior-importer-of-record-explained'
+import ZH_CanadaMarketSize from './pages/zh/insights/canada-market-size-worth-it'
+import ZH_EvaluateServiceProviders from './pages/zh/insights/how-to-evaluate-local-service-providers'
 import ZH_HuoDaoGangMeiYouIOR from './pages/zh/insights/huo-dao-gang-mei-you-ior'
 import ZH_JiaNaDaShiChangZhiDeZuoMa from './pages/zh/insights/jia-na-da-shi-chang-zhi-de-zuo-ma'
+import ZH_ShippingWithoutIOR from './pages/zh/insights/shipping-without-ior-risks'
+import ZH_B2BCredibilityFactors from './pages/zh/insights/b2b-credibility-factors'
+import ZH_WhyFAQMatters from './pages/zh/insights/why-faq-matters-for-ai'
+import ZH_ProductLiabilityInsurance from './pages/zh/insights/product-liability-insurance-canada'
+import ZH_CanadaVsUSEntry from './pages/zh/insights/canada-vs-us-market-entry'
+import ZH_MaximizeMediaCoverage from './pages/zh/insights/maximize-media-coverage-value'
+import ZH_TradeShowLeadFollowUp from './pages/zh/insights/trade-show-lead-follow-up-failure'
+import ZH_FAQAsSalesTool from './pages/zh/insights/faq-as-sales-tool'
+import ZH_GEOContentStructure from './pages/zh/insights/geo-content-structure-over-keywords'
+import ZH_AfterSalesWarranty from './pages/zh/insights/after-sales-warranty-overlooked'
+import ZH_HowBuyersViewSuppliers from './pages/zh/insights/how-north-american-buyers-view-chinese-suppliers'
+import ZH_ServiceProviderShowcase from './pages/zh/insights/service-provider-showcase-trust-entry'
 
 // Chinese resource submission guidelines
 // 404
@@ -174,6 +228,30 @@ function App() {
         <Route path="/en/insights/csa-vs-ul-which-certification-body" element={<EN_CSAVsULWhichBody />} />
         <Route path="/en/insights/what-happens-without-ior" element={<EN_WhatHappensWithoutIOR />} />
         <Route path="/en/insights/is-canada-market-too-small" element={<EN_IsCanadaTooSmall />} />
+        <Route path="/en/insights/canada-market-entry-assess-first" element={<EN_CanadaMarketEntryAssessFirst />} />
+        <Route path="/en/insights/csa-vs-ul-certification-guide" element={<EN_CSAVsULGuide />} />
+        <Route path="/en/insights/purchase-rationale-clarity" element={<EN_PurchaseRationale />} />
+        <Route path="/en/insights/is-your-website-in-chatgpt" element={<EN_IsYourWebsiteInChatgpt />} />
+        <Route path="/en/insights/product-liability-chain" element={<EN_ProductLiabilityChain />} />
+        <Route path="/en/insights/supply-chain-reshuffling-opportunities" element={<EN_SupplyChainReshuffling />} />
+        <Route path="/en/insights/trade-show-selection-strategy" element={<EN_TradeShowSelection />} />
+        <Route path="/en/insights/why-buyers-dont-contact" element={<EN_WhyBuyersDontContact />} />
+        <Route path="/en/insights/seo-vs-geo-difference" element={<EN_SeoVsGeo />} />
+        <Route path="/en/insights/ior-importer-of-record-explained" element={<EN_IORExplained />} />
+        <Route path="/en/insights/canada-market-size-worth-it" element={<EN_CanadaMarketSize />} />
+        <Route path="/en/insights/how-to-evaluate-local-service-providers" element={<EN_EvaluateServiceProviders />} />
+        <Route path="/en/insights/shipping-without-ior-risks" element={<EN_ShippingWithoutIORRisks />} />
+        <Route path="/en/insights/b2b-credibility-factors" element={<EN_B2BCredibilityFactors />} />
+        <Route path="/en/insights/why-faq-matters-for-ai" element={<EN_WhyFAQMattersForAI />} />
+        <Route path="/en/insights/product-liability-insurance-canada" element={<EN_ProductLiabilityInsuranceCanada />} />
+        <Route path="/en/insights/canada-vs-us-market-entry" element={<EN_CanadaVsUSEntry />} />
+        <Route path="/en/insights/maximize-media-coverage-value" element={<EN_MaximizeMediaCoverageValue />} />
+        <Route path="/en/insights/trade-show-lead-follow-up-failure" element={<EN_TradeShowLeadFollowUpFailure />} />
+        <Route path="/en/insights/faq-as-sales-tool" element={<EN_FAQAsSalesTool />} />
+        <Route path="/en/insights/geo-content-structure-over-keywords" element={<EN_GEOContentStructure />} />
+        <Route path="/en/insights/after-sales-warranty-overlooked" element={<EN_AfterSalesWarrantyOverlooked />} />
+        <Route path="/en/insights/how-north-american-buyers-view-chinese-suppliers" element={<EN_HowBuyersViewChineseSuppliers />} />
+        <Route path="/en/insights/service-provider-showcase-trust-entry" element={<EN_ServiceProviderShowcase />} />
         <Route path="/en/about" element={<ENAbout />} />
         <Route path="/en/contact" element={<ENContact />} />
         <Route path="/en/privacy" element={<ENPrivacy />} />
@@ -197,6 +275,12 @@ function App() {
         <Route path="/zh/services/product-compliance" element={<ZH_ProductCompliance />} />
         <Route path="/zh/services/trade-show-follow-up" element={<ZH_TradeShowFollowUpService />} />
         <Route path="/zh/services/seo-geo-optimization" element={<ZH_SeoGeoOptimization />} />
+        <Route path="/zh/services/business-reason-credibility-diagnosis" element={<ZH_BusinessReasonCredibility />} />
+        <Route path="/zh/services/website-ai-visibility-diagnosis" element={<ZH_WebsiteAIVisibility />} />
+        <Route path="/zh/services/english-materials-optimization" element={<ZH_EnglishMaterialsOptimization />} />
+        <Route path="/zh/services/business-media-content" element={<ZH_BusinessMediaContent />} />
+        <Route path="/zh/services/local-service-connection" element={<ZH_LocalServiceConnection />} />
+        <Route path="/zh/services/ecommerce-seo-optimization" element={<ZH_EcommerceSEOOptimization />} />
         {/* New Chinese platform pages */}
         <Route path="/zh/market-entry" element={<ZH_MarketEntry />} />
         <Route path="/zh/brand-credibility" element={<ZH_BrandCredibility />} />
@@ -225,8 +309,32 @@ function App() {
         <Route path="/zh/insights/chan-pin-ren-zheng-lu-jing-zhi-nan" element={<ZH_ProductCertificationGuide />} />
         <Route path="/zh/insights/jia-na-da-vs-mei-guo-xian-jin-ru" element={<ZH_CanadaVsUS />} />
         <Route path="/zh/insights/csa-he-ul-xuan-na-jia" element={<ZH_CSAVsULWhichBody />} />
+        <Route path="/zh/insights/canada-market-entry-assess-first" element={<ZH_CanadaMarketEntryAssessFirst />} />
+        <Route path="/zh/insights/csa-vs-ul-certification-guide" element={<ZH_CSAVsULGuide />} />
+        <Route path="/zh/insights/purchase-rationale-clarity" element={<ZH_PurchaseRationale />} />
+        <Route path="/zh/insights/is-your-website-in-chatgpt" element={<ZH_IsYourWebsiteInChatgpt />} />
+        <Route path="/zh/insights/product-liability-chain" element={<ZH_ProductLiabilityChain />} />
+        <Route path="/zh/insights/supply-chain-reshuffling-opportunities" element={<ZH_SupplyChainReshuffling />} />
+        <Route path="/zh/insights/trade-show-selection-strategy" element={<ZH_TradeShowSelection />} />
+        <Route path="/zh/insights/why-buyers-dont-contact" element={<ZH_WhyBuyersDontContact />} />
+        <Route path="/zh/insights/seo-vs-geo-difference" element={<ZH_SeoVsGeo />} />
+        <Route path="/zh/insights/ior-importer-of-record-explained" element={<ZH_IORExplained />} />
+        <Route path="/zh/insights/canada-market-size-worth-it" element={<ZH_CanadaMarketSize />} />
+        <Route path="/zh/insights/how-to-evaluate-local-service-providers" element={<ZH_EvaluateServiceProviders />} />
         <Route path="/zh/insights/huo-dao-gang-mei-you-ior" element={<ZH_HuoDaoGangMeiYouIOR />} />
         <Route path="/zh/insights/jia-na-da-shi-chang-zhi-de-zuo-ma" element={<ZH_JiaNaDaShiChangZhiDeZuoMa />} />
+        <Route path="/zh/insights/shipping-without-ior-risks" element={<ZH_ShippingWithoutIOR />} />
+        <Route path="/zh/insights/b2b-credibility-factors" element={<ZH_B2BCredibilityFactors />} />
+        <Route path="/zh/insights/why-faq-matters-for-ai" element={<ZH_WhyFAQMatters />} />
+        <Route path="/zh/insights/product-liability-insurance-canada" element={<ZH_ProductLiabilityInsurance />} />
+        <Route path="/zh/insights/canada-vs-us-market-entry" element={<ZH_CanadaVsUSEntry />} />
+        <Route path="/zh/insights/maximize-media-coverage-value" element={<ZH_MaximizeMediaCoverage />} />
+        <Route path="/zh/insights/trade-show-lead-follow-up-failure" element={<ZH_TradeShowLeadFollowUp />} />
+        <Route path="/zh/insights/faq-as-sales-tool" element={<ZH_FAQAsSalesTool />} />
+        <Route path="/zh/insights/geo-content-structure-over-keywords" element={<ZH_GEOContentStructure />} />
+        <Route path="/zh/insights/after-sales-warranty-overlooked" element={<ZH_AfterSalesWarranty />} />
+        <Route path="/zh/insights/how-north-american-buyers-view-chinese-suppliers" element={<ZH_HowBuyersViewSuppliers />} />
+        <Route path="/zh/insights/service-provider-showcase-trust-entry" element={<ZH_ServiceProviderShowcase />} />
         <Route path="/zh/about" element={<ZHAbout />} />
         <Route path="/zh/contact" element={<ZHContact />} />
         <Route path="/zh/privacy" element={<ZHPrivacy />} />

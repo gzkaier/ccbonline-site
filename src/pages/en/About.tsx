@@ -6,14 +6,14 @@ import useSEO from '../../hooks/useSEO'
 
 export default function ENAbout() {
   useSEO({
-    title: 'About CCBONLINE INC. | Canada-China Business Credibility & Connection Platform',
-    description: 'CCBONLINE INC. helps businesses build trusted cross-market presence between Canada, North America and China through market entry advisory, credibility audits, and local connections.',
+    title: 'About CCBONLINE INC. | Why Us | Cross-Market Business Credibility & Connection',
+    description: 'CCBONLINE INC. does not promise prettier packaging. We help businesses articulate the most commonly misunderstood, overlooked, or underestimated issues in cross-market collaboration between Canada, North America and China.',
     canonical: 'https://www.ccbonline.ca/en/about',
     ogType: 'website',
     lang: 'en',
   })
   useEffect(() => {
-    document.title = 'About CCBONLINE INC. | Canada-China Business Credibility & Connection Platform'
+    document.title = 'About CCBONLINE INC. | Why Us | Cross-Market Business Credibility & Connection'
     window.scrollTo(0, 0)
   }, [])
 
@@ -25,90 +25,96 @@ export default function ENAbout() {
           <div className="container-site">
             <p className="text-label mb-3">About</p>
             <h1 className="font-serif text-[#212121] text-[26px] sm:text-[32px] md:text-[40px] leading-[1.3] tracking-tight max-w-[800px] mb-4">
-              What CCBONLINE INC. Is
+              Why CCBONLINE Can Do This
             </h1>
             <p className="text-[16px] md:text-[17px] text-[#767676] max-w-[680px]">
-              A business information and connection platform bridging Canada, North America, and China.
+              Our work is not about making businesses look better. It is about clarifying the issues most commonly misunderstood, overlooked, or underestimated in cross-market collaboration.
             </p>
           </div>
         </section>
 
         <section className="section-padding bg-white">
           <div className="container-site max-w-[800px]">
-            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-8">
-              CCBONLINE INC. is a business information and connection platform registered in the Greater Toronto Area, Canada. We are not a typical web agency, advertising company, training institution, or generic export service provider. Our core mission is to help businesses establish clearer commercial expression, digital credibility, and local connection capabilities across markets, languages, and trust systems.
-            </p>
-            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-8">
-              Our clients include Chinese companies preparing to enter Canada and North America, North American businesses seeking to connect with Chinese supply chains, local Chinese-Canadian businesses and service providers, e-commerce sellers, B2B manufacturers, trade show and event organizers, and institutions requiring business media coverage and local connections.
-            </p>
+            <div className="mb-10">
+              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
+                What CCBONLINE Does Not Promise
+              </h2>
+              <div className="p-5 md:p-6 bg-[#FFF8F8] border border-[#F0D0D0] mb-6">
+                <ul className="space-y-3">
+                  <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">We do not replace lawyers, accountants, certification bodies, insurance brokers, or customs agents</li>
+                  <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">We do not guarantee buyers, quick orders, or specific search rankings</li>
+                  <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">We do not create fake reviews, exaggerated claims, or short-term traffic tricks</li>
+                  <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">We do not just translate, write reports, or hand over a resource list</li>
+                  <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">We do not sell one-size-fits-all packages</li>
+                </ul>
+              </div>
+              <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
+                CCBONLINE INC. focuses not on making businesses look better, but on helping them clarify the issues most commonly misunderstood, overlooked, or underestimated in cross-market collaboration. We do not focus on a single website, article, or campaign — we focus on what clients need to prepare when building commercial trust between Canada, North America and China: expression, materials, responsibility boundaries, and communication pathways.
+              </p>
+            </div>
 
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
-              About the Founder
-            </h2>
-            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-8">
-              The founder of CCBONLINE INC. is based in Toronto, Canada. He combines technical understanding, bilingual commercial expression, North American market experience, content distribution, and media capabilities to break complex cross-market challenges into assessable, expressible, actionable steps. He is not a traditional "consultant" in the conventional sense — he is a cross-market connector who combines judgment with execution.
-            </p>
-
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
-              How We Work
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
-              {[
-                { step: '01', title: 'Initial Assessment', desc: 'Review your current website, materials, target market, and challenges. Determine whether conditions are right.' },
-                { step: '02', title: 'Diagnostic', desc: 'Evaluate credibility, expression, pathways, resources, and risk gaps. Tell you what is ready and what needs work.' },
-                { step: '03', title: 'Optimization Design', desc: 'Restructure service expression, page content, English materials, FAQs, SEO and AI visibility foundations.' },
-                { step: '04', title: 'Execution Support', desc: 'Based on your stage: content optimization, market entry coaching, service provider connection, or media coverage.' },
-              ].map((item) => (
-                <div key={item.step} className="p-5 bg-[#F8F9FA] border border-[#E5E5E5]">
-                  <p className="text-[#D4AF37] text-[13px] font-medium mb-2">{item.step}</p>
-                  <h3 className="text-[16px] font-semibold mb-2">{item.title}</h3>
-                  <p className="text-[14px] text-[#767676] leading-[1.6]">{item.desc}</p>
+            <div className="mb-10">
+              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
+                Why A Kai Can Make This Judgment
+              </h2>
+              <div className="space-y-4">
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
+                  <h4 className="font-semibold text-[15px] mb-1">Technical Foundation</h4>
+                  <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.6]">Understands website architecture, SEO, GEO, and AI visibility at a technical level. Can identify real issues without being swayed by tech vendors.</p>
                 </div>
-              ))}
-            </div>
-
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
-              What We Do Not Do
-            </h2>
-            <div className="p-5 md:p-6 bg-[#FFF8F8] border border-[#F0D0D0] mb-10">
-              <ul className="space-y-3">
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">We do not replace licensed lawyers, accountants, certification bodies, insurance brokers, or customs brokers</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">We do not guarantee buyers, quick orders, or specific search rankings</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">We do not produce fake reviews, exaggerated claims, or short-term traffic tricks</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">We do not just translate, write reports, or provide a resource list and walk away</li>
-                <li className="text-[14px] md:text-[15px] text-[#444] leading-[1.65] pl-4 border-l-2 border-[#00B894]">We do not sell one-size-fits-all packages or write universal solutions</li>
-              </ul>
-            </div>
-
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-6">
-              Who We Partner With
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
-              {[
-                'Chinese companies entering Canada and North America',
-                'North American businesses connecting with Chinese supply chains',
-                'Local Chinese-Canadian businesses and service providers',
-                'E-commerce and independent store owners',
-                'B2B manufacturers and suppliers',
-                'Trade shows, events, and business associations',
-                'Institutions requiring business media coverage',
-                'Professional service providers seeking local connections',
-              ].map((item, i) => (
-                <div key={i} className="p-4 bg-[#F8F9FA] border border-[#E5E5E5]">
-                  <p className="text-[14px] text-[#444] leading-[1.6]">{item}</p>
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
+                  <h4 className="font-semibold text-[15px] mb-1">Bilingual Business Expression</h4>
+                  <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.6]">Not translation — reorganization of commercial content from the perspective of North American buyer cognition and decision logic. Knows which terms are fine in Chinese but destroy credibility in English.</p>
                 </div>
-              ))}
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
+                  <h4 className="font-semibold text-[15px] mb-1">North American Local Business Context</h4>
+                  <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.6]">Canada-registered company, Toronto-based operations. Understands compliance requirements, business conventions, client expectations, and the service provider ecosystem.</p>
+                </div>
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
+                  <h4 className="font-semibold text-[15px] mb-1">Content & Media Capabilities</h4>
+                  <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.6]">Can help businesses build verifiable trust assets through business features, professional content, and public channels. Content must be found, understood, and cited.</p>
+                </div>
+                <div className="pl-4 border-l-2 border-[#D4AF37]">
+                  <h4 className="font-semibold text-[15px] mb-1">Market Entry & Local Resource Connections</h4>
+                  <p className="text-[14px] md:text-[15px] text-[#444] leading-[1.6]">Knowledge of IOR, certification pathways, channel logic, and local service provider networks. Connects you with the right resources, not just a list of names.</p>
+                </div>
+              </div>
             </div>
 
-            <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
-              Media & Event Partnership
-            </h2>
-            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-6">
-              We welcome partnerships with business media, industry event organizers, business associations, and service institutions. CCBONLINE provides business reporting, event coverage, content strategy, and service showcases. We also offer content support and participant connections for event organizers.
-            </p>
-            <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-10">
-              If you have a partnership idea, please <Link to="/en/contact" className="text-[#00B894] hover:underline">contact us</Link> with the partnership type and basic information.
-            </p>
+            <div className="mb-10">
+              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
+                CCBONLINE and A Kai Talks Chuhai
+              </h2>
+              <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
+                <strong>CCBONLINE INC.</strong> is the corporate entity handling service delivery, client engagement, and commercial execution. All paid services, formal contracts, diagnostic reports, and long-term support are delivered through CCBONLINE.
+              </p>
+              <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7] mb-4">
+                <strong>A Kai Talks Chuhai (阿凯聊出海)</strong> is a personal content brand for deep judgment, industry observation, and methodology sharing. Content on WeChat and LinkedIn builds pre-collaboration awareness of CCBONLINE's expertise.
+              </p>
+              <p className="text-[15px] md:text-[16px] text-[#444] leading-[1.7]">
+                Simply put: A Kai Talks Chuhai helps you know we understand; CCBONLINE INC. helps you get things done.
+              </p>
+            </div>
+
+            <div className="mb-10">
+              <h2 className="font-serif text-[#212121] text-[22px] md:text-[26px] leading-[1.35] tracking-tight mb-4">
+                Our Method
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {[
+                  { step: '01', title: 'Initial Assessment', desc: 'Review your website, materials, target market, and current situation. Determine whether conditions are right to proceed.' },
+                  { step: '02', title: 'Diagnostic Analysis', desc: 'Evaluate credibility, expression, pathways, resources, and risk gaps. Tell you what is ready and what needs work.' },
+                  { step: '03', title: 'Optimization Design', desc: 'Reconstruct service expression, page content, English materials, FAQ, SEO and AI visibility foundations.' },
+                  { step: '04', title: 'Implementation', desc: 'Based on your stage, move into content optimization, market entry support, service provider connections, or media coverage.' },
+                ].map((item) => (
+                  <div key={item.step} className="p-5 bg-[#F8F9FA] border border-[#E5E5E5]">
+                    <p className="text-[#D4AF37] text-[13px] font-medium mb-2">{item.step}</p>
+                    <h3 className="text-[16px] font-semibold mb-2">{item.title}</h3>
+                    <p className="text-[14px] text-[#767676] leading-[1.6]">{item.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
 
             <div className="p-6 md:p-8 bg-[#0B0E14] text-center">
               <h3 className="font-serif text-white text-[20px] md:text-[24px] leading-[1.35] mb-3">Contact CCBONLINE INC.</h3>
@@ -116,7 +122,7 @@ export default function ENAbout() {
                 info@ccbonline.ca · +1 647 568 1128<br />
                 84 Kenhar Dr, North York, ON M9L 1N2
               </p>
-              <Link to="/en/contact" className="btn-primary inline-block text-[15px] px-8 py-3.5 min-h-[52px]">Book a Consultation</Link>
+              <Link to="/en/contact" className="btn-primary inline-block text-[15px] px-8 py-3.5 min-h-[52px]">Book a Call</Link>
             </div>
           </div>
         </section>

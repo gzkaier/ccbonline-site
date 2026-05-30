@@ -57,6 +57,7 @@ import EN_HowBuyersViewChineseSuppliers from './pages/en/insights/how-north-amer
 import EN_ServiceProviderShowcase from './pages/en/insights/service-provider-showcase-trust-entry'
 
 import EN_MarketEntryDiagnosis from './pages/en/services/market-entry-diagnosis'
+import EN_WebsiteCredibilityAudit from './pages/en/services/website-credibility-audit'
 import EN_CustomerChannelValidation from './pages/en/services/customer-channel-validation'
 import EN_ComplianceResponsibilityChain from './pages/en/services/compliance-responsibility-chain'
 import EN_LocalExecutionSupport from './pages/en/services/local-execution-support'
@@ -97,6 +98,7 @@ import ZHResources from './pages/zh/Resources'
 
 // Chinese service detail pages
 import ZH_MarketEntryDiagnosis from './pages/zh/services/market-entry-diagnosis'
+import ZH_WebsiteCredibilityAudit from './pages/zh/services/website-credibility-audit'
 import ZH_CustomerChannelValidation from './pages/zh/services/customer-channel-validation'
 import ZH_ComplianceResponsibilityChain from './pages/zh/services/compliance-responsibility-chain'
 import ZH_LocalExecutionSupport from './pages/zh/services/local-execution-support'
@@ -188,6 +190,7 @@ function App() {
         <Route path="/en/canada-market-entry" element={<ENCanadaMarketEntry />} />
         <Route path="/en/services" element={<ENServices />} />
         <Route path="/en/services/market-entry-diagnosis" element={<EN_MarketEntryDiagnosis />} />
+        <Route path="/en/services/website-credibility-audit" element={<EN_WebsiteCredibilityAudit />} />
         <Route path="/en/services/customer-channel-validation" element={<EN_CustomerChannelValidation />} />
         <Route path="/en/services/compliance-responsibility-chain" element={<EN_ComplianceResponsibilityChain />} />
         <Route path="/en/services/local-execution-support" element={<EN_LocalExecutionSupport />} />
@@ -264,6 +267,7 @@ function App() {
         <Route path="/zh/canada-market-entry" element={<ZHCanadaMarketEntry />} />
         <Route path="/zh/services" element={<ZHServices />} />
         <Route path="/zh/services/market-entry-diagnosis" element={<ZH_MarketEntryDiagnosis />} />
+        <Route path="/zh/services/website-credibility-audit" element={<ZH_WebsiteCredibilityAudit />} />
         <Route path="/zh/services/customer-channel-validation" element={<ZH_CustomerChannelValidation />} />
         <Route path="/zh/services/compliance-responsibility-chain" element={<ZH_ComplianceResponsibilityChain />} />
         <Route path="/zh/services/local-execution-support" element={<ZH_LocalExecutionSupport />} />

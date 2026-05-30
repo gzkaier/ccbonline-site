@@ -8,22 +8,20 @@ interface NavbarProps {
 
 const enNav = [
   { label: 'Home', href: '/en' },
-  { label: 'Services', href: '/en/services' },
   { label: 'Market Entry', href: '/en/market-entry' },
-  { label: 'Business Media', href: '/en/media-content' },
+  { label: 'Credibility Audit', href: '/en/services/website-credibility-audit' },
+  { label: 'Business Connection', href: '/en/business-connection' },
   { label: 'Insights', href: '/en/insights' },
-  { label: 'Resources', href: '/en/resources' },
   { label: 'About', href: '/en/about' },
   { label: 'Contact', href: '/en/contact' },
 ]
 
 const zhNav = [
   { label: '首页', href: '/zh' },
-  { label: '服务', href: '/zh/services' },
   { label: '市场进入', href: '/zh/market-entry' },
-  { label: '商业媒体', href: '/zh/media-content' },
+  { label: '可信度诊断', href: '/zh/services/website-credibility-audit' },
+  { label: '商业连接', href: '/zh/business-connection' },
   { label: '洞察', href: '/zh/insights' },
-  { label: '资源', href: '/zh/resources' },
   { label: '关于我们', href: '/zh/about' },
   { label: '联系我们', href: '/zh/contact' },
 ]

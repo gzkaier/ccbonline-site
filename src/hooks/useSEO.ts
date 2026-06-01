@@ -12,7 +12,7 @@ interface SEOConfig {
   twitterTitle?: string
   twitterDescription?: string
   twitterImage?: string
-  lang?: 'en' | 'zh'
+  lang?: 'en' | 'zh' | 'fr'
   hreflang?: Array<{ hreflang: string; href: string }>
 }
 
@@ -121,7 +121,8 @@ export function useSEO(config: SEOConfig) {
     twImage.setAttribute('content', config.twitterImage || config.ogImage || 'https://www.ccbonline.ca/images/canada-north-america-market-entry-consulting.jpg')
 
     // HTML lang
-    document.documentElement.lang = config.lang === 'zh' ? 'zh-Hans' : 'en-CA'
+    const langMap: Record<string, string> = { en: 'en-CA', zh: 'zh-Hans', fr: 'fr-CA' }
+    document.documentElement.lang = langMap[config.lang || 'en'] || 'en-CA'
 
     // Hreflang alternates
     const existingAlts = document.querySelectorAll('link[data-seo-hreflang]')

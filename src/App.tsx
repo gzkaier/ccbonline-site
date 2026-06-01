@@ -174,6 +174,10 @@ import ZH_HowBuyersViewSuppliers from './pages/zh/insights/how-north-american-bu
 import ZH_ServiceProviderShowcase from './pages/zh/insights/service-provider-showcase-trust-entry'
 
 // Chinese resource submission guidelines
+// French pages
+import FRHome from './pages/fr/Home'
+import FRContact from './pages/fr/Contact'
+
 // 404
 import NotFoundPage from './sections/NotFoundPage'
 
@@ -345,6 +349,11 @@ function App() {
         <Route path="/zh/terms" element={<ZHTerms />} />
         <Route path="/zh/faq" element={<ZHFaq />} />
         <Route path="/zh/resources" element={<ZHResources />} />
+
+        {/* French routes */}
+        <Route path="/fr" element={<FRHome />} />
+        <Route path="/fr/contact" element={<FRContact />} />
+
         {/* 404 */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

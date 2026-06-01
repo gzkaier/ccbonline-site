@@ -103,7 +103,11 @@ export default function ENInsights() {
             </div>
             <div className="flex flex-wrap gap-2">
               {categories.map((cat) => (
-                <a key={cat.title} href={`#${cat.title}`} className="text-[13px] px-3 py-1.5 bg-white border border-[#E5E5E5] hover:border-[#00B894] hover:text-[#00B894] transition-colors">{cat.title}</a>
+                <button
+                  key={cat.title}
+                  onClick={() => document.getElementById(cat.title)?.scrollIntoView({ behavior: 'smooth' })}
+                  className="text-[13px] px-3 py-1.5 bg-white border border-[#E5E5E5] hover:border-[#00B894] hover:text-[#00B894] transition-colors cursor-pointer"
+                >{cat.title}</button>
               ))}
             </div>
           </div>
